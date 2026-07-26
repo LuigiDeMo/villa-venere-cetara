@@ -1,0 +1,13 @@
+{
+  "meta": {"title": "Villa Venere - Amalfi Coast"},
+  "accessibility": {"openNavigation": "Open navigation"},
+  "nav": {"home": "Home page", "book": "Book now", "about": "About us", "rooms": "Rooms", "location": "Location", "language": "Language"},
+  "booking": {"title": "Book with us!", "checkin": "Check in", "checkout": "Check out", "guests": "Guests", "search": "Search"},
+  "about": {"title": "About us", "description": "Villa Venere is a beautiful villa overlooking the sea, located near the beaches of Cetara and the town center. It has 3 bedrooms with Smart TV and 2 bathrooms, one with a washing machine. The comfortable living room offers a beautiful sea view, alongside a well-equipped induction kitchen. A wonderful panoramic terrace overlooks the Tower and the Port of Cetara. The villa also has private access to the sea.", "imageAlt": "Sea view from Villa Venere"},
+  "rooms": {"title": "Rooms", "villa": "Three-Bedroom Villa", "capacity": "12 Adults", "view": "View room"},
+  "services": {"title": "Services", "hairDryer": "Hair Dryer", "towels": "Towels", "airConditioning": "Air conditioning", "terrace": "Private Terrace", "linen": "Linen"},
+  "reviews": {"title": "Our Guests Say:", "loading": "Loading reviews..."},
+  "social": {"follow": "Follow Us:"},
+  "footer": {"copyright": "COPYRIGHT BY Villa Venere - Amalfi Coast. All rights reserved."},
+  "contact": {"panelLabel": "Contact Villa Venere", "close": "Close contact window", "replyTime": "Typically replies in minutes", "greeting": "Hi there 👋", "help": "How can I help you?", "startWith": "Start chat with:", "phone": "Phone", "launcher": "Contact us"}
+}

@@ -1,0 +1,13 @@
+{
+  "meta": {"title": "Villa Venere - Amalfiküste"},
+  "accessibility": {"openNavigation": "Navigation öffnen"},
+  "nav": {"home": "Startseite", "book": "Jetzt buchen", "about": "Über uns", "rooms": "Zimmer", "location": "Lage", "language": "Sprache"},
+  "booking": {"title": "Buchen Sie bei uns!", "checkin": "Anreise", "checkout": "Abreise", "guests": "Gäste", "search": "Suchen"},
+  "about": {"title": "Über uns", "description": "Villa Venere ist eine wunderschöne Villa mit Meerblick, nahe den Stränden von Cetara und dem Ortszentrum. Sie verfügt über 3 Schlafzimmer mit Smart-TV und 2 Badezimmer, eines davon mit Waschmaschine. Das gemütliche Wohnzimmer bietet einen herrlichen Meerblick und grenzt an eine gut ausgestattete Induktionsküche. Von der wunderbaren Panoramaterrasse blickt man auf den Turm und den Hafen von Cetara. Die Villa besitzt außerdem einen privaten Zugang zum Meer.", "imageAlt": "Meerblick von Villa Venere"},
+  "rooms": {"title": "Zimmer", "villa": "Villa mit drei Schlafzimmern", "capacity": "12 Erwachsene", "view": "Unterkunft ansehen"},
+  "services": {"title": "Ausstattung", "hairDryer": "Haartrockner", "towels": "Handtücher", "airConditioning": "Klimaanlage", "terrace": "Private Terrasse", "linen": "Bettwäsche"},
+  "reviews": {"title": "Das sagen unsere Gäste:", "loading": "Bewertungen werden geladen..."},
+  "social": {"follow": "Folgen Sie uns:"},
+  "footer": {"copyright": "COPYRIGHT Villa Venere - Amalfiküste. Alle Rechte vorbehalten."},
+  "contact": {"panelLabel": "Villa Venere kontaktieren", "close": "Kontaktfenster schließen", "replyTime": "Antwortet normalerweise in wenigen Minuten", "greeting": "Hallo 👋", "help": "Wie können wir Ihnen helfen?", "startWith": "Chat starten mit:", "phone": "Telefon", "launcher": "Kontakt"}
+}

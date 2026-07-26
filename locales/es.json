@@ -1,0 +1,13 @@
+{
+  "meta": {"title": "Villa Venere - Costa Amalfitana"},
+  "accessibility": {"openNavigation": "Abrir navegación"},
+  "nav": {"home": "Inicio", "book": "Reservar ahora", "about": "Quiénes somos", "rooms": "Habitaciones", "location": "Ubicación", "language": "Idioma"},
+  "booking": {"title": "¡Reserva con nosotros!", "checkin": "Llegada", "checkout": "Salida", "guests": "Huéspedes", "search": "Buscar"},
+  "about": {"title": "Quiénes somos", "description": "Villa Venere es una preciosa villa con vistas al mar, situada cerca de las playas de Cetara y del centro del pueblo. Cuenta con 3 dormitorios con Smart TV y 2 baños, uno de ellos con lavadora. El cómodo salón ofrece una magnífica vista al mar, junto a una cocina de inducción bien equipada. Una maravillosa terraza panorámica domina la Torre y el Puerto de Cetara. La villa también dispone de acceso privado al mar.", "imageAlt": "Vista al mar desde Villa Venere"},
+  "rooms": {"title": "Habitaciones", "villa": "Villa de tres dormitorios", "capacity": "12 adultos", "view": "Ver alojamiento"},
+  "services": {"title": "Servicios", "hairDryer": "Secador de pelo", "towels": "Toallas", "airConditioning": "Aire acondicionado", "terrace": "Terraza privada", "linen": "Ropa de cama"},
+  "reviews": {"title": "Nuestros huéspedes opinan:", "loading": "Cargando reseñas..."},
+  "social": {"follow": "Síguenos:"},
+  "footer": {"copyright": "COPYRIGHT Villa Venere - Costa Amalfitana. Todos los derechos reservados."},
+  "contact": {"panelLabel": "Contactar con Villa Venere", "close": "Cerrar ventana de contacto", "replyTime": "Normalmente respondemos en pocos minutos", "greeting": "Hola 👋", "help": "¿Cómo podemos ayudarte?", "startWith": "Inicia el chat con:", "phone": "Teléfono", "launcher": "Contáctanos"}
+}

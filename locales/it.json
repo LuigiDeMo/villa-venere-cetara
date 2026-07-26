@@ -1,0 +1,13 @@
+{
+  "meta": {"title": "Villa Venere - Costiera Amalfitana"},
+  "accessibility": {"openNavigation": "Apri la navigazione"},
+  "nav": {"home": "Pagina iniziale", "book": "Prenota ora", "about": "Chi siamo", "rooms": "Camere", "location": "Dove siamo", "language": "Lingua"},
+  "booking": {"title": "Prenota con noi!", "checkin": "Arrivo", "checkout": "Partenza", "guests": "Ospiti", "search": "Cerca"},
+  "about": {"title": "Chi siamo", "description": "Villa Venere è una splendida villa affacciata sul mare, situata vicino alle spiagge di Cetara e al centro del paese. Dispone di 3 camere da letto con Smart TV e 2 bagni, uno con lavatrice. Il confortevole soggiorno offre una splendida vista sul mare, accanto a una cucina a induzione ben attrezzata. Una meravigliosa terrazza panoramica domina la Torre e il Porto di Cetara. La villa dispone inoltre di accesso privato al mare.", "imageAlt": "Vista sul mare da Villa Venere"},
+  "rooms": {"title": "Camere", "villa": "Villa con tre camere da letto", "capacity": "12 adulti", "view": "Vedi la sistemazione"},
+  "services": {"title": "Servizi", "hairDryer": "Asciugacapelli", "towels": "Asciugamani", "airConditioning": "Aria condizionata", "terrace": "Terrazza privata", "linen": "Biancheria"},
+  "reviews": {"title": "Dicono di noi:", "loading": "Caricamento recensioni..."},
+  "social": {"follow": "Seguici:"},
+  "footer": {"copyright": "COPYRIGHT Villa Venere - Costiera Amalfitana. Tutti i diritti riservati."},
+  "contact": {"panelLabel": "Contatta Villa Venere", "close": "Chiudi la finestra dei contatti", "replyTime": "Solitamente rispondiamo in pochi minuti", "greeting": "Ciao 👋", "help": "Come possiamo aiutarti?", "startWith": "Inizia la conversazione con:", "phone": "Telefono", "launcher": "Contattaci"}
+}
