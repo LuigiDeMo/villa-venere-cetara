@@ -1,0 +1,92 @@
+:root{--gold:#b3946f;--beige:#e9dacf;--cream:#f7ecde;--white:#fff;--ink:#555;--shadow:0 4px 16px rgba(42,32,26,.26)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#333 url("assets/1661525798152.jpg") center top/cover fixed no-repeat;color:var(--ink);font:400 14px/1.65 Montserrat,Arial,sans-serif}
+a{color:inherit;text-decoration:none}
+.page{width:100%;overflow:hidden}
+.container{width:min(1170px,calc(100% - 40px));margin:0 auto}
+header{position:relative;z-index:10;background:var(--beige);box-shadow:0 2px 8px rgba(0,0,0,.15)}
+.header-inner{width:min(1170px,calc(100% - 40px));min-height:102px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:28px}
+.brand{display:flex;align-items:center;color:#fff;font:500 1.3rem "EB Garamond",serif;white-space:nowrap;transition:.25s}
+.brand:hover{color:var(--gold)}
+.brand img{width:58px;height:58px;object-fit:cover;border-radius:50%;opacity:.55;margin-right:16px;transition:.25s}
+.brand:hover img{opacity:1}
+.nav{display:flex;align-items:center;gap:23px;color:#fff}
+.nav>a,.language-menu>button{padding:38px 0;border:0;background:none;color:#fff;font:500 1rem Montserrat;cursor:pointer}
+.nav>a:hover,.nav>a.active,.language-menu>button:hover{color:var(--gold)}
+.language-menu{position:relative}
+.language-list{display:none;position:absolute;right:0;top:76px;min-width:170px;padding:10px 0;background:var(--beige);box-shadow:var(--shadow)}
+.language-menu:hover .language-list{display:block}
+.language-list a{display:flex;align-items:center;gap:10px;padding:8px 18px;font-size:.8rem;color:#fff}
+.language-list a:hover{background:rgba(255,255,255,.2);color:var(--gold)}
+.Lang{position:relative;display:inline-block;flex:0 0 auto;width:30px;height:20px;border:1px solid rgba(0,0,0,.18);box-shadow:0 1px 2px rgba(0,0,0,.18);overflow:hidden}
+.LangIT{background:linear-gradient(90deg,#009246 0 33.33%,#fff 33.33% 66.66%,#ce2b37 66.66%)}
+.LangFR{background:linear-gradient(90deg,#0055a4 0 33.33%,#fff 33.33% 66.66%,#ef4135 66.66%)}
+.LangDE{background:linear-gradient(#000 0 33.33%,#dd0000 33.33% 66.66%,#ffce00 66.66%)}
+.LangES{background:linear-gradient(#aa151b 0 25%,#f1bf00 25% 75%,#aa151b 75%)}
+.LangPT{background:linear-gradient(90deg,#046a38 0 40%,#da291c 40%)}
+.LangEN{background:#21468b}
+.LangEN:before{content:"";position:absolute;inset:-3px;background:linear-gradient(27deg,transparent 42%,#fff 42% 48%,#c8102e 48% 52%,#fff 52% 58%,transparent 58%),linear-gradient(-27deg,transparent 42%,#fff 42% 48%,#c8102e 48% 52%,#fff 52% 58%,transparent 58%)}
+.LangEN:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,transparent 38%,#fff 38% 62%,transparent 62%),linear-gradient(transparent 32%,#fff 32% 68%,transparent 68%),linear-gradient(90deg,transparent 44%,#c8102e 44% 56%,transparent 56%),linear-gradient(transparent 40%,#c8102e 40% 60%,transparent 60%)}
+.menu-toggle{display:none;border:0;background:transparent;color:#fff;font-size:26px}
+.well{min-height:570px;padding:145px 0 40px;display:flex;align-items:flex-start;text-align:center}
+.booking-wrap h2{margin:0 0 28px;color:var(--cream);font:500 3.2rem "EB Garamond",serif;text-shadow:0 2px 6px rgba(0,0,0,.55)}
+.octobook{display:flex;align-items:end;justify-content:center;gap:0;max-width:920px;margin:auto;padding:25px;background:rgba(255,255,255,.83);border:2px solid #b0b0b0;box-shadow:0 0 12px var(--cream);color:var(--gold);text-align:left}
+.octobook label{flex:1;min-width:150px;font-size:12px;font-weight:600}
+.octobook input,.octobook select{width:100%;height:44px;margin-top:7px;padding:0 12px;border:1px solid #d3c8b8;background:#fff;color:#777;font:14px Montserrat}
+.octobook button{height:44px;padding:0 34px;border:1px solid #fbf8f1;background:#e9dac1;color:#fff;text-transform:uppercase;cursor:pointer}
+.octobook button:hover{background:var(--gold)}
+.language-flags{display:flex;justify-content:center;gap:26px;padding-top:155px}
+.language-flags a{display:flex;flex-direction:column;align-items:center;gap:7px;color:#fff;font-family:Montserrat,sans-serif;font-size:.68rem;letter-spacing:.16em;transition:transform .2s ease,color .2s ease}
+.language-flags a:hover{color:var(--gold);transform:translateY(-3px)}
+.language-flags .Lang{width:36px;height:24px}
+.language-flags small{font-size:inherit}
+.well1,.well2,.well3,.well5{padding:85px 0;background:#fff}
+.well1{background:rgba(255,255,255,.95)}
+.about-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:38px;align-items:start}
+h3{margin:0 0 28px;color:var(--gold);font:500 2.4rem "EB Garamond",serif}
+h4{margin:0 0 18px;color:#777;font:500 1.3rem "EB Garamond",serif}
+address{font-style:normal}
+address a,address span{display:block;margin:6px 0}
+.about-copy{padding-top:67px}
+.about-image{display:block;width:100%;height:245px;object-fit:cover;border:8px solid #fff;box-shadow:var(--shadow)}
+.well2{background:rgba(233,218,207,.94);text-align:center}
+.room-card{height:420px;display:flex;align-items:end;justify-content:space-between;margin-top:18px;padding:35px;background:linear-gradient(to top,rgba(0,0,0,.72),rgba(0,0,0,.02) 65%),url("assets/1661529307427.jpg") center/cover no-repeat;border:8px solid #fff;box-shadow:var(--shadow);color:#fff;text-align:left}
+.room-card h5{margin:0;color:var(--gold);font:500 2rem "EB Garamond",serif}
+.room-card p{margin:4px 0 0}
+.room-card>a{display:grid;place-items:center;width:48px;height:48px;border:1px solid rgba(255,255,255,.8);font-size:28px;transition:.2s}
+.room-card>a:hover{background:var(--gold)}
+.well3{text-align:center;background:rgba(255,255,255,.95)}
+.services{display:grid;grid-template-columns:repeat(6,1fr);gap:24px;margin:35px 0 0;padding:0;list-style:none}
+.services li{display:flex;flex-direction:column;align-items:center;gap:13px;color:#777}
+.services span{display:grid;place-items:center;width:72px;height:72px;border:1px solid var(--gold);border-radius:50%;color:var(--gold);font-size:30px}
+.services strong{font-size:12px;font-weight:500}
+.well5{min-height:460px;background:#fff;text-align:center;box-shadow:var(--shadow)}
+#villa-venere-reviews-widget{min-height:110px;margin:10px auto 0}
+#followus{padding:70px 0 20px;margin:0}
+.social-fallback{display:flex;justify-content:center;gap:16px}
+.social-fallback a{padding:10px 20px;border:1px solid var(--gold);color:var(--gold)}
+.well6{padding:60px 0 0;background:#b9a997;color:#fff}
+.footer-grid{display:grid;grid-template-columns:1fr 1fr;gap:100px;padding-bottom:50px}
+.footer-grid nav{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.footer-grid nav a:hover,.footer-grid address a:hover{color:var(--cream)}
+.footer-grid address strong{display:block;margin-bottom:10px;color:var(--cream);font:500 1.25rem "EB Garamond",serif}
+.copyright{padding:20px;text-align:center;background:rgba(0,0,0,.12);font-size:11px}
+.contact-widget{position:fixed;z-index:40;left:20px;bottom:20px;font-family:Montserrat,Arial,sans-serif}
+.contact-launcher{display:flex;align-items:center;gap:10px;padding:11px 22px;border:0;border-radius:100px;background:#fff;color:#2d3236;box-shadow:0 5px 22px rgba(0,0,0,.25);font:700 15px Montserrat;cursor:pointer}
+.contact-launcher-icon{display:grid;place-items:center;width:25px;height:25px;border-radius:50%;background:var(--gold);color:#fff}
+.contact-panel{position:absolute;left:0;bottom:62px;width:min(370px,calc(100vw - 28px));overflow:hidden;border-radius:16px;background:#fff;box-shadow:0 12px 45px rgba(0,0,0,.3);opacity:0;visibility:hidden;transform:translateY(12px) scale(.98);transform-origin:bottom left;transition:.2s}
+.contact-panel.open{opacity:1;visibility:visible;transform:translateY(0) scale(1)}
+.contact-close{position:absolute;z-index:2;right:12px;top:10px;width:30px;height:30px;border:0;border-radius:50%;background:rgba(255,255,255,.18);color:#fff;font-size:23px;cursor:pointer}
+.contact-header{display:flex;align-items:center;gap:13px;padding:22px;background:var(--gold);color:#fff}
+.contact-header img{width:52px;height:52px;border:3px solid rgba(255,255,255,.75);border-radius:50%;object-fit:cover;background:#fff}
+.contact-header strong,.contact-header span{display:block}.contact-header strong{font:600 18px "EB Garamond",serif}.contact-header span{margin-top:2px;font-size:11px;opacity:.85}
+.contact-message{display:flex;flex-direction:column;gap:3px;width:max-content;max-width:80%;margin:20px 18px 10px;padding:12px 15px;border-radius:5px 14px 14px 14px;background:#f1f2f3;color:#30363a;font-size:13px}
+.contact-title{margin:16px 18px 9px;font-size:12px;font-weight:700;color:#555}
+.contact-apps{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;padding:0 16px 18px}
+.contact-app{display:flex;min-width:0;min-height:74px;padding:9px 5px;border-radius:14px;flex-direction:column;align-items:center;justify-content:center;gap:5px;color:#fff;text-align:center;transition:transform .18s,filter .18s}
+.contact-app:hover{transform:translateY(-2px);filter:brightness(1.06)}
+.contact-app span{font-size:25px;line-height:1}.contact-app strong{max-width:100%;overflow:hidden;text-overflow:ellipsis;font-size:10px}
+.app-whatsapp{background:#25d366}.app-messenger{background:#0084ff}.app-telegram{background:#1d98dc}.app-instagram{background:linear-gradient(135deg,#833ab4,#fd1d1d,#fcb045)}.app-email{background:#b3946f}.app-phone{background:#3f887f}
+@media(max-width:900px){.header-inner{min-height:76px}.menu-toggle{display:block}.nav{display:none;position:absolute;left:0;right:0;top:76px;padding:22px;background:var(--beige);flex-direction:column;align-items:stretch;gap:0}.nav.open{display:flex}.nav>a,.language-menu>button{padding:9px 0}.language-menu{display:none}.well{padding-top:95px}.octobook{display:grid;grid-template-columns:1fr 1fr}.octobook button{align-self:end}.language-flags{padding-top:90px}.about-grid{grid-template-columns:1fr}.about-copy{padding-top:0}.services{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:560px){.container,.header-inner{width:min(100% - 24px,1170px)}.brand{font-size:1.05rem}.brand img{width:44px;height:44px;margin-right:10px}.booking-wrap h2{font-size:2.5rem}.octobook{grid-template-columns:1fr;padding:18px}.language-flags{gap:13px;font-size:20px}.well1,.well2,.well3,.well5{padding:60px 0}.room-card{height:330px;padding:22px}.services{grid-template-columns:repeat(2,1fr)}.footer-grid{grid-template-columns:1fr;gap:35px}.contact-widget{left:10px;bottom:10px}.contact-launcher{padding:10px 17px;font-size:13px}.contact-apps{grid-template-columns:repeat(3,1fr)}}
