@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# ChatGPT Search may discover and cite the site.
+User-agent: OAI-SearchBot
+Allow: /
+
+# User-requested page access from ChatGPT.
+User-agent: ChatGPT-User
+Allow: /
+
+# Keep model-training permission separate from search visibility.
+User-agent: GPTBot
+Disallow: /
+
+Sitemap: https://villavenerecetara.it/sitemap.xml

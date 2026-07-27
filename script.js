@@ -21,6 +21,9 @@ function detectLanguage() {
     return normalized;
   }
 
+  const pathLanguage = window.location.pathname.split('/').filter(Boolean)[0];
+  if (SUPPORTED_LANGUAGES.includes(pathLanguage)) return pathLanguage;
+
   try {
     const savedLanguage = localStorage.getItem('villaVenereLanguage');
     if (savedLanguage) return normalizeLanguage(savedLanguage);
@@ -38,7 +41,7 @@ function getTranslation(dictionary, key) {
 }
 
 async function loadDictionary(language) {
-  const response = await fetch(`locales/${language}.json?v=1`, { cache: 'no-cache' });
+  const response = await fetch(`/locales/${language}.json?v=2`, { cache: 'no-cache' });
   if (!response.ok) throw new Error(`Unable to load language: ${language}`);
   return response.json();
 }
@@ -69,8 +72,8 @@ function applyTranslations(language, dictionary, fallback) {
   document.documentElement.lang = language;
   document.documentElement.dataset.i18nReady = 'true';
   document.title = translate('meta.title') || fallback.meta.title;
-  document.querySelectorAll('a[href*="?lang="]').forEach((link) => {
-    const linkLanguage = new URL(link.href).searchParams.get('lang');
+  document.querySelectorAll('a[data-lang], .language-flags a').forEach((link) => {
+    const linkLanguage = link.dataset.lang || new URL(link.href).pathname.split('/').filter(Boolean)[0];
     if (linkLanguage === language) link.setAttribute('aria-current', 'page');
     else link.removeAttribute('aria-current');
   });
