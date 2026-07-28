@@ -123,6 +123,7 @@ function setContactOpen(open) {
 }
 
 contactLauncher?.addEventListener('click', () => setContactOpen(!contactPanel.classList.contains('open')));
+document.querySelectorAll('[data-contact-open]').forEach((button) => button.addEventListener('click', () => setContactOpen(true)));
 contactClose?.addEventListener('click', () => setContactOpen(false));
 document.addEventListener('keydown', (event) => {
   if (event.key === 'Escape') setContactOpen(false);

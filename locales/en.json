@@ -3,6 +3,7 @@
   "accessibility": {"openNavigation": "Open navigation"},
   "nav": {"home": "Home page", "book": "Book now", "about": "About us", "rooms": "Rooms", "location": "Location", "language": "Language"},
   "booking": {"title": "Book with us!", "checkin": "Check in", "checkout": "Check out", "guests": "Guests", "search": "Search"},
+  "directRate": {"title": "Found us on a booking site?", "description": "Send us the price shown on Booking.com, Airbnb or another booking site before you book. We will apply an additional 15% discount to the accommodation price.", "terms": "For the same dates, guests and cancellation terms. Subject to verification and availability.", "button": "Get 15% off"},
   "about": {"title": "About us", "description": "Villa Venere is a beautiful villa overlooking the sea, located near the beaches of Cetara and the town center. It has 3 bedrooms with Smart TV and 2 bathrooms, one with a washing machine. The comfortable living room offers a beautiful sea view, alongside a well-equipped induction kitchen. A wonderful panoramic terrace overlooks the Tower and the Port of Cetara. The villa also has private access to the sea.", "imageAlt": "Sea view from Villa Venere"},
   "rooms": {"title": "Rooms", "villa": "Three-Bedroom Villa", "capacity": "12 Adults", "view": "View room"},
   "services": {"title": "Services", "hairDryer": "Hair Dryer", "towels": "Towels", "airConditioning": "Air conditioning", "terrace": "Private Terrace", "linen": "Linen"},

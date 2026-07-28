@@ -3,6 +3,7 @@
   "accessibility": {"openNavigation": "Abrir navegação"},
   "nav": {"home": "Início", "book": "Reservar agora", "about": "Sobre nós", "rooms": "Quartos", "location": "Localização", "language": "Idioma"},
   "booking": {"title": "Reserve connosco!", "checkin": "Chegada", "checkout": "Partida", "guests": "Hóspedes", "search": "Pesquisar"},
+  "directRate": {"title": "Encontrou-nos num portal de reservas?", "description": "Envie-nos o preço apresentado no Booking.com, Airbnb ou noutro portal antes de reservar. Aplicaremos mais 15% de desconto ao preço do alojamento.", "terms": "Para as mesmas datas, hóspedes e condições de cancelamento. Sujeito a verificação e disponibilidade.", "button": "Obter 15% de desconto"},
   "about": {"title": "Sobre nós", "description": "A Villa Venere é uma belíssima villa com vista para o mar, situada perto das praias de Cetara e do centro da vila. Dispõe de 3 quartos com Smart TV e 2 casas de banho, uma delas com máquina de lavar roupa. A confortável sala de estar oferece uma magnífica vista para o mar, junto a uma cozinha de indução bem equipada. Um maravilhoso terraço panorâmico domina a Torre e o Porto de Cetara. A villa também dispõe de acesso privado ao mar.", "imageAlt": "Vista para o mar a partir da Villa Venere"},
   "rooms": {"title": "Quartos", "villa": "Villa com três quartos", "capacity": "12 adultos", "view": "Ver alojamento"},
   "services": {"title": "Serviços", "hairDryer": "Secador de cabelo", "towels": "Toalhas", "airConditioning": "Ar condicionado", "terrace": "Terraço privado", "linen": "Roupa de cama"},

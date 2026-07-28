@@ -31,7 +31,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/styles.css?v=service-icons-1">
+  <link rel="stylesheet" href="/styles.css?v=direct-rate-1">
   <script type="application/ld+json">
   {"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://villavenerecetara.it/#website","url":"https://villavenerecetara.it/","name":"Villa Venere - Amalfi Coast","inLanguage":["en","it","fr","es","de","pt"]},{"@type":"LodgingBusiness","additionalType":"https://schema.org/VacationRental","@id":"https://villavenerecetara.it/#villa","name":"Villa Venere - Amalfi Coast","url":"https://villavenerecetara.it/","description":"Private sea-view holiday villa in Cetara on the Amalfi Coast, with three bedrooms, panoramic terrace and private access to the sea.","image":["https://villavenerecetara.it/assets/1661525798152.jpg","https://villavenerecetara.it/assets/villa-view.jpg"],"telephone":["+39 389 684 0764","+39 333 102 4780"],"email":"info@villavenerecetara.com","address":{"@type":"PostalAddress","streetAddress":"Via Lannio, 8","postalCode":"84010","addressLocality":"Cetara","addressRegion":"SA","addressCountry":"IT"},"numberOfRooms":3,"maximumAttendeeCapacity":12,"amenityFeature":[{"@type":"LocationFeatureSpecification","name":"Private access to the sea","value":true},{"@type":"LocationFeatureSpecification","name":"Panoramic private terrace","value":true},{"@type":"LocationFeatureSpecification","name":"Wi-Fi","value":true},{"@type":"LocationFeatureSpecification","name":"Air conditioning","value":true}],"sameAs":["https://www.instagram.com/villavenerecetara/","https://www.facebook.com/villavenerecetara"],"potentialAction":{"@type":"ReserveAction","target":"https://book.octorate.com/octobook/site/reservation/index.xhtml?lang=en&codice=679766"}}]}
   </script>
@@ -76,6 +76,15 @@
             <label><span data-i18n="booking.guests">Huéspedes</span><select name="pax"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option selected>12</option></select></label>
             <button type="submit" data-i18n="booking.search">Buscar</button>
           </form>
+          <aside class="direct-rate" aria-labelledby="direct-rate-title">
+            <div class="direct-rate-badge" aria-hidden="true"><strong>−15%</strong><span>DIRECT</span></div>
+            <div class="direct-rate-copy">
+              <h2 id="direct-rate-title" data-i18n="directRate.title">¿Nos has encontrado en un portal de reservas?</h2>
+              <p data-i18n="directRate.description">Envíanos el precio mostrado en Booking.com, Airbnb u otro portal antes de reservar. Aplicaremos un 15 % de descuento adicional al precio del alojamiento.</p>
+              <small data-i18n="directRate.terms">Para las mismas fechas, huéspedes y condiciones de cancelación. Sujeto a verificación y disponibilidad.</small>
+            </div>
+            <button class="direct-rate-button" type="button" data-contact-open data-i18n="directRate.button">Obtén un 15 % de descuento</button>
+          </aside>
           <div class="language-flags" aria-label="Languages">
             <a href="/it/" data-lang="it" aria-label="Italiano"><img class="Lang" src="/assets/flags/it.svg" alt=""><small>IT</small></a>
             <a href="/en/" data-lang="en" aria-label="English"><img class="Lang" src="/assets/flags/en.svg" alt=""><small>EN</small></a>
@@ -174,6 +183,6 @@
   </div>
   <script src="https://widgetreview.villavenerecetara.it/widget.js" defer></script>
   <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-  <script src="/script.js?v=i18n-1"></script>
+  <script src="/script.js?v=direct-rate-1"></script>
 </body>
 </html>
