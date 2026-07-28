@@ -46,7 +46,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/styles.css?v=alternating-offers-1">
+  <link rel="stylesheet" href="/styles.css?v=visual-refresh-1">
   <script type="application/ld+json">
   {"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://villavenerecetara.it/#website","url":"https://villavenerecetara.it/","name":"Villa Venere - Amalfi Coast","inLanguage":["en","it","fr","es","de","pt"]},{"@type":"LodgingBusiness","additionalType":"https://schema.org/VacationRental","@id":"https://villavenerecetara.it/#villa","name":"Villa Venere - Amalfi Coast","url":"https://villavenerecetara.it/","description":"Private sea-view holiday villa in Cetara on the Amalfi Coast, with three bedrooms, panoramic terrace and private access to the sea.","image":["https://villavenerecetara.it/assets/1661525798152.jpg","https://villavenerecetara.it/assets/villa-view.jpg"],"telephone":["+39 389 684 0764","+39 333 102 4780"],"email":"info@villavenerecetara.com","address":{"@type":"PostalAddress","streetAddress":"Via Lannio, 8","postalCode":"84010","addressLocality":"Cetara","addressRegion":"SA","addressCountry":"IT"},"numberOfRooms":3,"maximumAttendeeCapacity":12,"amenityFeature":[{"@type":"LocationFeatureSpecification","name":"Private access to the sea","value":true},{"@type":"LocationFeatureSpecification","name":"Panoramic private terrace","value":true},{"@type":"LocationFeatureSpecification","name":"Wi-Fi","value":true},{"@type":"LocationFeatureSpecification","name":"Air conditioning","value":true}],"sameAs":["https://www.instagram.com/villavenerecetara/","https://www.facebook.com/villavenerecetara"],"potentialAction":{"@type":"ReserveAction","target":"https://book.octorate.com/octobook/site/reservation/index.xhtml?lang=en&codice=679766"}}]}
   </script>
@@ -84,11 +84,12 @@
     <main id="home">
       <section class="well booking-section">
         <div class="container booking-wrap">
-          <h1 data-i18n="booking.title">Buchen Sie bei uns!</h1>
+          <h1 data-i18n="booking.title">Private Villa am Meer in Cetara</h1>
+          <p class="hero-subtitle" data-i18n="booking.subtitle">Buchen Sie direkt und sparen Sie 15 % gegenüber dem Preis auf Buchungsportalen.</p>
           <form class="octobook" id="booking-form">
             <label><span data-i18n="booking.checkin">Anreise</span><input type="date" name="checkin" required></label>
             <label><span data-i18n="booking.checkout">Abreise</span><input type="date" name="checkout" required></label>
-            <label><span data-i18n="booking.guests">Gäste</span><select name="pax"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option selected>12</option></select></label>
+            <label><span data-i18n="booking.guests">Gäste</span><select name="pax"><option>1</option><option selected>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option></select></label>
             <button type="submit" data-i18n="booking.search">Suchen</button>
           </form>
           <aside class="direct-rate" aria-labelledby="direct-rate-title">
@@ -128,13 +129,13 @@
             <h3 data-i18n="about.title">Über uns</h3>
             <h4>Villa Venere - Amalfi Coast</h4>
             <address id="location">
-              <p>📍 Via Lannio, 8, 84010 CETARA IT</p>
-              <a href="tel:+393896840764">☎ +39 389 684 0764</a>
-              <a href="tel:+393331024780">☎ +39 333 102 4780</a>
-              <a href="mailto:info@villavenerecetara.com">✉ info@villavenerecetara.com</a>
+              <p class="contact-line contact-location"><span aria-hidden="true">⌖</span>Via Lannio, 8, 84010 CETARA IT</p>
+              <a class="contact-line contact-phone" href="tel:+393896840764"><span aria-hidden="true">●</span>+39 389 684 0764</a>
+              <a class="contact-line contact-phone" href="tel:+393331024780"><span aria-hidden="true">●</span>+39 333 102 4780</a>
+              <a class="contact-line contact-email" href="mailto:info@villavenerecetara.com"><span aria-hidden="true">✉</span>info@villavenerecetara.com</a>
             </address>
           </div>
-          <div class="about-copy" data-i18n="about.description">Villa Venere ist eine wunderschöne Villa mit Meerblick, nahe den Stränden von Cetara und dem Ortszentrum. Sie verfügt über 3 Schlafzimmer mit Smart-TV und 2 Badezimmer, eines davon mit Waschmaschine. Das gemütliche Wohnzimmer bietet einen herrlichen Meerblick und grenzt an eine gut ausgestattete Induktionsküche. Von der wunderbaren Panoramaterrasse blickt man auf den Turm und den Hafen von Cetara. Die Villa besitzt außerdem einen privaten Zugang zum Meer.</div>
+          <div class="about-copy"><p data-i18n="about.description">Villa Venere ist eine wunderschöne Villa mit Meerblick nahe den Stränden und dem Zentrum von Cetara. Sie bietet drei Schlafzimmer, zwei Badezimmer, ein gemütliches Wohnzimmer, eine ausgestattete Küche und eine Panoramaterrasse über Turm und Hafen. Zudem besitzt sie einen privaten Zugang zum Meer.</p><ul class="villa-highlights"><li><strong>3</strong><span data-i18n="about.bedrooms">Schlafzimmer</span></li><li><strong>2</strong><span data-i18n="about.bathrooms">Badezimmer</span></li><li><strong>12</strong><span data-i18n="about.guests">Gäste</span></li></ul></div>
           <div><img class="about-image" src="/assets/villa-view.jpg" alt="Meerblick von Villa Venere" data-i18n-alt="about.imageAlt"></div>
         </div>
       </section>
@@ -143,7 +144,7 @@
         <div class="container">
           <h3 data-i18n="rooms.title">Zimmer</h3>
           <article class="room-card">
-            <div class="room-info"><h5 data-i18n="rooms.villa">Villa mit drei Schlafzimmern</h5><p data-i18n="rooms.capacity">12 Erwachsene</p></div>
+            <div class="room-info"><h5 data-i18n="rooms.villa">Villa mit drei Schlafzimmern</h5><p data-i18n="rooms.capacity">Bis zu 12 Gäste</p><div class="room-features"><span data-i18n="rooms.bathrooms">2 Badezimmer</span><span data-i18n="rooms.terrace">Terrasse mit Meerblick</span><span data-i18n="rooms.seaAccess">Privater Meerzugang</span></div></div>
             <a data-booking-link href="https://book.octorate.com/octobook/site/reservation/index.xhtml?lang=en&codice=679766" target="_blank" rel="noreferrer" aria-label="Unterkunft ansehen" data-i18n-aria-label="rooms.view">»</a>
           </article>
         </div>
@@ -181,7 +182,7 @@
     <footer class="well6">
       <div class="container footer-grid">
         <nav><a href="#home" data-i18n="nav.home">Startseite</a><a data-booking-link href="https://book.octorate.com/octobook/site/reservation/index.xhtml?lang=en&codice=679766" data-i18n="nav.book">Jetzt buchen</a><a href="#about" data-i18n="nav.about">Über uns</a><a href="#rooms" data-i18n="nav.rooms">Zimmer</a><a href="#location" data-i18n="nav.location">Lage</a></nav>
-        <address><strong>Villa Venere - Amalfi Coast</strong><span>Via Lannio, 8, 84010 CETARA IT</span><a href="tel:+393896840764">+39 389 684 0764</a><a href="mailto:info@villavenerecetara.com">info@villavenerecetara.com</a><div><a href="https://www.instagram.com/villavenerecetara/">Instagram</a> · <a href="https://www.facebook.com/villavenerecetara">Facebook</a></div></address>
+        <address><strong>Villa Venere - Amalfi Coast</strong><span>Via Lannio, 8, 84010 CETARA IT</span><a href="tel:+393896840764">+39 389 684 0764</a><a href="mailto:info@villavenerecetara.com">info@villavenerecetara.com</a><div class="footer-social"><a href="https://www.instagram.com/villavenerecetara/">Instagram</a><a href="https://www.facebook.com/villavenerecetara">Facebook</a></div></address>
       </div>
       <div class="copyright" data-i18n="footer.copyright">COPYRIGHT Villa Venere - Amalfiküste. Alle Rechte vorbehalten.</div>
     </footer>
@@ -209,6 +210,6 @@
   </div>
   <script src="https://widgetreview.villavenerecetara.it/widget.js" defer></script>
   <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-  <script src="/script.js?v=direct-rate-2"></script>
+  <script src="/script.js?v=visual-refresh-1"></script>
 </body>
 </html>

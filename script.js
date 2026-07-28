@@ -99,6 +99,31 @@ async function initializeI18n() {
 window.villaI18nReady = initializeI18n();
 
 const bookingForm = document.querySelector('#booking-form');
+const checkinInput = bookingForm?.querySelector('input[name="checkin"]');
+const checkoutInput = bookingForm?.querySelector('input[name="checkout"]');
+
+function formatLocalDate(date) {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, '0');
+  const day = String(date.getDate()).padStart(2, '0');
+  return `${year}-${month}-${day}`;
+}
+
+function nextDate(value) {
+  const date = value ? new Date(`${value}T12:00:00`) : new Date();
+  date.setDate(date.getDate() + 1);
+  return formatLocalDate(date);
+}
+
+if (checkinInput && checkoutInput) {
+  checkinInput.min = formatLocalDate(new Date());
+  checkoutInput.min = nextDate(checkinInput.value);
+  checkinInput.addEventListener('change', () => {
+    checkoutInput.min = nextDate(checkinInput.value);
+    if (checkoutInput.value && checkoutInput.value < checkoutInput.min) checkoutInput.value = '';
+  });
+}
+
 bookingForm?.addEventListener('submit', (event) => {
   event.preventDefault();
   const data = new FormData(bookingForm);
