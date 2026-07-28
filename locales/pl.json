@@ -7,7 +7,7 @@
   "bestRate": {"eyebrow": "REZERWUJ BEZPOŚREDNIO", "title": "Gwarancja najlepszej ceny", "description": "Pokaż cenę znalezioną online i zarezerwuj ten sam pobyt bezpośrednio z dodatkowym rabatem 15%.", "saving": "od ceny portalu", "button": "Zapytaj o najlepszą cenę", "terms": "Te same daty, goście i warunki anulowania. Wymagana weryfikacja i dostępność."},
   "about": {"title": "O willi", "description": "Villa Venere to piękna willa z widokiem na morze, blisko plaż i centrum Cetary. Oferuje trzy sypialnie, dwie łazienki, wygodny salon, wyposażoną kuchnię indukcyjną, panoramiczny taras z widokiem na wieżę i port oraz prywatne zejście do morza.", "bedrooms": "Sypialnie", "bathrooms": "Łazienki", "guests": "Goście", "imageAlt": "Widok na morze z Villa Venere"},
   "rooms": {"title": "Pokoje", "villa": "Willa z trzema sypialniami", "capacity": "Do 12 gości", "bathrooms": "2 łazienki", "terrace": "Taras z widokiem na morze", "seaAccess": "Prywatne zejście do morza", "view": "Zobacz pokój"},
-  "services": {"title": "Udogodnienia", "hairDryer": "Suszarka", "towels": "Ręczniki", "airConditioning": "Klimatyzacja", "terrace": "Prywatny taras", "linen": "Pościel"},
+  "services": {"title": "Udogodnienia", "hairDryer": "Suszarka", "towels": "Ręczniki", "airConditioning": "Klimatyzacja", "terrace": "Prywatny taras", "linen": "Pościel", "hotTub": "Wanna z hydromasażem", "seaAccess": "Prywatne zejście do morza"},
   "reviews": {"title": "Opinie naszych gości:", "loading": "Ładowanie opinii..."},
   "social": {"follow": "Obserwuj nas:"},
   "footer": {"copyright": "Villa Venere — Amalfi Coast. Wszelkie prawa zastrzeżone."},

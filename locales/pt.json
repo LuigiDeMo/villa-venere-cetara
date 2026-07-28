@@ -7,7 +7,7 @@
   "bestRate": {"eyebrow": "RESERVE DIRETAMENTE CONNOSCO", "title": "Melhor preço garantido", "description": "Mostre-nos o preço encontrado online e reserve diretamente a mesma estadia com mais 15% de desconto.", "saving": "sobre o preço do portal", "button": "Pedir o melhor preço", "terms": "Mesmas datas, hóspedes e condições de cancelamento. Sujeito a verificação e disponibilidade."},
   "about": {"title": "Sobre nós", "description": "A Villa Venere é uma belíssima villa com vista para o mar, perto das praias e do centro de Cetara. Oferece três quartos, duas casas de banho, uma sala confortável, cozinha equipada e um terraço panorâmico sobre a Torre e o Porto. A villa também dispõe de acesso privado ao mar.", "bedrooms": "Quartos", "bathrooms": "Casas de banho", "guests": "Hóspedes", "imageAlt": "Vista para o mar a partir da Villa Venere"},
   "rooms": {"title": "Quartos", "villa": "Villa com três quartos", "capacity": "Até 12 hóspedes", "bathrooms": "2 casas de banho", "terrace": "Terraço com vista mar", "seaAccess": "Acesso privado ao mar", "view": "Ver alojamento"},
-  "services": {"title": "Serviços", "hairDryer": "Secador de cabelo", "towels": "Toalhas", "airConditioning": "Ar condicionado", "terrace": "Terraço privado", "linen": "Roupa de cama"},
+  "services": {"title": "Serviços", "hairDryer": "Secador de cabelo", "towels": "Toalhas", "airConditioning": "Ar condicionado", "terrace": "Terraço privado", "linen": "Roupa de cama", "hotTub": "Banheira de hidromassagem", "seaAccess": "Acesso privado ao mar"},
   "reviews": {"title": "O que dizem os hóspedes:", "loading": "A carregar avaliações..."},
   "social": {"follow": "Siga-nos:"},
   "footer": {"copyright": "COPYRIGHT Villa Venere - Costa Amalfitana. Todos os direitos reservados."},

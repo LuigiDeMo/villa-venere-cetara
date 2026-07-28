@@ -7,7 +7,7 @@
   "bestRate": {"eyebrow": "公式サイトから直接予約", "title": "ベストレート保証", "description": "オンラインで見つけた価格をご提示いただくと、同じ滞在を直接予約でさらに15%割引します。", "saving": "予約サイト価格より", "button": "ベストレートを問い合わせる", "terms": "同じ日程・人数・キャンセル条件。確認および空室状況が必要です。"},
   "about": {"title": "ヴィラについて", "description": "Villa Venereは、チェターラのビーチと中心部に近い美しいオーシャンビューヴィラです。3ベッドルーム、2バスルーム、快適なリビング、IHキッチン、塔と港を望むパノラマテラスを備え、海への専用アクセスもあります。", "bedrooms": "ベッドルーム", "bathrooms": "バスルーム", "guests": "宿泊人数", "imageAlt": "Villa Venereからの海の眺め"},
   "rooms": {"title": "客室", "villa": "3ベッドルーム・ヴィラ", "capacity": "最大12名", "bathrooms": "バスルーム2室", "terrace": "オーシャンビューテラス", "seaAccess": "海への専用アクセス", "view": "客室を見る"},
-  "services": {"title": "設備", "hairDryer": "ヘアドライヤー", "towels": "タオル", "airConditioning": "エアコン", "terrace": "プライベートテラス", "linen": "リネン"},
+  "services": {"title": "設備", "hairDryer": "ヘアドライヤー", "towels": "タオル", "airConditioning": "エアコン", "terrace": "プライベートテラス", "linen": "リネン", "hotTub": "ジェットバス", "seaAccess": "海への専用アクセス"},
   "reviews": {"title": "お客様の声：", "loading": "口コミを読み込み中..."},
   "social": {"follow": "フォローする："},
   "footer": {"copyright": "Villa Venere — Amalfi Coast. All rights reserved."},

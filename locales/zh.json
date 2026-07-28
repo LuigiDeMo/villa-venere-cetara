@@ -7,7 +7,7 @@
   "bestRate": {"eyebrow": "直接向我们预订", "title": "保证最优价格", "description": "向我们出示您在线找到的价格，直接预订相同行程可再享15%优惠。", "saving": "平台价格优惠", "button": "申请最优价格", "terms": "相同日期、住客人数及取消条件。须核实并视房态而定。"},
   "about": {"title": "关于我们", "description": "Villa Venere 是一座迷人的海景别墅，靠近切塔拉的海滩和镇中心。别墅设有三间卧室、两间浴室、舒适客厅、配备电磁炉的厨房，以及俯瞰古塔和港口的全景露台，并拥有私人入海通道。", "bedrooms": "卧室", "bathrooms": "浴室", "guests": "住客", "imageAlt": "Villa Venere 的海景"},
   "rooms": {"title": "客房", "villa": "三卧室别墅", "capacity": "最多12位住客", "bathrooms": "2间浴室", "terrace": "海景露台", "seaAccess": "私人入海通道", "view": "查看客房"},
-  "services": {"title": "设施", "hairDryer": "吹风机", "towels": "毛巾", "airConditioning": "空调", "terrace": "私人露台", "linen": "床品"},
+  "services": {"title": "设施", "hairDryer": "吹风机", "towels": "毛巾", "airConditioning": "空调", "terrace": "私人露台", "linen": "床品", "hotTub": "按摩浴缸", "seaAccess": "私人入海通道"},
   "reviews": {"title": "住客评价：", "loading": "正在加载评价..."},
   "social": {"follow": "关注我们："},
   "footer": {"copyright": "Villa Venere — Amalfi Coast 版权所有。"},

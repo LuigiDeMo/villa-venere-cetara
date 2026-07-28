@@ -7,7 +7,7 @@
   "bestRate": {"eyebrow": "공식 직접 예약", "title": "최저가 보장", "description": "온라인에서 찾은 가격을 보여 주시면 같은 숙박을 직접 예약할 때 추가 15% 할인해 드립니다.", "saving": "예약 사이트 가격 대비", "button": "최저가 문의", "terms": "동일한 날짜, 인원 및 취소 조건. 확인과 객실 상황이 필요합니다."},
   "about": {"title": "빌라 소개", "description": "Villa Venere는 체타라 해변과 중심지 가까이에 있는 아름다운 바다 전망 빌라입니다. 침실 3개, 욕실 2개, 편안한 거실, 인덕션 주방, 탑과 항구가 보이는 파노라마 테라스가 있으며 바다로 이어지는 전용 통로도 갖추고 있습니다.", "bedrooms": "침실", "bathrooms": "욕실", "guests": "인원", "imageAlt": "Villa Venere의 바다 전망"},
   "rooms": {"title": "객실", "villa": "침실 3개 빌라", "capacity": "최대 12명", "bathrooms": "욕실 2개", "terrace": "바다 전망 테라스", "seaAccess": "바다 전용 통로", "view": "객실 보기"},
-  "services": {"title": "편의시설", "hairDryer": "헤어드라이어", "towels": "수건", "airConditioning": "에어컨", "terrace": "전용 테라스", "linen": "침구"},
+  "services": {"title": "편의시설", "hairDryer": "헤어드라이어", "towels": "수건", "airConditioning": "에어컨", "terrace": "전용 테라스", "linen": "침구", "hotTub": "월풀 욕조", "seaAccess": "바다 전용 통로"},
   "reviews": {"title": "투숙객 후기:", "loading": "후기를 불러오는 중..."},
   "social": {"follow": "팔로우하세요:"},
   "footer": {"copyright": "Villa Venere — Amalfi Coast. 모든 권리 보유."},

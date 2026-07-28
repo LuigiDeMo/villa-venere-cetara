@@ -63,7 +63,7 @@ address a,address span{display:block;margin:6px 0}
 .room-card>a{display:grid;place-items:center;width:48px;height:48px;border:1px solid rgba(255,255,255,.8);font-size:28px;transition:.2s}
 .room-card>a:hover{background:var(--gold)}
 .well3{text-align:center;background:rgba(255,255,255,.95)}
-.services{display:grid;grid-template-columns:repeat(6,1fr);gap:24px;margin:35px 0 0;padding:0;list-style:none}
+.services{display:grid;grid-template-columns:repeat(4,1fr);gap:30px 24px;margin:35px 0 0;padding:0;list-style:none}
 .services li{display:flex;flex-direction:column;align-items:center;gap:14px;color:#777;text-align:center}
 .services .service-icon{display:grid;place-items:center;width:76px;height:76px;border:1px solid rgba(179,148,111,.72);border-radius:50%;color:var(--gold);background:rgba(255,255,255,.38);box-shadow:0 7px 20px rgba(88,67,48,.08);transition:transform .25s ease,border-color .25s ease,background .25s ease,box-shadow .25s ease}
 .services .service-icon svg{width:38px;height:38px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}

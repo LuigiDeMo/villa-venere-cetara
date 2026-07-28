@@ -7,7 +7,7 @@
   "bestRate": {"eyebrow": "BOOK DIRECT WITH US", "title": "Best price guaranteed", "description": "Show us the price you found online and book the same stay directly with an extra 15% discount.", "saving": "on the portal price", "button": "Request the best price", "terms": "Same dates, guests and cancellation terms. Verification and availability required."},
   "about": {"title": "About us", "description": "Villa Venere is a beautiful sea-view villa near the beaches and center of Cetara. It offers three bedrooms, two bathrooms, a comfortable living room, an equipped induction kitchen and a panoramic terrace overlooking the Tower and Port. The villa also has private access to the sea.", "bedrooms": "Bedrooms", "bathrooms": "Bathrooms", "guests": "Guests", "imageAlt": "Sea view from Villa Venere"},
   "rooms": {"title": "Rooms", "villa": "Three-Bedroom Villa", "capacity": "Up to 12 guests", "bathrooms": "2 bathrooms", "terrace": "Sea-view terrace", "seaAccess": "Private sea access", "view": "View room"},
-  "services": {"title": "Services", "hairDryer": "Hair Dryer", "towels": "Towels", "airConditioning": "Air conditioning", "terrace": "Private Terrace", "linen": "Linen"},
+  "services": {"title": "Services", "hairDryer": "Hair Dryer", "towels": "Towels", "airConditioning": "Air conditioning", "terrace": "Private Terrace", "linen": "Linen", "hotTub": "Hot tub", "seaAccess": "Private sea access"},
   "reviews": {"title": "Our Guests Say:", "loading": "Loading reviews..."},
   "social": {"follow": "Follow Us:"},
   "footer": {"copyright": "COPYRIGHT BY Villa Venere - Amalfi Coast. All rights reserved."},
