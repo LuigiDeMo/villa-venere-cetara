@@ -171,12 +171,13 @@ function showNextMascotPose() {
 }
 
 mascotPoses.forEach(([src]) => { const image = new Image(); image.src = src; });
-const introFrames = [1, 2, 3, 4, 5, 6, 7, 8].map((number) => `/assets/mascot/intro/venere-intro-${number}.webp`);
+const introFrames = [1, 2, 3, 4, 5, 6, 7, 8].map((number) => `/assets/mascot/intro/venere-intro-${number}.webp?v=uncropped-1`);
 introFrames.forEach((src) => { const image = new Image(); image.src = src; });
 
 function finishMascotIntro() {
+  mascotIntro?.classList.add('settling');
   contactWidget?.classList.remove('intro-active');
-  mascotIntro?.classList.remove('visible');
+  window.setTimeout(() => mascotIntro?.classList.remove('visible', 'settling'), 480);
   window.setTimeout(() => mascotNudge?.classList.add('visible'), 350);
   window.setTimeout(() => mascotNudge?.classList.remove('visible'), 7350);
   showNextMascotPose();
