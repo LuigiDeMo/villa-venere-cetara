@@ -129,5 +129,5 @@ document.addEventListener('keydown', (event) => {
   if (event.key === 'Escape') setContactOpen(false);
 });
 document.addEventListener('click', (event) => {
-  if (!event.target.closest('#contact-widget')) setContactOpen(false);
+  if (!event.target.closest('#contact-widget') && !event.target.closest('[data-contact-open]')) setContactOpen(false);
 });
