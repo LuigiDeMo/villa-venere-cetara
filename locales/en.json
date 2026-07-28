@@ -11,5 +11,5 @@
   "reviews": {"title": "Our Guests Say:", "loading": "Loading reviews..."},
   "social": {"follow": "Follow Us:"},
   "footer": {"copyright": "COPYRIGHT BY Villa Venere - Amalfi Coast. All rights reserved."},
-  "contact": {"mascot": "Ask Venere for information", "panelLabel": "Contact Villa Venere", "close": "Close contact window", "replyTime": "Typically replies in minutes", "greeting": "Hi there 👋", "help": "How can I help you?", "startWith": "Start chat with:", "phone": "Phone", "launcher": "Contact us"}
+  "contact": {"mascot": "Ask Venere for information", "panelLabel": "Contact Villa Venere", "close": "Close contact window", "hostName": "Martina · Your host at Villa Venere", "replyTime": "Personally replies to your messages", "greeting": "Hi! I'm Martina 👋", "help": "Message me for availability, our best direct price or information about your stay.", "priceNudge": "Found a better price? Contact us: Martina will reply personally.", "startWith": "Start chat with:", "phone": "Phone", "launcher": "Contact us"}
 }

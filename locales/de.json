@@ -11,5 +11,5 @@
   "reviews": {"title": "Das sagen unsere Gäste:", "loading": "Bewertungen werden geladen..."},
   "social": {"follow": "Folgen Sie uns:"},
   "footer": {"copyright": "COPYRIGHT Villa Venere - Amalfiküste. Alle Rechte vorbehalten."},
-  "contact": {"mascot": "Venere um Informationen bitten", "panelLabel": "Villa Venere kontaktieren", "close": "Kontaktfenster schließen", "replyTime": "Antwortet normalerweise in wenigen Minuten", "greeting": "Hallo 👋", "help": "Wie können wir Ihnen helfen?", "startWith": "Chat starten mit:", "phone": "Telefon", "launcher": "Kontakt"}
+  "contact": {"mascot": "Venere um Informationen bitten", "panelLabel": "Villa Venere kontaktieren", "close": "Kontaktfenster schließen", "hostName": "Martina · Ihre Gastgeberin in der Villa Venere", "replyTime": "Antwortet persönlich auf Ihre Nachrichten", "greeting": "Hallo! Ich bin Martina 👋", "help": "Schreiben Sie mir für Verfügbarkeit, den besten Direktpreis oder Informationen zu Ihrem Aufenthalt.", "priceNudge": "Einen besseren Preis gefunden? Schreiben Sie uns: Martina antwortet Ihnen persönlich.", "startWith": "Chat starten mit:", "phone": "Telefon", "launcher": "Kontakt"}
 }

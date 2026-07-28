@@ -142,6 +142,10 @@ const contactLauncher = document.querySelector('.contact-launcher');
 const contactClose = document.querySelector('.contact-close');
 const mascotButton = document.querySelector('.mascot-button');
 const mascotPose = mascotButton?.querySelector('.mascot-pose');
+const contactWidget = document.querySelector('#contact-widget');
+const mascotIntro = document.querySelector('.mascot-intro');
+const mascotIntroImage = mascotIntro?.querySelector('img');
+const mascotNudge = document.querySelector('.mascot-nudge');
 const mascotPoses = [
   ['/assets/mascot/venere-prototype.webp', 6500],
   ['/assets/mascot/venere-wave.webp', 1800],
@@ -162,12 +166,58 @@ function showNextMascotPose() {
       mascotPose.src = mascotPoses[mascotPoseIndex][0];
       mascotPose.classList.remove('is-changing');
       showNextMascotPose();
-    }, 240);
+    }, 380);
   }, delay);
 }
 
 mascotPoses.forEach(([src]) => { const image = new Image(); image.src = src; });
-showNextMascotPose();
+const introFrames = [1, 2, 3, 4].map((number) => `/assets/mascot/intro/venere-intro-${number}.webp`);
+introFrames.forEach((src) => { const image = new Image(); image.src = src; });
+
+function finishMascotIntro() {
+  contactWidget?.classList.remove('intro-active');
+  mascotIntro?.classList.remove('visible');
+  window.setTimeout(() => mascotNudge?.classList.add('visible'), 450);
+  window.setTimeout(() => mascotNudge?.classList.remove('visible'), 7450);
+  showNextMascotPose();
+}
+
+function runMascotIntro() {
+  if (!mascotIntroImage || window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    showNextMascotPose();
+    return;
+  }
+  let alreadySeen = false;
+  try {
+    alreadySeen = sessionStorage.getItem('villa-venere-intro-seen') === '1';
+    sessionStorage.setItem('villa-venere-intro-seen', '1');
+  } catch {}
+  if (alreadySeen) {
+    showNextMascotPose();
+    return;
+  }
+  window.setTimeout(() => {
+    contactWidget?.classList.add('intro-active');
+    mascotIntro?.classList.add('visible');
+    let frame = 0;
+    const advance = () => {
+      frame += 1;
+      if (frame >= introFrames.length) {
+        window.setTimeout(finishMascotIntro, 900);
+        return;
+      }
+      mascotIntroImage.classList.add('is-changing');
+      window.setTimeout(() => {
+        mascotIntroImage.src = introFrames[frame];
+        mascotIntroImage.classList.remove('is-changing');
+        window.setTimeout(advance, 720);
+      }, 320);
+    };
+    window.setTimeout(advance, 850);
+  }, 1600);
+}
+
+runMascotIntro();
 
 function setContactOpen(open) {
   contactPanel?.classList.toggle('open', open);
