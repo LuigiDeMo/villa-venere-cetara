@@ -60,6 +60,27 @@ function updateBookingLinks(language) {
   });
 }
 
+const SEO_PAGE_PATHS = {
+  en: { villa: '/en/villa-cetara/', sea: '/en/private-sea-access/', rooms: '/en/rooms-amenities/', location: '/en/getting-to-cetara/' },
+  it: { villa: '/it/villa-cetara/', sea: '/it/accesso-privato-mare/', rooms: '/it/camere-servizi/', location: '/it/come-arrivare/' },
+};
+
+function updateSeoLinks(language) {
+  const paths = SEO_PAGE_PATHS[language] || SEO_PAGE_PATHS.en;
+  document.querySelectorAll('[data-seo-page]').forEach((link) => {
+    const path = paths[link.dataset.seoPage];
+    if (path) link.href = path;
+  });
+  if (language === 'it') {
+    const title = document.querySelector('#villa-guide-title');
+    if (title) title.textContent = 'Scopri Villa Venere';
+    const notes = document.querySelectorAll('.guide-grid small');
+    ['Villa, camere e ambienti', 'Terrazza, banchina e mare', 'Capienza e dotazioni', 'Traghetti, autobus e parcheggio'].forEach((text, index) => {
+      if (notes[index]) notes[index].textContent = text;
+    });
+  }
+}
+
 function applyTranslations(language, dictionary, fallback) {
   const translate = (key) => getTranslation(dictionary, key) ?? getTranslation(fallback, key);
   document.querySelectorAll('[data-i18n]').forEach((element) => {
@@ -85,6 +106,7 @@ function applyTranslations(language, dictionary, fallback) {
     else link.removeAttribute('aria-current');
   });
   updateBookingLinks(language);
+  updateSeoLinks(language);
   window.villaVenereLanguage = language;
 }
 
@@ -99,6 +121,7 @@ async function initializeI18n() {
     document.documentElement.lang = DEFAULT_LANGUAGE;
     document.documentElement.dataset.i18nReady = 'true';
     updateBookingLinks(DEFAULT_LANGUAGE);
+    updateSeoLinks(DEFAULT_LANGUAGE);
     window.villaVenereLanguage = DEFAULT_LANGUAGE;
   }
 }
@@ -256,3 +279,32 @@ document.addEventListener('keydown', (event) => {
 document.addEventListener('click', (event) => {
   if (!event.target.closest('#contact-widget') && !event.target.closest('[data-contact-open]')) setContactOpen(false);
 });
+
+function loadThirdPartyWidgets() {
+  if (document.querySelector('script[data-villa-widget]')) return;
+  const scripts = [
+    ['https://widgetreview.villavenerecetara.it/widget.js', 'reviews'],
+    ['https://apps.elfsight.com/p/platform.js', 'social'],
+  ];
+  scripts.forEach(([src, name]) => {
+    const script = document.createElement('script');
+    script.src = src;
+    script.defer = true;
+    script.dataset.villaWidget = name;
+    document.body.appendChild(script);
+  });
+}
+
+const reviewsSection = document.querySelector('#reviews');
+if ('IntersectionObserver' in window && reviewsSection) {
+  const widgetObserver = new IntersectionObserver((entries, observer) => {
+    if (entries.some((entry) => entry.isIntersecting)) {
+      loadThirdPartyWidgets();
+      observer.disconnect();
+    }
+  }, { rootMargin: '600px 0px' });
+  widgetObserver.observe(reviewsSection);
+  window.setTimeout(loadThirdPartyWidgets, 12000);
+} else {
+  window.setTimeout(loadThirdPartyWidgets, 3000);
+}

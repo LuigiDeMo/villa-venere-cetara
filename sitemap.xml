@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://villavenerecetara.it/</loc>
+    <lastmod>2026-07-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/"/>
+    <image:image><image:loc>https://villavenerecetara.it/assets/villa-view.jpg</image:loc></image:image>
+    <image:image><image:loc>https://villavenerecetara.it/assets/1661525798152.jpg</image:loc></image:image>
+    <image:image><image:loc>https://villavenerecetara.it/assets/villa-gallery/01-villa-esterno.jpg</image:loc></image:image>
+    <image:image><image:loc>https://villavenerecetara.it/assets/villa-gallery/02-villa-cucina.jpg</image:loc></image:image>
+    <image:image><image:loc>https://villavenerecetara.it/assets/villa-gallery/03-villa-camera.jpg</image:loc></image:image>
+    <image:image><image:loc>https://villavenerecetara.it/assets/villa-gallery/04-villa-terrazza.jpg</image:loc></image:image>
+    <image:image><image:loc>https://villavenerecetara.it/assets/villa-gallery/camera-principale-vista-mare.jpg</image:loc></image:image>
+    <image:image><image:loc>https://villavenerecetara.it/assets/villa-gallery/camera-principale-smart-tv.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/en/</loc>
+    <lastmod>2026-07-28</lastmod>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/"/>
@@ -17,17 +44,276 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/"/>
     <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/"/>
   </url>
-  <url><loc>https://villavenerecetara.it/en/</loc></url>
-  <url><loc>https://villavenerecetara.it/it/</loc></url>
-  <url><loc>https://villavenerecetara.it/fr/</loc></url>
-  <url><loc>https://villavenerecetara.it/es/</loc></url>
-  <url><loc>https://villavenerecetara.it/de/</loc></url>
-  <url><loc>https://villavenerecetara.it/pt/</loc></url>
-  <url><loc>https://villavenerecetara.it/ru/</loc></url>
-  <url><loc>https://villavenerecetara.it/zh/</loc></url>
-  <url><loc>https://villavenerecetara.it/ja/</loc></url>
-  <url><loc>https://villavenerecetara.it/ko/</loc></url>
-  <url><loc>https://villavenerecetara.it/ar/</loc></url>
-  <url><loc>https://villavenerecetara.it/nl/</loc></url>
-  <url><loc>https://villavenerecetara.it/pl/</loc></url>
+  <url>
+    <loc>https://villavenerecetara.it/it/</loc>
+    <lastmod>2026-07-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/fr/</loc>
+    <lastmod>2026-07-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/es/</loc>
+    <lastmod>2026-07-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/de/</loc>
+    <lastmod>2026-07-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/pt/</loc>
+    <lastmod>2026-07-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/ru/</loc>
+    <lastmod>2026-07-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/zh/</loc>
+    <lastmod>2026-07-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/ja/</loc>
+    <lastmod>2026-07-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/ko/</loc>
+    <lastmod>2026-07-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/ar/</loc>
+    <lastmod>2026-07-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/nl/</loc>
+    <lastmod>2026-07-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/pl/</loc>
+    <lastmod>2026-07-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/it/villa-cetara/</loc>
+    <lastmod>2026-07-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/villa-cetara/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/en/villa-cetara/</loc>
+    <lastmod>2026-07-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/villa-cetara/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/it/accesso-privato-mare/</loc>
+    <lastmod>2026-07-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/accesso-privato-mare/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/private-sea-access/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/en/private-sea-access/</loc>
+    <lastmod>2026-07-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/accesso-privato-mare/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/private-sea-access/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/it/camere-servizi/</loc>
+    <lastmod>2026-07-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/camere-servizi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/rooms-amenities/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/en/rooms-amenities/</loc>
+    <lastmod>2026-07-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/camere-servizi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/rooms-amenities/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/it/come-arrivare/</loc>
+    <lastmod>2026-07-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/come-arrivare/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/getting-to-cetara/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/en/getting-to-cetara/</loc>
+    <lastmod>2026-07-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/come-arrivare/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/getting-to-cetara/"/>
+  </url>
 </urlset>

@@ -28,6 +28,48 @@ function escapeHtml(value) {
   return value.replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
 }
 
+function structuredData(language, canonical, meta) {
+  const images = [
+    'villa-view.jpg', '1661525798152.jpg', 'villa-gallery/01-villa-esterno.jpg',
+    'villa-gallery/02-villa-cucina.jpg', 'villa-gallery/03-villa-camera.jpg',
+    'villa-gallery/04-villa-terrazza.jpg', 'villa-gallery/camera-principale-vista-mare.jpg',
+    'villa-gallery/camera-principale-smart-tv.jpg',
+  ].map((path) => `https://villavenerecetara.it/assets/${path}`);
+  return {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'WebSite', '@id': 'https://villavenerecetara.it/#website',
+        url: 'https://villavenerecetara.it/', name: 'Villa Venere - Amalfi Coast',
+        inLanguage: languages, publisher: { '@id': 'https://villavenerecetara.it/#villa' },
+      },
+      {
+        '@type': 'WebPage', '@id': `${canonical}#webpage`, url: canonical,
+        name: meta.title, description: meta.description,
+        isPartOf: { '@id': 'https://villavenerecetara.it/#website' },
+        about: { '@id': 'https://villavenerecetara.it/#villa' }, inLanguage: language,
+      },
+      {
+        '@type': 'VacationRental', '@id': 'https://villavenerecetara.it/#villa',
+        identifier: 'IT065041B49WWIMPWN', name: 'Villa Venere - Amalfi Coast',
+        url: 'https://villavenerecetara.it/', description: meta.description, image: images,
+        telephone: ['+39 389 684 0764', '+39 333 102 4780'], email: 'info@villavenerecetara.com',
+        address: { '@type': 'PostalAddress', streetAddress: 'Via Lannio, 8', postalCode: '84010', addressLocality: 'Cetara', addressRegion: 'SA', addressCountry: 'IT' },
+        geo: { '@type': 'GeoCoordinates', latitude: 40.64717, longitude: 14.70383 },
+        containsPlace: {
+          '@type': 'Accommodation', name: 'Entire three-bedroom villa',
+          occupancy: { '@type': 'QuantitativeValue', value: 12 }, numberOfBedrooms: 3, numberOfBathroomsTotal: 2,
+          bed: [{ '@type': 'BedDetails', numberOfBeds: 3, typeOfBed: 'Double bed' }, { '@type': 'BedDetails', numberOfBeds: 3, typeOfBed: 'Sofa bed' }],
+        },
+        checkinTime: '15:00', checkoutTime: '11:00',
+        amenityFeature: ['Private access to the sea', 'Private sea-view terrace', 'Hot tub', 'High-speed Wi-Fi', 'Air conditioning', 'Equipped induction kitchen', 'Smart TV in every bedroom', 'Washing machine'].map((name) => ({ '@type': 'LocationFeatureSpecification', name, value: true })),
+        sameAs: ['https://www.airbnb.com/rooms/50801219', 'https://www.vrbo.com/it-it/affitto-vacanze/p10907080', 'https://www.cetaraturistica.it/soggiornare/case-per-vacanze/villa-venere', 'https://www.instagram.com/villavenerecetara/', 'https://www.facebook.com/villavenerecetara'],
+        potentialAction: { '@type': 'ReserveAction', target: `https://book.octorate.com/octobook/site/reservation/index.xhtml?lang=${language}&codice=679766` },
+      },
+    ],
+  };
+}
+
 function localize(template, language, dictionary) {
   const meta = seo[language];
   const canonical = `https://villavenerecetara.it/${language}/`;
@@ -46,6 +88,21 @@ function localize(template, language, dictionary) {
     .replaceAll('src="assets/', 'src="/assets/')
     .replaceAll('href="styles.css', 'href="/styles.css')
     .replaceAll('src="script.js', 'src="/script.js');
+
+  html = html.replace(/<script id="structured-data" type="application\/ld\+json">[\s\S]*?<\/script>/, `<script id="structured-data" type="application/ld+json">\n  ${JSON.stringify(structuredData(language, canonical, meta))}\n  </script>`);
+  const seoPrefix = language === 'it' ? '/it/' : '/en/';
+  const seoPaths = language === 'it'
+    ? { villa: 'villa-cetara/', sea: 'accesso-privato-mare/', rooms: 'camere-servizi/', location: 'come-arrivare/' }
+    : { villa: 'villa-cetara/', sea: 'private-sea-access/', rooms: 'rooms-amenities/', location: 'getting-to-cetara/' };
+  html = html.replace(/href="[^"]+" data-seo-page="([^"]+)"/g, (match, page) => `href="${seoPrefix}${seoPaths[page] || ''}" data-seo-page="${page}"`);
+  if (language === 'it') {
+    html = html
+      .replace('>Explore the villa</h3>', '>Scopri Villa Venere</h3>')
+      .replace('>Villa, rooms and spaces</small>', '>Villa, camere e ambienti</small>')
+      .replace('>Terrace, dock and the sea</small>', '>Terrazza, banchina e mare</small>')
+      .replace('>Capacity and amenities</small>', '>Capienza e dotazioni</small>')
+      .replace('>Ferries, buses and parking</small>', '>Traghetti, autobus e parcheggio</small>');
+  }
 
   html = html.replace(/(<[^>]+data-i18n="([^"]+)"[^>]*>)([^<]*)(<\/[^>]+>)/g, (match, open, key, content, close) => {
     const translated = valueAt(dictionary, key);
