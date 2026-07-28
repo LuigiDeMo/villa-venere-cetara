@@ -283,7 +283,7 @@ document.addEventListener('click', (event) => {
 function loadThirdPartyWidgets() {
   if (document.querySelector('script[data-villa-widget]')) return;
   const scripts = [
-    ['https://widgetreview.villavenerecetara.it/widget.js', 'reviews'],
+
     ['https://apps.elfsight.com/p/platform.js', 'social'],
   ];
   scripts.forEach(([src, name]) => {
