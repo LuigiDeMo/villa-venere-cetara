@@ -141,12 +141,44 @@ const contactPanel = document.querySelector('#contact-panel');
 const contactLauncher = document.querySelector('.contact-launcher');
 const contactClose = document.querySelector('.contact-close');
 const mascotButton = document.querySelector('.mascot-button');
+const mascotPose = mascotButton?.querySelector('.mascot-pose');
+const mascotPoses = [
+  ['assets/mascot/venere-prototype.webp', 6500],
+  ['assets/mascot/venere-wave.webp', 1800],
+  ['assets/mascot/venere-prototype.webp', 5200],
+  ['assets/mascot/venere-offer.webp', 2400],
+  ['assets/mascot/venere-waiting.webp', 3000],
+];
+let mascotPoseIndex = 0;
+let mascotTimer;
+
+function showNextMascotPose() {
+  if (!mascotPose || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  const delay = mascotPoses[mascotPoseIndex][1];
+  mascotTimer = window.setTimeout(() => {
+    mascotPoseIndex = (mascotPoseIndex + 1) % mascotPoses.length;
+    mascotPose.classList.add('is-changing');
+    window.setTimeout(() => {
+      mascotPose.src = mascotPoses[mascotPoseIndex][0];
+      mascotPose.classList.remove('is-changing');
+      showNextMascotPose();
+    }, 240);
+  }, delay);
+}
+
+mascotPoses.forEach(([src]) => { const image = new Image(); image.src = src; });
+showNextMascotPose();
 
 function setContactOpen(open) {
   contactPanel?.classList.toggle('open', open);
   contactPanel?.setAttribute('aria-hidden', String(!open));
   contactLauncher?.setAttribute('aria-expanded', String(open));
   mascotButton?.setAttribute('aria-expanded', String(open));
+  if (open) {
+    window.clearTimeout(mascotTimer);
+    mascotTimer = undefined;
+  }
+  else if (!mascotTimer) showNextMascotPose();
 }
 
 contactLauncher?.addEventListener('click', () => setContactOpen(!contactPanel.classList.contains('open')));
