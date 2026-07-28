@@ -172,7 +172,9 @@ function showNextMascotPose() {
 }
 
 mascotPoses.forEach(([src]) => { const image = new Image(); image.src = src; });
-const introFrames = [1, 2, 3, 4, 5, 6, 7, 8].map((number) => `/assets/mascot/intro/venere-intro-${number}.webp?v=uncropped-1`);
+const introFrames = Array.from({ length: 22 }, (_, index) =>
+  `/assets/mascot/intro/venere-intro-${String(index + 1).padStart(2, '0')}.webp?v=poses-22`
+);
 introFrames.forEach((src) => { const image = new Image(); image.src = src; });
 
 function finishMascotIntro() {
@@ -200,7 +202,9 @@ function runMascotIntro() {
   }
   window.setTimeout(() => {
     contactWidget?.classList.add('intro-active');
+    mascotIntro?.classList.add('appearing');
     mascotIntro?.classList.add('visible');
+    window.setTimeout(() => mascotIntro?.classList.remove('appearing'), 760);
     let frame = 0;
     const advance = () => {
       frame += 1;
@@ -212,10 +216,10 @@ function runMascotIntro() {
       window.setTimeout(() => {
         mascotIntroImage.src = introFrames[frame];
         mascotIntroImage.classList.remove('is-changing');
-        window.setTimeout(advance, 300);
-      }, 220);
+        window.setTimeout(advance, 100);
+      }, 90);
     };
-    window.setTimeout(advance, 650);
+    window.setTimeout(advance, 680);
   }, 1300);
 }
 
