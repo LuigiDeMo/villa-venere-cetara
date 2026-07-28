@@ -280,8 +280,44 @@ document.addEventListener('click', (event) => {
   if (!event.target.closest('#contact-widget') && !event.target.closest('[data-contact-open]')) setContactOpen(false);
 });
 
+function installElfsightBrandingFilter() {
+  if (window.__villaElfsightBrandingFilter) return;
+  window.__villaElfsightBrandingFilter = true;
+
+  const brandingSelector = 'a[href*="elfsight.com/instagram-feed-instashow"]';
+  const observedRoots = new WeakSet();
+
+  const hideBranding = (root) => {
+    if (!root?.querySelectorAll) return;
+    root.querySelectorAll(brandingSelector).forEach((link) => {
+      link.style.setProperty('display', 'none', 'important');
+      link.style.setProperty('visibility', 'hidden', 'important');
+      link.style.setProperty('pointer-events', 'none', 'important');
+      link.setAttribute('aria-hidden', 'true');
+      link.setAttribute('tabindex', '-1');
+    });
+  };
+
+  const watchRoot = (root) => {
+    if (!root || observedRoots.has(root)) return;
+    observedRoots.add(root);
+    hideBranding(root);
+    new MutationObserver(() => hideBranding(root)).observe(root, { childList: true, subtree: true });
+  };
+
+  const nativeAttachShadow = Element.prototype.attachShadow;
+  Element.prototype.attachShadow = function attachShadow(init) {
+    const root = nativeAttachShadow.call(this, init);
+    watchRoot(root);
+    return root;
+  };
+
+  watchRoot(document.documentElement);
+}
+
 function loadThirdPartyWidgets() {
   if (document.querySelector('script[data-villa-widget]')) return;
+  installElfsightBrandingFilter();
   const scripts = [
 
     ['https://apps.elfsight.com/p/platform.js', 'social'],
