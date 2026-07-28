@@ -172,10 +172,17 @@ function showNextMascotPose() {
 }
 
 mascotPoses.forEach(([src]) => { const image = new Image(); image.src = src; });
-const introFrames = Array.from({ length: 22 }, (_, index) =>
-  `/assets/mascot/intro/venere-intro-${String(index + 1).padStart(2, '0')}.webp?v=poses-22`
-);
-introFrames.forEach((src) => { const image = new Image(); image.src = src; });
+const introFrames = [
+  ['/assets/mascot/intro/venere-intro-01.webp?v=clear-8', 520],
+  ['/assets/mascot/intro/venere-intro-04.webp?v=clear-8', 430],
+  ['/assets/mascot/intro/venere-intro-07.webp?v=clear-8', 480],
+  ['/assets/mascot/intro/venere-intro-10.webp?v=clear-8', 500],
+  ['/assets/mascot/intro/venere-intro-13.webp?v=clear-8', 520],
+  ['/assets/mascot/intro/venere-intro-16.webp?v=clear-8', 480],
+  ['/assets/mascot/intro/venere-intro-19.webp?v=clear-8', 480],
+  ['/assets/mascot/intro/venere-intro-22.webp?v=clear-8', 850],
+];
+introFrames.forEach(([src]) => { const image = new Image(); image.src = src; });
 
 function finishMascotIntro() {
   mascotIntro?.classList.add('settling');
@@ -212,9 +219,8 @@ function runMascotIntro() {
         window.setTimeout(finishMascotIntro, 700);
         return;
       }
-      mascotIntroImage.src = introFrames[frame];
-      const isKeyPose = frame % 3 === 0 || frame === introFrames.length - 1;
-      window.setTimeout(advance, isKeyPose ? 220 : 90);
+      mascotIntroImage.src = introFrames[frame][0];
+      window.setTimeout(advance, introFrames[frame][1]);
     };
     window.setTimeout(advance, 680);
   }, 1300);
