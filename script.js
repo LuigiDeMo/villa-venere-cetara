@@ -212,12 +212,9 @@ function runMascotIntro() {
         window.setTimeout(finishMascotIntro, 700);
         return;
       }
-      mascotIntroImage.classList.add('is-changing');
-      window.setTimeout(() => {
-        mascotIntroImage.src = introFrames[frame];
-        mascotIntroImage.classList.remove('is-changing');
-        window.setTimeout(advance, 100);
-      }, 90);
+      mascotIntroImage.src = introFrames[frame];
+      const isKeyPose = frame % 3 === 0 || frame === introFrames.length - 1;
+      window.setTimeout(advance, isKeyPose ? 220 : 90);
     };
     window.setTimeout(advance, 680);
   }, 1300);

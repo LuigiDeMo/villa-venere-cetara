@@ -132,6 +132,6 @@ header{background:#f1e5dc}
 @media(max-width:560px){.mascot-button{right:102px;width:88px;height:122px}.mascot-intro{right:102px;bottom:50px;width:88px;height:122px}.mascot-intro.settling{transform:translateY(54px) scale(.96)}.mascot-nudge{right:88px;bottom:120px;width:210px;padding:11px 13px;font-size:10px}}
 
 /* Smooth 22-frame logo-to-Venere intro. */
-.mascot-intro img{transition:opacity .09s linear}
+.mascot-intro img{transition:none}
 .mascot-intro.appearing img{animation:venere-appear .75s cubic-bezier(.22,.8,.3,1) both}
 @keyframes venere-appear{from{opacity:0;transform:translateY(12px) scale(.9)}to{opacity:1;transform:translateY(0) scale(1)}}
