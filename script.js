@@ -171,14 +171,14 @@ function showNextMascotPose() {
 }
 
 mascotPoses.forEach(([src]) => { const image = new Image(); image.src = src; });
-const introFrames = [1, 2, 3, 4].map((number) => `/assets/mascot/intro/venere-intro-${number}.webp`);
+const introFrames = [1, 2, 3, 4, 5, 6, 7, 8].map((number) => `/assets/mascot/intro/venere-intro-${number}.webp`);
 introFrames.forEach((src) => { const image = new Image(); image.src = src; });
 
 function finishMascotIntro() {
   contactWidget?.classList.remove('intro-active');
   mascotIntro?.classList.remove('visible');
-  window.setTimeout(() => mascotNudge?.classList.add('visible'), 450);
-  window.setTimeout(() => mascotNudge?.classList.remove('visible'), 7450);
+  window.setTimeout(() => mascotNudge?.classList.add('visible'), 350);
+  window.setTimeout(() => mascotNudge?.classList.remove('visible'), 7350);
   showNextMascotPose();
 }
 
@@ -203,18 +203,18 @@ function runMascotIntro() {
     const advance = () => {
       frame += 1;
       if (frame >= introFrames.length) {
-        window.setTimeout(finishMascotIntro, 900);
+        window.setTimeout(finishMascotIntro, 700);
         return;
       }
       mascotIntroImage.classList.add('is-changing');
       window.setTimeout(() => {
         mascotIntroImage.src = introFrames[frame];
         mascotIntroImage.classList.remove('is-changing');
-        window.setTimeout(advance, 720);
-      }, 320);
+        window.setTimeout(advance, 300);
+      }, 220);
     };
-    window.setTimeout(advance, 850);
-  }, 1600);
+    window.setTimeout(advance, 650);
+  }, 1300);
 }
 
 runMascotIntro();
