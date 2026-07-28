@@ -1,0 +1,15 @@
+{
+  "meta": {"title": "Villa Venere — Amalfikust"},
+  "accessibility": {"openNavigation": "Navigatie openen"},
+  "nav": {"home": "Home", "book": "Nu boeken", "about": "Over ons", "rooms": "Kamers", "location": "Locatie", "language": "Taal"},
+  "booking": {"title": "Privévilla aan de Amalfikust", "subtitle": "Boek rechtstreeks en bespaar 15% op de prijs van boekingssites.", "checkin": "Aankomst", "checkout": "Vertrek", "guests": "Gasten", "search": "Zoeken"},
+  "directRate": {"title": "Ons gevonden op een boekingssite?", "description": "Stuur vóór het boeken de prijs van Booking.com, Airbnb of een andere website. Wij geven 15% extra korting op de accommodatieprijs.", "terms": "Voor dezelfde data, gasten en annuleringsvoorwaarden. Onder voorbehoud van controle en beschikbaarheid.", "button": "Ontvang 15% korting"},
+  "bestRate": {"eyebrow": "BOEK RECHTSTREEKS BIJ ONS", "title": "Besteprijsgarantie", "description": "Laat de online gevonden prijs zien en boek hetzelfde verblijf rechtstreeks met 15% extra korting.", "saving": "op de portaalprijs", "button": "Vraag de beste prijs", "terms": "Dezelfde data, gasten en annuleringsvoorwaarden. Controle en beschikbaarheid vereist."},
+  "about": {"title": "Over ons", "description": "Villa Venere is een prachtige villa met zeezicht, dicht bij de stranden en het centrum van Cetara. De villa heeft drie slaapkamers, twee badkamers, een comfortabele woonkamer, een uitgeruste inductiekeuken, een panoramisch terras met uitzicht op de toren en haven en privétoegang tot de zee.", "bedrooms": "Slaapkamers", "bathrooms": "Badkamers", "guests": "Gasten", "imageAlt": "Zeezicht vanuit Villa Venere"},
+  "rooms": {"title": "Kamers", "villa": "Villa met drie slaapkamers", "capacity": "Tot 12 gasten", "bathrooms": "2 badkamers", "terrace": "Terras met zeezicht", "seaAccess": "Privétoegang tot zee", "view": "Kamer bekijken"},
+  "services": {"title": "Voorzieningen", "hairDryer": "Haardroger", "towels": "Handdoeken", "airConditioning": "Airconditioning", "terrace": "Privéterras", "linen": "Beddengoed"},
+  "reviews": {"title": "Onze gasten vertellen:", "loading": "Beoordelingen laden..."},
+  "social": {"follow": "Volg ons:"},
+  "footer": {"copyright": "Villa Venere — Amalfi Coast. Alle rechten voorbehouden."},
+  "contact": {"mascot": "Vraag Venere om informatie", "panelLabel": "Contact met Villa Venere", "close": "Contactvenster sluiten", "hostName": "Martina · Uw host bij Villa Venere", "replyTime": "Beantwoordt berichten persoonlijk", "greeting": "Hallo! Ik ben Martina 👋", "help": "Stuur mij een bericht over beschikbaarheid, de beste directe prijs of uw verblijf.", "priceNudge": "Een betere prijs gevonden? Neem contact op: Martina antwoordt persoonlijk.", "startWith": "Start een gesprek via:", "phone": "Telefoon", "launcher": "Contact"}
+}

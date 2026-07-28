@@ -9,6 +9,13 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/"/>
   </url>
   <url><loc>https://villavenerecetara.it/en/</loc></url>
   <url><loc>https://villavenerecetara.it/it/</loc></url>
@@ -16,4 +23,11 @@
   <url><loc>https://villavenerecetara.it/es/</loc></url>
   <url><loc>https://villavenerecetara.it/de/</loc></url>
   <url><loc>https://villavenerecetara.it/pt/</loc></url>
+  <url><loc>https://villavenerecetara.it/ru/</loc></url>
+  <url><loc>https://villavenerecetara.it/zh/</loc></url>
+  <url><loc>https://villavenerecetara.it/ja/</loc></url>
+  <url><loc>https://villavenerecetara.it/ko/</loc></url>
+  <url><loc>https://villavenerecetara.it/ar/</loc></url>
+  <url><loc>https://villavenerecetara.it/nl/</loc></url>
+  <url><loc>https://villavenerecetara.it/pl/</loc></url>
 </urlset>

@@ -3,7 +3,7 @@ const nav = document.querySelector('.nav');
 toggle?.addEventListener('click', () => nav.classList.toggle('open'));
 document.querySelectorAll('.nav > a').forEach((link) => link.addEventListener('click', () => nav.classList.remove('open')));
 
-const SUPPORTED_LANGUAGES = ['en', 'it', 'fr', 'es', 'de', 'pt'];
+const SUPPORTED_LANGUAGES = ['en', 'it', 'fr', 'es', 'de', 'pt', 'ru', 'zh', 'ja', 'ko', 'ar', 'nl', 'pl'];
 const DEFAULT_LANGUAGE = 'en';
 
 function normalizeLanguage(value) {
@@ -41,7 +41,7 @@ function getTranslation(dictionary, key) {
 }
 
 async function loadDictionary(language) {
-  const response = await fetch(`/locales/${language}.json?v=2`, { cache: 'no-cache' });
+  const response = await fetch(`/locales/${language}.json?v=3`, { cache: 'no-cache' });
   if (!response.ok) throw new Error(`Unable to load language: ${language}`);
   return response.json();
 }
@@ -70,6 +70,7 @@ function applyTranslations(language, dictionary, fallback) {
   });
 
   document.documentElement.lang = language;
+  document.documentElement.dir = language === 'ar' ? 'rtl' : 'ltr';
   document.documentElement.dataset.i18nReady = 'true';
   document.title = translate('meta.title') || fallback.meta.title;
   document.querySelectorAll('a[data-lang], .language-flags a').forEach((link) => {

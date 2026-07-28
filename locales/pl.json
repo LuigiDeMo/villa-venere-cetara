@@ -1,0 +1,15 @@
+{
+  "meta": {"title": "Villa Venere — Wybrzeże Amalfitańskie"},
+  "accessibility": {"openNavigation": "Otwórz nawigację"},
+  "nav": {"home": "Strona główna", "book": "Zarezerwuj", "about": "O willi", "rooms": "Pokoje", "location": "Lokalizacja", "language": "Język"},
+  "booking": {"title": "Prywatna willa na Wybrzeżu Amalfitańskim", "subtitle": "Zarezerwuj bezpośrednio i oszczędź 15% od ceny znalezionej na portalach.", "checkin": "Przyjazd", "checkout": "Wyjazd", "guests": "Goście", "search": "Szukaj"},
+  "directRate": {"title": "Znaleźliście nas na portalu rezerwacyjnym?", "description": "Przed rezerwacją prześlijcie cenę z Booking.com, Airbnb lub innego portalu. Udzielimy dodatkowego rabatu 15% na nocleg.", "terms": "Dla tych samych dat, liczby gości i warunków anulowania. Po weryfikacji i zależnie od dostępności.", "button": "Odbierz 15% rabatu"},
+  "bestRate": {"eyebrow": "REZERWUJ BEZPOŚREDNIO", "title": "Gwarancja najlepszej ceny", "description": "Pokaż cenę znalezioną online i zarezerwuj ten sam pobyt bezpośrednio z dodatkowym rabatem 15%.", "saving": "od ceny portalu", "button": "Zapytaj o najlepszą cenę", "terms": "Te same daty, goście i warunki anulowania. Wymagana weryfikacja i dostępność."},
+  "about": {"title": "O willi", "description": "Villa Venere to piękna willa z widokiem na morze, blisko plaż i centrum Cetary. Oferuje trzy sypialnie, dwie łazienki, wygodny salon, wyposażoną kuchnię indukcyjną, panoramiczny taras z widokiem na wieżę i port oraz prywatne zejście do morza.", "bedrooms": "Sypialnie", "bathrooms": "Łazienki", "guests": "Goście", "imageAlt": "Widok na morze z Villa Venere"},
+  "rooms": {"title": "Pokoje", "villa": "Willa z trzema sypialniami", "capacity": "Do 12 gości", "bathrooms": "2 łazienki", "terrace": "Taras z widokiem na morze", "seaAccess": "Prywatne zejście do morza", "view": "Zobacz pokój"},
+  "services": {"title": "Udogodnienia", "hairDryer": "Suszarka", "towels": "Ręczniki", "airConditioning": "Klimatyzacja", "terrace": "Prywatny taras", "linen": "Pościel"},
+  "reviews": {"title": "Opinie naszych gości:", "loading": "Ładowanie opinii..."},
+  "social": {"follow": "Obserwuj nas:"},
+  "footer": {"copyright": "Villa Venere — Amalfi Coast. Wszelkie prawa zastrzeżone."},
+  "contact": {"mascot": "Zapytaj Venere", "panelLabel": "Kontakt z Villa Venere", "close": "Zamknij okno kontaktu", "hostName": "Martina · Gospodyni Villa Venere", "replyTime": "Osobiście odpowiada na wiadomości", "greeting": "Cześć! Jestem Martina 👋", "help": "Napisz do mnie w sprawie dostępności, najlepszej ceny bezpośredniej lub pobytu.", "priceNudge": "Znalazłeś lepszą cenę? Napisz — Martina odpowie osobiście.", "startWith": "Rozpocznij rozmowę przez:", "phone": "Telefon", "launcher": "Kontakt"}
+}
