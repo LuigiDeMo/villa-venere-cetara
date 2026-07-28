@@ -140,14 +140,17 @@ bookingForm?.addEventListener('submit', (event) => {
 const contactPanel = document.querySelector('#contact-panel');
 const contactLauncher = document.querySelector('.contact-launcher');
 const contactClose = document.querySelector('.contact-close');
+const mascotButton = document.querySelector('.mascot-button');
 
 function setContactOpen(open) {
   contactPanel?.classList.toggle('open', open);
   contactPanel?.setAttribute('aria-hidden', String(!open));
   contactLauncher?.setAttribute('aria-expanded', String(open));
+  mascotButton?.setAttribute('aria-expanded', String(open));
 }
 
 contactLauncher?.addEventListener('click', () => setContactOpen(!contactPanel.classList.contains('open')));
+mascotButton?.addEventListener('click', () => setContactOpen(!contactPanel.classList.contains('open')));
 document.querySelectorAll('[data-contact-open]').forEach((button) => button.addEventListener('click', () => setContactOpen(true)));
 contactClose?.addEventListener('click', () => setContactOpen(false));
 document.addEventListener('keydown', (event) => {

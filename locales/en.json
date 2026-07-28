@@ -11,5 +11,5 @@
   "reviews": {"title": "Our Guests Say:", "loading": "Loading reviews..."},
   "social": {"follow": "Follow Us:"},
   "footer": {"copyright": "COPYRIGHT BY Villa Venere - Amalfi Coast. All rights reserved."},
-  "contact": {"panelLabel": "Contact Villa Venere", "close": "Close contact window", "replyTime": "Typically replies in minutes", "greeting": "Hi there 👋", "help": "How can I help you?", "startWith": "Start chat with:", "phone": "Phone", "launcher": "Contact us"}
+  "contact": {"mascot": "Ask Venere for information", "panelLabel": "Contact Villa Venere", "close": "Close contact window", "replyTime": "Typically replies in minutes", "greeting": "Hi there 👋", "help": "How can I help you?", "startWith": "Start chat with:", "phone": "Phone", "launcher": "Contact us"}
 }

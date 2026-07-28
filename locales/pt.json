@@ -11,5 +11,5 @@
   "reviews": {"title": "O que dizem os hóspedes:", "loading": "A carregar avaliações..."},
   "social": {"follow": "Siga-nos:"},
   "footer": {"copyright": "COPYRIGHT Villa Venere - Costa Amalfitana. Todos os direitos reservados."},
-  "contact": {"panelLabel": "Contactar a Villa Venere", "close": "Fechar janela de contacto", "replyTime": "Normalmente respondemos em poucos minutos", "greeting": "Olá 👋", "help": "Como podemos ajudar?", "startWith": "Iniciar conversa com:", "phone": "Telefone", "launcher": "Contacte-nos"}
+  "contact": {"mascot": "Pedir informações à Venere", "panelLabel": "Contactar a Villa Venere", "close": "Fechar janela de contacto", "replyTime": "Normalmente respondemos em poucos minutos", "greeting": "Olá 👋", "help": "Como podemos ajudar?", "startWith": "Iniciar conversa com:", "phone": "Telefone", "launcher": "Contacte-nos"}
 }
