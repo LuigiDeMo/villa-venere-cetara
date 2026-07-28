@@ -143,11 +143,11 @@ const contactClose = document.querySelector('.contact-close');
 const mascotButton = document.querySelector('.mascot-button');
 const mascotPose = mascotButton?.querySelector('.mascot-pose');
 const mascotPoses = [
-  ['assets/mascot/venere-prototype.webp', 6500],
-  ['assets/mascot/venere-wave.webp', 1800],
-  ['assets/mascot/venere-prototype.webp', 5200],
-  ['assets/mascot/venere-offer.webp', 2400],
-  ['assets/mascot/venere-waiting.webp', 3000],
+  ['/assets/mascot/venere-prototype.webp', 6500],
+  ['/assets/mascot/venere-wave.webp', 1800],
+  ['/assets/mascot/venere-prototype.webp', 5200],
+  ['/assets/mascot/venere-offer.webp', 2400],
+  ['/assets/mascot/venere-waiting.webp', 3000],
 ];
 let mascotPoseIndex = 0;
 let mascotTimer;
