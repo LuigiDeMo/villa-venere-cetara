@@ -193,6 +193,7 @@ let mascotAnimationActive = false;
 let mascotIntroPending = true;
 const mascotAnimationLoads = new Map();
 const mascotAnimationBase = '/assets/mascot/animations-v2';
+const seasonalMascotBase = '/assets/mascot/seasonal';
 const mascotAnimations = {
   contact: { keyframes: [[1, 540], [4, 500], [7, 560], [10, 950]] },
   'direct-offer': { keyframes: [[1, 560], [4, 520], [7, 600], [10, 1550]] },
@@ -202,10 +203,21 @@ const mascotAnimations = {
   directions: { keyframes: [[1, 560], [4, 520], [7, 600], [10, 1350]] },
   'sea-access': { keyframes: [[1, 560], [4, 520], [7, 600], [10, 1350]] },
   'return-to-shell': { keyframes: [[1, 580], [4, 540], [7, 600], [10, 1150]], pingPong: true },
+  'season-christmas': { folder: 'christmas', base: seasonalMascotBase, frameCount: 4, version: 'seasonal-1', keyframes: [[1, 620], [2, 560], [3, 680], [4, 1500]] },
+  'season-valentines': { folder: 'valentines', base: seasonalMascotBase, frameCount: 4, version: 'seasonal-1', keyframes: [[1, 620], [2, 560], [3, 680], [4, 1450]] },
+  'season-easter': { folder: 'easter', base: seasonalMascotBase, frameCount: 4, version: 'seasonal-1', keyframes: [[1, 620], [2, 560], [3, 680], [4, 1450]] },
+  'season-san-pietro': { folder: 'san-pietro', base: seasonalMascotBase, frameCount: 4, version: 'seasonal-1', keyframes: [[1, 640], [2, 580], [3, 720], [4, 1550]] },
+  'season-summer': { folder: 'summer', base: seasonalMascotBase, frameCount: 4, version: 'seasonal-1', keyframes: [[1, 620], [2, 560], [3, 680], [4, 1450]] },
+  'season-halloween': { folder: 'halloween', base: seasonalMascotBase, frameCount: 4, version: 'seasonal-1', keyframes: [[1, 640], [2, 580], [3, 700], [4, 1500]] },
 };
 
 function mascotAnimationFrames(name) {
-  return Array.from({ length: 10 }, (_, index) => `${mascotAnimationBase}/${name}/venere-${name}-${String(index + 1).padStart(2, '0')}.webp?v=key-clean-1`);
+  const config = mascotAnimations[name] || {};
+  const slug = config.folder || name;
+  const base = config.base || mascotAnimationBase;
+  const count = config.frameCount || 10;
+  const version = config.version || 'key-clean-1';
+  return Array.from({ length: count }, (_, index) => base + '/' + slug + '/venere-' + slug + '-' + String(index + 1).padStart(2, '0') + '.webp?v=' + version);
 }
 
 function setMascotFrame(src, duration = 320) {
@@ -323,13 +335,200 @@ const introFrames = [
 ];
 introFrames.forEach(([src]) => { const image = new Image(); image.src = src; });
 
+const seasonalMascotMessages = {
+  en: {
+    christmas: "Season's greetings from Villa Venere.",
+    valentines: 'A special stay for two on the Amalfi Coast.',
+    easter: 'Happy Easter and welcome, spring.',
+    'san-pietro': 'Cetara celebrates San Pietro. Welcome!',
+    summer: 'Summer on the Amalfi Coast begins here.',
+    halloween: 'A magical evening awaits you in Cetara.',
+  },
+  it: {
+    christmas: 'Buone feste da Villa Venere.',
+    valentines: 'Un soggiorno speciale per due, sulla Costiera Amalfitana.',
+    easter: 'Buona Pasqua e benvenuta primavera.',
+    'san-pietro': 'Cetara festeggia San Pietro. Benvenuti!',
+    summer: "L'estate in Costiera Amalfitana comincia qui.",
+    halloween: 'Una serata magica vi aspetta a Cetara.',
+  },
+  fr: {
+    christmas: 'Joyeuses fêtes de la part de Villa Venere.',
+    valentines: 'Un séjour spécial à deux sur la Côte Amalfitaine.',
+    easter: 'Joyeuses Pâques et bienvenue au printemps.',
+    'san-pietro': 'Cetara fête San Pietro. Bienvenue !',
+    summer: "L'été sur la Côte Amalfitaine commence ici.",
+    halloween: 'Une soirée magique vous attend à Cetara.',
+  },
+  es: {
+    christmas: 'Felices fiestas de parte de Villa Venere.',
+    valentines: 'Una estancia especial para dos en la Costa Amalfitana.',
+    easter: 'Feliz Pascua y bienvenida, primavera.',
+    'san-pietro': 'Cetara celebra San Pietro. ¡Bienvenidos!',
+    summer: 'El verano en la Costa Amalfitana comienza aquí.',
+    halloween: 'Una noche mágica os espera en Cetara.',
+  },
+  de: {
+    christmas: 'Frohe Festtage wünscht Villa Venere.',
+    valentines: 'Ein besonderer Aufenthalt zu zweit an der Amalfiküste.',
+    easter: 'Frohe Ostern und willkommen, Frühling.',
+    'san-pietro': 'Cetara feiert San Pietro. Willkommen!',
+    summer: 'Der Sommer an der Amalfiküste beginnt hier.',
+    halloween: 'Ein magischer Abend erwartet Sie in Cetara.',
+  },
+  pt: {
+    christmas: 'Boas festas da Villa Venere.',
+    valentines: 'Uma estadia especial a dois na Costa Amalfitana.',
+    easter: 'Feliz Páscoa e bem-vinda, primavera.',
+    'san-pietro': 'Cetara celebra San Pietro. Bem-vindos!',
+    summer: 'O verão na Costa Amalfitana começa aqui.',
+    halloween: 'Uma noite mágica espera por si em Cetara.',
+  },
+  ru: {
+    christmas: 'С праздниками от Villa Venere.',
+    valentines: 'Особенное путешествие для двоих на Амальфитанском побережье.',
+    easter: 'С Пасхой и добро пожаловать, весна.',
+    'san-pietro': 'Четара празднует день Сан-Пьетро. Добро пожаловать!',
+    summer: 'Лето на Амальфитанском побережье начинается здесь.',
+    halloween: 'Волшебный вечер ждёт вас в Четаре.',
+  },
+  zh: {
+    christmas: 'Villa Venere 祝您节日快乐。',
+    valentines: '在阿马尔菲海岸享受特别的双人假期。',
+    easter: '复活节快乐，欢迎春天。',
+    'san-pietro': '切塔拉庆祝圣彼得节，欢迎您！',
+    summer: '阿马尔菲海岸的夏天从这里开始。',
+    halloween: '切塔拉的魔法之夜正等着您。',
+  },
+  ja: {
+    christmas: 'Villa Venereより、素敵なホリデーを。',
+    valentines: 'アマルフィ海岸で、ふたりだけの特別な滞在を。',
+    easter: 'ハッピーイースター。春へようこそ。',
+    'san-pietro': 'チェターラはサン・ピエトロ祭を祝います。ようこそ！',
+    summer: 'アマルフィ海岸の夏はここから始まります。',
+    halloween: 'チェターラで魔法のような夜を。',
+  },
+  ko: {
+    christmas: 'Villa Venere가 행복한 연말을 기원합니다.',
+    valentines: '아말피 해안에서 둘만의 특별한 시간을 보내세요.',
+    easter: '행복한 부활절, 봄을 환영합니다.',
+    'san-pietro': '체타라의 산 피에트로 축제에 오신 것을 환영합니다!',
+    summer: '아말피 해안의 여름이 여기서 시작됩니다.',
+    halloween: '체타라에서 마법 같은 저녁이 기다립니다.',
+  },
+  ar: {
+    christmas: 'أطيب التمنيات من فيلا فينيري.',
+    valentines: 'إقامة مميزة لشخصين على ساحل أمالفي.',
+    easter: 'فصح سعيد، وأهلًا بالربيع.',
+    'san-pietro': 'تحتفل شيتارا بعيد سان بيترو. أهلًا بكم!',
+    summer: 'يبدأ صيف ساحل أمالفي من هنا.',
+    halloween: 'أمسية ساحرة بانتظاركم في شيتارا.',
+  },
+  nl: {
+    christmas: 'Fijne feestdagen van Villa Venere.',
+    valentines: 'Een bijzonder verblijf voor twee aan de Amalfikust.',
+    easter: 'Vrolijk Pasen en welkom, lente.',
+    'san-pietro': 'Cetara viert San Pietro. Welkom!',
+    summer: 'De zomer aan de Amalfikust begint hier.',
+    halloween: 'Een magische avond wacht op u in Cetara.',
+  },
+  pl: {
+    christmas: 'Wesołych świąt życzy Villa Venere.',
+    valentines: 'Wyjątkowy pobyt we dwoje na Wybrzeżu Amalfitańskim.',
+    easter: 'Wesołych Świąt Wielkanocnych i witaj, wiosno.',
+    'san-pietro': 'Cetara świętuje San Pietro. Witamy!',
+    summer: 'Lato na Wybrzeżu Amalfitańskim zaczyna się tutaj.',
+    halloween: 'Magiczny wieczór czeka na Ciebie w Cetarze.',
+  },
+};
+
+function easterSunday(year) {
+  const a = year % 19;
+  const b = Math.floor(year / 100);
+  const c = year % 100;
+  const d = Math.floor(b / 4);
+  const e = b % 4;
+  const f = Math.floor((b + 8) / 25);
+  const g = Math.floor((b - f + 1) / 3);
+  const h = (19 * a + b - d - g + 15) % 30;
+  const i = Math.floor(c / 4);
+  const k = c % 4;
+  const l = (32 + 2 * e + 2 * i - h - k) % 7;
+  const m = Math.floor((a + 11 * h + 22 * l) / 451);
+  const month = Math.floor((h + l - 7 * m + 114) / 31);
+  const day = ((h + l - 7 * m + 114) % 31) + 1;
+  return new Date(year, month - 1, day);
+}
+
+const seasonalMascotEvents = [
+  { id: 'christmas', animation: 'season-christmas', matches: (date, md) => md >= 1215 || md <= 106 },
+  { id: 'valentines', animation: 'season-valentines', matches: (_date, md) => md >= 207 && md <= 214 },
+  {
+    id: 'easter',
+    animation: 'season-easter',
+    matches: (date) => {
+      const easter = easterSunday(date.getFullYear());
+      const days = Math.round((date - easter) / 86400000);
+      return days >= -7 && days <= 7;
+    },
+  },
+  { id: 'san-pietro', animation: 'season-san-pietro', matches: (_date, md) => md >= 624 && md <= 702 },
+  { id: 'summer', animation: 'season-summer', matches: (_date, md) => md >= 601 && md <= 615 },
+  { id: 'halloween', animation: 'season-halloween', matches: (_date, md) => md >= 1025 && md <= 1101 },
+];
+
+function resolveSeasonalMascotEvent(date = new Date()) {
+  const requested = new URLSearchParams(window.location.search).get('season');
+  if (requested === 'none') return null;
+  if (requested) return seasonalMascotEvents.find((event) => event.id === requested) || null;
+  const monthDay = (date.getMonth() + 1) * 100 + date.getDate();
+  return seasonalMascotEvents.find((event) => event.matches(date, monthDay)) || null;
+}
+
+const activeSeasonalMascotEvent = resolveSeasonalMascotEvent();
+const seasonalMascotForced = Boolean(new URLSearchParams(window.location.search).get('season'));
+
+function seasonalMascotMessage(event) {
+  const language = window.villaVenereLanguage || document.documentElement.lang || DEFAULT_LANGUAGE;
+  const dictionary = seasonalMascotMessages[language] || seasonalMascotMessages.en;
+  return dictionary[event.id] || seasonalMascotMessages.en[event.id];
+}
+
+async function playSeasonalMascot(event, { force = false } = {}) {
+  if (!event || !mascotNudge) return false;
+  await window.villaI18nReady;
+  const defaultText = mascotNudge.textContent;
+  const year = new Date().getFullYear();
+  const play = playMascotAnimation(event.animation, {
+    onceKey: force ? undefined : 'venere-season-' + event.id + '-' + year + '-seen',
+    force,
+  });
+  const messageTimer = window.setTimeout(() => {
+    mascotNudge.textContent = seasonalMascotMessage(event);
+    mascotNudge.classList.add('visible', 'seasonal');
+  }, 350);
+  const played = await play;
+  if (!played) {
+    window.clearTimeout(messageTimer);
+    return false;
+  }
+  window.setTimeout(() => {
+    mascotNudge.classList.remove('visible', 'seasonal');
+    mascotNudge.textContent = defaultText;
+  }, 6800);
+  return true;
+}
+
+if (activeSeasonalMascotEvent) preloadMascotAnimation(activeSeasonalMascotEvent.animation);
 function finishMascotIntro() {
   mascotIntroPending = false;
   mascotIntro?.classList.add('settling');
   contactWidget?.classList.remove('intro-active');
   window.setTimeout(() => mascotIntro?.classList.remove('visible', 'settling'), 480);
-  window.setTimeout(() => mascotNudge?.classList.add('visible'), 350);
-  window.setTimeout(() => mascotNudge?.classList.remove('visible'), 7350);
+  if (!activeSeasonalMascotEvent) {
+    window.setTimeout(() => mascotNudge?.classList.add('visible'), 350);
+    window.setTimeout(() => mascotNudge?.classList.remove('visible'), 7350);
+  }
   showNextMascotPose();
 }
 
@@ -382,7 +581,11 @@ function observeMascotMoment(selector, animation, onceKey, delay = 900) {
   targets.forEach((target) => observer.observe(target));
 }
 
-window.setTimeout(() => playMascotAnimation('direct-offer', { onceKey: 'venere-direct-offer-seen' }), 9000);
+if (activeSeasonalMascotEvent) {
+  window.setTimeout(() => playSeasonalMascot(activeSeasonalMascotEvent, { force: seasonalMascotForced }), 9000);
+} else {
+  window.setTimeout(() => playMascotAnimation('direct-offer', { onceKey: 'venere-direct-offer-seen' }), 9000);
+}
 observeMascotMoment('#services', 'sea-access', 'venere-sea-access-seen');
 observeMascotMoment('#location', 'directions', 'venere-directions-seen');
 window.setTimeout(() => playMascotAnimation('contact', { onceKey: 'venere-contact-seen' }), 26000);
