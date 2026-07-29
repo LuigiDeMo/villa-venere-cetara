@@ -185,9 +185,84 @@ const mascotPoses = [
 ];
 let mascotPoseIndex = 0;
 let mascotTimer;
+let mascotAnimationTimer;
+let mascotAnimationActive = false;
+let mascotIntroPending = true;
+const mascotAnimationLoads = new Map();
+const mascotAnimationBase = '/assets/mascot/animations-v2';
+const mascotAnimations = {
+  contact: { frameTime: 105, hold: 420 },
+  'direct-offer': { frameTime: 115, hold: 1100 },
+  'thank-you': { frameTime: 80, hold: 320 },
+  'sea-breeze': { frameTime: 115, hold: 120, pingPong: true },
+  'lantern-evening': { frameTime: 120, hold: 900, pingPong: true },
+  directions: { frameTime: 115, hold: 850 },
+  'sea-access': { frameTime: 115, hold: 850 },
+  'return-to-shell': { frameTime: 125, hold: 650, pingPong: true },
+};
+
+function mascotAnimationFrames(name) {
+  return Array.from({ length: 10 }, (_, index) => `${mascotAnimationBase}/${name}/venere-${name}-${String(index + 1).padStart(2, '0')}.webp`);
+}
+
+function preloadMascotAnimation(name) {
+  if (mascotAnimationLoads.has(name)) return mascotAnimationLoads.get(name);
+  const load = Promise.all(mascotAnimationFrames(name).map((src) => new Promise((resolve) => {
+    const image = new Image();
+    image.onload = image.onerror = resolve;
+    image.src = src;
+  })));
+  mascotAnimationLoads.set(name, load);
+  return load;
+}
+
+function wasMascotMomentSeen(key) {
+  if (!key) return false;
+  try {
+    if (sessionStorage.getItem(key) === '1') return true;
+    sessionStorage.setItem(key, '1');
+  } catch {}
+  return false;
+}
+
+async function playMascotAnimation(name, { onceKey, force = false } = {}) {
+  const config = mascotAnimations[name];
+  if (!config || !mascotPose || mascotAnimationActive || (!force && (mascotIntroPending || contactPanel?.classList.contains('open'))) || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return false;
+  if (wasMascotMomentSeen(onceKey)) return false;
+  await preloadMascotAnimation(name);
+  if (mascotAnimationActive || (!force && (mascotIntroPending || contactPanel?.classList.contains('open')))) return false;
+
+  window.clearTimeout(mascotTimer);
+  window.clearTimeout(mascotAnimationTimer);
+  mascotTimer = undefined;
+  mascotAnimationActive = true;
+  mascotButton?.classList.add('is-sequencing');
+  const forward = mascotAnimationFrames(name);
+  const sequence = config.pingPong ? [...forward, ...forward.slice(0, -1).reverse()] : forward;
+
+  return new Promise((resolve) => {
+    let frame = 0;
+    const advance = () => {
+      mascotPose.src = sequence[frame];
+      frame += 1;
+      if (frame < sequence.length) {
+        mascotAnimationTimer = window.setTimeout(advance, config.frameTime);
+        return;
+      }
+      mascotAnimationTimer = window.setTimeout(() => {
+        mascotPose.src = '/assets/mascot/venere-prototype.webp';
+        mascotButton?.classList.remove('is-sequencing');
+        mascotAnimationActive = false;
+        if (!contactPanel?.classList.contains('open')) showNextMascotPose();
+        resolve(true);
+      }, config.hold);
+    };
+    advance();
+  });
+}
 
 function showNextMascotPose() {
-  if (!mascotPose || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  if (!mascotPose || mascotAnimationActive || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
   const delay = mascotPoses[mascotPoseIndex][1];
   mascotTimer = window.setTimeout(() => {
     mascotPoseIndex = (mascotPoseIndex + 1) % mascotPoses.length;
@@ -214,6 +289,7 @@ const introFrames = [
 introFrames.forEach(([src]) => { const image = new Image(); image.src = src; });
 
 function finishMascotIntro() {
+  mascotIntroPending = false;
   mascotIntro?.classList.add('settling');
   contactWidget?.classList.remove('intro-active');
   window.setTimeout(() => mascotIntro?.classList.remove('visible', 'settling'), 480);
@@ -224,6 +300,7 @@ function finishMascotIntro() {
 
 function runMascotIntro() {
   if (!mascotIntroImage || window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    mascotIntroPending = false;
     showNextMascotPose();
     return;
   }
@@ -233,6 +310,7 @@ function runMascotIntro() {
     sessionStorage.setItem('villa-venere-intro-seen', '1');
   } catch {}
   if (alreadySeen) {
+    mascotIntroPending = false;
     showNextMascotPose();
     return;
   }
@@ -257,6 +335,39 @@ function runMascotIntro() {
 
 runMascotIntro();
 
+function observeMascotMoment(selector, animation, onceKey, delay = 900) {
+  const targets = [...document.querySelectorAll(selector)];
+  if (!targets.length || !('IntersectionObserver' in window)) return;
+  const observer = new IntersectionObserver((entries) => {
+    if (!entries.some((entry) => entry.isIntersecting)) return;
+    preloadMascotAnimation(animation);
+    window.setTimeout(() => playMascotAnimation(animation, { onceKey }), delay);
+    observer.disconnect();
+  }, { threshold: .28 });
+  targets.forEach((target) => observer.observe(target));
+}
+
+window.setTimeout(() => playMascotAnimation('direct-offer', { onceKey: 'venere-direct-offer-seen' }), 9000);
+observeMascotMoment('#services', 'sea-access', 'venere-sea-access-seen');
+observeMascotMoment('#location', 'directions', 'venere-directions-seen');
+window.setTimeout(() => playMascotAnimation('contact', { onceKey: 'venere-contact-seen' }), 26000);
+
+function scheduleAmbientMascot() {
+  const delay = 42000 + Math.round(Math.random() * 26000);
+  window.setTimeout(async () => {
+    const hour = new Date().getHours();
+    const animation = hour >= 19 || hour < 7
+      ? 'lantern-evening'
+      : (Math.random() > .48 ? 'sea-breeze' : 'return-to-shell');
+    await playMascotAnimation(animation);
+    scheduleAmbientMascot();
+  }, delay);
+}
+scheduleAmbientMascot();
+
+const mascotTestAnimation = new URLSearchParams(window.location.search).get('mascot-test');
+if (mascotAnimations[mascotTestAnimation]) window.setTimeout(() => playMascotAnimation(mascotTestAnimation, { force: true }), 1800);
+
 function setContactOpen(open) {
   contactPanel?.classList.toggle('open', open);
   contactPanel?.setAttribute('aria-hidden', String(!open));
@@ -269,9 +380,15 @@ function setContactOpen(open) {
   else if (!mascotTimer) showNextMascotPose();
 }
 
-contactLauncher?.addEventListener('click', () => setContactOpen(!contactPanel.classList.contains('open')));
-mascotButton?.addEventListener('click', () => setContactOpen(!contactPanel.classList.contains('open')));
-document.querySelectorAll('[data-contact-open]').forEach((button) => button.addEventListener('click', () => setContactOpen(true)));
+async function openContactWithThanks() {
+  if (contactPanel?.classList.contains('open')) return;
+  await playMascotAnimation('thank-you', { onceKey: 'venere-thank-you-seen', force: true });
+  setContactOpen(true);
+}
+
+contactLauncher?.addEventListener('click', () => contactPanel?.classList.contains('open') ? setContactOpen(false) : openContactWithThanks());
+mascotButton?.addEventListener('click', openContactWithThanks);
+document.querySelectorAll('[data-contact-open]').forEach((button) => button.addEventListener('click', openContactWithThanks));
 contactClose?.addEventListener('click', () => setContactOpen(false));
 document.addEventListener('keydown', (event) => {
   if (event.key === 'Escape') setContactOpen(false);
