@@ -194,14 +194,14 @@ let mascotIntroPending = true;
 const mascotAnimationLoads = new Map();
 const mascotAnimationBase = '/assets/mascot/animations-v2';
 const mascotAnimations = {
-  contact: { frameTime: 420, hold: 900, step: 3 },
-  'direct-offer': { frameTime: 420, hold: 1800, step: 2 },
-  'thank-you': { frameTime: 360, hold: 700, step: 3 },
-  'sea-breeze': { frameTime: 330, hold: 260, step: 1, pingPong: true },
-  'lantern-evening': { frameTime: 440, hold: 1500, step: 2, pingPong: true },
-  directions: { frameTime: 430, hold: 1400, step: 2 },
-  'sea-access': { frameTime: 430, hold: 1400, step: 2 },
-  'return-to-shell': { frameTime: 460, hold: 1100, step: 2, pingPong: true },
+  contact: { keyframes: [[1, 520], [4, 460], [7, 520], [10, 950]] },
+  'direct-offer': { keyframes: [[1, 520], [3, 470], [5, 500], [7, 520], [9, 580], [10, 1550]] },
+  'thank-you': { keyframes: [[1, 470], [4, 460], [7, 500], [10, 900]] },
+  'sea-breeze': { keyframes: [[1, 500], [3, 460], [5, 480], [7, 460], [9, 500], [10, 650]], pingPong: true },
+  'lantern-evening': { keyframes: [[1, 540], [3, 500], [5, 520], [7, 520], [9, 580], [10, 1450]], pingPong: true },
+  directions: { keyframes: [[1, 520], [3, 480], [5, 500], [7, 520], [9, 580], [10, 1350]] },
+  'sea-access': { keyframes: [[1, 520], [3, 480], [5, 500], [7, 520], [9, 580], [10, 1350]] },
+  'return-to-shell': { keyframes: [[1, 540], [3, 500], [5, 520], [7, 540], [9, 580], [10, 1150]], pingPong: true },
 };
 
 function mascotAnimationFrames(name) {
@@ -256,28 +256,31 @@ async function playMascotAnimation(name, { onceKey, force = false } = {}) {
   mascotTimer = undefined;
   mascotAnimationActive = true;
   mascotButton?.classList.add('is-sequencing');
-  const forward = mascotAnimationFrames(name);
-  const sampled = forward.filter((_, index) => index % config.step === 0 || index === forward.length - 1);
-  const sequence = config.pingPong ? [...sampled, ...sampled.slice(0, -1).reverse()] : sampled;
+  const frames = mascotAnimationFrames(name);
+  const forward = config.keyframes.map(([number, duration]) => ({ src: frames[number - 1], duration }));
+  const sequence = config.pingPong
+    ? [...forward, ...forward.slice(0, -1).reverse()]
+    : forward;
 
   return new Promise((resolve) => {
     let frame = 0;
     const advance = () => {
-      setMascotFrame(sequence[frame], Math.min(config.frameTime * 0.78, 360));
+      const moment = sequence[frame];
+      setMascotFrame(moment.src, 140);
       frame += 1;
       if (frame < sequence.length) {
-        mascotAnimationTimer = window.setTimeout(advance, config.frameTime);
+        mascotAnimationTimer = window.setTimeout(advance, moment.duration);
         return;
       }
       mascotAnimationTimer = window.setTimeout(() => {
-        setMascotFrame('/assets/mascot/venere-prototype.webp', 360);
+        setMascotFrame('/assets/mascot/venere-prototype.webp', 180);
         mascotAnimationTimer = window.setTimeout(() => {
           mascotButton?.classList.remove('is-sequencing');
           mascotAnimationActive = false;
           if (!contactPanel?.classList.contains('open')) showNextMascotPose();
           resolve(true);
-        }, 380);
-      }, config.hold);
+        }, 220);
+      }, moment.duration);
     };
     advance();
   });
