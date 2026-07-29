@@ -224,6 +224,18 @@ function setMascotFrame(src, duration = 320) {
   mascotHiddenLayer = outgoing;
 }
 
+function setMascotSequenceFrame(src) {
+  if (!mascotPose) return;
+  mascotPose.src = src;
+  mascotPose.style.opacity = '1';
+  if (mascotPoseBuffer) {
+    mascotPoseBuffer.src = src;
+    mascotPoseBuffer.style.opacity = '0';
+  }
+  mascotVisibleLayer = mascotPose;
+  mascotHiddenLayer = mascotPoseBuffer;
+}
+
 function preloadMascotAnimation(name) {
   if (mascotAnimationLoads.has(name)) return mascotAnimationLoads.get(name);
   const load = Promise.all(mascotAnimationFrames(name).map((src) => new Promise((resolve) => {
@@ -266,20 +278,18 @@ async function playMascotAnimation(name, { onceKey, force = false } = {}) {
     let frame = 0;
     const advance = () => {
       const moment = sequence[frame];
-      setMascotFrame(moment.src, 140);
+      setMascotSequenceFrame(moment.src);
       frame += 1;
       if (frame < sequence.length) {
         mascotAnimationTimer = window.setTimeout(advance, moment.duration);
         return;
       }
       mascotAnimationTimer = window.setTimeout(() => {
-        setMascotFrame('/assets/mascot/venere-prototype.webp', 180);
-        mascotAnimationTimer = window.setTimeout(() => {
-          mascotButton?.classList.remove('is-sequencing');
-          mascotAnimationActive = false;
-          if (!contactPanel?.classList.contains('open')) showNextMascotPose();
-          resolve(true);
-        }, 220);
+        setMascotSequenceFrame('/assets/mascot/venere-prototype.webp');
+        mascotButton?.classList.remove('is-sequencing');
+        mascotAnimationActive = false;
+        if (!contactPanel?.classList.contains('open')) showNextMascotPose();
+        resolve(true);
       }, moment.duration);
     };
     advance();
