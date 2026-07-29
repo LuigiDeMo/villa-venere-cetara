@@ -172,6 +172,9 @@ const contactLauncher = document.querySelector('.contact-launcher');
 const contactClose = document.querySelector('.contact-close');
 const mascotButton = document.querySelector('.mascot-button');
 const mascotPose = mascotButton?.querySelector('.mascot-pose');
+const mascotPoseBuffer = mascotButton?.querySelector('.mascot-pose-buffer');
+let mascotVisibleLayer = mascotPose;
+let mascotHiddenLayer = mascotPoseBuffer;
 const contactWidget = document.querySelector('#contact-widget');
 const mascotIntro = document.querySelector('.mascot-intro');
 const mascotIntroImage = mascotIntro?.querySelector('img');
@@ -191,18 +194,34 @@ let mascotIntroPending = true;
 const mascotAnimationLoads = new Map();
 const mascotAnimationBase = '/assets/mascot/animations-v2';
 const mascotAnimations = {
-  contact: { frameTime: 105, hold: 420 },
-  'direct-offer': { frameTime: 115, hold: 1100 },
-  'thank-you': { frameTime: 80, hold: 320 },
-  'sea-breeze': { frameTime: 115, hold: 120, pingPong: true },
-  'lantern-evening': { frameTime: 120, hold: 900, pingPong: true },
-  directions: { frameTime: 115, hold: 850 },
-  'sea-access': { frameTime: 115, hold: 850 },
-  'return-to-shell': { frameTime: 125, hold: 650, pingPong: true },
+  contact: { frameTime: 420, hold: 900, step: 3 },
+  'direct-offer': { frameTime: 420, hold: 1800, step: 2 },
+  'thank-you': { frameTime: 360, hold: 700, step: 3 },
+  'sea-breeze': { frameTime: 330, hold: 260, step: 1, pingPong: true },
+  'lantern-evening': { frameTime: 440, hold: 1500, step: 2, pingPong: true },
+  directions: { frameTime: 430, hold: 1400, step: 2 },
+  'sea-access': { frameTime: 430, hold: 1400, step: 2 },
+  'return-to-shell': { frameTime: 460, hold: 1100, step: 2, pingPong: true },
 };
 
 function mascotAnimationFrames(name) {
   return Array.from({ length: 10 }, (_, index) => `${mascotAnimationBase}/${name}/venere-${name}-${String(index + 1).padStart(2, '0')}.webp`);
+}
+
+function setMascotFrame(src, duration = 320) {
+  if (!mascotVisibleLayer || !mascotHiddenLayer) {
+    if (mascotPose) mascotPose.src = src;
+    return;
+  }
+  const incoming = mascotHiddenLayer;
+  const outgoing = mascotVisibleLayer;
+  incoming.src = src;
+  incoming.style.transitionDuration = duration + 'ms';
+  outgoing.style.transitionDuration = duration + 'ms';
+  incoming.style.opacity = '1';
+  outgoing.style.opacity = '0';
+  mascotVisibleLayer = incoming;
+  mascotHiddenLayer = outgoing;
 }
 
 function preloadMascotAnimation(name) {
@@ -238,23 +257,26 @@ async function playMascotAnimation(name, { onceKey, force = false } = {}) {
   mascotAnimationActive = true;
   mascotButton?.classList.add('is-sequencing');
   const forward = mascotAnimationFrames(name);
-  const sequence = config.pingPong ? [...forward, ...forward.slice(0, -1).reverse()] : forward;
+  const sampled = forward.filter((_, index) => index % config.step === 0 || index === forward.length - 1);
+  const sequence = config.pingPong ? [...sampled, ...sampled.slice(0, -1).reverse()] : sampled;
 
   return new Promise((resolve) => {
     let frame = 0;
     const advance = () => {
-      mascotPose.src = sequence[frame];
+      setMascotFrame(sequence[frame], Math.min(config.frameTime * 0.78, 360));
       frame += 1;
       if (frame < sequence.length) {
         mascotAnimationTimer = window.setTimeout(advance, config.frameTime);
         return;
       }
       mascotAnimationTimer = window.setTimeout(() => {
-        mascotPose.src = '/assets/mascot/venere-prototype.webp';
-        mascotButton?.classList.remove('is-sequencing');
-        mascotAnimationActive = false;
-        if (!contactPanel?.classList.contains('open')) showNextMascotPose();
-        resolve(true);
+        setMascotFrame('/assets/mascot/venere-prototype.webp', 360);
+        mascotAnimationTimer = window.setTimeout(() => {
+          mascotButton?.classList.remove('is-sequencing');
+          mascotAnimationActive = false;
+          if (!contactPanel?.classList.contains('open')) showNextMascotPose();
+          resolve(true);
+        }, 380);
       }, config.hold);
     };
     advance();
@@ -266,12 +288,8 @@ function showNextMascotPose() {
   const delay = mascotPoses[mascotPoseIndex][1];
   mascotTimer = window.setTimeout(() => {
     mascotPoseIndex = (mascotPoseIndex + 1) % mascotPoses.length;
-    mascotPose.classList.add('is-changing');
-    window.setTimeout(() => {
-      mascotPose.src = mascotPoses[mascotPoseIndex][0];
-      mascotPose.classList.remove('is-changing');
-      showNextMascotPose();
-    }, 380);
+    setMascotFrame(mascotPoses[mascotPoseIndex][0], 420);
+    showNextMascotPose();
   }, delay);
 }
 
