@@ -227,9 +227,11 @@ function setMascotFrame(src, duration = 320) {
 function setMascotSequenceFrame(src) {
   if (!mascotPose) return;
   mascotPose.src = src;
+  mascotPose.style.setProperty('transition', 'none', 'important');
   mascotPose.style.opacity = '1';
   if (mascotPoseBuffer) {
     mascotPoseBuffer.src = src;
+    mascotPoseBuffer.style.setProperty('transition', 'none', 'important');
     mascotPoseBuffer.style.opacity = '0';
   }
   mascotVisibleLayer = mascotPose;
@@ -287,6 +289,8 @@ async function playMascotAnimation(name, { onceKey, force = false } = {}) {
       mascotAnimationTimer = window.setTimeout(() => {
         setMascotSequenceFrame('/assets/mascot/venere-prototype.webp');
         mascotButton?.classList.remove('is-sequencing');
+        mascotPose?.style.removeProperty('transition');
+        mascotPoseBuffer?.style.removeProperty('transition');
         mascotAnimationActive = false;
         if (!contactPanel?.classList.contains('open')) showNextMascotPose();
         resolve(true);
