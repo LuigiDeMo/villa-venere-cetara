@@ -194,18 +194,18 @@ let mascotIntroPending = true;
 const mascotAnimationLoads = new Map();
 const mascotAnimationBase = '/assets/mascot/animations-v2';
 const mascotAnimations = {
-  contact: { keyframes: [[1, 520], [4, 460], [7, 520], [10, 950]] },
-  'direct-offer': { keyframes: [[1, 520], [3, 470], [5, 500], [7, 520], [9, 580], [10, 1550]] },
-  'thank-you': { keyframes: [[1, 470], [4, 460], [7, 500], [10, 900]] },
-  'sea-breeze': { keyframes: [[1, 500], [3, 460], [5, 480], [7, 460], [9, 500], [10, 650]], pingPong: true },
-  'lantern-evening': { keyframes: [[1, 540], [3, 500], [5, 520], [7, 520], [9, 580], [10, 1450]], pingPong: true },
-  directions: { keyframes: [[1, 520], [3, 480], [5, 500], [7, 520], [9, 580], [10, 1350]] },
-  'sea-access': { keyframes: [[1, 520], [3, 480], [5, 500], [7, 520], [9, 580], [10, 1350]] },
-  'return-to-shell': { keyframes: [[1, 540], [3, 500], [5, 520], [7, 540], [9, 580], [10, 1150]], pingPong: true },
+  contact: { keyframes: [[1, 540], [4, 500], [7, 560], [10, 950]] },
+  'direct-offer': { keyframes: [[1, 560], [4, 520], [7, 600], [10, 1550]] },
+  'thank-you': { keyframes: [[1, 500], [4, 480], [7, 540], [10, 900]] },
+  'sea-breeze': { keyframes: [[1, 540], [4, 500], [7, 540], [10, 680]], pingPong: true },
+  'lantern-evening': { keyframes: [[1, 580], [4, 540], [7, 600], [10, 1450]], pingPong: true },
+  directions: { keyframes: [[1, 560], [4, 520], [7, 600], [10, 1350]] },
+  'sea-access': { keyframes: [[1, 560], [4, 520], [7, 600], [10, 1350]] },
+  'return-to-shell': { keyframes: [[1, 580], [4, 540], [7, 600], [10, 1150]], pingPong: true },
 };
 
 function mascotAnimationFrames(name) {
-  return Array.from({ length: 10 }, (_, index) => `${mascotAnimationBase}/${name}/venere-${name}-${String(index + 1).padStart(2, '0')}.webp`);
+  return Array.from({ length: 10 }, (_, index) => `${mascotAnimationBase}/${name}/venere-${name}-${String(index + 1).padStart(2, '0')}.webp?v=key-clean-1`);
 }
 
 function setMascotFrame(src, duration = 320) {
