@@ -1,15 +1,144 @@
 {
-  "meta": {"title": "Villa Venere - Costiera Amalfitana"},
-  "accessibility": {"openNavigation": "Apri la navigazione"},
-  "nav": {"home": "Pagina iniziale", "book": "Prenota ora", "about": "Chi siamo", "rooms": "Camere", "location": "Dove siamo", "language": "Lingua"},
-  "booking": {"title": "Villa privata in Costiera Amalfitana", "subtitle": "Prenota direttamente e risparmia il 15% sul prezzo trovato sui portali.", "checkin": "Arrivo", "checkout": "Partenza", "guests": "Ospiti", "search": "Cerca"},
-  "directRate": {"title": "Ci hai trovato su un portale di prenotazione?", "description": "Inviaci il prezzo mostrato su Booking.com, Airbnb o un altro portale prima di prenotare. Applicheremo un ulteriore 15% di sconto sul prezzo dell'alloggio.", "terms": "A parità di date, ospiti e condizioni di cancellazione. Previa verifica e disponibilità.", "button": "Ottieni il 15% di sconto"},
-  "bestRate": {"eyebrow": "PRENOTA DIRETTAMENTE CON NOI", "title": "Miglior prezzo garantito", "description": "Mostraci il prezzo trovato online e prenota direttamente lo stesso soggiorno con un ulteriore 15% di sconto.", "saving": "sul prezzo del portale", "button": "Richiedi il miglior prezzo", "terms": "Stesse date, ospiti e condizioni di cancellazione. Previa verifica e disponibilità."},
-  "about": {"title": "Chi siamo", "description": "Villa Venere è una splendida villa vista mare vicina alle spiagge e al centro di Cetara. Offre tre camere, due bagni, un confortevole soggiorno, una cucina a induzione attrezzata e una terrazza panoramica sulla Torre e sul Porto. La villa dispone inoltre di accesso privato al mare.", "bedrooms": "Camere", "bathrooms": "Bagni", "guests": "Ospiti", "imageAlt": "Vista sul mare da Villa Venere"},
-  "rooms": {"title": "Camere", "villa": "Villa con tre camere da letto", "capacity": "Fino a 12 ospiti", "bathrooms": "2 bagni", "terrace": "Terrazza vista mare", "seaAccess": "Accesso privato al mare", "view": "Vedi la sistemazione"},
-  "services": {"title": "Servizi", "hairDryer": "Asciugacapelli", "towels": "Asciugamani", "airConditioning": "Aria condizionata", "terrace": "Terrazza privata", "linen": "Biancheria", "hotTub": "Vasca idromassaggio", "seaAccess": "Accesso privato al mare"},
-  "reviews": {"title": "Dicono di noi:", "loading": "Caricamento recensioni..."},
-  "social": {"follow": "Seguici:"},
-  "footer": {"copyright": "COPYRIGHT Villa Venere - Costiera Amalfitana. Tutti i diritti riservati."},
-  "contact": {"mascot": "Chiedi informazioni a Venere", "panelLabel": "Contatta Villa Venere", "close": "Chiudi la finestra dei contatti", "hostName": "Martina · Host di Villa Venere", "replyTime": "Risponde personalmente ai messaggi", "greeting": "Ciao! Sono Martina 👋", "help": "Scrivimi per disponibilità, miglior prezzo diretto o informazioni sul soggiorno.", "priceNudge": "Hai trovato un prezzo migliore? Scrivici: Martina ti risponderà personalmente.", "startWith": "Inizia la conversazione con:", "phone": "Telefono", "launcher": "Contattaci"}
+  "meta": {
+    "title": "Villa Venere - Costiera Amalfitana"
+  },
+  "accessibility": {
+    "openNavigation": "Apri la navigazione"
+  },
+  "nav": {
+    "home": "Pagina iniziale",
+    "book": "Prenota ora",
+    "about": "Chi siamo",
+    "rooms": "Camere",
+    "location": "Dove siamo",
+    "language": "Lingua"
+  },
+  "booking": {
+    "title": "Villa privata in Costiera Amalfitana",
+    "subtitle": "Prenota direttamente e risparmia il 15% sul prezzo trovato sui portali.",
+    "checkin": "Arrivo",
+    "checkout": "Partenza",
+    "guests": "Ospiti",
+    "search": "Cerca"
+  },
+  "directRate": {
+    "title": "Tariffa diretta riservata",
+    "description": "Hai trovato una tariffa inferiore su un portale? Contattaci prima di prenotare.",
+    "terms": "A parità di date, ospiti e condizioni di cancellazione. Previa verifica e disponibilità.",
+    "button": "Richiedi la tariffa diretta"
+  },
+  "bestRate": {
+    "eyebrow": "PRENOTA SUL SITO UFFICIALE",
+    "title": "Miglior prezzo diretto",
+    "description": "Mostraci la tariffa equivalente trovata online: ti risponderemo personalmente.",
+    "saving": "sul prezzo del portale",
+    "button": "Richiedi la tariffa diretta",
+    "terms": "Stesse date, ospiti e condizioni di cancellazione. Previa verifica e disponibilità."
+  },
+  "about": {
+    "title": "Chi siamo",
+    "description": "Villa Venere è una splendida villa vista mare vicina alle spiagge e al centro di Cetara. Offre tre camere, due bagni, un confortevole soggiorno, una cucina a induzione attrezzata e una terrazza panoramica sulla Torre e sul Porto. La villa dispone inoltre di accesso privato al mare.",
+    "bedrooms": "Camere",
+    "bathrooms": "Bagni",
+    "guests": "Ospiti",
+    "imageAlt": "Vista sul mare da Villa Venere"
+  },
+  "rooms": {
+    "title": "Camere",
+    "villa": "Villa con tre camere da letto",
+    "capacity": "Fino a 12 ospiti",
+    "bathrooms": "2 bagni",
+    "terrace": "Terrazza vista mare",
+    "seaAccess": "Accesso privato al mare",
+    "view": "Vedi la sistemazione"
+  },
+  "services": {
+    "title": "Servizi",
+    "hairDryer": "Asciugacapelli",
+    "towels": "Asciugamani",
+    "airConditioning": "Aria condizionata",
+    "terrace": "Terrazza privata",
+    "linen": "Biancheria",
+    "hotTub": "Vasca idromassaggio",
+    "seaAccess": "Accesso privato al mare"
+  },
+  "reviews": {
+    "title": "Dicono di noi:",
+    "loading": "Caricamento recensioni..."
+  },
+  "social": {
+    "follow": "Seguici:"
+  },
+  "footer": {
+    "copyright": "COPYRIGHT Villa Venere - Costiera Amalfitana. Tutti i diritti riservati."
+  },
+  "contact": {
+    "mascot": "Chiedi informazioni a Venere",
+    "panelLabel": "Contatta Villa Venere",
+    "close": "Chiudi la finestra dei contatti",
+    "hostName": "Martina · Host di Villa Venere",
+    "replyTime": "Risponde personalmente ai messaggi",
+    "greeting": "Ciao! Sono Martina 👋",
+    "help": "Scrivimi per disponibilità, miglior prezzo diretto o informazioni sul soggiorno.",
+    "priceNudge": "Hai trovato un prezzo migliore? Scrivici: Martina ti risponderà personalmente.",
+    "startWith": "Inizia la conversazione con:",
+    "phone": "Telefono",
+    "launcher": "Contattaci"
+  },
+  "villaGuide": {
+    "title": "Esplora la villa"
+  },
+  "photoExperience": {
+    "eyebrow": "Una casa privata sul mare",
+    "title": "Scopri Villa Venere, uno scorcio alla volta",
+    "intro": "Dalla terrazza panoramica alle camere affacciate sul blu: esplora la villa prima di arrivare.",
+    "showAll": "Mostra tutte le foto",
+    "showLess": "Mostra meno",
+    "living": "Vivere davanti al mare",
+    "evening": "Serate sotto le luci",
+    "primaryRoom": "Camera vista mare",
+    "seaTitle": "La tua strada privata verso il mare",
+    "seaDescription": "Dalla villa scendi fino a una piattaforma riservata sull’acqua, lontano dalle spiagge più affollate.",
+    "reservedPlatform": "Piattaforma sul mare riservata",
+    "directWater": "Accesso diretto all’acqua",
+    "privateRelax": "Uno spazio tranquillo per il tuo gruppo",
+    "discoverSea": "Scopri l’accesso privato al mare",
+    "roomsTitle": "Tre camere, un’unica casa vista mare",
+    "roomsIntro": "Camere matrimoniali luminose e posti letto flessibili rendono la villa comoda per famiglie e gruppi.",
+    "familyRoom": "Camera con divano letto",
+    "thirdRoom": "Camera matrimoniale tranquilla",
+    "kitchen": "Cucina attrezzata",
+    "kitchenText": "Tutto il necessario per colazione, aperitivo o una cena in casa.",
+    "bathrooms": "Due bagni moderni",
+    "bathroomsText": "Spazi confortevoli con docce, asciugamani e lavatrice.",
+    "flexible": "Posti letto flessibili",
+    "flexibleText": "I divani letto aggiuntivi permettono a tutto il gruppo di soggiornare insieme.",
+    "momentsTitle": "Momenti lenti in Costiera Amalfitana",
+    "momentsIntro": "Colazione in terrazza, relax nella vasca idromassaggio e serate con le luci della costa in lontananza.",
+    "terraceMoment": "Il tuo tavolo sopra il mare",
+    "hotTubMoment": "Rilassati, circondato dalla Costiera",
+    "hostTitle": "Martina ti dà il benvenuto",
+    "hostDescription": "Dalla prima domanda fino al tuo arrivo a Cetara, Martina risponde personalmente e ti aiuta a organizzare un soggiorno senza pensieri."
+  },
+  "premium": {
+    "officialSite": "Sito ufficiale",
+    "reviewEyebrow": "Esperienze verificate",
+    "reviewTitle": "Un soggiorno che resta nel cuore",
+    "reviewIntro": "Le recensioni indipendenti di Airbnb, Booking.com e Google raccontano Villa Venere meglio di noi.",
+    "allReviews": "Leggi tutte le recensioni verificate"
+  },
+  "mascotGuide": {
+    "offer": "Hai trovato un prezzo migliore? Contatta Martina per verificare la tariffa diretta.",
+    "gallery": "Vuoi capire se la villa è adatta al tuo gruppo? Martina ti aiuta personalmente.",
+    "services": "Hai domande sui servizi o sull’accesso al mare? Chiedi a Martina.",
+    "final": "Hai già le date? Invia tutto a Martina."
+  },
+  "finalCta": {
+    "eyebrow": "PRENOTA DIRETTAMENTE",
+    "title": "Hai già le date? Parla con Martina",
+    "body": "Invia le date, il numero di ospiti e l’eventuale prezzo trovato online. Martina ti risponderà personalmente con la migliore proposta diretta disponibile.",
+    "contact": "Contatta Martina",
+    "availability": "Verifica disponibilità",
+    "trust": "Risposta personale · Nessun impegno · Tariffa diretta"
+  }
 }

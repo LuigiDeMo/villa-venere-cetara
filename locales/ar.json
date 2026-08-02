@@ -1,15 +1,144 @@
 {
-  "meta": {"title": "Villa Venere — ساحل أمالفي"},
-  "accessibility": {"openNavigation": "فتح قائمة التنقل"},
-  "nav": {"home": "الرئيسية", "book": "احجز الآن", "about": "عن الفيلا", "rooms": "الغرف", "location": "الموقع", "language": "اللغة"},
-  "booking": {"title": "فيلا خاصة على ساحل أمالفي", "subtitle": "احجز مباشرة ووفر 15% من السعر المعروض في مواقع الحجز.", "checkin": "تسجيل الوصول", "checkout": "تسجيل المغادرة", "guests": "الضيوف", "search": "بحث"},
-  "directRate": {"title": "هل وجدتمونا في موقع للحجوزات؟", "description": "أرسلوا لنا السعر الظاهر في Booking.com أو Airbnb أو أي موقع آخر قبل الحجز، وسنمنحكم خصماً إضافياً بنسبة 15% على الإقامة.", "terms": "لنفس التواريخ وعدد الضيوف وشروط الإلغاء، بعد التحقق وحسب التوفر.", "button": "احصل على خصم 15%"},
-  "bestRate": {"eyebrow": "احجز مباشرة معنا", "title": "ضمان أفضل سعر", "description": "أرسلوا السعر الذي وجدتموه عبر الإنترنت واحجزوا الإقامة نفسها مباشرة بخصم إضافي 15%.", "saving": "من سعر المنصة", "button": "اطلب أفضل سعر", "terms": "نفس التواريخ والضيوف وشروط الإلغاء. يخضع للتحقق والتوفر."},
-  "about": {"title": "عن الفيلا", "description": "Villa Venere فيلا جميلة بإطلالة بحرية بالقرب من شواطئ ووسط شيتارا. تضم ثلاث غرف نوم وحمامين وغرفة معيشة مريحة ومطبخاً مجهزاً وشرفة بانورامية تطل على البرج والميناء، مع مدخل خاص إلى البحر.", "bedrooms": "غرف النوم", "bathrooms": "الحمامات", "guests": "الضيوف", "imageAlt": "إطلالة البحر من Villa Venere"},
-  "rooms": {"title": "الغرف", "villa": "فيلا بثلاث غرف نوم", "capacity": "حتى 12 ضيفاً", "bathrooms": "حمامان", "terrace": "تراس بإطلالة بحرية", "seaAccess": "مدخل خاص إلى البحر", "view": "عرض الغرفة"},
-  "services": {"title": "الخدمات", "hairDryer": "مجفف شعر", "towels": "مناشف", "airConditioning": "تكييف", "terrace": "تراس خاص", "linen": "بياضات", "hotTub": "حوض استحمام ساخن", "seaAccess": "مدخل خاص إلى البحر"},
-  "reviews": {"title": "آراء ضيوفنا:", "loading": "جارٍ تحميل التقييمات..."},
-  "social": {"follow": "تابعونا:"},
-  "footer": {"copyright": "Villa Venere — Amalfi Coast. جميع الحقوق محفوظة."},
-  "contact": {"mascot": "اسأل فينيري", "panelLabel": "تواصل مع Villa Venere", "close": "إغلاق نافذة التواصل", "hostName": "Martina · مضيفتكم في Villa Venere", "replyTime": "تجيب شخصياً عن الرسائل", "greeting": "مرحباً! أنا Martina 👋", "help": "راسلوني لمعرفة التوفر أو أفضل سعر مباشر أو أي معلومات عن الإقامة.", "priceNudge": "وجدتم سعراً أفضل؟ تواصلوا معنا وستجيب Martina شخصياً.", "startWith": "ابدأ المحادثة عبر:", "phone": "الهاتف", "launcher": "تواصل معنا"}
+  "meta": {
+    "title": "Villa Venere — ساحل أمالفي"
+  },
+  "accessibility": {
+    "openNavigation": "فتح قائمة التنقل"
+  },
+  "nav": {
+    "home": "الرئيسية",
+    "book": "احجز الآن",
+    "about": "عن الفيلا",
+    "rooms": "الغرف",
+    "location": "الموقع",
+    "language": "اللغة"
+  },
+  "booking": {
+    "title": "فيلا خاصة على ساحل أمالفي",
+    "subtitle": "احجز مباشرة ووفر 15% من السعر المعروض في مواقع الحجز.",
+    "checkin": "تسجيل الوصول",
+    "checkout": "تسجيل المغادرة",
+    "guests": "الضيوف",
+    "search": "بحث"
+  },
+  "directRate": {
+    "title": "هل وجدتمونا في موقع للحجوزات؟",
+    "description": "أرسلوا لنا السعر الظاهر في Booking.com أو Airbnb أو أي موقع آخر قبل الحجز، وسنمنحكم خصماً إضافياً بنسبة 15% على الإقامة.",
+    "terms": "لنفس التواريخ وعدد الضيوف وشروط الإلغاء، بعد التحقق وحسب التوفر.",
+    "button": "احصل على خصم 15%"
+  },
+  "bestRate": {
+    "eyebrow": "احجز مباشرة معنا",
+    "title": "ضمان أفضل سعر",
+    "description": "أرسلوا السعر الذي وجدتموه عبر الإنترنت واحجزوا الإقامة نفسها مباشرة بخصم إضافي 15%.",
+    "saving": "من سعر المنصة",
+    "button": "اطلب أفضل سعر",
+    "terms": "نفس التواريخ والضيوف وشروط الإلغاء. يخضع للتحقق والتوفر."
+  },
+  "about": {
+    "title": "عن الفيلا",
+    "description": "Villa Venere فيلا جميلة بإطلالة بحرية بالقرب من شواطئ ووسط شيتارا. تضم ثلاث غرف نوم وحمامين وغرفة معيشة مريحة ومطبخاً مجهزاً وشرفة بانورامية تطل على البرج والميناء، مع مدخل خاص إلى البحر.",
+    "bedrooms": "غرف النوم",
+    "bathrooms": "الحمامات",
+    "guests": "الضيوف",
+    "imageAlt": "إطلالة البحر من Villa Venere"
+  },
+  "rooms": {
+    "title": "الغرف",
+    "villa": "فيلا بثلاث غرف نوم",
+    "capacity": "حتى 12 ضيفاً",
+    "bathrooms": "حمامان",
+    "terrace": "تراس بإطلالة بحرية",
+    "seaAccess": "مدخل خاص إلى البحر",
+    "view": "عرض الغرفة"
+  },
+  "services": {
+    "title": "الخدمات",
+    "hairDryer": "مجفف شعر",
+    "towels": "مناشف",
+    "airConditioning": "تكييف",
+    "terrace": "تراس خاص",
+    "linen": "بياضات",
+    "hotTub": "حوض استحمام ساخن",
+    "seaAccess": "مدخل خاص إلى البحر"
+  },
+  "reviews": {
+    "title": "آراء ضيوفنا:",
+    "loading": "جارٍ تحميل التقييمات..."
+  },
+  "social": {
+    "follow": "تابعونا:"
+  },
+  "footer": {
+    "copyright": "Villa Venere — Amalfi Coast. جميع الحقوق محفوظة."
+  },
+  "contact": {
+    "mascot": "اسأل فينيري",
+    "panelLabel": "تواصل مع Villa Venere",
+    "close": "إغلاق نافذة التواصل",
+    "hostName": "Martina · مضيفتكم في Villa Venere",
+    "replyTime": "تجيب شخصياً عن الرسائل",
+    "greeting": "مرحباً! أنا Martina 👋",
+    "help": "راسلوني لمعرفة التوفر أو أفضل سعر مباشر أو أي معلومات عن الإقامة.",
+    "priceNudge": "وجدتم سعراً أفضل؟ تواصلوا معنا وستجيب Martina شخصياً.",
+    "startWith": "ابدأ المحادثة عبر:",
+    "phone": "الهاتف",
+    "launcher": "تواصل معنا"
+  },
+  "villaGuide": {
+    "title": "استكشف الفيلا"
+  },
+  "photoExperience": {
+    "eyebrow": "منزل خاص فوق البحر",
+    "title": "اكتشف Villa Venere إطلالة بعد أخرى",
+    "intro": "من التراس البانورامي إلى الغرف المطلة على البحر، استكشف الفيلا قبل وصولك.",
+    "showAll": "عرض جميع الصور",
+    "showLess": "عرض أقل",
+    "living": "Living by the sea",
+    "evening": "Evenings under the lights",
+    "primaryRoom": "Sea-view room",
+    "seaTitle": "طريقك الخاص إلى البحر",
+    "seaDescription": "انزل من الفيلا إلى منصة خاصة على الماء بعيداً عن الشواطئ المزدحمة.",
+    "reservedPlatform": "Reserved sea platform",
+    "directWater": "Direct access to the water",
+    "privateRelax": "A quiet space for your group",
+    "discoverSea": "Discover the private sea access",
+    "roomsTitle": "ثلاث غرف ومنزل واحد بإطلالة بحرية",
+    "roomsIntro": "غرف مزدوجة مضيئة وأماكن نوم مرنة للعائلات والمجموعات.",
+    "familyRoom": "Room with sofa bed",
+    "thirdRoom": "Quiet double room",
+    "kitchen": "Equipped kitchen",
+    "kitchenText": "Everything you need for breakfast, an aperitif or dinner at home.",
+    "bathrooms": "Two modern bathrooms",
+    "bathroomsText": "Comfortable spaces with showers, towels and a washing machine.",
+    "flexible": "Flexible sleeping spaces",
+    "flexibleText": "Additional sofa beds allow the whole group to stay together.",
+    "momentsTitle": "لحظات هادئة على ساحل أمالفي",
+    "momentsIntro": "إفطار على التراس وحوض تدليك وأمسيات أمام أضواء الساحل.",
+    "terraceMoment": "Your table above the sea",
+    "hotTubMoment": "Relax, with the coast around you",
+    "hostTitle": "ترحب بكم Martina",
+    "hostDescription": "من سؤالك الأول حتى وصولك إلى شيتارا، تجيب Martina شخصياً."
+  },
+  "premium": {
+    "officialSite": "الموقع الرسمي",
+    "reviewEyebrow": "تجارب ضيوف موثقة",
+    "reviewTitle": "إقامة تبقى في الذاكرة",
+    "reviewIntro": "تروي التقييمات المستقلة على Airbnb وBooking.com وGoogle قصة فيلا فينيري أفضل منا.",
+    "allReviews": "قراءة جميع التقييمات الموثقة"
+  },
+  "mascotGuide": {
+    "offer": "هل وجدت سعراً أفضل؟ تواصل مع مارتينا للتحقق من سعر الحجز المباشر.",
+    "gallery": "هل الفيلا مناسبة لمجموعتك؟ ستساعدك مارتينا شخصياً.",
+    "services": "هل لديك أسئلة عن الخدمات أو المدخل الخاص إلى البحر؟ اسأل مارتينا.",
+    "final": "هل حددت التواريخ؟ أرسلها إلى مارتينا."
+  },
+  "finalCta": {
+    "eyebrow": "احجز مباشرة",
+    "title": "هل حددت التواريخ؟ تحدث مع مارتينا",
+    "body": "أرسل التواريخ وعدد الضيوف وأي سعر وجدته عبر الإنترنت. سترد مارتينا شخصياً بأفضل عرض مباشر متاح.",
+    "contact": "تواصل مع مارتينا",
+    "availability": "تحقق من التوفر",
+    "trust": "رد شخصي · دون التزام · سعر مباشر"
+  }
 }

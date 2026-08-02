@@ -1,15 +1,144 @@
 {
-  "meta": {"title": "Villa Venere — 아말피 해안"},
-  "accessibility": {"openNavigation": "메뉴 열기"},
-  "nav": {"home": "홈", "book": "지금 예약", "about": "빌라 소개", "rooms": "객실", "location": "위치", "language": "언어"},
-  "booking": {"title": "아말피 해안의 프라이빗 빌라", "subtitle": "직접 예약하고 예약 사이트 표시 가격에서 15% 할인받으세요.", "checkin": "체크인", "checkout": "체크아웃", "guests": "인원", "search": "검색"},
-  "directRate": {"title": "예약 사이트에서 저희를 찾으셨나요?", "description": "예약 전에 Booking.com, Airbnb 또는 다른 사이트의 가격을 보내 주세요. 숙박 요금에서 추가로 15% 할인해 드립니다.", "terms": "동일한 날짜, 인원 및 취소 조건 기준이며 확인과 객실 상황에 따라 적용됩니다.", "button": "15% 할인받기"},
-  "bestRate": {"eyebrow": "공식 직접 예약", "title": "최저가 보장", "description": "온라인에서 찾은 가격을 보여 주시면 같은 숙박을 직접 예약할 때 추가 15% 할인해 드립니다.", "saving": "예약 사이트 가격 대비", "button": "최저가 문의", "terms": "동일한 날짜, 인원 및 취소 조건. 확인과 객실 상황이 필요합니다."},
-  "about": {"title": "빌라 소개", "description": "Villa Venere는 체타라 해변과 중심지 가까이에 있는 아름다운 바다 전망 빌라입니다. 침실 3개, 욕실 2개, 편안한 거실, 인덕션 주방, 탑과 항구가 보이는 파노라마 테라스가 있으며 바다로 이어지는 전용 통로도 갖추고 있습니다.", "bedrooms": "침실", "bathrooms": "욕실", "guests": "인원", "imageAlt": "Villa Venere의 바다 전망"},
-  "rooms": {"title": "객실", "villa": "침실 3개 빌라", "capacity": "최대 12명", "bathrooms": "욕실 2개", "terrace": "바다 전망 테라스", "seaAccess": "바다 전용 통로", "view": "객실 보기"},
-  "services": {"title": "편의시설", "hairDryer": "헤어드라이어", "towels": "수건", "airConditioning": "에어컨", "terrace": "전용 테라스", "linen": "침구", "hotTub": "월풀 욕조", "seaAccess": "바다 전용 통로"},
-  "reviews": {"title": "투숙객 후기:", "loading": "후기를 불러오는 중..."},
-  "social": {"follow": "팔로우하세요:"},
-  "footer": {"copyright": "Villa Venere — Amalfi Coast. 모든 권리 보유."},
-  "contact": {"mascot": "Venere에게 문의", "panelLabel": "Villa Venere에 연락", "close": "연락 창 닫기", "hostName": "Martina · Villa Venere 호스트", "replyTime": "메시지에 직접 답변합니다", "greeting": "안녕하세요, Martina입니다 👋", "help": "객실 가능 여부, 직접 예약 최저가 또는 숙박 정보는 언제든 문의하세요.", "priceNudge": "더 낮은 가격을 찾으셨나요? Martina가 직접 답변해 드립니다.", "startWith": "연락 방법:", "phone": "전화", "launcher": "문의하기"}
+  "meta": {
+    "title": "Villa Venere — 아말피 해안"
+  },
+  "accessibility": {
+    "openNavigation": "메뉴 열기"
+  },
+  "nav": {
+    "home": "홈",
+    "book": "지금 예약",
+    "about": "빌라 소개",
+    "rooms": "객실",
+    "location": "위치",
+    "language": "언어"
+  },
+  "booking": {
+    "title": "아말피 해안의 프라이빗 빌라",
+    "subtitle": "직접 예약하고 예약 사이트 표시 가격에서 15% 할인받으세요.",
+    "checkin": "체크인",
+    "checkout": "체크아웃",
+    "guests": "인원",
+    "search": "검색"
+  },
+  "directRate": {
+    "title": "예약 사이트에서 저희를 찾으셨나요?",
+    "description": "예약 전에 Booking.com, Airbnb 또는 다른 사이트의 가격을 보내 주세요. 숙박 요금에서 추가로 15% 할인해 드립니다.",
+    "terms": "동일한 날짜, 인원 및 취소 조건 기준이며 확인과 객실 상황에 따라 적용됩니다.",
+    "button": "15% 할인받기"
+  },
+  "bestRate": {
+    "eyebrow": "공식 직접 예약",
+    "title": "최저가 보장",
+    "description": "온라인에서 찾은 가격을 보여 주시면 같은 숙박을 직접 예약할 때 추가 15% 할인해 드립니다.",
+    "saving": "예약 사이트 가격 대비",
+    "button": "최저가 문의",
+    "terms": "동일한 날짜, 인원 및 취소 조건. 확인과 객실 상황이 필요합니다."
+  },
+  "about": {
+    "title": "빌라 소개",
+    "description": "Villa Venere는 체타라 해변과 중심지 가까이에 있는 아름다운 바다 전망 빌라입니다. 침실 3개, 욕실 2개, 편안한 거실, 인덕션 주방, 탑과 항구가 보이는 파노라마 테라스가 있으며 바다로 이어지는 전용 통로도 갖추고 있습니다.",
+    "bedrooms": "침실",
+    "bathrooms": "욕실",
+    "guests": "인원",
+    "imageAlt": "Villa Venere의 바다 전망"
+  },
+  "rooms": {
+    "title": "객실",
+    "villa": "침실 3개 빌라",
+    "capacity": "최대 12명",
+    "bathrooms": "욕실 2개",
+    "terrace": "바다 전망 테라스",
+    "seaAccess": "바다 전용 통로",
+    "view": "객실 보기"
+  },
+  "services": {
+    "title": "편의시설",
+    "hairDryer": "헤어드라이어",
+    "towels": "수건",
+    "airConditioning": "에어컨",
+    "terrace": "전용 테라스",
+    "linen": "침구",
+    "hotTub": "월풀 욕조",
+    "seaAccess": "바다 전용 통로"
+  },
+  "reviews": {
+    "title": "투숙객 후기:",
+    "loading": "후기를 불러오는 중..."
+  },
+  "social": {
+    "follow": "팔로우하세요:"
+  },
+  "footer": {
+    "copyright": "Villa Venere — Amalfi Coast. 모든 권리 보유."
+  },
+  "contact": {
+    "mascot": "Venere에게 문의",
+    "panelLabel": "Villa Venere에 연락",
+    "close": "연락 창 닫기",
+    "hostName": "Martina · Villa Venere 호스트",
+    "replyTime": "메시지에 직접 답변합니다",
+    "greeting": "안녕하세요, Martina입니다 👋",
+    "help": "객실 가능 여부, 직접 예약 최저가 또는 숙박 정보는 언제든 문의하세요.",
+    "priceNudge": "더 낮은 가격을 찾으셨나요? Martina가 직접 답변해 드립니다.",
+    "startWith": "연락 방법:",
+    "phone": "전화",
+    "launcher": "문의하기"
+  },
+  "villaGuide": {
+    "title": "빌라 둘러보기"
+  },
+  "photoExperience": {
+    "eyebrow": "바다 위의 프라이빗 하우스",
+    "title": "풍경을 따라 만나는 Villa Venere",
+    "intro": "파노라마 테라스부터 푸른 바다를 바라보는 객실까지, 도착 전에 빌라를 둘러보세요.",
+    "showAll": "모든 사진 보기",
+    "showLess": "간단히 보기",
+    "living": "Living by the sea",
+    "evening": "Evenings under the lights",
+    "primaryRoom": "Sea-view room",
+    "seaTitle": "바다로 이어지는 전용 통로",
+    "seaDescription": "빌라에서 붐비는 해변을 벗어난 전용 수상 플랫폼으로 내려갈 수 있습니다.",
+    "reservedPlatform": "Reserved sea platform",
+    "directWater": "Direct access to the water",
+    "privateRelax": "A quiet space for your group",
+    "discoverSea": "Discover the private sea access",
+    "roomsTitle": "세 개의 객실, 하나의 바다 전망 하우스",
+    "roomsIntro": "밝은 더블룸과 유연한 침대 구성이 가족과 단체에 편안함을 제공합니다.",
+    "familyRoom": "Room with sofa bed",
+    "thirdRoom": "Quiet double room",
+    "kitchen": "Equipped kitchen",
+    "kitchenText": "Everything you need for breakfast, an aperitif or dinner at home.",
+    "bathrooms": "Two modern bathrooms",
+    "bathroomsText": "Comfortable spaces with showers, towels and a washing machine.",
+    "flexible": "Flexible sleeping spaces",
+    "flexibleText": "Additional sofa beds allow the whole group to stay together.",
+    "momentsTitle": "아말피 해안의 느긋한 순간",
+    "momentsIntro": "테라스의 아침 식사, 온수 욕조, 해안의 불빛을 바라보는 저녁.",
+    "terraceMoment": "Your table above the sea",
+    "hotTubMoment": "Relax, with the coast around you",
+    "hostTitle": "Martina가 환영합니다",
+    "hostDescription": "첫 문의부터 체타라 도착까지 Martina가 직접 답변합니다."
+  },
+  "premium": {
+    "officialSite": "공식 웹사이트",
+    "reviewEyebrow": "검증된 투숙객 경험",
+    "reviewTitle": "기억에 남는 숙박",
+    "reviewIntro": "Airbnb, Booking.com, Google의 독립적인 후기가 Villa Venere를 가장 잘 설명합니다.",
+    "allReviews": "모든 검증된 후기 보기"
+  },
+  "mascotGuide": {
+    "offer": "더 좋은 가격을 찾으셨나요? 직접 요금은 Martina에게 문의하세요.",
+    "gallery": "빌라가 일행에게 적합한지 Martina가 직접 안내해 드립니다.",
+    "services": "편의시설이나 전용 바다 출입구가 궁금하신가요? Martina에게 물어보세요.",
+    "final": "날짜가 정해졌나요? Martina에게 보내주세요."
+  },
+  "finalCta": {
+    "eyebrow": "직접 예약",
+    "title": "날짜가 정해졌나요? Martina와 상담하세요",
+    "body": "날짜, 인원수, 온라인에서 확인한 가격을 보내주세요. Martina가 가능한 최적의 직접 예약 조건으로 직접 답변드립니다.",
+    "contact": "Martina에게 문의",
+    "availability": "예약 가능 여부 확인",
+    "trust": "개인 답변 · 부담 없음 · 직접 예약 요금"
+  }
 }

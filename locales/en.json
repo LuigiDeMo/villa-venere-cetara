@@ -1,15 +1,144 @@
 {
-  "meta": {"title": "Villa Venere - Amalfi Coast"},
-  "accessibility": {"openNavigation": "Open navigation"},
-  "nav": {"home": "Home page", "book": "Book now", "about": "About us", "rooms": "Rooms", "location": "Location", "language": "Language"},
-  "booking": {"title": "Private villa on the Amalfi Coast", "subtitle": "Book directly and save 15% on the price found on booking sites.", "checkin": "Check in", "checkout": "Check out", "guests": "Guests", "search": "Search"},
-  "directRate": {"title": "Found us on a booking site?", "description": "Send us the price shown on Booking.com, Airbnb or another booking site before you book. We will apply an additional 15% discount to the accommodation price.", "terms": "For the same dates, guests and cancellation terms. Subject to verification and availability.", "button": "Get 15% off"},
-  "bestRate": {"eyebrow": "BOOK DIRECT WITH US", "title": "Best price guaranteed", "description": "Show us the price you found online and book the same stay directly with an extra 15% discount.", "saving": "on the portal price", "button": "Request the best price", "terms": "Same dates, guests and cancellation terms. Verification and availability required."},
-  "about": {"title": "About us", "description": "Villa Venere is a beautiful sea-view villa near the beaches and center of Cetara. It offers three bedrooms, two bathrooms, a comfortable living room, an equipped induction kitchen and a panoramic terrace overlooking the Tower and Port. The villa also has private access to the sea.", "bedrooms": "Bedrooms", "bathrooms": "Bathrooms", "guests": "Guests", "imageAlt": "Sea view from Villa Venere"},
-  "rooms": {"title": "Rooms", "villa": "Three-Bedroom Villa", "capacity": "Up to 12 guests", "bathrooms": "2 bathrooms", "terrace": "Sea-view terrace", "seaAccess": "Private sea access", "view": "View room"},
-  "services": {"title": "Services", "hairDryer": "Hair Dryer", "towels": "Towels", "airConditioning": "Air conditioning", "terrace": "Private Terrace", "linen": "Linen", "hotTub": "Hot tub", "seaAccess": "Private sea access"},
-  "reviews": {"title": "Our Guests Say:", "loading": "Loading reviews..."},
-  "social": {"follow": "Follow Us:"},
-  "footer": {"copyright": "COPYRIGHT BY Villa Venere - Amalfi Coast. All rights reserved."},
-  "contact": {"mascot": "Ask Venere for information", "panelLabel": "Contact Villa Venere", "close": "Close contact window", "hostName": "Martina · Your host at Villa Venere", "replyTime": "Personally replies to your messages", "greeting": "Hi! I'm Martina 👋", "help": "Message me for availability, our best direct price or information about your stay.", "priceNudge": "Found a better price? Contact us: Martina will reply personally.", "startWith": "Start chat with:", "phone": "Phone", "launcher": "Contact us"}
+  "meta": {
+    "title": "Villa Venere - Amalfi Coast"
+  },
+  "accessibility": {
+    "openNavigation": "Open navigation"
+  },
+  "nav": {
+    "home": "Home page",
+    "book": "Book now",
+    "about": "About us",
+    "rooms": "Rooms",
+    "location": "Location",
+    "language": "Language"
+  },
+  "booking": {
+    "title": "Private villa on the Amalfi Coast",
+    "subtitle": "Book directly and save 15% on the price found on booking sites.",
+    "checkin": "Check in",
+    "checkout": "Check out",
+    "guests": "Guests",
+    "search": "Search"
+  },
+  "directRate": {
+    "title": "Your reserved direct rate",
+    "description": "Found a lower rate on a booking site? Contact us before you book.",
+    "terms": "For the same dates, guests and cancellation terms. Subject to verification and availability.",
+    "button": "Request the direct rate"
+  },
+  "bestRate": {
+    "eyebrow": "BOOK ON THE OFFICIAL WEBSITE",
+    "title": "Best direct rate",
+    "description": "Show us the equivalent rate found online and we will reply personally.",
+    "saving": "on the portal price",
+    "button": "Request the direct rate",
+    "terms": "Same dates, guests and cancellation terms. Verification and availability required."
+  },
+  "about": {
+    "title": "About us",
+    "description": "Villa Venere is a beautiful sea-view villa near the beaches and center of Cetara. It offers three bedrooms, two bathrooms, a comfortable living room, an equipped induction kitchen and a panoramic terrace overlooking the Tower and Port. The villa also has private access to the sea.",
+    "bedrooms": "Bedrooms",
+    "bathrooms": "Bathrooms",
+    "guests": "Guests",
+    "imageAlt": "Sea view from Villa Venere"
+  },
+  "rooms": {
+    "title": "Rooms",
+    "villa": "Three-Bedroom Villa",
+    "capacity": "Up to 12 guests",
+    "bathrooms": "2 bathrooms",
+    "terrace": "Sea-view terrace",
+    "seaAccess": "Private sea access",
+    "view": "View room"
+  },
+  "services": {
+    "title": "Services",
+    "hairDryer": "Hair Dryer",
+    "towels": "Towels",
+    "airConditioning": "Air conditioning",
+    "terrace": "Private Terrace",
+    "linen": "Linen",
+    "hotTub": "Hot tub",
+    "seaAccess": "Private sea access"
+  },
+  "reviews": {
+    "title": "Our Guests Say:",
+    "loading": "Loading reviews..."
+  },
+  "social": {
+    "follow": "Follow Us:"
+  },
+  "footer": {
+    "copyright": "COPYRIGHT BY Villa Venere - Amalfi Coast. All rights reserved."
+  },
+  "contact": {
+    "mascot": "Ask Venere for information",
+    "panelLabel": "Contact Villa Venere",
+    "close": "Close contact window",
+    "hostName": "Martina · Your host at Villa Venere",
+    "replyTime": "Personally replies to your messages",
+    "greeting": "Hi! I'm Martina 👋",
+    "help": "Message me for availability, our best direct price or information about your stay.",
+    "priceNudge": "Found a better price? Contact us: Martina will reply personally.",
+    "startWith": "Start chat with:",
+    "phone": "Phone",
+    "launcher": "Contact us"
+  },
+  "villaGuide": {
+    "title": "Explore the villa"
+  },
+  "photoExperience": {
+    "eyebrow": "A private home above the sea",
+    "title": "Discover Villa Venere, one view at a time",
+    "intro": "From the panoramic terrace to rooms overlooking the blue, explore the villa before you arrive.",
+    "showAll": "Show all photos",
+    "showLess": "Show fewer photos",
+    "living": "Living by the sea",
+    "evening": "Evenings under the lights",
+    "primaryRoom": "Sea-view room",
+    "seaTitle": "Your private way to the sea",
+    "seaDescription": "Walk down from the villa to a reserved platform on the water, away from the busiest beaches.",
+    "reservedPlatform": "Reserved sea platform",
+    "directWater": "Direct access to the water",
+    "privateRelax": "A quiet space for your group",
+    "discoverSea": "Discover the private sea access",
+    "roomsTitle": "Three rooms, one sea-view home",
+    "roomsIntro": "Bright double rooms and flexible sleeping spaces make the villa comfortable for families and groups.",
+    "familyRoom": "Room with sofa bed",
+    "thirdRoom": "Quiet double room",
+    "kitchen": "Equipped kitchen",
+    "kitchenText": "Everything you need for breakfast, an aperitif or dinner at home.",
+    "bathrooms": "Two modern bathrooms",
+    "bathroomsText": "Comfortable spaces with showers, towels and a washing machine.",
+    "flexible": "Flexible sleeping spaces",
+    "flexibleText": "Additional sofa beds allow the whole group to stay together.",
+    "momentsTitle": "Slow moments on the Amalfi Coast",
+    "momentsIntro": "Breakfast on the terrace, time in the hot tub and evenings with the lights of the coast in the distance.",
+    "terraceMoment": "Your table above the sea",
+    "hotTubMoment": "Relax, with the coast around you",
+    "hostTitle": "Martina welcomes you",
+    "hostDescription": "From your first question to your arrival in Cetara, Martina answers personally and helps you organise a relaxed stay."
+  },
+  "premium": {
+    "officialSite": "Official website",
+    "reviewEyebrow": "Verified guest experiences",
+    "reviewTitle": "A stay guests remember",
+    "reviewIntro": "Independent reviews from Airbnb, Booking.com and Google tell the story better than we can.",
+    "allReviews": "Read all verified reviews"
+  },
+  "mascotGuide": {
+    "offer": "Found a better price? Contact Martina to check the direct rate.",
+    "gallery": "Wondering if the villa suits your group? Martina will help you personally.",
+    "services": "Questions about amenities or private sea access? Ask Martina.",
+    "final": "Already have your dates? Send them to Martina."
+  },
+  "finalCta": {
+    "eyebrow": "BOOK DIRECT",
+    "title": "Already have your dates? Talk to Martina",
+    "body": "Send your dates, number of guests and any price found online. Martina will reply personally with the best available direct proposal.",
+    "contact": "Contact Martina",
+    "availability": "Check availability",
+    "trust": "Personal reply · No obligation · Direct rate"
+  }
 }

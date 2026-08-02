@@ -53,7 +53,7 @@ function structuredData(language, canonical, meta) {
         '@type': 'VacationRental', '@id': 'https://villavenerecetara.it/#villa',
         identifier: 'IT065041B49WWIMPWN', name: 'Villa Venere - Amalfi Coast',
         url: 'https://villavenerecetara.it/', description: meta.description, image: images,
-        telephone: ['+39 389 684 0764', '+39 333 102 4780'], email: 'info@villavenerecetara.com',
+        telephone: ['+39 389 684 0764'], email: 'info@villavenerecetara.com',
         address: { '@type': 'PostalAddress', streetAddress: 'Via Lannio, 8', postalCode: '84010', addressLocality: 'Cetara', addressRegion: 'SA', addressCountry: 'IT' },
         geo: { '@type': 'GeoCoordinates', latitude: 40.64717, longitude: 14.70383 },
         containsPlace: {

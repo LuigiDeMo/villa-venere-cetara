@@ -47,7 +47,7 @@ function getTranslation(dictionary, key) {
 }
 
 async function loadDictionary(language) {
-  const response = await fetch(`/locales/${language}.json?v=3`, { cache: 'no-cache' });
+  const response = await fetch(`/locales/${language}.json?v=7`, { cache: 'no-cache' });
   if (!response.ok) throw new Error(`Unable to load language: ${language}`);
   return response.json();
 }
@@ -72,8 +72,6 @@ function updateSeoLinks(language) {
     if (path) link.href = path;
   });
   if (language === 'it') {
-    const title = document.querySelector('#villa-guide-title');
-    if (title) title.textContent = 'Scopri Villa Venere';
     const notes = document.querySelectorAll('.guide-grid small');
     ['Villa, camere e ambienti', 'Terrazza, banchina e mare', 'Capienza e dotazioni', 'Traghetti, autobus e parcheggio'].forEach((text, index) => {
       if (notes[index]) notes[index].textContent = text;
@@ -83,6 +81,7 @@ function updateSeoLinks(language) {
 
 function applyTranslations(language, dictionary, fallback) {
   const translate = (key) => getTranslation(dictionary, key) ?? getTranslation(fallback, key);
+  window.villaVenereTranslate = translate;
   document.querySelectorAll('[data-i18n]').forEach((element) => {
     const value = translate(element.dataset.i18n);
     if (typeof value === 'string') element.textContent = value;
@@ -581,14 +580,58 @@ function observeMascotMoment(selector, animation, onceKey, delay = 900) {
   targets.forEach((target) => observer.observe(target));
 }
 
+const mascotContextSeen = new Set();
+let mascotContextNextAt = 0;
+let mascotContextCount = 0;
+
+function mascotContextText(key) {
+  return window.villaVenereTranslate?.('mascotGuide.' + key) || {
+    offer: 'Found a better price? Contact Martina to check the direct rate.',
+    gallery: 'Wondering if the villa suits your group? Martina will help you personally.',
+    services: 'Questions about amenities or private sea access? Ask Martina.',
+    final: 'Already have your dates? Send them to Martina.',
+  }[key] || '';
+}
+
+function showMascotContext(key, animation = 'contact') {
+  if (!mascotNudge || mascotContextSeen.has(key) || mascotContextCount >= 4) return;
+  mascotContextSeen.add(key);
+  const now = Date.now();
+  const scheduledAt = Math.max(now, mascotContextNextAt);
+  mascotContextNextAt = scheduledAt + 20000;
+  const wait = scheduledAt - now;
+  window.setTimeout(async () => {
+    if (contactPanel?.classList.contains('open')) return;
+    mascotContextCount += 1;
+    mascotNudge.textContent = mascotContextText(key);
+    mascotNudge.classList.add('visible', 'contextual');
+    await playMascotAnimation(animation);
+    window.setTimeout(() => {
+      mascotNudge.classList.remove('visible', 'contextual');
+      mascotNudge.textContent = window.villaVenereTranslate?.('contact.priceNudge') || 'Found a better price? Martina will reply personally.';
+    }, 6800);
+  }, wait);
+}
+
+function observeMascotContext(selector, key, animation) {
+  const target = document.querySelector(selector);
+  if (!target || !('IntersectionObserver' in window)) return;
+  const observer = new IntersectionObserver((entries) => {
+    if (!entries.some((entry) => entry.isIntersecting)) return;
+    showMascotContext(key, animation);
+    observer.disconnect();
+  }, { threshold: .3 });
+  observer.observe(target);
+}
+
 if (activeSeasonalMascotEvent) {
   window.setTimeout(() => playSeasonalMascot(activeSeasonalMascotEvent, { force: seasonalMascotForced }), 9000);
 } else {
-  window.setTimeout(() => playMascotAnimation('direct-offer', { onceKey: 'venere-direct-offer-seen' }), 9000);
+  window.setTimeout(() => showMascotContext('offer', 'direct-offer'), 9000);
 }
-observeMascotMoment('#services', 'sea-access', 'venere-sea-access-seen');
-observeMascotMoment('#location', 'directions', 'venere-directions-seen');
-window.setTimeout(() => playMascotAnimation('contact', { onceKey: 'venere-contact-seen' }), 26000);
+window.setTimeout(() => observeMascotContext('#gallery', 'gallery', 'sea-breeze'), 0);
+observeMascotContext('#services', 'services', 'sea-access');
+window.setTimeout(() => observeMascotContext('.final-contact-cta', 'final', 'direct-offer'), 0);
 
 function scheduleAmbientMascot() {
   const delay = 42000 + Math.round(Math.random() * 26000);
@@ -699,3 +742,127 @@ if ('IntersectionObserver' in window && reviewsSection) {
 } else {
   window.setTimeout(loadThirdPartyWidgets, 3000);
 }
+
+/* Martina is intentionally retained on top of the published design. */
+const martinaPhoto = '/assets/photo/martina-host-2026.jpeg';
+const martinaCopy = {
+  it: { eyebrow: 'RISPONDE PERSONALMENTE AI MESSAGGI', title: 'Martina ti dà il benvenuto', body: 'Dalla prima domanda fino al tuo arrivo a Cetara, Martina risponde personalmente e ti aiuta a organizzare un soggiorno senza pensieri.', button: 'Contattaci', launcher: 'Contatta Martina' },
+  en: { eyebrow: 'PERSONALLY REPLIES TO MESSAGES', title: 'Martina welcomes you', body: 'From your first question to your arrival in Cetara, Martina personally replies and helps you plan a carefree stay.', button: 'Contact us', launcher: 'Contact Martina' },
+  fr: { eyebrow: 'RÉPOND PERSONNELLEMENT AUX MESSAGES', title: 'Martina vous souhaite la bienvenue', body: 'De votre première question à votre arrivée à Cetara, Martina vous répond personnellement et vous aide à organiser un séjour serein.', button: 'Nous contacter', launcher: 'Contacter Martina' },
+  es: { eyebrow: 'RESPONDE PERSONALMENTE A LOS MENSAJES', title: 'Martina te da la bienvenida', body: 'Desde tu primera pregunta hasta tu llegada a Cetara, Martina responde personalmente y te ayuda a organizar una estancia sin preocupaciones.', button: 'Contáctanos', launcher: 'Contacta con Martina' },
+  de: { eyebrow: 'ANTWORTET PERSÖNLICH AUF NACHRICHTEN', title: 'Martina heißt Sie willkommen', body: 'Von der ersten Frage bis zu Ihrer Ankunft in Cetara antwortet Martina persönlich und hilft Ihnen bei der Planung eines unbeschwerten Aufenthalts.', button: 'Kontakt', launcher: 'Martina kontaktieren' },
+  pt: { eyebrow: 'RESPONDE PESSOALMENTE ÀS MENSAGENS', title: 'Martina dá-lhe as boas-vindas', body: 'Desde a primeira pergunta até à sua chegada a Cetara, Martina responde pessoalmente e ajuda a organizar uma estadia tranquila.', button: 'Contacte-nos', launcher: 'Contactar Martina' },
+  ru: { eyebrow: 'ЛИЧНО ОТВЕЧАЕТ НА СООБЩЕНИЯ', title: 'Мартина приветствует вас', body: 'От первого вопроса до вашего приезда в Четару Мартина отвечает лично и помогает организовать беззаботный отдых.', button: 'Связаться', launcher: 'Написать Мартине' },
+  zh: { eyebrow: '亲自回复每一条消息', title: 'Martina 欢迎您', body: '从您的第一个问题到抵达切塔拉，Martina 都会亲自回复，并帮助您安心规划旅程。', button: '联系我们', launcher: '联系 Martina' },
+  ja: { eyebrow: 'メッセージに直接お答えします', title: 'Martinaがお迎えします', body: '最初のご質問からチェターラへのご到着まで、Martinaが直接お答えし、安心して滞在を計画できるようお手伝いします。', button: 'お問い合わせ', launcher: 'Martinaに連絡' },
+  ko: { eyebrow: '메시지에 직접 답변합니다', title: 'Martina가 환영합니다', body: '첫 문의부터 체타라 도착까지 Martina가 직접 답변하며 편안한 여행 준비를 도와드립니다.', button: '문의하기', launcher: 'Martina에게 문의' },
+  ar: { eyebrow: 'ترد شخصياً على الرسائل', title: 'مارتينا ترحب بكم', body: 'من أول سؤال وحتى وصولكم إلى شيتارا، ترد مارتينا شخصياً وتساعدكم على تنظيم إقامة مريحة.', button: 'تواصلوا معنا', launcher: 'تواصل مع مارتينا' },
+  nl: { eyebrow: 'BEANTWOORDT BERICHTEN PERSOONLIJK', title: 'Martina heet u welkom', body: 'Vanaf uw eerste vraag tot uw aankomst in Cetara antwoordt Martina persoonlijk en helpt zij u een zorgeloos verblijf te plannen.', button: 'Contact', launcher: 'Contact met Martina' },
+  pl: { eyebrow: 'OSOBIŚCIE ODPOWIADA NA WIADOMOŚCI', title: 'Martina wita Państwa', body: 'Od pierwszego pytania aż po przyjazd do Cetary Martina odpowiada osobiście i pomaga zaplanować spokojny pobyt.', button: 'Kontakt', launcher: 'Napisz do Martiny' }
+};
+
+function installMartinaExperience() {
+  if (document.querySelector('.martina-host')) return;
+  const language = window.villaVenereLanguage || document.documentElement.lang || 'en';
+  const copy = martinaCopy[language] || martinaCopy.en;
+  const anchor = document.querySelector('#reviews') || document.querySelector('.villa-guide');
+  if (!anchor) return;
+
+  const section = document.createElement('section');
+  section.className = 'martina-host';
+  section.setAttribute('aria-labelledby', 'martina-host-title');
+  section.innerHTML = `<div class="container martina-host-grid"><div class="martina-host-photo"><img src="${martinaPhoto}" width="1200" height="1600" loading="lazy" decoding="async" alt="Martina, host di Villa Venere"></div><div class="martina-host-copy"><p class="martina-eyebrow">${copy.eyebrow}</p><h3 id="martina-host-title">${copy.title}</h3><p>${copy.body}</p><button class="martina-host-button" type="button" data-contact-open>${copy.button}</button></div></div>`;
+  anchor.insertAdjacentElement('beforebegin', section);
+  section.querySelector('[data-contact-open]')?.addEventListener('click', () => setContactOpen(true));
+
+  const launcherIcon = contactLauncher?.querySelector('.contact-launcher-icon');
+  const launcherLabel = contactLauncher?.querySelector('[data-i18n="contact.launcher"]');
+  if (launcherIcon) launcherIcon.innerHTML = `<img class="contact-host-avatar" src="${martinaPhoto}" alt="" aria-hidden="true">`;
+  if (launcherLabel) launcherLabel.textContent = copy.launcher;
+}
+
+function installStorySections() {
+  if (document.querySelector('.photo-story') || document.querySelector('.slow-moments')) return;
+
+  const rooms = document.querySelector('#rooms');
+  if (rooms) {
+    const gallery = document.createElement('section');
+    gallery.className = 'photo-story';
+    gallery.id = 'gallery';
+    gallery.setAttribute('aria-labelledby', 'photo-story-title');
+    gallery.innerHTML = `
+      <div class="container">
+        <header class="section-intro">
+          <p class="section-eyebrow" data-i18n="photoExperience.eyebrow">A private home by the sea</p>
+          <h3 id="photo-story-title" data-i18n="photoExperience.title">Discover Villa Venere, one view at a time</h3>
+          <p class="photo-story-capacity"><span data-i18n="rooms.capacity">Up to 12 guests</span><span>· 3 <span data-i18n="about.bedrooms">Bedrooms</span></span><span>· 2 <span data-i18n="about.bathrooms">Bathrooms</span></span><span>· <span data-i18n="photoExperience.kitchen">Equipped kitchen</span></span></p>
+          <p data-i18n="photoExperience.intro">From the panoramic terrace to sea-view rooms: explore the villa before you arrive.</p>
+        </header>
+        <div class="photo-mosaic">
+          <figure class="photo-tile photo-tile-wide"><img src="/assets/photo/terrace-relax.webp" width="1800" height="1200" loading="lazy" decoding="async" alt="Panoramic private terrace overlooking the Amalfi Coast"><figcaption data-i18n="services.terrace">Private terrace</figcaption></figure>
+          <figure class="photo-tile"><img src="/assets/photo/living-sea.webp" width="1800" height="1200" loading="lazy" decoding="async" alt="Sea-view living room at Villa Venere"><figcaption data-i18n="photoExperience.living">Living by the sea</figcaption></figure>
+          <figure class="photo-tile"><img src="/assets/photo/villa-cliff.webp" width="1800" height="1013" loading="lazy" decoding="async" alt="Villa Venere beside the Viceregal Tower in Cetara"><figcaption>Villa Venere · Cetara</figcaption></figure>
+          <figure class="photo-tile photo-tile-extra"><img src="/assets/photo/terrace-night.webp" width="1600" height="1067" loading="lazy" decoding="async" alt="Villa Venere terrace in the evening"><figcaption data-i18n="photoExperience.evening">Evenings under the lights</figcaption></figure>
+          <figure class="photo-tile photo-tile-extra"><img src="/assets/photo/cetara-path.webp" width="1400" height="1050" loading="lazy" decoding="async" alt="Bougainvillea-lined path in Cetara"><figcaption>Cetara · Amalfi Coast</figcaption></figure>
+          <figure class="photo-tile photo-tile-extra"><img src="/assets/photo/bedroom-sea.webp" width="1600" height="1067" loading="lazy" decoding="async" alt="Bright double bedroom with a sea view"><figcaption data-i18n="photoExperience.primaryRoom">Sea-view bedroom</figcaption></figure>
+          <figure class="photo-tile photo-tile-extra"><img src="/assets/photo/bathroom-main.webp" width="1500" height="1000" loading="lazy" decoding="async" alt="Modern bathroom with a large shower"><figcaption data-i18n="photoExperience.bathrooms">Two modern bathrooms</figcaption></figure>
+          <figure class="photo-tile photo-tile-wide photo-tile-extra"><img src="/assets/photo/bedroom-family.webp" width="1600" height="1067" loading="lazy" decoding="async" alt="Double bedroom with sofa bed"><figcaption data-i18n="photoExperience.familyRoom">Bedroom with sofa bed</figcaption></figure>
+          <figure class="photo-tile photo-tile-wide photo-tile-extra"><img src="/assets/photo/kitchen.webp" width="1600" height="1067" loading="lazy" decoding="async" alt="Fully equipped induction kitchen"><figcaption data-i18n="photoExperience.kitchen">Equipped kitchen</figcaption></figure>
+        </div>
+        <div class="photo-gallery-actions"><button class="photo-gallery-toggle" type="button" aria-expanded="false"><span class="gallery-label-show" data-i18n="photoExperience.showAll">Show all photos</span><span class="gallery-label-hide" data-i18n="photoExperience.showLess">Show fewer photos</span></button></div>
+      </div>`;
+    const galleryMosaic = gallery.querySelector('.photo-mosaic');
+    const galleryToggle = gallery.querySelector('.photo-gallery-toggle');
+    galleryToggle?.addEventListener('click', () => {
+      const expanded = galleryMosaic?.classList.toggle('is-expanded') || false;
+      galleryToggle.setAttribute('aria-expanded', String(expanded));
+    });
+    rooms.insertAdjacentElement('afterend', gallery);
+  }
+
+  const storyAnchor = document.querySelector('.photo-story') || document.querySelector('#about');
+  if (storyAnchor) {
+    const moments = document.createElement('section');
+    moments.id = 'moments';
+    moments.className = 'slow-moments';
+    moments.setAttribute('aria-labelledby', 'slow-moments-title');
+    moments.innerHTML = `
+      <div class="container">
+        <header class="section-intro">
+          <p class="section-eyebrow">Villa Venere · Amalfi Coast</p>
+          <h3 id="slow-moments-title" data-i18n="photoExperience.momentsTitle">Slow moments on the Amalfi Coast</h3>
+          <p><span data-i18n="services.terrace">Private terrace</span><span data-i18n="services.hotTub">Hot tub</span><span data-i18n="services.seaAccess">Private access to the sea</span></p>
+        </header>
+        <div class="moments-grid">
+          <article class="moment-card"><img src="/assets/photo/terrace-relax.webp" width="1800" height="1200" loading="lazy" decoding="async" alt="Private panoramic terrace"><div class="moment-card-copy"><span data-i18n="services.terrace">Private terrace</span><h4 data-i18n="photoExperience.terraceMoment">Your table above the sea</h4></div></article>
+          <article class="moment-card moment-card-hot-tub"><img src="/assets/photo/hot-tub-from-video.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Private hot tub"><div class="moment-card-copy"><span data-i18n="services.hotTub">Hot tub</span><h4 data-i18n="photoExperience.hotTubMoment">Relax, surrounded by the Amalfi Coast</h4></div></article>
+          <article class="moment-card"><img src="/assets/photo/sea-access-temporary.webp" width="1600" height="900" loading="lazy" decoding="async" alt="Private steps leading directly to the sea"><div class="moment-card-copy"><span data-i18n="services.seaAccess">Private access to the sea</span><h4 data-i18n="photoExperience.seaTitle">Your private path to the sea</h4></div></article>
+        </div>
+      </div>`;
+    storyAnchor.insertAdjacentElement('afterend', moments);
+  }
+
+  const guide = document.querySelector('.villa-guide');
+  const gallerySection = document.querySelector('.photo-story');
+  if (guide && gallerySection) gallerySection.insertAdjacentElement('afterend', guide);
+}
+
+function installFinalContactCta() {
+  if (document.querySelector('.final-contact-cta')) return;
+  const reviews = document.querySelector('#reviews');
+  if (!reviews) return;
+  const section = document.createElement('section');
+  section.className = 'final-contact-cta';
+  section.setAttribute('aria-labelledby', 'final-contact-title');
+  section.innerHTML = `<div class="container"><div class="final-contact-card"><img class="final-contact-photo" src="${martinaPhoto}" width="480" height="640" loading="lazy" decoding="async" alt="Martina, host di Villa Venere"><div class="final-contact-copy"><p class="final-contact-eyebrow" data-i18n="finalCta.eyebrow">BOOK DIRECT</p><h3 id="final-contact-title" data-i18n="finalCta.title">Already have your dates? Talk to Martina</h3><p data-i18n="finalCta.body">Send your dates, number of guests and any price found online. Martina will reply personally with the best available direct proposal.</p><div class="final-contact-actions"><button type="button" class="final-contact-primary" data-contact-open data-i18n="finalCta.contact">Contact Martina</button><a class="final-contact-secondary" data-booking-link href="https://book.octorate.com/octobook/site/reservation/index.xhtml?lang=en&codice=679766" target="_blank" rel="noreferrer" data-i18n="finalCta.availability">Check availability</a></div><small data-i18n="finalCta.trust">Personal reply · No obligation · Direct rate</small></div></div></div>`;
+  reviews.insertAdjacentElement('afterend', section);
+  section.querySelector('[data-contact-open]')?.addEventListener('click', () => setContactOpen(true));
+  updateBookingLinks(window.villaVenereLanguage || DEFAULT_LANGUAGE);
+}
+
+installStorySections();
+installFinalContactCta();
+Promise.resolve(window.villaI18nReady).finally(() => {
+  installMartinaExperience();
+  installFinalContactCta();
+});

@@ -1,15 +1,144 @@
 {
-  "meta": {"title": "Villa Venere — 阿马尔菲海岸"},
-  "accessibility": {"openNavigation": "打开导航"},
-  "nav": {"home": "首页", "book": "立即预订", "about": "关于我们", "rooms": "客房", "location": "位置", "language": "语言"},
-  "booking": {"title": "阿马尔菲海岸私人别墅", "subtitle": "直接预订，比预订平台显示价格再优惠15%。", "checkin": "入住", "checkout": "退房", "guests": "住客", "search": "查询"},
-  "directRate": {"title": "在预订平台上找到我们？", "description": "预订前请把 Booking.com、Airbnb 或其他平台的价格发给我们，住宿价格可再享15%优惠。", "terms": "须为相同日期、住客人数及取消条件，并视核实结果和房态而定。", "button": "获取15%优惠"},
-  "bestRate": {"eyebrow": "直接向我们预订", "title": "保证最优价格", "description": "向我们出示您在线找到的价格，直接预订相同行程可再享15%优惠。", "saving": "平台价格优惠", "button": "申请最优价格", "terms": "相同日期、住客人数及取消条件。须核实并视房态而定。"},
-  "about": {"title": "关于我们", "description": "Villa Venere 是一座迷人的海景别墅，靠近切塔拉的海滩和镇中心。别墅设有三间卧室、两间浴室、舒适客厅、配备电磁炉的厨房，以及俯瞰古塔和港口的全景露台，并拥有私人入海通道。", "bedrooms": "卧室", "bathrooms": "浴室", "guests": "住客", "imageAlt": "Villa Venere 的海景"},
-  "rooms": {"title": "客房", "villa": "三卧室别墅", "capacity": "最多12位住客", "bathrooms": "2间浴室", "terrace": "海景露台", "seaAccess": "私人入海通道", "view": "查看客房"},
-  "services": {"title": "设施", "hairDryer": "吹风机", "towels": "毛巾", "airConditioning": "空调", "terrace": "私人露台", "linen": "床品", "hotTub": "按摩浴缸", "seaAccess": "私人入海通道"},
-  "reviews": {"title": "住客评价：", "loading": "正在加载评价..."},
-  "social": {"follow": "关注我们："},
-  "footer": {"copyright": "Villa Venere — Amalfi Coast 版权所有。"},
-  "contact": {"mascot": "向维纳斯咨询", "panelLabel": "联系 Villa Venere", "close": "关闭联系窗口", "hostName": "Martina · Villa Venere 房东", "replyTime": "由本人亲自回复消息", "greeting": "您好！我是 Martina 👋", "help": "欢迎咨询房态、直接预订最优价格或住宿信息。", "priceNudge": "找到了更低价格？请联系我们，Martina 将亲自回复。", "startWith": "选择联系方式：", "phone": "电话", "launcher": "联系我们"}
+  "meta": {
+    "title": "Villa Venere — 阿马尔菲海岸"
+  },
+  "accessibility": {
+    "openNavigation": "打开导航"
+  },
+  "nav": {
+    "home": "首页",
+    "book": "立即预订",
+    "about": "关于我们",
+    "rooms": "客房",
+    "location": "位置",
+    "language": "语言"
+  },
+  "booking": {
+    "title": "阿马尔菲海岸私人别墅",
+    "subtitle": "直接预订，比预订平台显示价格再优惠15%。",
+    "checkin": "入住",
+    "checkout": "退房",
+    "guests": "住客",
+    "search": "查询"
+  },
+  "directRate": {
+    "title": "在预订平台上找到我们？",
+    "description": "预订前请把 Booking.com、Airbnb 或其他平台的价格发给我们，住宿价格可再享15%优惠。",
+    "terms": "须为相同日期、住客人数及取消条件，并视核实结果和房态而定。",
+    "button": "获取15%优惠"
+  },
+  "bestRate": {
+    "eyebrow": "直接向我们预订",
+    "title": "保证最优价格",
+    "description": "向我们出示您在线找到的价格，直接预订相同行程可再享15%优惠。",
+    "saving": "平台价格优惠",
+    "button": "申请最优价格",
+    "terms": "相同日期、住客人数及取消条件。须核实并视房态而定。"
+  },
+  "about": {
+    "title": "关于我们",
+    "description": "Villa Venere 是一座迷人的海景别墅，靠近切塔拉的海滩和镇中心。别墅设有三间卧室、两间浴室、舒适客厅、配备电磁炉的厨房，以及俯瞰古塔和港口的全景露台，并拥有私人入海通道。",
+    "bedrooms": "卧室",
+    "bathrooms": "浴室",
+    "guests": "住客",
+    "imageAlt": "Villa Venere 的海景"
+  },
+  "rooms": {
+    "title": "客房",
+    "villa": "三卧室别墅",
+    "capacity": "最多12位住客",
+    "bathrooms": "2间浴室",
+    "terrace": "海景露台",
+    "seaAccess": "私人入海通道",
+    "view": "查看客房"
+  },
+  "services": {
+    "title": "设施",
+    "hairDryer": "吹风机",
+    "towels": "毛巾",
+    "airConditioning": "空调",
+    "terrace": "私人露台",
+    "linen": "床品",
+    "hotTub": "按摩浴缸",
+    "seaAccess": "私人入海通道"
+  },
+  "reviews": {
+    "title": "住客评价：",
+    "loading": "正在加载评价..."
+  },
+  "social": {
+    "follow": "关注我们："
+  },
+  "footer": {
+    "copyright": "Villa Venere — Amalfi Coast 版权所有。"
+  },
+  "contact": {
+    "mascot": "向维纳斯咨询",
+    "panelLabel": "联系 Villa Venere",
+    "close": "关闭联系窗口",
+    "hostName": "Martina · Villa Venere 房东",
+    "replyTime": "由本人亲自回复消息",
+    "greeting": "您好！我是 Martina 👋",
+    "help": "欢迎咨询房态、直接预订最优价格或住宿信息。",
+    "priceNudge": "找到了更低价格？请联系我们，Martina 将亲自回复。",
+    "startWith": "选择联系方式：",
+    "phone": "电话",
+    "launcher": "联系我们"
+  },
+  "villaGuide": {
+    "title": "探索别墅"
+  },
+  "photoExperience": {
+    "eyebrow": "海上的私人之家",
+    "title": "从每一处风景认识 Villa Venere",
+    "intro": "从全景露台到面朝蔚蓝大海的客房，在抵达前先探索整栋别墅。",
+    "showAll": "查看全部照片",
+    "showLess": "收起照片",
+    "living": "Living by the sea",
+    "evening": "Evenings under the lights",
+    "primaryRoom": "Sea-view room",
+    "seaTitle": "您的私人入海通道",
+    "seaDescription": "从别墅步行至水边的专属平台，远离拥挤的海滩。",
+    "reservedPlatform": "Reserved sea platform",
+    "directWater": "Direct access to the water",
+    "privateRelax": "A quiet space for your group",
+    "discoverSea": "Discover the private sea access",
+    "roomsTitle": "三间客房，一座海景之家",
+    "roomsIntro": "明亮的双人房和灵活的睡眠空间，适合家庭与团体。",
+    "familyRoom": "Room with sofa bed",
+    "thirdRoom": "Quiet double room",
+    "kitchen": "Equipped kitchen",
+    "kitchenText": "Everything you need for breakfast, an aperitif or dinner at home.",
+    "bathrooms": "Two modern bathrooms",
+    "bathroomsText": "Comfortable spaces with showers, towels and a washing machine.",
+    "flexible": "Flexible sleeping spaces",
+    "flexibleText": "Additional sofa beds allow the whole group to stay together.",
+    "momentsTitle": "阿马尔菲海岸的慢时光",
+    "momentsIntro": "露台早餐、按摩浴缸和远望海岸灯火的夜晚。",
+    "terraceMoment": "Your table above the sea",
+    "hotTubMoment": "Relax, with the coast around you",
+    "hostTitle": "Martina 欢迎您",
+    "hostDescription": "从第一次咨询到抵达切塔拉，Martina 都会亲自回复。"
+  },
+  "premium": {
+    "officialSite": "官方网站",
+    "reviewEyebrow": "真实住客体验",
+    "reviewTitle": "令人难忘的住宿",
+    "reviewIntro": "Airbnb、Booking.com 和 Google 上的独立评价比我们更能讲述 Villa Venere。",
+    "allReviews": "阅读所有真实评价"
+  },
+  "mascotGuide": {
+    "offer": "发现了更低价格？联系 Martina 核实官网直订价格。",
+    "gallery": "想确认别墅是否适合您的团队？Martina 会亲自协助。",
+    "services": "对设施或私人入海通道有疑问？请咨询 Martina。",
+    "final": "已有入住日期？请发送给 Martina。"
+  },
+  "finalCta": {
+    "eyebrow": "官网直订",
+    "title": "已有入住日期？联系 Martina",
+    "body": "请发送日期、入住人数及您在网上看到的价格。Martina 会亲自回复并提供当前最佳直订方案。",
+    "contact": "联系 Martina",
+    "availability": "查询空房",
+    "trust": "亲自回复 · 无需承诺 · 官网直订价"
+  }
 }

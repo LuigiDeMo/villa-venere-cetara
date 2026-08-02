@@ -144,6 +144,7 @@ header{background:rgba(249,244,238,.97);border-bottom:1px solid rgba(141,109,77,
 .brand-copy{display:flex;flex-direction:column;gap:1px;line-height:1}
 .brand-copy strong{color:#45372f;font:600 1.55rem/1.05 "EB Garamond",serif;letter-spacing:.01em}
 .brand-copy small{color:#9a7b5b;font:600 .58rem/1.4 Montserrat,sans-serif;letter-spacing:.18em;text-transform:uppercase}
+.brand-copy:after{content:"SITO UFFICIALE";margin-top:2px;color:#b68c5e;font:700 .48rem/1.25 Montserrat,sans-serif;letter-spacing:.22em;text-transform:uppercase}
 .nav{gap:4px;color:#55483f}
 .nav>a,.language-menu>button{display:flex;align-items:center;justify-content:center;gap:7px;padding:11px 12px;border-radius:999px;color:#55483f;font-size:.76rem;font-weight:600;letter-spacing:.02em;transition:background .2s ease,color .2s ease,transform .2s ease}
 .nav>a:hover,.nav>a.active,.language-menu>button:hover{background:rgba(179,148,111,.11);color:#8f6d49}
@@ -192,9 +193,111 @@ a.footer-contact-line:hover{color:#fff4e5}
 [dir="rtl"] .nav .nav-book{margin-right:8px;margin-left:0}[dir="rtl"] .footer-grid .footer-nav a{padding-right:18px;padding-left:0}[dir="rtl"] .footer-grid .footer-nav a:before{right:0;left:auto}
 @media(max-width:1050px){.header-inner{gap:18px}.brand-copy strong{font-size:1.35rem}.nav>a,.language-menu>button{padding-inline:9px}.nav .nav-book{padding-inline:14px}.footer-grid{gap:42px}}
 @media(max-width:900px){.header-inner{min-height:78px}.brand img{width:54px;height:54px;border-radius:11px}.brand-copy strong{font-size:1.35rem}.menu-toggle{display:block}.nav{top:78px;padding:14px 18px 20px;border-top:1px solid rgba(179,148,111,.18);background:#fffaf5;box-shadow:0 18px 35px rgba(62,48,39,.16)}.nav>a{justify-content:flex-start;padding:11px 13px;border-radius:8px}.nav>a.active{box-shadow:none}.nav .nav-book{justify-content:center;margin:10px 0 0;color:#fff}.language-menu{display:none}.footer-grid{grid-template-columns:1fr 1fr;gap:48px}.footer-brand{grid-row:span 2}.footer-nav{padding-top:0}}
-@media(max-width:560px){.header-inner{min-height:70px}.brand{gap:10px}.brand img{width:48px;height:48px;border-radius:10px}.brand-copy strong{font-size:1.16rem}.brand-copy small{font-size:.47rem;letter-spacing:.13em}.menu-toggle{width:40px;height:40px;padding:9px}.nav{top:70px}.well6{padding-top:52px}.footer-grid{grid-template-columns:1fr;gap:38px;padding-bottom:42px}.footer-brand{grid-row:auto}.footer-logo img{width:60px;height:60px}.footer-nav{display:grid;grid-template-columns:1fr 1fr!important;gap:4px 18px}.footer-contact-line{font-size:.72rem}.copyright{flex-direction:column;align-items:center;gap:5px;padding-bottom:88px;text-align:center}.well6:before{right:-220px}}
+@media(max-width:560px){.header-inner{min-height:70px}.brand{gap:10px}.brand img{width:48px;height:48px;border-radius:10px}.brand-copy strong{font-size:1.16rem}.brand-copy small{font-size:.47rem;letter-spacing:.13em}.brand-copy:after{font-size:.4rem;letter-spacing:.16em}.menu-toggle{width:40px;height:40px;padding:9px}.nav{top:70px}.well6{padding-top:52px}.footer-grid{grid-template-columns:1fr;gap:38px;padding-bottom:42px}.footer-brand{grid-row:auto}.footer-logo img{width:60px;height:60px}.footer-nav{display:grid;grid-template-columns:1fr 1fr!important;gap:4px 18px}.footer-contact-line{font-size:.72rem}.copyright{flex-direction:column;align-items:center;gap:5px;padding-bottom:88px;text-align:center}.well6:before{right:-220px}}
 
 /* Editorial links to crawlable villa guides */
 .villa-guide{padding:5.25rem 0;background:#f5eee6;color:#352d29}.villa-guide h3{margin:0 0 2rem;font:600 clamp(2rem,4vw,3.35rem)/1.05 "EB Garamond",serif}.guide-eyebrow{margin:0 0 .65rem;color:#a67e55;font:600 .72rem/1.4 Montserrat,sans-serif;letter-spacing:.22em;text-transform:uppercase}.guide-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1rem}.guide-grid a{min-height:178px;padding:1.4rem;border:1px solid rgba(90,68,54,.14);border-radius:18px;background:rgba(255,255,255,.76);color:inherit;text-decoration:none;box-shadow:0 14px 36px rgba(70,48,38,.06);transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease}.guide-grid a:hover{transform:translateY(-4px);border-color:rgba(166,126,85,.5);box-shadow:0 20px 42px rgba(70,48,38,.1)}.guide-grid span{display:block;margin-bottom:2rem;color:#b99670;font:500 .7rem/1 Montserrat,sans-serif;letter-spacing:.16em}.guide-grid strong{display:block;font:600 1.32rem/1.15 "EB Garamond",serif}.guide-grid small{display:block;margin-top:.55rem;color:#756860;font:400 .76rem/1.5 Montserrat,sans-serif}@media(max-width:900px){.guide-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:520px){.villa-guide{padding:3.5rem 0}.guide-grid{grid-template-columns:1fr}.guide-grid a{min-height:138px}.guide-grid span{margin-bottom:1.25rem}}
 
 .mascot-button img{position:absolute;inset:0}.mascot-pose-buffer{opacity:0}.mascot-button.is-sequencing{animation:none}.mascot-button.is-sequencing img{transition:none!important}
+/* Published design + Martina host section */
+.martina-host{padding:100px 0;background:#fffaf5}
+.martina-host-grid{display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:70px}
+.martina-host-photo{height:560px;overflow:hidden;border-radius:50% 50% 10px 10px;box-shadow:0 20px 55px rgba(74,52,38,.15)}
+.martina-host-photo img{width:100%;height:100%;object-fit:cover;object-position:50% 42%}
+.martina-host-copy{padding-right:110px}.martina-host-copy .martina-eyebrow{margin:0 0 24px;color:#b68c5e;font-size:.75rem;font-weight:700;letter-spacing:.28em;text-transform:uppercase}
+.martina-host-copy h3{margin:0 0 26px;color:#624b3a;font-size:3.2rem;line-height:1.04}
+.martina-host-copy>p:not(.martina-eyebrow){max-width:560px;margin:0 0 32px;color:#746a63;font-size:1rem;line-height:1.9}
+.martina-host-button{display:inline-flex;align-items:center;justify-content:center;padding:15px 27px;border:0;border-radius:999px;background:#b99064;color:#fff;font-weight:700;letter-spacing:.08em;text-transform:uppercase;cursor:pointer}
+.contact-launcher-icon:has(.contact-host-avatar){overflow:hidden;border-radius:50%}
+.contact-host-avatar{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 34%;transform:scale(1.5)}
+@media(max-width:900px){.martina-host-grid{gap:38px}.martina-host-photo{height:440px}.martina-host-copy{padding-right:0}}
+@media(max-width:620px){.martina-host{padding:70px 0}.martina-host-grid{grid-template-columns:1fr;gap:34px}.martina-host-photo{height:430px}.martina-host-copy h3{font-size:2.35rem}.martina-host-copy{text-align:center}.martina-host-copy>p:not(.martina-eyebrow){font-size:.94rem}}
+
+/* Photo mosaic and three slow moments, retained on the published design */
+.photo-story{padding:100px 0;background:#fffaf5;color:#47372e}
+.section-intro{max-width:940px;margin:0 auto 58px;text-align:center}
+.section-intro .section-eyebrow{margin:0 0 15px;color:#b68c5e;font-size:.72rem;font-weight:700;letter-spacing:.24em;text-transform:uppercase}
+.section-intro h3{max-width:900px;margin:0 auto 22px;color:#624b3a;font:500 clamp(2.7rem,5vw,4.45rem)/1.03 "EB Garamond",serif}
+.section-intro>p:last-child{margin:0;color:#7b7069;font-size:.98rem;line-height:1.8}
+.photo-story-capacity{display:inline-flex;flex-wrap:wrap;justify-content:center;gap:.42rem;margin:4px 0 20px!important;padding:10px 20px;border:1px solid rgba(182,140,94,.45);border-radius:999px;color:#9c754f!important;font-size:.72rem!important;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+.photo-mosaic{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));grid-auto-rows:245px;gap:14px}
+.photo-tile{position:relative;min-width:0;margin:0;overflow:hidden;background:#e9dfd5}
+.photo-tile-wide{grid-column:span 2}
+.photo-tile img{width:100%;height:100%;object-fit:cover;transition:transform .8s cubic-bezier(.2,.7,.2,1)}
+.photo-tile:after{content:"";position:absolute;inset:45% 0 0;background:linear-gradient(transparent,rgba(25,18,15,.72));pointer-events:none}
+.photo-tile figcaption{position:absolute;z-index:1;left:24px;right:20px;bottom:20px;color:#fff;font:600 1.25rem/1.1 "EB Garamond",serif;text-shadow:0 2px 14px rgba(0,0,0,.45)}
+.photo-tile:hover img{transform:scale(1.035)}
+.slow-moments{padding:110px 0;background:#20363a;color:#f8ead8}
+.slow-moments .section-intro{background:transparent!important;box-shadow:none!important;border:0!important}
+.slow-moments .section-intro h3{color:#f8ead8}
+.slow-moments .section-intro>p:last-child{display:flex;flex-wrap:wrap;justify-content:center;gap:.65rem;color:rgba(255,255,255,.7)}
+.slow-moments .section-intro>p:last-child span:not(:last-child):after{content:" ·";margin-left:.65rem;color:#c9a578}
+.moments-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.moment-card{position:relative;min-height:490px;overflow:hidden;background:#395155}
+.moment-card img{width:100%;height:100%;object-fit:cover;transition:transform .9s cubic-bezier(.2,.7,.2,1)}
+.moment-card:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,22,24,.04) 30%,rgba(10,22,24,.9) 100%)}
+.moment-card-copy{position:absolute;z-index:1;left:28px;right:24px;bottom:30px}
+.moment-card-copy span{display:block;margin-bottom:12px;color:#d8b17f;font-size:.68rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase}
+.moment-card-copy h4{margin:0;color:#fff5e8;font:500 2rem/1.06 "EB Garamond",serif}
+.moment-card:hover img{transform:scale(1.04)}
+@media(max-width:900px){.photo-story,.slow-moments{padding:82px 0}.photo-mosaic{grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:220px}.moments-grid{grid-template-columns:1fr 1fr}.moment-card:last-child{grid-column:1/-1;min-height:420px}}
+@media(max-width:560px){.photo-story,.slow-moments{padding:68px 0}.section-intro{margin-bottom:38px}.section-intro h3{font-size:2.45rem}.photo-story-capacity{border-radius:18px;font-size:.62rem!important;line-height:1.6}.photo-mosaic{gap:8px;grid-auto-rows:175px}.photo-tile-wide{grid-column:span 2}.photo-tile figcaption{left:14px;bottom:14px;font-size:1.02rem}.moments-grid{grid-template-columns:1fr}.moment-card,.moment-card:last-child{grid-column:auto;min-height:430px}.moment-card-copy h4{font-size:1.8rem}}
+
+/* Align the added sections with the current published visual language */
+.photo-story{padding:70px 0;background:rgba(255,255,255,.985);color:var(--ink)}
+.photo-story .section-intro,.slow-moments .section-intro{max-width:780px;margin-bottom:38px;background:transparent!important;box-shadow:none!important}
+.photo-story .section-intro .section-eyebrow,.slow-moments .section-intro .section-eyebrow{margin-bottom:8px;color:#9d7b56;font-size:.62rem;letter-spacing:.2em}
+.photo-story .section-intro h3,.slow-moments .section-intro h3{margin-bottom:16px;color:var(--gold);font:500 2.4rem/1.12 "EB Garamond",serif}
+.photo-story .section-intro>p:last-child,.slow-moments .section-intro>p:last-child{color:#777;font-size:.86rem;line-height:1.7}
+.photo-story-capacity{margin:0 0 15px!important;padding:7px 15px;border:1px solid rgba(179,148,111,.52);border-radius:4px;background:rgba(233,218,207,.22);color:#8c6e4f!important;font-size:.62rem!important;letter-spacing:.05em}
+.photo-mosaic{grid-auto-rows:220px;gap:13px}
+.photo-tile{border:6px solid #fff;background:#eadfd5;box-shadow:0 4px 16px rgba(42,32,26,.18)}
+.photo-tile:after{inset:48% 0 0;background:linear-gradient(transparent,rgba(35,27,23,.7))}
+.photo-tile figcaption{left:18px;bottom:15px;font-size:1.12rem}
+.slow-moments{padding:70px 0;background:rgba(233,218,207,.94);color:var(--ink)}
+.moment-card-hot-tub img{object-position:50% 68%}
+.slow-moments .section-intro>p:last-child{color:#756b63}
+.slow-moments .section-intro>p:last-child span:not(:last-child):after{color:var(--gold)}
+.moments-grid{gap:18px}
+.moment-card{min-height:370px;border:7px solid #fff;background:#cdbdad;box-shadow:var(--shadow)}
+.moment-card:after{background:linear-gradient(180deg,rgba(30,24,21,.02) 35%,rgba(30,24,21,.78) 100%)}
+.moment-card-copy{left:24px;right:20px;bottom:22px}
+.moment-card-copy span{margin-bottom:7px;color:#e7c99f;font-size:.61rem;letter-spacing:.14em}
+.moment-card-copy h4{color:#fff;font:500 1.55rem/1.08 "EB Garamond",serif}
+@media(max-width:900px){.photo-story,.slow-moments{padding:65px 0}.photo-mosaic{grid-auto-rows:205px}.moment-card{min-height:350px}.moment-card:last-child{min-height:350px}}
+@media(max-width:560px){.photo-story,.slow-moments{padding:58px 0}.photo-story .section-intro h3,.slow-moments .section-intro h3{font-size:2.05rem}.photo-story-capacity{border-radius:4px;font-size:.57rem!important}.photo-mosaic{grid-auto-rows:165px;gap:7px}.photo-tile{border-width:4px}.photo-tile figcaption{left:11px;bottom:10px;font-size:.92rem}.moment-card,.moment-card:last-child{min-height:330px;border-width:6px}.moment-card-copy h4{font-size:1.45rem}}
+
+
+/* Explicit white/ivory section rhythm */
+.well1,.photo-story,.well3,.well5{background:rgba(255,255,255,.94)}
+.well2,.villa-guide,.martina-host{background:rgba(233,218,207,.90);color:var(--ink)}
+.well2 h3,.villa-guide h3,.martina-host h3{color:var(--gold)}
+.well1,.photo-story,.slow-moments,.well2,.well3,.villa-guide,.martina-host,.well5,.final-contact-cta{border-top:1px solid rgba(141,109,77,.1)}
+
+/* TEMPORARILY HIDDEN: reactivate when professional photos are available */
+.slow-moments{display:none}
+
+
+/* Expandable editorial gallery */
+.photo-mosaic:not(.is-expanded) .photo-tile-extra{display:none}
+.photo-gallery-actions{display:flex;justify-content:center;margin-top:26px}
+.photo-gallery-toggle{min-width:210px;padding:13px 24px;border:1px solid rgba(179,148,111,.62);border-radius:999px;background:rgba(255,253,249,.88);color:#7e6247;font:700 .68rem/1.2 Montserrat,sans-serif;letter-spacing:.1em;text-transform:uppercase;box-shadow:0 8px 24px rgba(68,49,37,.08);cursor:pointer;transition:background .2s ease,color .2s ease,transform .2s ease}
+.photo-gallery-toggle:hover{background:#a98863;color:#fff;transform:translateY(-2px)}
+.gallery-label-hide{display:none}
+.photo-gallery-toggle[aria-expanded="true"] .gallery-label-show{display:none}
+.photo-gallery-toggle[aria-expanded="true"] .gallery-label-hide{display:inline}
+@media(max-width:560px){.photo-gallery-actions{margin-top:20px}.photo-gallery-toggle{width:100%;max-width:290px}}
+
+/* Martina-focused final CTA */
+.final-contact-cta{padding:74px 0;background:rgba(233,218,207,.9);border-top:1px solid rgba(141,109,77,.13)}
+.final-contact-card{display:grid;grid-template-columns:190px 1fr;align-items:center;gap:42px;max-width:980px;margin:auto;padding:34px 42px;border:1px solid rgba(179,148,111,.34);border-radius:22px;background:rgba(255,253,249,.94);box-shadow:0 18px 48px rgba(68,49,37,.11)}
+.final-contact-photo{width:190px;height:190px;object-fit:cover;object-position:50% 35%;border:6px solid #fff;border-radius:50%;box-shadow:0 12px 30px rgba(66,47,35,.18)}
+.final-contact-eyebrow{margin:0 0 9px;color:#a67e55;font-size:.65rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase}
+.final-contact-copy h3{margin:0 0 14px;color:#624b3a;font:500 clamp(2rem,4vw,3.1rem)/1.05 "EB Garamond",serif}
+.final-contact-copy>p:not(.final-contact-eyebrow){max-width:650px;margin:0 0 22px;color:#746a63;font-size:.9rem;line-height:1.75}
+.final-contact-actions{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:13px}
+.final-contact-primary,.final-contact-secondary{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:12px 20px;border-radius:999px;font:700 .65rem/1 Montserrat,sans-serif;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;cursor:pointer}
+.final-contact-primary{border:1px solid #a98863;background:#a98863;color:#fff}.final-contact-primary:hover{background:#876746}
+.final-contact-secondary{border:1px solid rgba(169,136,99,.65);background:transparent;color:#806244}.final-contact-secondary:hover{background:#f1e5dc;color:#654b34}
+.final-contact-copy small{color:#95877b;font-size:.66rem;letter-spacing:.04em}
+@media(max-width:700px){.final-contact-cta{padding:58px 0}.final-contact-card{grid-template-columns:1fr;gap:24px;padding:30px 24px;text-align:center}.final-contact-photo{width:145px;height:145px;margin:auto}.final-contact-actions{justify-content:center}.final-contact-primary,.final-contact-secondary{width:100%}}

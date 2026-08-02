@@ -1,15 +1,144 @@
 {
-  "meta": {"title": "Villa Venere — アマルフィ海岸"},
-  "accessibility": {"openNavigation": "ナビゲーションを開く"},
-  "nav": {"home": "ホーム", "book": "今すぐ予約", "about": "ヴィラについて", "rooms": "客室", "location": "アクセス", "language": "言語"},
-  "booking": {"title": "アマルフィ海岸のプライベートヴィラ", "subtitle": "直接予約で、予約サイトの表示価格から15%割引。", "checkin": "チェックイン", "checkout": "チェックアウト", "guests": "宿泊人数", "search": "検索"},
-  "directRate": {"title": "予約サイトで見つけましたか？", "description": "予約前にBooking.com、Airbnbなどの表示価格をお送りください。宿泊料金をさらに15%割引いたします。", "terms": "同じ日程・人数・キャンセル条件が対象です。確認および空室状況によります。", "button": "15%割引を受ける"},
-  "bestRate": {"eyebrow": "公式サイトから直接予約", "title": "ベストレート保証", "description": "オンラインで見つけた価格をご提示いただくと、同じ滞在を直接予約でさらに15%割引します。", "saving": "予約サイト価格より", "button": "ベストレートを問い合わせる", "terms": "同じ日程・人数・キャンセル条件。確認および空室状況が必要です。"},
-  "about": {"title": "ヴィラについて", "description": "Villa Venereは、チェターラのビーチと中心部に近い美しいオーシャンビューヴィラです。3ベッドルーム、2バスルーム、快適なリビング、IHキッチン、塔と港を望むパノラマテラスを備え、海への専用アクセスもあります。", "bedrooms": "ベッドルーム", "bathrooms": "バスルーム", "guests": "宿泊人数", "imageAlt": "Villa Venereからの海の眺め"},
-  "rooms": {"title": "客室", "villa": "3ベッドルーム・ヴィラ", "capacity": "最大12名", "bathrooms": "バスルーム2室", "terrace": "オーシャンビューテラス", "seaAccess": "海への専用アクセス", "view": "客室を見る"},
-  "services": {"title": "設備", "hairDryer": "ヘアドライヤー", "towels": "タオル", "airConditioning": "エアコン", "terrace": "プライベートテラス", "linen": "リネン", "hotTub": "ジェットバス", "seaAccess": "海への専用アクセス"},
-  "reviews": {"title": "お客様の声：", "loading": "口コミを読み込み中..."},
-  "social": {"follow": "フォローする："},
-  "footer": {"copyright": "Villa Venere — Amalfi Coast. All rights reserved."},
-  "contact": {"mascot": "Venereに尋ねる", "panelLabel": "Villa Venereへお問い合わせ", "close": "お問い合わせを閉じる", "hostName": "Martina · Villa Venereのホスト", "replyTime": "メッセージには本人がお答えします", "greeting": "こんにちは、Martinaです 👋", "help": "空室状況、直接予約のベストレート、ご滞在についてお気軽にご連絡ください。", "priceNudge": "より安い価格を見つけましたか？Martinaが直接お返事します。", "startWith": "連絡方法：", "phone": "電話", "launcher": "お問い合わせ"}
+  "meta": {
+    "title": "Villa Venere — アマルフィ海岸"
+  },
+  "accessibility": {
+    "openNavigation": "ナビゲーションを開く"
+  },
+  "nav": {
+    "home": "ホーム",
+    "book": "今すぐ予約",
+    "about": "ヴィラについて",
+    "rooms": "客室",
+    "location": "アクセス",
+    "language": "言語"
+  },
+  "booking": {
+    "title": "アマルフィ海岸のプライベートヴィラ",
+    "subtitle": "直接予約で、予約サイトの表示価格から15%割引。",
+    "checkin": "チェックイン",
+    "checkout": "チェックアウト",
+    "guests": "宿泊人数",
+    "search": "検索"
+  },
+  "directRate": {
+    "title": "予約サイトで見つけましたか？",
+    "description": "予約前にBooking.com、Airbnbなどの表示価格をお送りください。宿泊料金をさらに15%割引いたします。",
+    "terms": "同じ日程・人数・キャンセル条件が対象です。確認および空室状況によります。",
+    "button": "15%割引を受ける"
+  },
+  "bestRate": {
+    "eyebrow": "公式サイトから直接予約",
+    "title": "ベストレート保証",
+    "description": "オンラインで見つけた価格をご提示いただくと、同じ滞在を直接予約でさらに15%割引します。",
+    "saving": "予約サイト価格より",
+    "button": "ベストレートを問い合わせる",
+    "terms": "同じ日程・人数・キャンセル条件。確認および空室状況が必要です。"
+  },
+  "about": {
+    "title": "ヴィラについて",
+    "description": "Villa Venereは、チェターラのビーチと中心部に近い美しいオーシャンビューヴィラです。3ベッドルーム、2バスルーム、快適なリビング、IHキッチン、塔と港を望むパノラマテラスを備え、海への専用アクセスもあります。",
+    "bedrooms": "ベッドルーム",
+    "bathrooms": "バスルーム",
+    "guests": "宿泊人数",
+    "imageAlt": "Villa Venereからの海の眺め"
+  },
+  "rooms": {
+    "title": "客室",
+    "villa": "3ベッドルーム・ヴィラ",
+    "capacity": "最大12名",
+    "bathrooms": "バスルーム2室",
+    "terrace": "オーシャンビューテラス",
+    "seaAccess": "海への専用アクセス",
+    "view": "客室を見る"
+  },
+  "services": {
+    "title": "設備",
+    "hairDryer": "ヘアドライヤー",
+    "towels": "タオル",
+    "airConditioning": "エアコン",
+    "terrace": "プライベートテラス",
+    "linen": "リネン",
+    "hotTub": "ジェットバス",
+    "seaAccess": "海への専用アクセス"
+  },
+  "reviews": {
+    "title": "お客様の声：",
+    "loading": "口コミを読み込み中..."
+  },
+  "social": {
+    "follow": "フォローする："
+  },
+  "footer": {
+    "copyright": "Villa Venere — Amalfi Coast. All rights reserved."
+  },
+  "contact": {
+    "mascot": "Venereに尋ねる",
+    "panelLabel": "Villa Venereへお問い合わせ",
+    "close": "お問い合わせを閉じる",
+    "hostName": "Martina · Villa Venereのホスト",
+    "replyTime": "メッセージには本人がお答えします",
+    "greeting": "こんにちは、Martinaです 👋",
+    "help": "空室状況、直接予約のベストレート、ご滞在についてお気軽にご連絡ください。",
+    "priceNudge": "より安い価格を見つけましたか？Martinaが直接お返事します。",
+    "startWith": "連絡方法：",
+    "phone": "電話",
+    "launcher": "お問い合わせ"
+  },
+  "villaGuide": {
+    "title": "ヴィラを探索"
+  },
+  "photoExperience": {
+    "eyebrow": "海の上のプライベートハウス",
+    "title": "景色とともに Villa Venere を巡る",
+    "intro": "パノラマテラスから海を望む客室まで、ご到着前にヴィラをご覧ください。",
+    "showAll": "すべての写真を見る",
+    "showLess": "表示を減らす",
+    "living": "Living by the sea",
+    "evening": "Evenings under the lights",
+    "primaryRoom": "Sea-view room",
+    "seaTitle": "海へ続く専用アクセス",
+    "seaDescription": "ヴィラから混雑したビーチを離れた水辺の専用プラットフォームへ降りられます。",
+    "reservedPlatform": "Reserved sea platform",
+    "directWater": "Direct access to the water",
+    "privateRelax": "A quiet space for your group",
+    "discoverSea": "Discover the private sea access",
+    "roomsTitle": "3つの客室、海を望むひとつの家",
+    "roomsIntro": "明るいダブルルームと柔軟な寝具で、ご家族やグループにも快適です。",
+    "familyRoom": "Room with sofa bed",
+    "thirdRoom": "Quiet double room",
+    "kitchen": "Equipped kitchen",
+    "kitchenText": "Everything you need for breakfast, an aperitif or dinner at home.",
+    "bathrooms": "Two modern bathrooms",
+    "bathroomsText": "Comfortable spaces with showers, towels and a washing machine.",
+    "flexible": "Flexible sleeping spaces",
+    "flexibleText": "Additional sofa beds allow the whole group to stay together.",
+    "momentsTitle": "アマルフィ海岸で過ごす穏やかな時間",
+    "momentsIntro": "テラスでの朝食、ジャグジー、海岸の灯りを眺める夜。",
+    "terraceMoment": "Your table above the sea",
+    "hotTubMoment": "Relax, with the coast around you",
+    "hostTitle": "Martina がお迎えします",
+    "hostDescription": "最初のご質問からチェターラ到着まで、Martina が直接お答えします。"
+  },
+  "premium": {
+    "officialSite": "公式サイト",
+    "reviewEyebrow": "認証済みの宿泊体験",
+    "reviewTitle": "心に残る滞在",
+    "reviewIntro": "Airbnb、Booking.com、Googleの独立したレビューがVilla Venereの魅力を伝えます。",
+    "allReviews": "すべての認証済みレビューを見る"
+  },
+  "mascotGuide": {
+    "offer": "より安い料金を見つけましたか？直接料金についてMartinaにご相談ください。",
+    "gallery": "ヴィラがお客様のグループに合うか、Martinaが直接ご案内します。",
+    "services": "設備や専用海岸アクセスについてはMartinaにお尋ねください。",
+    "final": "日程がお決まりですか？Martinaにお送りください。"
+  },
+  "finalCta": {
+    "eyebrow": "直接予約",
+    "title": "日程がお決まりですか？Martinaにご相談ください",
+    "body": "日程、人数、オンラインで見つけた料金をお送りください。Martinaが直接、利用可能な最良の直接プランをご案内します。",
+    "contact": "Martinaに連絡",
+    "availability": "空室を確認",
+    "trust": "直接返信 · 契約不要 · 直接料金"
+  }
 }
