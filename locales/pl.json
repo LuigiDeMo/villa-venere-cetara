@@ -128,10 +128,15 @@
     "allReviews": "Przeczytaj wszystkie zweryfikowane opinie"
   },
   "mascotGuide": {
-    "offer": "Znalazłeś lepszą cenę? Zapytaj Martinę o cenę bezpośrednią.",
-    "gallery": "Chcesz sprawdzić, czy willa pasuje do Twojej grupy? Martina pomoże osobiście.",
-    "services": "Pytania o udogodnienia lub prywatne zejście do morza? Zapytaj Martinę.",
-    "final": "Masz już termin? Wyślij go Martinie."
+    "hero": "Villa Venere znaleziona na Booking lub Airbnb? Przed rezerwacją pokaż cenę Martinie.",
+    "about": "Witamy w Villa Venere, prywatnym domu nad morzem w samym sercu Cetary.",
+    "rooms": "Podróżujesz z rodziną lub przyjaciółmi? Martina pomoże dopasować przestrzeń do Waszej grupy.",
+    "gallery": "Obejrzyj willę bez pośpiechu. O to, czego nie widać na zdjęciach, zapytaj Martinę.",
+    "explore": "Taras, pokoje i prywatne zejście do morza: odkryj każdy zakątek Villa Venere.",
+    "services": "Pytania o jacuzzi lub prywatne zejście do morza? Martina chętnie pomoże.",
+    "host": "Martina osobiście odpowiada na każdą wiadomość i pomaga aż do Waszego przyjazdu.",
+    "reviews": "Goście często wspominają serdeczne powitanie Martiny. Przeczytaj ich opinie o pobycie.",
+    "final": "Masz już daty i liczbę gości? Napisz do Martiny po najlepszą dostępną ofertę bezpośrednią."
   },
   "finalCta": {
     "eyebrow": "REZERWUJ BEZPOŚREDNIO",

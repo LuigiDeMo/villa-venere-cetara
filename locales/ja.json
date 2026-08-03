@@ -128,10 +128,15 @@
     "allReviews": "すべての認証済みレビューを見る"
   },
   "mascotGuide": {
-    "offer": "より安い料金を見つけましたか？直接料金についてMartinaにご相談ください。",
-    "gallery": "ヴィラがお客様のグループに合うか、Martinaが直接ご案内します。",
-    "services": "設備や専用海岸アクセスについてはMartinaにお尋ねください。",
-    "final": "日程がお決まりですか？Martinaにお送りください。"
+    "hero": "BookingやAirbnbでVilla Venereを見つけましたか？予約前に料金をMartinaへお送りください。",
+    "about": "チェターラの中心、海辺のプライベートハウスVilla Venereへようこそ。",
+    "rooms": "ご家族やご友人との旅行ですか？Martinaが最適なお部屋の使い方をご案内します。",
+    "gallery": "どうぞゆっくりヴィラをご覧ください。写真では分からないことはMartinaにお尋ねください。",
+    "explore": "テラス、客室、海への専用アクセス。Villa Venereの隅々までご覧ください。",
+    "services": "ジャグジーや海への専用アクセスについてのご質問は、Martinaがお答えします。",
+    "host": "すべてのメッセージにMartina本人が返信し、ご到着までお手伝いします。",
+    "reviews": "多くのゲストがMartinaの温かいおもてなしを評価しています。滞在の感想をご覧ください。",
+    "final": "日程と人数はお決まりですか？最適な直接予約プランをMartinaにお問い合わせください。"
   },
   "finalCta": {
     "eyebrow": "直接予約",

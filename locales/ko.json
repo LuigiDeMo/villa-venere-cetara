@@ -128,10 +128,15 @@
     "allReviews": "모든 검증된 후기 보기"
   },
   "mascotGuide": {
-    "offer": "더 좋은 가격을 찾으셨나요? 직접 요금은 Martina에게 문의하세요.",
-    "gallery": "빌라가 일행에게 적합한지 Martina가 직접 안내해 드립니다.",
-    "services": "편의시설이나 전용 바다 출입구가 궁금하신가요? Martina에게 물어보세요.",
-    "final": "날짜가 정해졌나요? Martina에게 보내주세요."
+    "hero": "Booking이나 Airbnb에서 Villa Venere를 보셨나요? 예약 전 요금을 Martina에게 보내 주세요.",
+    "about": "체타라 중심의 바닷가 프라이빗 하우스, Villa Venere에 오신 것을 환영합니다.",
+    "rooms": "가족 또는 친구와 여행하시나요? Martina가 일행에게 맞는 공간 구성을 도와드립니다.",
+    "gallery": "천천히 빌라를 둘러보세요. 사진에 보이지 않는 내용은 Martina에게 물어보세요.",
+    "explore": "테라스, 객실, 전용 바다 출입로까지 Villa Venere의 모든 공간을 만나보세요.",
+    "services": "월풀 욕조나 전용 바다 출입로가 궁금하신가요? Martina가 안내해 드립니다.",
+    "host": "모든 메시지에 Martina가 직접 답변하며 도착하실 때까지 도와드립니다.",
+    "reviews": "많은 투숙객이 Martina의 따뜻한 환대를 이야기합니다. 실제 후기를 확인해 보세요.",
+    "final": "날짜와 인원이 정해졌나요? Martina에게 문의해 최적의 직접 예약 제안을 받아보세요."
   },
   "finalCta": {
     "eyebrow": "직접 예약",

@@ -128,10 +128,15 @@
     "allReviews": "阅读所有真实评价"
   },
   "mascotGuide": {
-    "offer": "发现了更低价格？联系 Martina 核实官网直订价格。",
-    "gallery": "想确认别墅是否适合您的团队？Martina 会亲自协助。",
-    "services": "对设施或私人入海通道有疑问？请咨询 Martina。",
-    "final": "已有入住日期？请发送给 Martina。"
+    "hero": "在 Booking 或 Airbnb 看到了 Villa Venere？预订前，请把价格发给 Martina。",
+    "about": "欢迎来到 Villa Venere——位于切塔拉中心、临海而居的私人住宅。",
+    "rooms": "与家人或朋友同行？Martina 会帮助您为团队安排最合适的空间。",
+    "gallery": "请慢慢欣赏别墅。如果想了解照片中看不到的细节，请询问 Martina。",
+    "explore": "露台、客房和私人入海通道：探索 Villa Venere 的每一个角落。",
+    "services": "对按摩浴缸或私人入海通道有疑问？Martina 随时为您解答。",
+    "host": "每一条消息都由 Martina 亲自回复，并陪伴您直到抵达。",
+    "reviews": "客人经常称赞 Martina 的热情接待。看看他们如何评价这次住宿。",
+    "final": "已经确定日期和人数？请联系 Martina，获取当前最佳的直接预订方案。"
   },
   "finalCta": {
     "eyebrow": "官网直订",

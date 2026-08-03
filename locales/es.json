@@ -128,10 +128,15 @@
     "allReviews": "Leer todas las opiniones verificadas"
   },
   "mascotGuide": {
-    "offer": "¿Has encontrado un precio mejor? Contacta con Martina para comprobar la tarifa directa.",
-    "gallery": "¿Quieres saber si la villa es adecuada para tu grupo? Martina te ayudará personalmente.",
-    "services": "¿Preguntas sobre los servicios o el acceso privado al mar? Pregunta a Martina.",
-    "final": "¿Ya tienes las fechas? Envíalas a Martina."
+    "hero": "¿Has encontrado Villa Venere en Booking o Airbnb? Antes de reservar, enséñale la tarifa a Martina.",
+    "about": "Bienvenido a Villa Venere, una casa privada junto al mar en el corazón de Cetara.",
+    "rooms": "¿Viajas con familia o amigos? Martina te ayuda a organizar los espacios para tu grupo.",
+    "gallery": "Descubre la villa con calma. Si quieres saber algo que no muestran las fotos, pregunta a Martina.",
+    "explore": "Terraza, habitaciones y acceso privado al mar: descubre cada rincón de Villa Venere.",
+    "services": "¿Tienes preguntas sobre el hidromasaje o el acceso privado al mar? Martina está a tu disposición.",
+    "host": "Martina responde personalmente a cada mensaje y te acompaña hasta tu llegada.",
+    "reviews": "Los huéspedes suelen destacar la bienvenida de Martina. Descubre qué cuentan de su estancia.",
+    "final": "¿Ya tienes las fechas y el número de huéspedes? Escribe a Martina para recibir la mejor propuesta directa disponible."
   },
   "finalCta": {
     "eyebrow": "RESERVA DIRECTAMENTE",

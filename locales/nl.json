@@ -128,10 +128,15 @@
     "allReviews": "Lees alle geverifieerde beoordelingen"
   },
   "mascotGuide": {
-    "offer": "Een betere prijs gevonden? Vraag Martina naar het directe tarief.",
-    "gallery": "Wilt u weten of de villa bij uw groep past? Martina helpt u persoonlijk.",
-    "services": "Vragen over voorzieningen of privétoegang tot zee? Vraag het Martina.",
-    "final": "Heeft u de data al? Stuur ze naar Martina."
+    "hero": "Villa Venere gevonden op Booking of Airbnb? Laat vóór het boeken de prijs aan Martina zien.",
+    "about": "Welkom bij Villa Venere, een privéhuis aan zee in het hart van Cetara.",
+    "rooms": "Reist u met familie of vrienden? Martina helpt de ruimtes voor uw gezelschap in te delen.",
+    "gallery": "Bekijk de villa op uw gemak. Vraag Martina naar wat niet op de foto’s te zien is.",
+    "explore": "Terras, kamers en privétoegang tot zee: ontdek elke hoek van Villa Venere.",
+    "services": "Vragen over de jacuzzi of privétoegang tot zee? Martina helpt u graag.",
+    "host": "Martina beantwoordt ieder bericht persoonlijk en helpt u tot aan uw aankomst.",
+    "reviews": "Gasten noemen vaak Martina’s warme ontvangst. Lees wat zij over hun verblijf vertellen.",
+    "final": "Heeft u de data en het aantal gasten al? Schrijf Martina voor het beste beschikbare directe aanbod."
   },
   "finalCta": {
     "eyebrow": "BOEK RECHTSTREEKS",

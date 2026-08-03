@@ -47,7 +47,7 @@ function getTranslation(dictionary, key) {
 }
 
 async function loadDictionary(language) {
-  const response = await fetch(`/locales/${language}.json?v=7`, { cache: 'no-cache' });
+  const response = await fetch(`/locales/${language}.json?v=8`, { cache: 'no-cache' });
   if (!response.ok) throw new Error(`Unable to load language: ${language}`);
   return response.json();
 }
@@ -503,17 +503,21 @@ async function playSeasonalMascot(event, { force = false } = {}) {
     force,
   });
   const messageTimer = window.setTimeout(() => {
+    mascotSeasonalSpeaking = true;
     mascotNudge.textContent = seasonalMascotMessage(event);
     mascotNudge.classList.add('visible', 'seasonal');
   }, 350);
   const played = await play;
   if (!played) {
     window.clearTimeout(messageTimer);
+    mascotSeasonalSpeaking = false;
     return false;
   }
   window.setTimeout(() => {
     mascotNudge.classList.remove('visible', 'seasonal');
     mascotNudge.textContent = defaultText;
+    mascotSeasonalSpeaking = false;
+    scheduleMascotContextEvaluation(260);
   }, 6800);
   return true;
 }
@@ -524,10 +528,6 @@ function finishMascotIntro() {
   mascotIntro?.classList.add('settling');
   contactWidget?.classList.remove('intro-active');
   window.setTimeout(() => mascotIntro?.classList.remove('visible', 'settling'), 480);
-  if (!activeSeasonalMascotEvent) {
-    window.setTimeout(() => mascotNudge?.classList.add('visible'), 350);
-    window.setTimeout(() => mascotNudge?.classList.remove('visible'), 7350);
-  }
   showNextMascotPose();
 }
 
@@ -581,57 +581,178 @@ function observeMascotMoment(selector, animation, onceKey, delay = 900) {
 }
 
 const mascotContextSeen = new Set();
-let mascotContextNextAt = 0;
-let mascotContextCount = 0;
+let mascotContextSections = [];
+let mascotContextCandidate = null;
+let mascotContextCandidateSince = 0;
+let mascotContextCandidateTimer;
+let mascotContextRaf;
+let mascotContextSpeakingKey = null;
+let mascotContextPending = null;
+let mascotContextHideTimer;
+let mascotContextInstalled = false;
+let mascotSeasonalSpeaking = false;
+const MASCOT_CONTEXT_STABILITY = window.matchMedia('(max-width: 560px)').matches ? 520 : 680;
+const MASCOT_CONTEXT_DISPLAY = 6200;
 
 function mascotContextText(key) {
   return window.villaVenereTranslate?.('mascotGuide.' + key) || {
-    offer: 'Found a better price? Contact Martina to check the direct rate.',
-    gallery: 'Wondering if the villa suits your group? Martina will help you personally.',
-    services: 'Questions about amenities or private sea access? Ask Martina.',
-    final: 'Already have your dates? Send them to Martina.',
+    hero: 'Found Villa Venere on Booking or Airbnb? Before booking, show the rate to Martina.',
+    about: 'Welcome to Villa Venere, a private home by the sea in the heart of Cetara.',
+    rooms: 'Travelling with family or friends? Martina will help you arrange the spaces for your group.',
+    gallery: 'Take your time exploring the villa. If you want to know what the photos do not show, ask Martina.',
+    explore: 'Terrace, rooms and private sea access: discover every corner of Villa Venere.',
+    services: 'Questions about the hot tub or private sea access? Martina is here to help.',
+    host: 'Martina really answers every message and will assist you until your arrival.',
+    reviews: 'Guests often mention Martina\'s warm welcome. Discover what they say about their stay.',
+    final: 'Already have your dates and guest count? Write to Martina for the best available direct proposal.',
   }[key] || '';
 }
 
-function showMascotContext(key, animation = 'contact') {
-  if (!mascotNudge || mascotContextSeen.has(key) || mascotContextCount >= 4) return;
-  mascotContextSeen.add(key);
-  const now = Date.now();
-  const scheduledAt = Math.max(now, mascotContextNextAt);
-  mascotContextNextAt = scheduledAt + 20000;
-  const wait = scheduledAt - now;
-  window.setTimeout(async () => {
-    if (contactPanel?.classList.contains('open')) return;
-    mascotContextCount += 1;
-    mascotNudge.textContent = mascotContextText(key);
-    mascotNudge.classList.add('visible', 'contextual');
-    await playMascotAnimation(animation);
-    window.setTimeout(() => {
-      mascotNudge.classList.remove('visible', 'contextual');
-      mascotNudge.textContent = window.villaVenereTranslate?.('contact.priceNudge') || 'Found a better price? Martina will reply personally.';
-    }, 6800);
-  }, wait);
+function dominantMascotContext() {
+  const viewportHeight = Math.max(window.innerHeight, 1);
+  const viewportTop = Math.min(110, viewportHeight * .16);
+  const focusY = viewportTop + (viewportHeight - viewportTop) * .43;
+  const candidates = mascotContextSections.map((context) => {
+    const rect = context.target.getBoundingClientRect();
+    const visibleTop = Math.max(rect.top, viewportTop);
+    const visibleBottom = Math.min(rect.bottom, viewportHeight);
+    const visiblePixels = Math.max(0, visibleBottom - visibleTop);
+    if (visiblePixels < 36) return null;
+    const crossesFocus = rect.top <= focusY && rect.bottom >= focusY;
+    const center = (visibleTop + visibleBottom) / 2;
+    const centerDistance = Math.abs(center - focusY) / viewportHeight;
+    const viewportShare = visiblePixels / Math.max(viewportHeight - viewportTop, 1);
+    const score = (crossesFocus ? 10 : 0) + viewportShare * 2 - centerDistance;
+    return { ...context, score, crossesFocus };
+  }).filter(Boolean);
+  candidates.sort((a, b) => b.score - a.score);
+  return candidates[0] || null;
 }
 
-function observeMascotContext(selector, key, animation) {
-  const target = document.querySelector(selector);
-  if (!target || !('IntersectionObserver' in window)) return;
-  const observer = new IntersectionObserver((entries) => {
-    if (!entries.some((entry) => entry.isIntersecting)) return;
-    showMascotContext(key, animation);
-    observer.disconnect();
-  }, { threshold: .3 });
-  observer.observe(target);
+function hideMascotContextMessage() {
+  window.clearTimeout(mascotContextHideTimer);
+  mascotNudge?.classList.remove('visible', 'contextual');
+  if (mascotNudge) mascotNudge.textContent = window.villaVenereTranslate?.('contact.priceNudge') || 'Found a better price? Martina will reply personally.';
+  mascotContextSpeakingKey = null;
+  const latest = dominantMascotContext();
+  mascotContextPending = latest && !mascotContextSeen.has(latest.key) ? latest : null;
+  scheduleMascotContextEvaluation(260);
+}
+
+function speakMascotContext(context) {
+  if (!context || mascotContextSeen.has(context.key) || mascotContextSpeakingKey || mascotSeasonalSpeaking) return false;
+  if (mascotIntroPending || contactPanel?.classList.contains('open')) return false;
+  const latest = dominantMascotContext();
+  if (!latest || latest.key !== context.key) return false;
+
+  mascotContextSeen.add(context.key);
+  mascotContextSpeakingKey = context.key;
+  mascotContextPending = null;
+  mascotNudge.textContent = mascotContextText(context.key);
+  mascotNudge.classList.add('visible', 'contextual');
+
+  if (!mascotAnimationActive) playMascotAnimation(context.animation);
+  window.clearTimeout(mascotContextHideTimer);
+  mascotContextHideTimer = window.setTimeout(hideMascotContextMessage, MASCOT_CONTEXT_DISPLAY);
+  return true;
+}
+
+function attemptMascotContext() {
+  window.clearTimeout(mascotContextCandidateTimer);
+  const latest = dominantMascotContext();
+  if (!latest) return;
+
+  if (!mascotContextCandidate || latest.key !== mascotContextCandidate.key) {
+    mascotContextCandidate = latest;
+    mascotContextCandidateSince = performance.now();
+    scheduleMascotContextEvaluation(MASCOT_CONTEXT_STABILITY);
+    return;
+  }
+
+  if (mascotContextSeen.has(latest.key)) return;
+  if (mascotContextSpeakingKey || mascotSeasonalSpeaking) {
+    mascotContextPending = latest;
+    return;
+  }
+  if (mascotIntroPending || contactPanel?.classList.contains('open')) {
+    scheduleMascotContextEvaluation(500);
+    return;
+  }
+
+  const stableFor = performance.now() - mascotContextCandidateSince;
+  if (stableFor < MASCOT_CONTEXT_STABILITY) {
+    scheduleMascotContextEvaluation(MASCOT_CONTEXT_STABILITY - stableFor);
+    return;
+  }
+  speakMascotContext(latest);
+}
+
+function evaluateMascotContext() {
+  mascotContextRaf = undefined;
+  const latest = dominantMascotContext();
+  if (!latest) return;
+
+  if (!mascotContextCandidate || latest.key !== mascotContextCandidate.key) {
+    mascotContextCandidate = latest;
+    mascotContextCandidateSince = performance.now();
+    window.clearTimeout(mascotContextCandidateTimer);
+    mascotContextCandidateTimer = window.setTimeout(attemptMascotContext, MASCOT_CONTEXT_STABILITY);
+  } else if (!mascotContextSeen.has(latest.key) && !mascotContextCandidateTimer && !mascotContextSpeakingKey) {
+    mascotContextCandidateTimer = window.setTimeout(attemptMascotContext, Math.max(0, MASCOT_CONTEXT_STABILITY - (performance.now() - mascotContextCandidateSince)));
+  }
+
+  if (mascotContextSpeakingKey && latest.key !== mascotContextSpeakingKey && !mascotContextSeen.has(latest.key)) {
+    mascotContextPending = latest;
+  } else if (mascotContextSpeakingKey === latest.key) {
+    mascotContextPending = null;
+  }
+}
+
+function scheduleMascotContextEvaluation(delay = 0) {
+  if (!mascotContextInstalled) return;
+  if (delay > 0) {
+    window.clearTimeout(mascotContextCandidateTimer);
+    mascotContextCandidateTimer = window.setTimeout(attemptMascotContext, delay);
+    return;
+  }
+  if (mascotContextRaf) return;
+  mascotContextRaf = window.requestAnimationFrame(evaluateMascotContext);
+}
+
+function installMascotContextObservers() {
+  if (mascotContextInstalled) return;
+  const definitions = [
+    ['.booking-section', 'hero', 'direct-offer'],
+    ['#about', 'about', 'contact'],
+    ['#rooms', 'rooms', 'directions'],
+    ['#gallery', 'gallery', 'sea-breeze'],
+    ['.villa-guide', 'explore', 'directions'],
+    ['#services', 'services', 'sea-access'],
+    ['.martina-host', 'host', 'contact'],
+    ['#reviews', 'reviews', 'thank-you'],
+    ['.final-contact-cta', 'final', 'direct-offer'],
+  ];
+  mascotContextSections = definitions.map(([selector, key, animation]) => ({
+    selector,
+    key,
+    animation,
+    target: document.querySelector(selector),
+  })).filter((context) => context.target && !(context.key === 'hero' && activeSeasonalMascotEvent));
+  if (!mascotContextSections.length) return;
+
+  mascotContextInstalled = true;
+  window.addEventListener('scroll', () => scheduleMascotContextEvaluation(), { passive: true });
+  window.addEventListener('resize', () => scheduleMascotContextEvaluation(), { passive: true });
+  if ('ResizeObserver' in window) {
+    const layoutObserver = new ResizeObserver(() => scheduleMascotContextEvaluation());
+    layoutObserver.observe(document.body);
+  }
+  scheduleMascotContextEvaluation();
 }
 
 if (activeSeasonalMascotEvent) {
   window.setTimeout(() => playSeasonalMascot(activeSeasonalMascotEvent, { force: seasonalMascotForced }), 9000);
-} else {
-  window.setTimeout(() => showMascotContext('offer', 'direct-offer'), 9000);
 }
-window.setTimeout(() => observeMascotContext('#gallery', 'gallery', 'sea-breeze'), 0);
-observeMascotContext('#services', 'services', 'sea-access');
-window.setTimeout(() => observeMascotContext('.final-contact-cta', 'final', 'direct-offer'), 0);
 
 function scheduleAmbientMascot() {
   const delay = 42000 + Math.round(Math.random() * 26000);
@@ -640,7 +761,7 @@ function scheduleAmbientMascot() {
     const animation = hour >= 19 || hour < 7
       ? 'lantern-evening'
       : (Math.random() > .48 ? 'sea-breeze' : 'return-to-shell');
-    await playMascotAnimation(animation);
+    if (!mascotContextSpeakingKey && !mascotSeasonalSpeaking) await playMascotAnimation(animation);
     scheduleAmbientMascot();
   }, delay);
 }
@@ -865,4 +986,5 @@ installFinalContactCta();
 Promise.resolve(window.villaI18nReady).finally(() => {
   installMartinaExperience();
   installFinalContactCta();
+  window.setTimeout(installMascotContextObservers, 0);
 });
