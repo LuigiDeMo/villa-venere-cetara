@@ -335,3 +335,29 @@ a.footer-contact-line:hover{color:#fff4e5}
 .concierge-static-note{max-width:760px;margin:22px auto 0;text-align:center}
 .concierge-guide-link{margin:14px 0 0;text-align:center}
 .concierge-page-link{display:inline-flex;align-items:center;justify-content:center;text-decoration:none}
+
+/* Martina contact: definitive dark premium treatment. */
+.contact-premium .contact-launcher{min-width:242px;gap:12px;padding:9px 18px 9px 10px;border:1px solid rgba(190,154,111,.72);background:linear-gradient(135deg,#30393b,#242c2e);color:#fff8ee;box-shadow:0 15px 38px rgba(27,31,32,.34);text-align:left;transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}
+.contact-premium .contact-launcher:hover{border-color:#d1ad7e;box-shadow:0 18px 44px rgba(27,31,32,.4);transform:translateY(-2px)}
+.contact-premium .contact-launcher-icon{display:grid;flex:0 0 44px;width:44px;height:44px;place-items:center;overflow:hidden;border:2px solid #f7eee4;border-radius:50%;background:#d9c5ad;box-shadow:0 0 0 1px #b99062}
+.contact-premium .contact-launcher-copy{display:flex;min-width:0;flex-direction:column;gap:3px}
+.contact-premium .contact-launcher-copy strong{font:700 13px/1.15 Montserrat,sans-serif}
+.contact-premium .contact-launcher-copy small{color:rgba(255,248,238,.7);font:500 9px/1.2 Montserrat,sans-serif;white-space:nowrap}
+.contact-premium .contact-host-avatar{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 27%;transform:scale(2.08)}
+.contact-premium .contact-panel{width:min(400px,calc(100vw - 24px));border:1px solid rgba(169,136,99,.32);border-radius:22px;background:#fffdf9;box-shadow:0 22px 62px rgba(47,34,27,.32);transition:opacity .3s ease,transform .3s ease,visibility .3s ease}
+.contact-premium .contact-header{gap:15px;padding:24px 56px 22px 22px;background:linear-gradient(135deg,#9f7a55,#bb966e)}
+.contact-premium .contact-header img{width:62px;height:62px;border:3px solid #fff;object-position:50% 30%;box-shadow:0 5px 16px rgba(60,38,23,.22)}
+.contact-premium .contact-header strong{font-size:19px;line-height:1.08}
+.contact-premium .contact-header span{margin-top:5px;font-size:10px;letter-spacing:.02em}
+.contact-premium .contact-message{max-width:86%;margin:19px 18px 8px;padding:14px 16px;border:1px solid rgba(169,136,99,.13);border-radius:5px 16px 16px;background:#f6f1eb;color:#514841;font-size:12px;line-height:1.55}
+.contact-premium .contact-title{margin:17px 18px 10px;color:#68564a;font-size:11px;letter-spacing:.02em}
+.contact-premium .contact-apps{grid-template-columns:repeat(6,1fr);gap:8px;padding:0 17px 19px}
+.contact-premium .contact-app{min-height:58px;border:1px solid transparent;border-radius:13px;box-shadow:none}
+.contact-premium .contact-app-primary{order:1;grid-column:1/-1;min-height:62px;flex-direction:row;gap:10px;font-size:12px}
+.contact-premium .contact-app-primary strong{font-size:12px}
+.contact-premium .contact-app-secondary{order:2;grid-column:span 3;min-height:58px;flex-direction:row;gap:8px;border-color:rgba(169,136,99,.3);background:#f7f1ea;color:#73583f}
+.contact-premium .contact-app-secondary strong{font-size:10px}
+.contact-premium .contact-app-tertiary{order:3;grid-column:span 2;min-height:60px;border-radius:12px;filter:saturate(.82)}
+.contact-premium .contact-close{top:12px;right:12px;width:31px;height:31px;background:rgba(255,255,255,.2)}
+@media(max-width:560px){.contact-premium .contact-launcher{min-width:222px;padding:8px 15px 8px 9px}.contact-premium .contact-launcher-icon{flex-basis:40px;width:40px;height:40px}.contact-premium .contact-launcher-copy strong{font-size:12px}.contact-premium .contact-launcher-copy small{font-size:8px}.contact-premium .contact-panel{max-height:calc(100vh - 20px);overflow:auto}.contact-premium .contact-panel.open{bottom:4px}.contact-premium .contact-header{padding:20px 50px 18px 18px}.contact-premium .contact-header img{width:54px;height:54px}.contact-premium .contact-message{margin-top:15px}.contact-premium .contact-apps{padding-right:14px;padding-left:14px}}
+@media(prefers-reduced-motion:reduce){.contact-premium .contact-launcher{transition:none}}

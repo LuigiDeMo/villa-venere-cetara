@@ -783,9 +783,8 @@ function setContactOpen(open) {
   else if (!mascotTimer) showNextMascotPose();
 }
 
-async function openContactWithThanks() {
+function openContactWithThanks() {
   if (contactPanel?.classList.contains('open')) return;
-  await playMascotAnimation('thank-you', { onceKey: 'venere-thank-you-seen', force: true });
   setContactOpen(true);
 }
 
@@ -868,7 +867,7 @@ if ('IntersectionObserver' in window && reviewsSection) {
 /* Martina is intentionally retained on top of the published design. */
 const martinaPhoto = '/assets/photo/martina-host-2026.jpeg';
 const martinaCopy = {
-  it: { eyebrow: 'RISPONDE PERSONALMENTE AI MESSAGGI', title: 'Martina ti dà il benvenuto', body: 'Dalla prima domanda fino al tuo arrivo a Cetara, Martina risponde personalmente e ti aiuta a organizzare un soggiorno senza pensieri.', button: 'Contattaci', launcher: 'Contatta Martina' },
+  it: { eyebrow: 'RISPONDE PERSONALMENTE AI MESSAGGI', title: 'Martina ti dà il benvenuto', body: 'Dalla prima domanda fino al tuo arrivo a Cetara, Martina risponde personalmente e ti aiuta a organizzare un soggiorno senza pensieri.', button: 'Contattaci', launcher: 'Scrivi a Martina' },
   en: { eyebrow: 'PERSONALLY REPLIES TO MESSAGES', title: 'Martina welcomes you', body: 'From your first question to your arrival in Cetara, Martina personally replies and helps you plan a carefree stay.', button: 'Contact us', launcher: 'Contact Martina' },
   fr: { eyebrow: 'RÉPOND PERSONNELLEMENT AUX MESSAGES', title: 'Martina vous souhaite la bienvenue', body: 'De votre première question à votre arrivée à Cetara, Martina vous répond personnellement et vous aide à organiser un séjour serein.', button: 'Nous contacter', launcher: 'Contacter Martina' },
   es: { eyebrow: 'RESPONDE PERSONALMENTE A LOS MENSAJES', title: 'Martina te da la bienvenida', body: 'Desde tu primera pregunta hasta tu llegada a Cetara, Martina responde personalmente y te ayuda a organizar una estancia sin preocupaciones.', button: 'Contáctanos', launcher: 'Contacta con Martina' },
@@ -1062,6 +1061,39 @@ function initializeStaticSeoSections() {
   const launcherIcon = contactLauncher?.querySelector('.contact-launcher-icon');
   if (launcherIcon) launcherIcon.innerHTML = '<img class="contact-host-avatar" src="' + martinaPhoto + '" alt="" aria-hidden="true">';
 }
+
+function installPremiumContact() {
+  if (!contactWidget || !contactPanel || !contactLauncher) return;
+  const language = window.villaVenereLanguage || document.documentElement.lang || 'en';
+  const copy = martinaCopy[language] || martinaCopy.en;
+  const translate = (key, fallback) => window.villaVenereTranslate?.(key) || fallback;
+
+  contactWidget.classList.add('contact-premium');
+
+  const headerPhoto = contactPanel.querySelector('.contact-header img');
+  if (headerPhoto) {
+    headerPhoto.src = martinaPhoto;
+    headerPhoto.alt = copy.title;
+    headerPhoto.loading = 'eager';
+  }
+
+  const launcherIcon = contactLauncher.querySelector('.contact-launcher-icon');
+  if (launcherIcon) launcherIcon.innerHTML = '<img class="contact-host-avatar" src="' + martinaPhoto + '" alt="" aria-hidden="true">';
+
+  const launcherLabel = contactLauncher.querySelector('[data-i18n="contact.launcher"]');
+  if (launcherLabel) {
+    launcherLabel.removeAttribute('data-i18n');
+    launcherLabel.classList.add('contact-launcher-copy');
+    launcherLabel.innerHTML = '<strong>' + copy.launcher + '</strong><small>' + translate('contact.replyTime', copy.eyebrow) + '</small>';
+  }
+
+  const apps = contactPanel.querySelector('.contact-apps');
+  apps?.querySelector('.app-whatsapp')?.classList.add('contact-app-primary');
+  apps?.querySelector('.app-email')?.classList.add('contact-app-secondary');
+  apps?.querySelector('.app-phone')?.classList.add('contact-app-secondary');
+  [apps?.querySelector('.app-messenger'), apps?.querySelector('.app-telegram'), apps?.querySelector('.app-instagram')]
+    .forEach((item) => item?.classList.add('contact-app-tertiary'));
+}
 installStorySections();
 installFinalContactCta();
 Promise.resolve(window.villaI18nReady).finally(() => {
@@ -1069,5 +1101,6 @@ Promise.resolve(window.villaI18nReady).finally(() => {
   installMartinaExperience();
   installFinalContactCta();
   installConciergeExperience();
+  installPremiumContact();
   window.setTimeout(installMascotContextObservers, 0);
 });
