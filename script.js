@@ -1026,9 +1026,46 @@ function installFinalContactCta() {
   updateBookingLinks(window.villaVenereLanguage || DEFAULT_LANGUAGE);
 }
 
+function initializeStaticSeoSections() {
+  const gallery = document.querySelector('.photo-story');
+  const galleryMosaic = gallery?.querySelector('.photo-mosaic');
+  const galleryToggle = gallery?.querySelector('.photo-gallery-toggle');
+  galleryToggle?.addEventListener('click', () => {
+    const expanded = galleryMosaic?.classList.toggle('is-expanded') || false;
+    galleryToggle.setAttribute('aria-expanded', String(expanded));
+  });
+  const guide = document.querySelector('.villa-guide');
+  if (guide && gallery) gallery.insertAdjacentElement('afterend', guide);
+
+  const concierge = document.querySelector('.concierge-section');
+  if (concierge && !concierge.querySelector('.concierge-catalog')) {
+    const t = (key) => window.villaVenereTranslate?.(key) || key;
+    const experiences = conciergeExperiences.map(({ id, icon }) => {
+      const title = t('concierge.' + id + 'Title');
+      const message = encodeURIComponent(t('concierge.whatsappIntro') + ': ' + title + '.');
+      return '<article class="concierge-card"><div class="concierge-icon">' + icon + '</div><div class="concierge-card-copy"><h4>' + title + '</h4><p>' + t('concierge.' + id + 'Body') + '</p></div><a href="https://wa.me/393896840764?text=' + message + '" target="_blank" rel="noreferrer"><span>' + t('concierge.cta') + '</span><span aria-hidden="true">?</span></a></article>';
+    }).join('');
+    const catalog = document.createElement('div');
+    catalog.className = 'concierge-catalog';
+    catalog.hidden = true;
+    catalog.innerHTML = '<div class="concierge-grid">' + experiences + '</div>';
+    concierge.querySelector('.concierge-actions')?.insertAdjacentElement('afterend', catalog);
+    const toggle = concierge.querySelector('.concierge-toggle');
+    toggle?.addEventListener('click', () => {
+      const expanded = toggle.getAttribute('aria-expanded') !== 'true';
+      toggle.setAttribute('aria-expanded', String(expanded));
+      catalog.hidden = !expanded;
+      if (expanded) window.setTimeout(() => catalog.scrollIntoView({ behavior: 'smooth', block: 'nearest' }), 80);
+    });
+  }
+
+  const launcherIcon = contactLauncher?.querySelector('.contact-launcher-icon');
+  if (launcherIcon) launcherIcon.innerHTML = '<img class="contact-host-avatar" src="' + martinaPhoto + '" alt="" aria-hidden="true">';
+}
 installStorySections();
 installFinalContactCta();
 Promise.resolve(window.villaI18nReady).finally(() => {
+  initializeStaticSeoSections();
   installMartinaExperience();
   installFinalContactCta();
   installConciergeExperience();

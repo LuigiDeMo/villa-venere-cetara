@@ -5,7 +5,8 @@ import { fileURLToPath } from 'node:url';
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const paths = ['index.html', ...['en','it','fr','es','de','pt','ru','zh','ja','ko','ar','nl','pl'].map((lang) => `${lang}/index.html`),
   'it/villa-cetara/index.html','en/villa-cetara/index.html','it/accesso-privato-mare/index.html','en/private-sea-access/index.html',
-  'it/camere-servizi/index.html','en/rooms-amenities/index.html','it/come-arrivare/index.html','en/getting-to-cetara/index.html'];
+  'it/camere-servizi/index.html','en/rooms-amenities/index.html','it/come-arrivare/index.html','en/getting-to-cetara/index.html',
+  'it/esperienze-costiera-amalfitana/index.html','en/amalfi-coast-experiences/index.html'];
 const errors = [];
 const titles = new Map();
 for (const path of paths) {
@@ -27,7 +28,7 @@ for (const image of ['villa-logo-256.png','villa-view.jpg','1661525798152.jpg','
 }
 const sitemap = await readFile(join(root, 'sitemap.xml'), 'utf8');
 const locCount = [...sitemap.matchAll(/<loc>/g)].length;
-if (locCount !== 22) errors.push(`Sitemap contains ${locCount} URLs instead of 22`);
+if (locCount !== 24) errors.push(`Sitemap contains ${locCount} URLs instead of 24`);
 if (errors.length) {
   console.error(errors.join('\n'));
   process.exitCode = 1;

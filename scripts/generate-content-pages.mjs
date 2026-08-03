@@ -118,6 +118,34 @@ const pages = [
     ],
     bullets: ['Via Lannio 8, Cetara', 'Bus stop about 84 m', 'Ferry terminal about 230 m', 'Beaches about 50 m', 'Partner parking', 'Transfer assistance'],
   },
+  {
+    key: 'experiences', lang: 'it', slug: 'esperienze-costiera-amalfitana', alternate: '/en/amalfi-coast-experiences/',
+    title: 'Esperienze in Costiera Amalfitana da Cetara | Villa Venere',
+    description: 'Martina aiuta gli ospiti di Villa Venere a organizzare tour in barca, escursioni private, Pompei, Ravello e chef a domicilio con partner locali.',
+    eyebrow: 'Concierge ed esperienze', h1: 'Scoprire la Costiera, dal mare e dalla terra',
+    intro: 'Soggiornare a Villa Venere significa avere Cetara come punto di partenza e Martina come riferimento personale. Su richiesta, pu? aiutare gli ospiti a valutare esperienze e itinerari con partner locali selezionati, in base al periodo, alle condizioni e alle esigenze del gruppo.',
+    image: '/assets/photo/concierge-sea.webp', alt: 'Barca in navigazione lungo la Costiera Amalfitana',
+    sections: [
+      ['Amalfi, Positano e Capri dal mare', 'Tour in barca condivisi o privati permettono di osservare la costa dall?acqua, raggiungere Amalfi e Positano e, quando itinerario e condizioni lo consentono, navigare verso Capri. Disponibilit?, partenza, durata e servizi inclusi vengono verificati al momento della richiesta.'],
+      ['Pompei, Ercolano, Vesuvio e Ravello', 'Martina pu? aiutare a organizzare trasferimenti e giornate private verso Pompei, Ercolano e il Vesuvio, oppure itinerari panoramici tra Amalfi, Positano, Ravello, Villa Rufolo e Villa Cimbrone. Le soluzioni vengono adattate al numero di ospiti e al tempo disponibile.'],
+      ['Esperienze private a Villa Venere', 'Per chi preferisce vivere la casa, ? possibile chiedere informazioni su chef privati e proposte gastronomiche personalizzate. Tutte le esperienze sono organizzate su richiesta con operatori indipendenti selezionati e restano soggette a disponibilit? e condizioni del fornitore.'],
+    ],
+    bullets: ['Tour in barca in Costiera', 'Capri su richiesta', 'Van e transfer privati', 'Pompei ed Ercolano', 'Ravello e le sue ville', 'Chef privato in villa'],
+  },
+  {
+    key: 'experiences', lang: 'en', slug: 'amalfi-coast-experiences', alternate: '/it/esperienze-costiera-amalfitana/',
+    title: 'Amalfi Coast Experiences from Cetara | Villa Venere',
+    description: 'Martina helps Villa Venere guests arrange boat tours, private day trips, Pompeii, Ravello and in-villa chefs with selected local partners.',
+    eyebrow: 'Concierge and experiences', h1: 'Explore the Amalfi Coast by sea and by land',
+    intro: 'A stay at Villa Venere gives guests Cetara as a starting point and Martina as a personal local contact. On request, she can help compare experiences and itineraries with selected local partners according to the season, conditions and needs of each group.',
+    image: '/assets/photo/concierge-sea.webp', alt: 'Boat cruising along the Amalfi Coast',
+    sections: [
+      ['Amalfi, Positano and Capri by sea', 'Shared and private boat tours offer a different view of the coastline, with options for Amalfi and Positano and, when the itinerary and conditions allow, Capri. Availability, departure point, duration and included services are confirmed when guests enquire.'],
+      ['Pompeii, Herculaneum, Vesuvius and Ravello', 'Martina can help arrange transfers and private days to Pompeii, Herculaneum and Mount Vesuvius, or panoramic itineraries through Amalfi, Positano, Ravello, Villa Rufolo and Villa Cimbrone. Options are tailored to group size and available time.'],
+      ['Private experiences at Villa Venere', 'Guests who prefer to enjoy the villa can ask about private chefs and personalised Mediterranean dining. Experiences are organised on request with independent selected providers and remain subject to their availability and terms.'],
+    ],
+    bullets: ['Amalfi Coast boat tours', 'Capri on request', 'Private vans and transfers', 'Pompeii and Herculaneum', 'Ravello and its villas', 'Private chef at the villa'],
+  },
 ];
 
 const esc = (value) => value.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;');

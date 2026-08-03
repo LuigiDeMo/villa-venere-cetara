@@ -1,0 +1,15 @@
+# Redirect permanenti dalle URL del vecchio sito alle guide canoniche
+/it/location.html  /it/come-arrivare/  301
+/en/location.html  /en/getting-to-cetara/  301
+/it/about.html  /it/villa-cetara/  301
+/en/about.html  /en/villa-cetara/  301
+/it/rooms.html  /it/camere-servizi/  301
+/en/rooms.html  /en/rooms-amenities/  301
+/it/services.html  /it/camere-servizi/  301
+/en/services.html  /en/rooms-amenities/  301
+/it/accommodation.html  /it/camere-servizi/  301
+/en/accommodation.html  /en/rooms-amenities/  301
+/location.html  /en/getting-to-cetara/  301
+/about.html  /en/villa-cetara/  301
+/rooms.html  /en/rooms-amenities/  301
+/services.html  /en/rooms-amenities/  301
