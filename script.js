@@ -47,7 +47,7 @@ function getTranslation(dictionary, key) {
 }
 
 async function loadDictionary(language) {
-  const response = await fetch(`/locales/${language}.json?v=8`, { cache: 'no-cache' });
+  const response = await fetch(`/locales/${language}.json?v=9`, { cache: 'no-cache' });
   if (!response.ok) throw new Error(`Unable to load language: ${language}`);
   return response.json();
 }
@@ -730,6 +730,7 @@ function installMascotContextObservers() {
     ['#services', 'services', 'sea-access'],
     ['.martina-host', 'host', 'contact'],
     ['#reviews', 'reviews', 'thank-you'],
+    ['.concierge-section', 'concierge', 'directions'],
     ['.final-contact-cta', 'final', 'direct-offer'],
   ];
   mascotContextSections = definitions.map(([selector, key, animation]) => ({
@@ -968,6 +969,50 @@ function installStorySections() {
   if (guide && gallerySection) gallerySection.insertAdjacentElement('afterend', guide);
 }
 
+
+const conciergeExperiences = [
+  { id: 'boatCoast', icon: '<svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 38h44l-8 12H20z"/><path d="M30 13v25M31 15l16 17H31M27 20 17 32h10M13 55c5-3 9-3 14 0s9 3 14 0 8-3 12 0"/></svg>' },
+  { id: 'capri', icon: '<svg viewBox="0 0 64 64" aria-hidden="true"><path d="M8 46c9-2 13-8 17-18 3-8 7-13 12-13s7 7 10 15c2 7 5 12 9 16"/><path d="M10 51c5-3 9-3 14 0s9 3 14 0 9-3 16 0M36 15c2 8 1 15-3 22"/></svg>' },
+  { id: 'vanCoast', icon: '<svg viewBox="0 0 64 64" aria-hidden="true"><path d="M8 24h35l11 12v13H8z"/><path d="M43 25v13h11M15 31h11M31 31h8"/><circle cx="19" cy="50" r="5"/><circle cx="45" cy="50" r="5"/></svg>' },
+  { id: 'pompeii', icon: '<svg viewBox="0 0 64 64" aria-hidden="true"><path d="M9 51h46M14 47h36M17 23h30M13 19l19-9 19 9zM19 23v24M29 23v24M39 23v24M49 23v24"/></svg>' },
+  { id: 'ravello', icon: '<svg viewBox="0 0 64 64" aria-hidden="true"><path d="M12 52h40M17 52V25h30v27M22 25V16h20v9M27 16V10h10v6"/><path d="M23 34h5v7h-5zM36 34h5v7h-5zM29 52V40h6v12"/></svg>' },
+  { id: 'chef', icon: '<svg viewBox="0 0 64 64" aria-hidden="true"><path d="M20 28c-6 0-10-4-10-9s4-9 9-9c3 0 6 2 7 4 2-5 11-6 15-1 7-2 13 3 13 9 0 4-3 7-7 7v22H18V28"/><path d="M24 39h16M24 45h16"/></svg>' }
+];
+
+function installConciergeExperience() {
+  if (document.querySelector('.concierge-section')) return;
+  const finalCta = document.querySelector('.final-contact-cta');
+  const reviews = document.querySelector('#reviews');
+  if (!finalCta && !reviews) return;
+  const t = (key) => window.villaVenereTranslate?.(key) || key;
+  const section = document.createElement('section');
+  section.className = 'concierge-section concierge-compact';
+  section.id = 'concierge';
+  section.setAttribute('aria-labelledby', 'concierge-title');
+  const categories = [
+    { image: '/assets/photo/concierge-sea.webp', title: 'coastCategory', places: 'coastPlaces' },
+    { image: '/assets/photo/concierge-history.webp', title: 'historyCategory', places: 'historyPlaces' },
+    { image: '/assets/photo/concierge-private.webp', title: 'privateCategory', places: 'privatePlaces' }
+  ].map((item) => '<article class="concierge-feature"><img src="' + item.image + '" width="1200" height="800" loading="lazy" decoding="async" alt=""><div><h4>' + t('concierge.' + item.title) + '</h4><p>' + t('concierge.' + item.places) + '</p></div></article>').join('');
+  const experiences = conciergeExperiences.map(({ id, icon }) => {
+    const title = t('concierge.' + id + 'Title');
+    const message = encodeURIComponent(t('concierge.whatsappIntro') + ': ' + title + '.');
+    return '<article class="concierge-card"><div class="concierge-icon">' + icon + '</div><div class="concierge-card-copy"><h4>' + title + '</h4><p>' + t('concierge.' + id + 'Body') + '</p></div><a href="https://wa.me/393896840764?text=' + message + '" target="_blank" rel="noreferrer"><span>' + t('concierge.cta') + '</span><span aria-hidden="true">→</span></a></article>';
+  }).join('');
+  section.innerHTML = '<div class="container"><header class="concierge-intro"><p class="concierge-eyebrow">' + t('concierge.eyebrow') + '</p><h3 id="concierge-title">' + t('concierge.title') + '</h3><p>' + t('concierge.intro') + '</p></header><div class="concierge-overview">' + categories + '</div><div class="concierge-actions"><button class="concierge-contact" type="button" data-contact-open>' + t('concierge.contactNow') + '</button><button class="concierge-toggle" type="button" aria-expanded="false"><span class="concierge-show">' + t('concierge.showAll') + '</span><span class="concierge-hide">' + t('concierge.showLess') + '</span></button></div><div class="concierge-catalog" hidden><div class="concierge-grid">' + experiences + '</div><p class="concierge-note">' + t('concierge.partnerNote') + '</p></div></div>';
+  const toggle = section.querySelector('.concierge-toggle');
+  const catalog = section.querySelector('.concierge-catalog');
+  toggle?.addEventListener('click', () => {
+    const expanded = toggle.getAttribute('aria-expanded') !== 'true';
+    toggle.setAttribute('aria-expanded', String(expanded));
+    catalog.hidden = !expanded;
+    if (expanded) window.setTimeout(() => catalog.scrollIntoView({ behavior: 'smooth', block: 'nearest' }), 80);
+  });
+  section.querySelector('[data-contact-open]')?.addEventListener('click', () => setContactOpen(true));
+  if (finalCta) finalCta.insertAdjacentElement('beforebegin', section);
+  else reviews.insertAdjacentElement('afterend', section);
+}
+
 function installFinalContactCta() {
   if (document.querySelector('.final-contact-cta')) return;
   const reviews = document.querySelector('#reviews');
@@ -986,5 +1031,6 @@ installFinalContactCta();
 Promise.resolve(window.villaI18nReady).finally(() => {
   installMartinaExperience();
   installFinalContactCta();
+  installConciergeExperience();
   window.setTimeout(installMascotContextObservers, 0);
 });

@@ -136,7 +136,8 @@
     "services": "Pytania o jacuzzi lub prywatne zejście do morza? Martina chętnie pomoże.",
     "host": "Martina osobiście odpowiada na każdą wiadomość i pomaga aż do Waszego przyjazdu.",
     "reviews": "Goście często wspominają serdeczne powitanie Martiny. Przeczytaj ich opinie o pobycie.",
-    "final": "Masz już daty i liczbę gości? Napisz do Martiny po najlepszą dostępną ofertę bezpośrednią."
+    "final": "Masz już daty i liczbę gości? Napisz do Martiny po najlepszą dostępną ofertę bezpośrednią.",
+    "concierge": "Chcesz odkryć wybrzeże łodzią, prywatnym vanem lub przeżyć coś wyjątkowego? Zapytaj Martinę."
   },
   "finalCta": {
     "eyebrow": "REZERWUJ BEZPOŚREDNIO",
@@ -145,5 +146,34 @@
     "contact": "Napisz do Martiny",
     "availability": "Sprawdź dostępność",
     "trust": "Osobista odpowiedź · Bez zobowiązań · Cena bezpośrednia"
+  },
+  "concierge": {
+    "eyebrow": "NA MIARĘ TWOJEGO POBYTU",
+    "title": "Atrakcje i concierge",
+    "intro": "Odkryj Wybrzeże Amalfitańskie dzięki atrakcjom wybranym przez Martinę: od strony morza, lądu lub w Villa Venere.",
+    "partnerNote": "Atrakcje są organizowane na życzenie z wybranymi lokalnymi partnerami. Dostępność i warunki mogą się zmieniać.",
+    "cta": "Zapytaj Martinę",
+    "whatsappIntro": "Cześć Martina, proszę o informacje na temat",
+    "boatCoastTitle": "Amalfi i Positano łodzią",
+    "boatCoastBody": "Dzień na morzu wśród ukrytych zatoczek, nadmorskich miasteczek i niezapomnianych widoków.",
+    "capriTitle": "Prywatny rejs na Capri",
+    "capriBody": "Popłyń na Capri i odkrywaj jego wybrzeże we własnym tempie.",
+    "vanCoastTitle": "Wybrzeże Amalfitańskie prywatnym vanem",
+    "vanCoastBody": "Komfortowa trasa widokowa przez Amalfi, Positano i nadmorskie miejscowości.",
+    "pompeiiTitle": "Pompeje i Wezuwiusz",
+    "pompeiiBody": "Historia, archeologia i krajobrazy podczas prywatnej całodniowej wycieczki.",
+    "ravelloTitle": "Ravello i jego wille",
+    "ravelloBody": "Ogrody, tarasy i ponadczasowe widoki Villa Rufolo i Villa Cimbrone.",
+    "chefTitle": "Prywatny szef kuchni w willi",
+    "chefBody": "Spersonalizowana śródziemnomorska kolacja bez opuszczania Villa Venere.",
+    "coastCategory": "Wybrzeże od strony morza i lądu",
+    "coastPlaces": "Amalfi · Positano · Capri · Ravello",
+    "historyCategory": "Historia i dziedzictwo",
+    "historyPlaces": "Pompeje · Herkulanum · Wezuwiusz",
+    "privateCategory": "Prywatne doświadczenia",
+    "privatePlaces": "Wycieczki na miarę · Prywatny szef kuchni",
+    "showAll": "Pokaż wszystkie atrakcje",
+    "showLess": "Ukryj atrakcje",
+    "contactNow": "Zapytaj Martinę"
   }
 }

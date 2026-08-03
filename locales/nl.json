@@ -136,7 +136,8 @@
     "services": "Vragen over de jacuzzi of privétoegang tot zee? Martina helpt u graag.",
     "host": "Martina beantwoordt ieder bericht persoonlijk en helpt u tot aan uw aankomst.",
     "reviews": "Gasten noemen vaak Martina’s warme ontvangst. Lees wat zij over hun verblijf vertellen.",
-    "final": "Heeft u de data en het aantal gasten al? Schrijf Martina voor het beste beschikbare directe aanbod."
+    "final": "Heeft u de data en het aantal gasten al? Schrijf Martina voor het beste beschikbare directe aanbod.",
+    "concierge": "Wilt u de kust per boot of privévan ontdekken, of een bijzondere ervaring beleven? Vraag het Martina."
   },
   "finalCta": {
     "eyebrow": "BOEK RECHTSTREEKS",
@@ -145,5 +146,34 @@
     "contact": "Contact met Martina",
     "availability": "Beschikbaarheid bekijken",
     "trust": "Persoonlijk antwoord · Vrijblijvend · Direct tarief"
+  },
+  "concierge": {
+    "eyebrow": "OP MAAT VOOR UW VERBLIJF",
+    "title": "Ervaringen & concierge",
+    "intro": "Ontdek de Amalfikust met ervaringen geselecteerd door Martina: op zee, over land of in het comfort van Villa Venere.",
+    "partnerNote": "Ervaringen worden op aanvraag georganiseerd met geselecteerde lokale partners. Beschikbaarheid en voorwaarden kunnen variëren.",
+    "cta": "Vraag Martina",
+    "whatsappIntro": "Hallo Martina, ik ontvang graag informatie over",
+    "boatCoastTitle": "Amalfi & Positano per boot",
+    "boatCoastBody": "Een dag op zee langs verborgen baaien, kustdorpen en onvergetelijke uitzichten.",
+    "capriTitle": "Privéboot naar Capri",
+    "capriBody": "Vaar naar Capri en ontdek de kustlijn in uw eigen tempo.",
+    "vanCoastTitle": "Amalfikust met privévan",
+    "vanCoastBody": "Een comfortabele panoramische route langs Amalfi, Positano en kustdorpen.",
+    "pompeiiTitle": "Pompeï & Vesuvius",
+    "pompeiiBody": "Geschiedenis, archeologie en landschappen tijdens een privédagtocht vanaf de kust.",
+    "ravelloTitle": "Ravello en zijn villa’s",
+    "ravelloBody": "Tuinen, terrassen en tijdloze uitzichten bij Villa Rufolo en Villa Cimbrone.",
+    "chefTitle": "Privéchef in de villa",
+    "chefBody": "Een persoonlijk mediterraan diner zonder Villa Venere te verlaten.",
+    "coastCategory": "De kust, over zee en over land",
+    "coastPlaces": "Amalfi · Positano · Capri · Ravello",
+    "historyCategory": "Geschiedenis en omgeving",
+    "historyPlaces": "Pompeï · Herculaneum · Vesuvius",
+    "privateCategory": "Privé-ervaringen",
+    "privatePlaces": "Reizen op maat · Privéchef",
+    "showAll": "Alle ervaringen bekijken",
+    "showLess": "Ervaringen verbergen",
+    "contactNow": "Vraag Martina"
   }
 }

@@ -136,7 +136,8 @@
     "services": "对按摩浴缸或私人入海通道有疑问？Martina 随时为您解答。",
     "host": "每一条消息都由 Martina 亲自回复，并陪伴您直到抵达。",
     "reviews": "客人经常称赞 Martina 的热情接待。看看他们如何评价这次住宿。",
-    "final": "已经确定日期和人数？请联系 Martina，获取当前最佳的直接预订方案。"
+    "final": "已经确定日期和人数？请联系 Martina，获取当前最佳的直接预订方案。",
+    "concierge": "想乘船、私人包车探索海岸，或体验特别活动吗？欢迎咨询 Martina。"
   },
   "finalCta": {
     "eyebrow": "官网直订",
@@ -145,5 +146,34 @@
     "contact": "联系 Martina",
     "availability": "查询空房",
     "trust": "亲自回复 · 无需承诺 · 官网直订价"
+  },
+  "concierge": {
+    "eyebrow": "为您的住宿量身定制",
+    "title": "体验与礼宾服务",
+    "intro": "通过 Martina 精选的体验探索阿马尔菲海岸：从海上、陆路，或在 Villa Venere 舒适享受。",
+    "partnerNote": "体验项目需提前申请，并由精选当地合作伙伴提供。具体视供应情况和条件而定。",
+    "cta": "咨询 Martina",
+    "whatsappIntro": "你好 Martina，我想了解",
+    "boatCoastTitle": "乘船游览阿马尔菲和波西塔诺",
+    "boatCoastBody": "在隐秘海湾、海岸村庄和难忘景色之间度过海上一日。",
+    "capriTitle": "卡普里私人游船",
+    "capriBody": "乘船前往卡普里，按照自己的节奏探索海岸线。",
+    "vanCoastTitle": "私人包车游阿马尔菲海岸",
+    "vanCoastBody": "舒适游览阿马尔菲、波西塔诺及海岸村庄的全景路线。",
+    "pompeiiTitle": "庞贝与维苏威火山",
+    "pompeiiBody": "从海岸出发，体验历史、考古与自然风光的私人一日游。",
+    "ravelloTitle": "拉韦洛及其别墅",
+    "ravelloBody": "探索鲁佛罗别墅和辛波乃别墅的花园、露台与永恒美景。",
+    "chefTitle": "别墅私人厨师",
+    "chefBody": "足不出 Villa Venere，即可享用定制地中海晚餐。",
+    "coastCategory": "海陆探索阿马尔菲海岸",
+    "coastPlaces": "阿马尔菲 · 波西塔诺 · 卡普里 · 拉韦洛",
+    "historyCategory": "历史与文化遗产",
+    "historyPlaces": "庞贝 · 赫库兰尼姆 · 维苏威火山",
+    "privateCategory": "私人定制体验",
+    "privatePlaces": "定制行程 · 私人厨师",
+    "showAll": "查看所有体验",
+    "showLess": "收起体验",
+    "contactNow": "咨询 Martina"
   }
 }

@@ -136,7 +136,8 @@
     "services": "ジャグジーや海への専用アクセスについてのご質問は、Martinaがお答えします。",
     "host": "すべてのメッセージにMartina本人が返信し、ご到着までお手伝いします。",
     "reviews": "多くのゲストがMartinaの温かいおもてなしを評価しています。滞在の感想をご覧ください。",
-    "final": "日程と人数はお決まりですか？最適な直接予約プランをMartinaにお問い合わせください。"
+    "final": "日程と人数はお決まりですか？最適な直接予約プランをMartinaにお問い合わせください。",
+    "concierge": "ボートや専用車で海岸を巡ったり、特別な体験をしたいですか？Martinaにご相談ください。"
   },
   "finalCta": {
     "eyebrow": "直接予約",
@@ -145,5 +146,34 @@
     "contact": "Martinaに連絡",
     "availability": "空室を確認",
     "trust": "直接返信 · 契約不要 · 直接料金"
+  },
+  "concierge": {
+    "eyebrow": "ご滞在に合わせた特別な体験",
+    "title": "体験＆コンシェルジュ",
+    "intro": "Martinaが厳選した体験でアマルフィ海岸を満喫。海から、陸から、またはVilla Venereでお楽しみください。",
+    "partnerNote": "体験は厳選した地元パートナーとリクエストに応じて手配します。空き状況や条件は変動します。",
+    "cta": "Martinaに相談",
+    "whatsappIntro": "こんにちはMartina、次の体験について教えてください：",
+    "boatCoastTitle": "アマルフィ＆ポジターノ ボートツアー",
+    "boatCoastBody": "隠れた入り江、海辺の町、忘れられない景色を巡る海上の一日。",
+    "capriTitle": "プライベートボートでカプリへ",
+    "capriBody": "カプリへ航海し、自分のペースで海岸線を探索します。",
+    "vanCoastTitle": "専用車で巡るアマルフィ海岸",
+    "vanCoastBody": "アマルフィ、ポジターノ、海岸の町を快適に巡る絶景ルート。",
+    "pompeiiTitle": "ポンペイ＆ヴェスヴィオ",
+    "pompeiiBody": "海岸から出発する、歴史・考古学・景観を楽しむプライベート日帰り旅。",
+    "ravelloTitle": "ラヴェッロと歴史的ヴィラ",
+    "ravelloBody": "Villa RufoloとVilla Cimbroneの庭園、テラス、時を超えた眺望。",
+    "chefTitle": "ヴィラでプライベートシェフ",
+    "chefBody": "Villa Venereで、あなただけの地中海ディナーを。",
+    "coastCategory": "海と陸から巡るアマルフィ海岸",
+    "coastPlaces": "アマルフィ · ポジターノ · カプリ · ラヴェッロ",
+    "historyCategory": "歴史と文化を訪ねて",
+    "historyPlaces": "ポンペイ · エルコラーノ · ヴェスヴィオ",
+    "privateCategory": "プライベート体験",
+    "privatePlaces": "オーダーメイドツアー · プライベートシェフ",
+    "showAll": "すべての体験を見る",
+    "showLess": "体験を閉じる",
+    "contactNow": "Martinaに相談"
   }
 }

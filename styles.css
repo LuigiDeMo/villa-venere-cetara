@@ -301,3 +301,34 @@ a.footer-contact-line:hover{color:#fff4e5}
 .final-contact-secondary{border:1px solid rgba(169,136,99,.65);background:transparent;color:#806244}.final-contact-secondary:hover{background:#f1e5dc;color:#654b34}
 .final-contact-copy small{color:#95877b;font-size:.66rem;letter-spacing:.04em}
 @media(max-width:700px){.final-contact-cta{padding:58px 0}.final-contact-card{grid-template-columns:1fr;gap:24px;padding:30px 24px;text-align:center}.final-contact-photo{width:145px;height:145px;margin:auto}.final-contact-actions{justify-content:center}.final-contact-primary,.final-contact-secondary{width:100%}}
+
+
+/* Villa concierge */
+.concierge-section{padding:92px 0;background:rgba(245,238,230,.96);border-top:1px solid rgba(141,109,77,.12);color:var(--ink)}
+.concierge-intro{max-width:790px;margin:0 auto 48px;text-align:center}
+.concierge-eyebrow{margin:0 0 13px;color:#a67e55;font:700 .66rem/1.4 Montserrat,sans-serif;letter-spacing:.24em;text-transform:uppercase}
+.concierge-intro h3{margin:0 0 18px;color:#73583f;font:500 clamp(2.55rem,5vw,4rem)/1.02 "EB Garamond",serif}
+.concierge-intro>p:last-child{max-width:680px;margin:0 auto;color:#756860;font:400 .95rem/1.8 Montserrat,sans-serif}
+.concierge-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.concierge-card{display:flex;min-height:300px;flex-direction:column;padding:30px 28px 24px;border:1px solid rgba(143,109,77,.18);border-radius:20px;background:rgba(255,253,250,.93);box-shadow:0 14px 40px rgba(70,48,38,.07);transition:transform .28s ease,box-shadow .28s ease,border-color .28s ease}
+.concierge-card:hover{transform:translateY(-5px);border-color:rgba(166,126,85,.5);box-shadow:0 22px 48px rgba(70,48,38,.12)}
+.concierge-icon{display:grid;width:64px;height:64px;margin-bottom:24px;place-items:center;border-radius:50%;background:#eee1d5;color:#96704c}
+.concierge-icon svg{width:38px;height:38px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.concierge-card-copy{flex:1}.concierge-card h4{margin:0 0 11px;color:#5d4635;font:600 1.52rem/1.12 "EB Garamond",serif}.concierge-card p{margin:0;color:#766b63;font:400 .82rem/1.7 Montserrat,sans-serif}
+.concierge-card>a{display:flex;align-items:center;justify-content:space-between;margin-top:23px;padding-top:17px;border-top:1px solid rgba(143,109,77,.14);color:#8f6b48;font:700 .63rem/1.2 Montserrat,sans-serif;letter-spacing:.08em;text-decoration:none;text-transform:uppercase}.concierge-card>a span:last-child{font-size:1.1rem;transition:transform .2s ease}.concierge-card>a:hover span:last-child{transform:translateX(4px)}
+.concierge-note{max-width:780px;margin:28px auto 0;color:#95877b;font:400 .68rem/1.6 Montserrat,sans-serif;text-align:center}
+@media(max-width:940px){.concierge-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.concierge-section{padding:76px 0}}
+@media(max-width:600px){.concierge-section{padding:62px 0}.concierge-intro{margin-bottom:34px}.concierge-grid{grid-template-columns:1fr;gap:13px}.concierge-card{min-height:0;padding:25px 23px 21px}.concierge-icon{width:56px;height:56px;margin-bottom:19px}.concierge-icon svg{width:33px;height:33px}.concierge-card h4{font-size:1.42rem}.concierge-note{margin-top:22px}}
+
+
+/* Compact photographic concierge */
+.concierge-compact{padding:72px 0}
+.concierge-compact .concierge-intro{margin-bottom:32px}
+.concierge-overview{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.concierge-feature{position:relative;min-height:230px;overflow:hidden;border:6px solid rgba(255,253,250,.9);border-radius:18px;background:#b9a28d;box-shadow:0 14px 35px rgba(70,48,38,.1)}
+.concierge-feature:after{position:absolute;inset:0;background:linear-gradient(180deg,rgba(35,26,21,.02) 35%,rgba(35,26,21,.78) 100%);content:""}
+.concierge-feature img{position:absolute;width:100%;height:100%;object-fit:cover;transition:transform .5s ease}.concierge-feature:hover img{transform:scale(1.035)}
+.concierge-feature>div{position:absolute;z-index:1;right:22px;bottom:20px;left:22px;color:#fff}.concierge-feature h4{margin:0 0 7px;color:#fff;font:600 1.45rem/1.08 "EB Garamond",serif}.concierge-feature p{margin:0;color:rgba(255,255,255,.82);font:600 .58rem/1.5 Montserrat,sans-serif;letter-spacing:.08em;text-transform:uppercase}
+.concierge-actions{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:27px}.concierge-contact,.concierge-toggle{min-height:46px;padding:13px 24px;border-radius:999px;font:700 .64rem/1 Montserrat,sans-serif;letter-spacing:.09em;text-transform:uppercase;cursor:pointer}.concierge-contact{border:1px solid #a98863;background:#a98863;color:#fff}.concierge-contact:hover{background:#876746}.concierge-toggle{border:1px solid rgba(169,136,99,.65);background:rgba(255,253,250,.78);color:#806244}.concierge-toggle:hover{background:#fff}.concierge-hide{display:none}.concierge-toggle[aria-expanded="true"] .concierge-show{display:none}.concierge-toggle[aria-expanded="true"] .concierge-hide{display:inline}
+.concierge-catalog{margin-top:36px;padding-top:34px;border-top:1px solid rgba(143,109,77,.16)}.concierge-catalog[hidden]{display:none!important}
+@media(max-width:760px){.concierge-overview{grid-template-columns:1fr}.concierge-feature{min-height:215px}.concierge-compact{padding:58px 0}.concierge-actions{margin-top:22px}.concierge-contact,.concierge-toggle{width:100%;max-width:320px}}

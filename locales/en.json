@@ -136,7 +136,8 @@
     "services": "Questions about the hot tub or private sea access? Martina is here to help.",
     "host": "Martina really answers every message and will assist you until your arrival.",
     "reviews": "Guests often mention Martina's warm welcome. Discover what they say about their stay.",
-    "final": "Already have your dates and guest count? Write to Martina for the best available direct proposal."
+    "final": "Already have your dates and guest count? Write to Martina for the best available direct proposal.",
+    "concierge": "Would you like to explore the Coast by boat, private van or with a special experience? Ask Martina."
   },
   "finalCta": {
     "eyebrow": "BOOK DIRECT",
@@ -145,5 +146,34 @@
     "contact": "Contact Martina",
     "availability": "Check availability",
     "trust": "Personal reply · No obligation · Direct rate"
+  },
+  "concierge": {
+    "eyebrow": "TAILORED FOR YOUR STAY",
+    "title": "Experiences & concierge",
+    "intro": "Discover the Amalfi Coast with experiences selected by Martina: by sea, by road or in the comfort of Villa Venere.",
+    "partnerNote": "Experiences are organised on request with selected local partners. Availability and conditions may vary.",
+    "cta": "Ask Martina",
+    "whatsappIntro": "Hello Martina, I would like information about",
+    "boatCoastTitle": "Amalfi & Positano by boat",
+    "boatCoastBody": "A day at sea among hidden coves, coastal villages and unforgettable views.",
+    "capriTitle": "Private Capri experience",
+    "capriBody": "Sail towards Capri and discover its coastline at your own pace.",
+    "vanCoastTitle": "Amalfi Coast by private van",
+    "vanCoastBody": "A comfortable panoramic itinerary between Amalfi, Positano and coastal villages.",
+    "pompeiiTitle": "Pompeii & Vesuvius",
+    "pompeiiBody": "History, archaeology and landscapes on a private day trip from the Coast.",
+    "ravelloTitle": "Ravello and its villas",
+    "ravelloBody": "Gardens, terraces and timeless views at Villa Rufolo and Villa Cimbrone.",
+    "chefTitle": "Private chef at the villa",
+    "chefBody": "Enjoy a personalised Mediterranean dinner without leaving Villa Venere.",
+    "coastCategory": "The Coast, by sea and by land",
+    "coastPlaces": "Amalfi · Positano · Capri · Ravello",
+    "historyCategory": "History and territory",
+    "historyPlaces": "Pompeii · Herculaneum · Vesuvius",
+    "privateCategory": "Private experiences",
+    "privatePlaces": "Tailored tours · Private chef",
+    "showAll": "Show all experiences",
+    "showLess": "Hide experiences",
+    "contactNow": "Ask Martina"
   }
 }
