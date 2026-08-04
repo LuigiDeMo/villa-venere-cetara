@@ -64,9 +64,9 @@ const pages = [
   },
   {
     key: 'rooms', lang: 'it', slug: 'camere-servizi', alternate: '/en/rooms-amenities/',
-    title: 'Camere e servizi di Villa Venere Cetara | Fino a 12 ospiti',
+    title: 'Villa per 12 persone in Costiera Amalfitana | Camere e servizi',
     description: 'Tre camere vista mare, sei posti letto configurabili, due bagni, cucina, Wi-Fi, aria condizionata, Smart TV, jacuzzi e terrazza.',
-    eyebrow: 'Camere e servizi', h1: 'Spazi comodi per famiglie e gruppi',
+    eyebrow: 'Camere e servizi', h1: 'Villa in Costiera Amalfitana per famiglie e gruppi fino a 12 ospiti',
     intro: 'Villa Venere viene affittata come intera casa, non per singola camera. Gli ospiti condividono gli ambienti con il proprio gruppo e possono organizzare il soggiorno con la libertà di una casa privata.',
     image: '/assets/villa-gallery/camera-principale-vista-mare.jpg', alt: 'Camera matrimoniale vista mare di Villa Venere',
     sections: [
@@ -123,12 +123,12 @@ const pages = [
     title: 'Esperienze in Costiera Amalfitana da Cetara | Villa Venere',
     description: 'Martina aiuta gli ospiti di Villa Venere a organizzare tour in barca, escursioni private, Pompei, Ravello e chef a domicilio con partner locali.',
     eyebrow: 'Concierge ed esperienze', h1: 'Scoprire la Costiera, dal mare e dalla terra',
-    intro: 'Soggiornare a Villa Venere significa avere Cetara come punto di partenza e Martina come riferimento personale. Su richiesta, pu? aiutare gli ospiti a valutare esperienze e itinerari con partner locali selezionati, in base al periodo, alle condizioni e alle esigenze del gruppo.',
+    intro: 'Soggiornare a Villa Venere significa avere Cetara come punto di partenza e Martina come riferimento personale. Su richiesta, può aiutare gli ospiti a valutare esperienze e itinerari con partner locali selezionati, in base al periodo, alle condizioni e alle esigenze del gruppo.',
     image: '/assets/photo/concierge-sea.webp', alt: 'Barca in navigazione lungo la Costiera Amalfitana',
     sections: [
-      ['Amalfi, Positano e Capri dal mare', 'Tour in barca condivisi o privati permettono di osservare la costa dall?acqua, raggiungere Amalfi e Positano e, quando itinerario e condizioni lo consentono, navigare verso Capri. Disponibilit?, partenza, durata e servizi inclusi vengono verificati al momento della richiesta.'],
-      ['Pompei, Ercolano, Vesuvio e Ravello', 'Martina pu? aiutare a organizzare trasferimenti e giornate private verso Pompei, Ercolano e il Vesuvio, oppure itinerari panoramici tra Amalfi, Positano, Ravello, Villa Rufolo e Villa Cimbrone. Le soluzioni vengono adattate al numero di ospiti e al tempo disponibile.'],
-      ['Esperienze private a Villa Venere', 'Per chi preferisce vivere la casa, ? possibile chiedere informazioni su chef privati e proposte gastronomiche personalizzate. Tutte le esperienze sono organizzate su richiesta con operatori indipendenti selezionati e restano soggette a disponibilit? e condizioni del fornitore.'],
+      ['Amalfi, Positano e Capri dal mare', 'Tour in barca condivisi o privati permettono di osservare la costa dall’acqua, raggiungere Amalfi e Positano e, quando itinerario e condizioni lo consentono, navigare verso Capri. Disponibilità, partenza, durata e servizi inclusi vengono verificati al momento della richiesta.'],
+      ['Pompei, Ercolano, Vesuvio e Ravello', 'Martina può aiutare a organizzare trasferimenti e giornate private verso Pompei, Ercolano e il Vesuvio, oppure itinerari panoramici tra Amalfi, Positano, Ravello, Villa Rufolo e Villa Cimbrone. Le soluzioni vengono adattate al numero di ospiti e al tempo disponibile.'],
+      ['Esperienze private a Villa Venere', 'Per chi preferisce vivere la casa, è possibile chiedere informazioni su chef privati e proposte gastronomiche personalizzate. Tutte le esperienze sono organizzate su richiesta con operatori indipendenti selezionati e restano soggette a disponibilità e condizioni del fornitore.'],
     ],
     bullets: ['Tour in barca in Costiera', 'Capri su richiesta', 'Van e transfer privati', 'Pompei ed Ercolano', 'Ravello e le sue ville', 'Chef privato in villa'],
   },
@@ -154,6 +154,31 @@ function pageHtml(page) {
   const url = `https://villavenerecetara.it/${page.lang}/${page.slug}/`;
   const home = `/${page.lang}/`;
   const isIt = page.lang === 'it';
+  const guides = isIt
+    ? [['Villa privata a Cetara', '/it/villa-cetara/'], ['Accesso privato al mare', '/it/accesso-privato-mare/'], ['Camere e servizi', '/it/camere-servizi/'], ['Come arrivare', '/it/come-arrivare/'], ['Esperienze in Costiera', '/it/esperienze-costiera-amalfitana/']]
+    : [['Private villa in Cetara', '/en/villa-cetara/'], ['Private sea access', '/en/private-sea-access/'], ['Rooms and amenities', '/en/rooms-amenities/'], ['Getting to Cetara', '/en/getting-to-cetara/'], ['Amalfi Coast experiences', '/en/amalfi-coast-experiences/']];
+  const faqs = isIt
+    ? [
+      ['Villa Venere viene affittata interamente?', 'Sì. Gli ospiti hanno l’intera villa a uso esclusivo; le camere non vengono affittate separatamente.'],
+      ['Quante persone può ospitare?', 'La villa può ospitare fino a 12 persone, con tre camere matrimoniali e tre divani letto distribuiti tra una camera e il soggiorno.'],
+      ['La villa ha accesso privato al mare?', 'Sì. Una scala conduce alla banchina privata con doccia e lettini. L’accesso comprende scale e il naturale contesto roccioso della Costiera.'],
+      ['È adatta a famiglie e gruppi?', 'Sì. Tre camere, due bagni, cucina attrezzata, soggiorno e terrazza permettono a famiglie e gruppi di condividere il soggiorno mantenendo spazi comodi.'],
+      ['Dove si parcheggia?', 'La villa non ha parcheggio privato. È disponibile un parcheggio custodito convenzionato a Cetara, raggiungibile a piedi o con la navetta locale.'],
+      ['Quanto distano spiagge, autobus e traghetti?', 'Le spiagge sono a circa 50 metri, la fermata dell’autobus a circa 84 metri e il terminal traghetti a circa 230 metri.'],
+      ['Sono disponibili kayak e pedalò?', 'Due kayak e un pedalò sono disponibili gratuitamente quando le condizioni del mare e della sicurezza lo consentono.'],
+      ['Come posso verificare disponibilità e prezzo?', 'Puoi usare il sistema di prenotazione ufficiale oppure scrivere direttamente a Martina indicando date e numero di ospiti.'],
+    ]
+    : [
+      ['Is Villa Venere rented as an entire property?', 'Yes. Guests have exclusive use of the entire villa; individual rooms are not rented separately.'],
+      ['How many guests can the villa accommodate?', 'The villa accommodates up to 12 guests, with three double bedrooms and three sofa beds split between one bedroom and the living room.'],
+      ['Does the villa have private access to the sea?', 'Yes. Steps lead to a private dock with a shower and loungers. Access includes stairs and the naturally rocky Amalfi Coast setting.'],
+      ['Is it suitable for families and groups?', 'Yes. Three bedrooms, two bathrooms, an equipped kitchen, living room and terrace provide comfortable shared spaces for families and groups.'],
+      ['Where can guests park?', 'The villa has no private parking. A partner guarded car park in Cetara is available and can be reached on foot or by local shuttle.'],
+      ['How far are the beaches, bus stop and ferry terminal?', 'The beaches are about 50 metres away, the bus stop about 84 metres and the ferry terminal about 230 metres.'],
+      ['Are kayaks and a pedal boat available?', 'Two kayaks and one pedal boat are complimentary whenever sea and safety conditions allow.'],
+      ['How can I check availability and price?', 'Use the official booking system or contact Martina directly with your dates and number of guests.'],
+    ];
+  const faqHtml = page.key === 'villa' ? `<section class="article-faq"><h2>${isIt ? 'Domande frequenti sulla villa' : 'Frequently asked questions about the villa'}</h2>${faqs.map(([question, answer]) => `<details><summary>${esc(question)}</summary><p>${esc(answer)}</p></details>`).join('')}</section>` : '';
   const schema = {
     '@context': 'https://schema.org', '@graph': [
       { '@type': 'WebPage', '@id': `${url}#webpage`, url, name: page.title, description: page.description, inLanguage: page.lang, about: { '@id': 'https://villavenerecetara.it/#villa' } },
@@ -168,13 +193,13 @@ function pageHtml(page) {
 <title>${esc(page.title)}</title><meta name="description" content="${esc(page.description)}"><meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
 <link rel="canonical" href="${url}"><link rel="alternate" hreflang="${page.lang}" href="${url}"><link rel="alternate" hreflang="${page.lang === 'it' ? 'en' : 'it'}" href="https://villavenerecetara.it${page.alternate}"><link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/">
 <meta property="og:type" content="article"><meta property="og:site_name" content="Villa Venere - Amalfi Coast"><meta property="og:title" content="${esc(page.title)}"><meta property="og:description" content="${esc(page.description)}"><meta property="og:url" content="${url}"><meta property="og:image" content="https://villavenerecetara.it${page.image}"><meta name="twitter:card" content="summary_large_image">
-<link rel="icon" type="image/png" sizes="256x256" href="/assets/villa-logo-256.png"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="/seo-pages.css?v=1">
+<link rel="icon" type="image/png" sizes="256x256" href="/assets/villa-logo-256.png"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="/seo-pages.css?v=2">
 <script type="application/ld+json">${JSON.stringify(schema)}</script></head><body>
 <header class="article-header"><a class="article-brand" href="${home}"><img src="/assets/villa-logo-256.png" width="256" height="256" alt="Villa Venere"><span><strong>Villa Venere</strong><small>Cetara · Amalfi Coast</small></span></a><nav><a href="${home}">${isIt ? 'Pagina iniziale' : 'Home'}</a><a href="${home}#rooms">${isIt ? 'Camere' : 'Rooms'}</a><a href="${home}#services">${isIt ? 'Servizi' : 'Amenities'}</a><a class="book" href="${booking}&lang=${page.lang}" rel="nofollow">${isIt ? 'Prenota ora' : 'Book now'}</a></nav></header>
 <main><article><div class="article-hero"><div><p class="eyebrow">${esc(page.eyebrow)}</p><h1>${esc(page.h1)}</h1><p class="lead">${esc(page.intro)}</p></div><img src="${page.image}" width="1600" height="900" fetchpriority="high" alt="${esc(page.alt)}"></div>
-<div class="article-body"><aside><h2>${isIt ? 'In breve' : 'At a glance'}</h2><ul>${page.bullets.map((item) => `<li>${esc(item)}</li>`).join('')}</ul><a href="${booking}&lang=${page.lang}" rel="nofollow">${isIt ? 'Verifica disponibilità' : 'Check availability'}</a></aside><div class="article-copy">${page.sections.map(([title, text]) => `<section><h2>${esc(title)}</h2><p>${esc(text)}</p></section>`).join('')}</div></div>
-<nav class="article-related" aria-label="${isIt ? 'Approfondimenti' : 'Related guides'}"><a href="${home}">← ${isIt ? 'Torna alla villa' : 'Back to the villa'}</a><a href="${page.alternate}">${isIt ? 'Read in English' : 'Leggi in italiano'} →</a></nav></article></main>
-<footer><div><strong>Villa Venere</strong><span>Via Lannio 8 · 84010 Cetara (SA) · Italia</span><span>CIN IT065041B49WWIMPWN</span></div><div><a href="tel:+393896840764">+39 389 684 0764</a><a href="mailto:info@villavenerecetara.com">info@villavenerecetara.com</a></div></footer></body></html>`;
+<div class="article-body"><aside><h2>${isIt ? 'In breve' : 'At a glance'}</h2><ul>${page.bullets.map((item) => `<li>${esc(item)}</li>`).join('')}</ul><a href="${booking}&lang=${page.lang}" rel="nofollow">${isIt ? 'Verifica disponibilità' : 'Check availability'}</a></aside><div class="article-copy">${page.sections.map(([title, text]) => `<section><h2>${esc(title)}</h2><p>${esc(text)}</p></section>`).join('')}${faqHtml}</div></div>
+<nav class="article-related" aria-label="${isIt ? 'Approfondimenti' : 'Related guides'}"><div><strong>${isIt ? 'Guide ufficiali' : 'Official guides'}</strong>${guides.map(([label, href]) => `<a href="${href}">${esc(label)}</a>`).join('')}</div><div><a href="${home}">← ${isIt ? 'Torna alla villa' : 'Back to the villa'}</a><a href="${page.alternate}">${isIt ? 'Read in English' : 'Leggi in italiano'} →</a></div></nav></article></main>
+<footer><div><strong>Villa Venere</strong><span>Via Lannio 8 · 84010 Cetara (SA) · Italia</span><span>CIN IT065041B49WWIMPWN</span><a href="https://www.cetaraturistica.it/soggiornare/case-per-vacanze/villa-venere" target="_blank" rel="noreferrer">${isIt ? 'Portale turistico ufficiale di Cetara' : 'Official Cetara tourism portal'}</a></div><div><a href="tel:+393896840764">+39 389 684 0764</a><a href="mailto:info@villavenerecetara.com">info@villavenerecetara.com</a></div></footer></body></html>`;
 }
 
 for (const page of pages) {

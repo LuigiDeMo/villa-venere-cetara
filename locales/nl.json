@@ -64,7 +64,9 @@
   },
   "reviews": {
     "title": "Onze gasten vertellen:",
-    "loading": "Beoordelingen laden..."
+    "loading": "Beoordelingen laden...",
+    "verifiedSummary": "5,0/5 · 180 geverifieerde gastbeoordelingen via Airbnb, Booking.com, Google en Vrbo.",
+    "officialListing": "Villa Venere op het officiële toeristische portaal van Cetara"
   },
   "social": {
     "follow": "Volg ons:"

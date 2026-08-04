@@ -64,7 +64,9 @@
   },
   "reviews": {
     "title": "お客様の声：",
-    "loading": "口コミを読み込み中..."
+    "loading": "口コミを読み込み中...",
+    "verifiedSummary": "5.0/5 · Airbnb、Booking.com、Google、Vrboの確認済み口コミ180件。",
+    "officialListing": "チェターラ公式観光ポータルに掲載されたVilla Venere"
   },
   "social": {
     "follow": "フォローする："

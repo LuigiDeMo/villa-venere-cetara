@@ -64,7 +64,9 @@
   },
   "reviews": {
     "title": "آراء ضيوفنا:",
-    "loading": "جارٍ تحميل التقييمات..."
+    "loading": "جارٍ تحميل التقييمات...",
+    "verifiedSummary": "5.0/5 · 180 تقييماً موثقاً من ضيوف Airbnb وBooking.com وGoogle وVrbo.",
+    "officialListing": "Villa Venere على بوابة شيتارا السياحية الرسمية"
   },
   "social": {
     "follow": "تابعونا:"

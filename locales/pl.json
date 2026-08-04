@@ -64,7 +64,9 @@
   },
   "reviews": {
     "title": "Opinie naszych gości:",
-    "loading": "Ładowanie opinii..."
+    "loading": "Ładowanie opinii...",
+    "verifiedSummary": "5,0/5 · 180 zweryfikowanych opinii gości z Airbnb, Booking.com, Google i Vrbo.",
+    "officialListing": "Villa Venere w oficjalnym portalu turystycznym Cetary"
   },
   "social": {
     "follow": "Obserwuj nas:"

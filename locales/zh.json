@@ -64,7 +64,9 @@
   },
   "reviews": {
     "title": "住客评价：",
-    "loading": "正在加载评价..."
+    "loading": "正在加载评价...",
+    "verifiedSummary": "5.0/5 · 来自 Airbnb、Booking.com、Google 和 Vrbo 的 180 条真实住客评价。",
+    "officialListing": "Cetara 官方旅游门户网站上的 Villa Venere"
   },
   "social": {
     "follow": "关注我们："

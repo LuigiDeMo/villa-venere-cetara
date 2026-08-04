@@ -64,7 +64,9 @@
   },
   "reviews": {
     "title": "투숙객 후기:",
-    "loading": "후기를 불러오는 중..."
+    "loading": "후기를 불러오는 중...",
+    "verifiedSummary": "5.0/5 · Airbnb, Booking.com, Google, Vrbo의 검증된 후기 180개.",
+    "officialListing": "체타라 공식 관광 포털의 Villa Venere"
   },
   "social": {
     "follow": "팔로우하세요:"

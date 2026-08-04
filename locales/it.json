@@ -64,7 +64,9 @@
   },
   "reviews": {
     "title": "Dicono di noi:",
-    "loading": "Caricamento recensioni..."
+    "loading": "Caricamento recensioni...",
+    "verifiedSummary": "5,0/5 · 180 recensioni verificate da Airbnb, Booking.com, Google e Vrbo.",
+    "officialListing": "Villa Venere sul portale turistico ufficiale di Cetara"
   },
   "social": {
     "follow": "Seguici:"

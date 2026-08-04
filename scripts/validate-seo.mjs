@@ -15,6 +15,9 @@ for (const path of paths) {
   const canonical = html.match(/<link rel="canonical" href="([^"]+)"/i)?.[1];
   const description = html.match(/<meta name="description" content="([^"]+)"/i)?.[1];
   if (!title || !canonical || !description) errors.push(`${path}: missing title, canonical or description`);
+  for (const brokenText of ['pu?', 'dall?acqua', 'Disponibilit?', ', ? possibile', 'disponibilit?']) {
+    if (html.includes(brokenText)) errors.push(`${path}: broken text encoding (${brokenText})`);
+  }
   if (title) {
     if (titles.has(title)) errors.push(`${path}: duplicate title with ${titles.get(title)}`);
     titles.set(title, path);
@@ -26,6 +29,7 @@ for (const path of paths) {
       const rental = nodes.find((node) => node?.['@type'] === 'VacationRental');
       if (rental && rental.additionalType !== 'Villa') errors.push(`${path}: VacationRental.additionalType must be Villa`);
       if (rental && rental.containsPlace?.additionalType !== 'EntirePlace') errors.push(`${path}: containsPlace.additionalType must be EntirePlace`);
+      if (rental && rental.aggregateRating?.reviewCount !== 180) errors.push(`${path}: aggregate review count must match the visible verified total`);
     } catch (error) {
       errors.push(`${path}: invalid JSON-LD (${error.message})`);
     }

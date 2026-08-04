@@ -64,7 +64,9 @@
   },
   "reviews": {
     "title": "Отзывы наших гостей:",
-    "loading": "Загрузка отзывов..."
+    "loading": "Загрузка отзывов...",
+    "verifiedSummary": "5,0/5 · 180 проверенных отзывов гостей с Airbnb, Booking.com, Google и Vrbo.",
+    "officialListing": "Villa Venere на официальном туристическом портале Четары"
   },
   "social": {
     "follow": "Мы в социальных сетях:"
