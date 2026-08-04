@@ -882,6 +882,22 @@ const martinaCopy = {
   pl: { eyebrow: 'OSOBIŚCIE ODPOWIADA NA WIADOMOŚCI', title: 'Martina wita Państwa', body: 'Od pierwszego pytania aż po przyjazd do Cetary Martina odpowiada osobiście i pomaga zaplanować spokojny pobyt.', button: 'Kontakt', launcher: 'Napisz do Martiny' }
 };
 
+const contactLinkCopy = {
+  en: { whatsapp: 'Hello, I have a question about Villa Venere.', emailSubject: 'Villa Venere information' },
+  it: { whatsapp: 'Ciao, avrei una domanda su Villa Venere.', emailSubject: 'Informazioni su Villa Venere' },
+  fr: { whatsapp: "Bonjour, j’ai une question sur Villa Venere.", emailSubject: 'Informations sur Villa Venere' },
+  es: { whatsapp: 'Hola, tengo una pregunta sobre Villa Venere.', emailSubject: 'Información sobre Villa Venere' },
+  de: { whatsapp: 'Hallo, ich habe eine Frage zur Villa Venere.', emailSubject: 'Informationen zur Villa Venere' },
+  pt: { whatsapp: 'Olá, tenho uma pergunta sobre a Villa Venere.', emailSubject: 'Informações sobre a Villa Venere' },
+  ru: { whatsapp: 'Здравствуйте, у меня есть вопрос о Villa Venere.', emailSubject: 'Информация о Villa Venere' },
+  zh: { whatsapp: '您好，我想咨询 Villa Venere。', emailSubject: 'Villa Venere 信息咨询' },
+  ja: { whatsapp: 'こんにちは。Villa Venereについて質問があります。', emailSubject: 'Villa Venereについてのお問い合わせ' },
+  ko: { whatsapp: '안녕하세요. Villa Venere에 대해 문의드립니다.', emailSubject: 'Villa Venere 문의' },
+  ar: { whatsapp: 'مرحباً، لدي سؤال حول Villa Venere.', emailSubject: 'استفسار عن Villa Venere' },
+  nl: { whatsapp: 'Hallo, ik heb een vraag over Villa Venere.', emailSubject: 'Informatie over Villa Venere' },
+  pl: { whatsapp: 'Dzień dobry, mam pytanie dotyczące Villa Venere.', emailSubject: 'Informacje o Villa Venere' }
+};
+
 function installMartinaExperience() {
   if (document.querySelector('.martina-host')) return;
   const language = window.villaVenereLanguage || document.documentElement.lang || 'en';
@@ -1080,7 +1096,7 @@ function installPremiumContact() {
   const launcherIcon = contactLauncher.querySelector('.contact-launcher-icon');
   if (launcherIcon) launcherIcon.innerHTML = '<img class="contact-host-avatar" src="' + martinaPhoto + '" alt="" aria-hidden="true">';
 
-  const launcherLabel = contactLauncher.querySelector('[data-i18n="contact.launcher"]');
+  const launcherLabel = contactLauncher.querySelector('.contact-launcher-copy, [data-i18n="contact.launcher"]');
   if (launcherLabel) {
     launcherLabel.removeAttribute('data-i18n');
     launcherLabel.classList.add('contact-launcher-copy');
@@ -1088,8 +1104,17 @@ function installPremiumContact() {
   }
 
   const apps = contactPanel.querySelector('.contact-apps');
-  apps?.querySelector('.app-whatsapp')?.classList.add('contact-app-primary');
-  apps?.querySelector('.app-email')?.classList.add('contact-app-secondary');
+  const linkCopy = contactLinkCopy[language] || contactLinkCopy.en;
+  const whatsapp = apps?.querySelector('.app-whatsapp');
+  const email = apps?.querySelector('.app-email');
+  if (whatsapp) {
+    whatsapp.classList.add('contact-app-primary');
+    whatsapp.href = 'https://wa.me/393896840764?text=' + encodeURIComponent(linkCopy.whatsapp);
+  }
+  if (email) {
+    email.classList.add('contact-app-secondary');
+    email.href = 'mailto:info@villavenerecetara.com?subject=' + encodeURIComponent(linkCopy.emailSubject);
+  }
   apps?.querySelector('.app-phone')?.classList.add('contact-app-secondary');
   [apps?.querySelector('.app-messenger'), apps?.querySelector('.app-telegram'), apps?.querySelector('.app-instagram')]
     .forEach((item) => item?.classList.add('contact-app-tertiary'));

@@ -54,7 +54,7 @@ function structuredData(language, canonical, meta) {
       {
         '@type': 'VacationRental', '@id': 'https://villavenerecetara.it/#villa',
         identifier: 'IT065041B49WWIMPWN', name: 'Villa Venere - Amalfi Coast',
-        additionalType: 'https://schema.org/Villa',
+        additionalType: 'Villa',
         brand: { '@type': 'Brand', name: 'Villa Venere' },
         hasMap: 'https://www.google.com/maps/search/?api=1&query=Villa+Venere+Cetara',
         url: 'https://villavenerecetara.it/', description: meta.description, image: images,
@@ -63,7 +63,7 @@ function structuredData(language, canonical, meta) {
         geo: { '@type': 'GeoCoordinates', latitude: 40.64717, longitude: 14.70383 },
         areaServed: [{ '@type': 'City', name: 'Cetara' }, { '@type': 'AdministrativeArea', name: 'Amalfi Coast' }],
         containsPlace: {
-          '@type': 'Accommodation', name: 'Entire three-bedroom villa',
+          '@type': 'Accommodation', additionalType: 'EntirePlace', name: 'Entire three-bedroom villa',
           occupancy: { '@type': 'QuantitativeValue', value: 12 }, numberOfBedrooms: 3, numberOfBathroomsTotal: 2,
           bed: [{ '@type': 'BedDetails', numberOfBeds: 3, typeOfBed: 'Double bed' }, { '@type': 'BedDetails', numberOfBeds: 3, typeOfBed: 'Sofa bed' }],
         },

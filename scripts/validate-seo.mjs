@@ -20,7 +20,15 @@ for (const path of paths) {
     titles.set(title, path);
   }
   for (const match of html.matchAll(/<script(?: id="structured-data")? type="application\/ld\+json">([\s\S]*?)<\/script>/g)) {
-    try { JSON.parse(match[1]); } catch (error) { errors.push(`${path}: invalid JSON-LD (${error.message})`); }
+    try {
+      const data = JSON.parse(match[1]);
+      const nodes = Array.isArray(data?.['@graph']) ? data['@graph'] : [data];
+      const rental = nodes.find((node) => node?.['@type'] === 'VacationRental');
+      if (rental && rental.additionalType !== 'Villa') errors.push(`${path}: VacationRental.additionalType must be Villa`);
+      if (rental && rental.containsPlace?.additionalType !== 'EntirePlace') errors.push(`${path}: containsPlace.additionalType must be EntirePlace`);
+    } catch (error) {
+      errors.push(`${path}: invalid JSON-LD (${error.message})`);
+    }
   }
 }
 for (const image of ['villa-logo-256.png','villa-view.jpg','1661525798152.jpg','villa-gallery/01-villa-esterno.jpg','villa-gallery/02-villa-cucina.jpg','villa-gallery/03-villa-camera.jpg','villa-gallery/04-villa-terrazza.jpg','villa-gallery/camera-principale-vista-mare.jpg','villa-gallery/camera-principale-smart-tv.jpg']) {
