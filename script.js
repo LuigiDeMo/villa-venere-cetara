@@ -1,13 +1,39 @@
 const toggle = document.querySelector('.menu-toggle');
 const nav = document.querySelector('.nav');
+const languageMenu = document.querySelector('.language-menu');
+const languageButton = languageMenu?.querySelector(':scope > button');
+
+function setLanguageMenuOpen(open) {
+  languageMenu?.classList.toggle('open', open);
+  languageButton?.setAttribute('aria-expanded', String(open));
+}
+
 toggle?.addEventListener('click', () => {
   const open = nav.classList.toggle('open');
   toggle.setAttribute('aria-expanded', String(open));
+  if (!open) setLanguageMenuOpen(false);
 });
 document.querySelectorAll('.nav > a').forEach((link) => link.addEventListener('click', () => {
   nav.classList.remove('open');
   toggle?.setAttribute('aria-expanded', 'false');
 }));
+languageButton?.addEventListener('click', (event) => {
+  event.stopPropagation();
+  setLanguageMenuOpen(!languageMenu.classList.contains('open'));
+});
+languageMenu?.querySelectorAll('.language-list a').forEach((link) => link.addEventListener('click', () => {
+  setLanguageMenuOpen(false);
+  nav?.classList.remove('open');
+  toggle?.setAttribute('aria-expanded', 'false');
+}));
+document.addEventListener('click', (event) => {
+  if (!languageMenu?.contains(event.target)) setLanguageMenuOpen(false);
+});
+document.addEventListener('keydown', (event) => {
+  if (event.key !== 'Escape' || !languageMenu?.classList.contains('open')) return;
+  setLanguageMenuOpen(false);
+  languageButton?.focus();
+});
 
 const SUPPORTED_LANGUAGES = ['en', 'it', 'fr', 'es', 'de', 'pt', 'ru', 'zh', 'ja', 'ko', 'ar', 'nl', 'pl'];
 const DEFAULT_LANGUAGE = 'en';
