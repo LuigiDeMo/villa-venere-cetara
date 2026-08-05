@@ -37,30 +37,30 @@ const pages = [
   {
     key: 'sea', lang: 'it', slug: 'accesso-privato-mare', alternate: '/en/private-sea-access/',
     title: 'Villa con accesso privato al mare a Cetara | Villa Venere',
-    description: 'Villa Venere offre accesso privato al mare a Cetara, banchina con doccia e lettini, terrazza panoramica, pedalò e due kayak.',
+    description: 'Villa Venere offre accesso privato al mare a Cetara, banchina con doccia e lettini, terrazza panoramica, SUP, pedalò e due kayak.',
     eyebrow: 'Il mare', h1: 'Accesso privato al mare in Costiera Amalfitana',
     intro: 'Poter raggiungere il mare direttamente dalla propria villa è uno dei tratti più rari di Villa Venere. Una scala conduce alla banchina privata sul tratto di costa davanti alla casa, senza dover organizzare ogni giornata intorno a uno stabilimento balneare.',
     image: '/assets/villa-gallery/04-villa-terrazza.jpg', alt: 'Terrazza panoramica di Villa Venere sul mare',
     sections: [
       ['La banchina privata', 'Lo spazio sul mare dispone di doccia e lettini ed è riservato agli ospiti della villa. È il punto da cui entrare in acqua, prendere il sole o semplicemente osservare la costa dal basso. L’accesso presenta scale e il naturale contesto roccioso della Costiera.'],
-      ['Kayak e pedalò', 'Sono disponibili gratuitamente un pedalò e due kayak per esplorare le acque vicine quando le condizioni del mare lo consentono. Per sicurezza è sempre importante valutare meteo, mare e capacità personali prima di uscire.'],
+      ['Kayak, SUP e pedalò', 'Sono disponibili gratuitamente due kayak, SUP e un pedalò per esplorare le acque vicine quando le condizioni del mare lo consentono. Per sicurezza è sempre importante valutare meteo, mare e capacità personali prima di uscire.'],
       ['Terrazza sospesa sul blu', 'La terrazza privata completa l’esperienza: vista aperta sul mare, sulla Torre Vicereale e sul porto di Cetara. È uno spazio adatto a rilassarsi, cenare all’aperto e vivere la costa anche quando non si è in acqua.'],
     ],
-    bullets: ['Banchina privata', 'Doccia e lettini', '2 kayak gratuiti', 'Pedalò gratuito', 'Terrazza vista mare', 'Spiagge a circa 50 metri'],
+    bullets: ['Banchina privata', 'Doccia e lettini', '2 kayak gratuiti', 'SUP gratuiti', 'Pedalò gratuito', 'Terrazza vista mare', 'Spiagge a circa 50 metri'],
   },
   {
     key: 'sea', lang: 'en', slug: 'private-sea-access', alternate: '/it/accesso-privato-mare/',
     title: 'Villa with Private Sea Access in Cetara | Villa Venere',
-    description: 'Villa Venere offers private sea access in Cetara, a dock with shower and loungers, panoramic terrace, pedal boat and two kayaks.',
+    description: 'Villa Venere offers private sea access in Cetara, a dock with shower and loungers, panoramic terrace, SUP boards, pedal boat and two kayaks.',
     eyebrow: 'The sea', h1: 'Private access to the sea on the Amalfi Coast',
     intro: 'Walking directly from your villa to the water is one of Villa Venere’s rarest features. Steps lead to a private dock on the coast below the house, giving guests the freedom to enjoy the sea without planning every day around a beach club.',
     image: '/assets/villa-gallery/04-villa-terrazza.jpg', alt: 'Villa Venere panoramic terrace above the sea',
     sections: [
       ['Your private dock', 'The seafront area has a shower and loungers and is reserved for guests of the villa. It is a place for swimming, sunbathing or simply seeing the coast from the waterline. Access includes stairs and the naturally rocky terrain typical of the Amalfi Coast.'],
-      ['Kayaks and pedal boat', 'A pedal boat and two kayaks are available free of charge for exploring nearby waters whenever sea conditions allow. Guests should always consider the weather, the sea and their personal ability before going out.'],
+      ['Kayaks, SUP boards and pedal boat', 'Two kayaks, SUP boards and a pedal boat are available free of charge for exploring nearby waters whenever sea conditions allow. Guests should always consider the weather, the sea and their personal ability before going out.'],
       ['A terrace suspended above the blue', 'The private terrace completes the experience with open views of the sea, Cetara’s historic tower and harbour. It is made for slow breakfasts, outdoor dinners and evenings spent watching the coastline.'],
     ],
-    bullets: ['Private dock', 'Shower and loungers', '2 complimentary kayaks', 'Complimentary pedal boat', 'Sea-view terrace', 'Beaches about 50 metres away'],
+    bullets: ['Private dock', 'Shower and loungers', '2 complimentary kayaks', 'Complimentary SUP boards', 'Complimentary pedal boat', 'Sea-view terrace', 'Beaches about 50 metres away'],
   },
   {
     key: 'rooms', lang: 'it', slug: 'camere-servizi', alternate: '/en/rooms-amenities/',
@@ -165,7 +165,7 @@ function pageHtml(page) {
       ['È adatta a famiglie e gruppi?', 'Sì. Tre camere, due bagni, cucina attrezzata, soggiorno e terrazza permettono a famiglie e gruppi di condividere il soggiorno mantenendo spazi comodi.'],
       ['Dove si parcheggia?', 'La villa non ha parcheggio privato. È disponibile un parcheggio custodito convenzionato a Cetara, raggiungibile a piedi o con la navetta locale.'],
       ['Quanto distano spiagge, autobus e traghetti?', 'Le spiagge sono a circa 50 metri, la fermata dell’autobus a circa 84 metri e il terminal traghetti a circa 230 metri.'],
-      ['Sono disponibili kayak e pedalò?', 'Due kayak e un pedalò sono disponibili gratuitamente quando le condizioni del mare e della sicurezza lo consentono.'],
+      ['Sono disponibili kayak, SUP e pedalò?', 'Due kayak, SUP e un pedalò sono disponibili gratuitamente quando le condizioni del mare e della sicurezza lo consentono.'],
       ['Come posso verificare disponibilità e prezzo?', 'Puoi usare il sistema di prenotazione ufficiale oppure scrivere direttamente a Martina indicando date e numero di ospiti.'],
     ]
     : [
@@ -175,7 +175,7 @@ function pageHtml(page) {
       ['Is it suitable for families and groups?', 'Yes. Three bedrooms, two bathrooms, an equipped kitchen, living room and terrace provide comfortable shared spaces for families and groups.'],
       ['Where can guests park?', 'The villa has no private parking. A partner guarded car park in Cetara is available and can be reached on foot or by local shuttle.'],
       ['How far are the beaches, bus stop and ferry terminal?', 'The beaches are about 50 metres away, the bus stop about 84 metres and the ferry terminal about 230 metres.'],
-      ['Are kayaks and a pedal boat available?', 'Two kayaks and one pedal boat are complimentary whenever sea and safety conditions allow.'],
+      ['Are kayaks, SUP boards and a pedal boat available?', 'Two kayaks, SUP boards and one pedal boat are complimentary whenever sea and safety conditions allow.'],
       ['How can I check availability and price?', 'Use the official booking system or contact Martina directly with your dates and number of guests.'],
     ];
   const faqHtml = page.key === 'villa' ? `<section class="article-faq"><h2>${isIt ? 'Domande frequenti sulla villa' : 'Frequently asked questions about the villa'}</h2>${faqs.map(([question, answer]) => `<details><summary>${esc(question)}</summary><p>${esc(answer)}</p></details>`).join('')}</section>` : '';
