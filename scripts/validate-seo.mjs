@@ -9,6 +9,7 @@ const paths = ['index.html', ...['en','it','fr','es','de','pt','ru','zh','ja','k
   'it/esperienze-costiera-amalfitana/index.html','en/amalfi-coast-experiences/index.html'];
 const errors = [];
 const titles = new Map();
+const googleAmenityNames = new Set(['privateBeachAccess', 'patio', 'hotTub', 'wifi', 'ac', 'kitchen', 'tv', 'washerDryer', 'licenseNum']);
 for (const path of paths) {
   const html = await readFile(join(root, path), 'utf8');
   const title = html.match(/<title>([^<]+)<\/title>/)?.[1];
@@ -29,7 +30,23 @@ for (const path of paths) {
       const rental = nodes.find((node) => node?.['@type'] === 'VacationRental');
       if (rental && rental.additionalType !== 'Villa') errors.push(`${path}: VacationRental.additionalType must be Villa`);
       if (rental && rental.containsPlace?.additionalType !== 'EntirePlace') errors.push(`${path}: containsPlace.additionalType must be EntirePlace`);
-      if (rental && rental.aggregateRating?.reviewCount !== 180) errors.push(`${path}: aggregate review count must match the visible verified total`);
+      if (rental?.amenityFeature) errors.push(`${path}: amenityFeature must be nested in containsPlace`);
+      if (rental) {
+        const amenities = rental.containsPlace?.amenityFeature;
+        if (!Array.isArray(amenities) || amenities.length === 0) errors.push(`${path}: containsPlace.amenityFeature is required`);
+        else for (const amenity of amenities) {
+          if (!googleAmenityNames.has(amenity?.name)) errors.push(`${path}: unsupported Google amenity name (${amenity?.name})`);
+        }
+        if (rental.aggregateRating?.reviewCount !== 180 || rental.aggregateRating?.ratingCount !== 180) {
+          errors.push(`${path}: aggregate rating counts must match the visible verified total`);
+        }
+        if (!Array.isArray(rental.review) || rental.review.length === 0) errors.push(`${path}: VacationRental.review is required`);
+        else for (const review of rental.review) {
+          if (!review.author?.name || !/^\d{4}-\d{2}-\d{2}$/.test(review.datePublished || '') || !review.reviewRating?.ratingValue || !review.reviewRating?.bestRating) {
+            errors.push(`${path}: review requires a real author, publication date and rating`);
+          }
+        }
+      }
     } catch (error) {
       errors.push(`${path}: invalid JSON-LD (${error.message})`);
     }

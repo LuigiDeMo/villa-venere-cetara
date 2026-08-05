@@ -37,6 +37,43 @@ function structuredData(language, canonical, meta) {
     'photo/terrace-relax.webp', 'photo/living-sea.webp', 'photo/bedroom-sea.webp',
     'photo/bathroom-main.webp', 'photo/kitchen.webp', 'photo/villa-cliff.webp',
   ].map((path) => `https://villavenerecetara.it/assets/${path}`);
+  const amenityFeature = [
+    ['privateBeachAccess', true],
+    ['patio', true],
+    ['hotTub', true],
+    ['wifi', true],
+    ['ac', true],
+    ['kitchen', true],
+    ['tv', true],
+    ['washerDryer', true],
+    ['licenseNum', 'IT065041B49WWIMPWN'],
+  ].map(([name, value]) => ({ '@type': 'LocationFeatureSpecification', name, value }));
+  const reviews = [
+    {
+      '@type': 'Review',
+      author: { '@type': 'Person', name: 'Jill' },
+      datePublished: '2025-07-03',
+      reviewBody: 'The house is spectacular, spotlessly clean and well equipped with comfortable beds. The view and outdoor space are unparalleled.',
+      reviewRating: { '@type': 'Rating', ratingValue: 5, bestRating: 5 },
+      url: 'https://www.airbnb.com/rooms/50801219',
+    },
+    {
+      '@type': 'Review',
+      author: { '@type': 'Person', name: 'Victoria Parsons' },
+      datePublished: '2025-05-28',
+      reviewBody: 'Beautiful property, perfect for the 6 of us adults. Secluded yet a 5 minute walk to stores, restaurants, everything we needed. The views and scenery were just stunning.',
+      reviewRating: { '@type': 'Rating', ratingValue: 5, bestRating: 5 },
+      url: 'https://www.google.com/maps/search/?api=1&query=Villa+Venere+Cetara',
+    },
+    {
+      '@type': 'Review',
+      author: { '@type': 'Person', name: 'Daniel' },
+      datePublished: '2025-04-23',
+      reviewBody: 'Great location, epic views, host was friendly and accommodating.',
+      reviewRating: { '@type': 'Rating', ratingValue: 10, bestRating: 10 },
+      url: 'https://www.booking.com/hotel/it/villa-venere-cetara.html',
+    },
+  ];
   return {
     '@context': 'https://schema.org',
     '@graph': [
@@ -66,10 +103,11 @@ function structuredData(language, canonical, meta) {
           '@type': 'Accommodation', additionalType: 'EntirePlace', name: 'Entire three-bedroom villa',
           occupancy: { '@type': 'QuantitativeValue', value: 12 }, numberOfBedrooms: 3, numberOfBathroomsTotal: 2,
           bed: [{ '@type': 'BedDetails', numberOfBeds: 3, typeOfBed: 'Double bed' }, { '@type': 'BedDetails', numberOfBeds: 3, typeOfBed: 'Sofa bed' }],
+          amenityFeature,
         },
-        aggregateRating: { '@type': 'AggregateRating', ratingValue: 5, bestRating: 5, reviewCount: 180 },
+        aggregateRating: { '@type': 'AggregateRating', ratingValue: 5, bestRating: 5, ratingCount: 180, reviewCount: 180 },
+        review: reviews,
         checkinTime: '15:00', checkoutTime: '11:00',
-        amenityFeature: ['Private access to the sea', 'Private sea-view terrace', 'Hot tub', 'High-speed Wi-Fi', 'Air conditioning', 'Equipped induction kitchen', 'Smart TV in every bedroom', 'Washing machine'].map((name) => ({ '@type': 'LocationFeatureSpecification', name, value: true })),
         sameAs: ['https://www.airbnb.com/rooms/50801219', 'https://www.booking.com/hotel/it/villa-venere-cetara.html', 'https://www.vrbo.com/it-it/affitto-vacanze/p10907080', 'https://www.cetaraturistica.it/soggiornare/case-per-vacanze/villa-venere', 'https://www.instagram.com/villavenerecetara/', 'https://www.facebook.com/villavenerecetara'],
         employee: { '@id': 'https://villavenerecetara.it/#martina' },
         potentialAction: { '@type': 'ReserveAction', target: `https://book.octorate.com/octobook/site/reservation/index.xhtml?lang=${language}&codice=679766` },
