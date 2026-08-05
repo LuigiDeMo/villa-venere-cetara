@@ -1,0 +1,224 @@
+{
+  "lang": "pl",
+  "ui": {
+    "home": "Dom",
+    "rooms": "Pokoje",
+    "amenities": "Udogodnienia",
+    "bookNow": "Zarezerwuj teraz",
+    "atGlance": "W skrócie",
+    "checkAvailability": "Sprawdź dostępność",
+    "relatedGuides": "Powiązane przewodniki",
+    "officialGuides": "Oficjalne przewodniki",
+    "backToVilla": "Powrót do willi",
+    "faqTitle": "Często zadawane pytania dotyczące willi",
+    "officialPortal": "Oficjalny portal turystyczny Cetara",
+    "readInEnglish": "Przeczytaj po angielsku"
+  },
+  "faqs": [
+    [
+      "Czy Villa Venere jest wynajmowana jako cała nieruchomość?",
+      "Tak. Goście mają wyłączną możliwość korzystania z całej willi; poszczególne pokoje nie są wynajmowane osobno."
+    ],
+    [
+      "Ilu gości może pomieścić willa?",
+      "Willa może pomieścić do 12 osób i obejmuje trzy sypialnie dwuosobowe i trzy rozkładane sofy rozdzielone pomiędzy sypialnię i salon."
+    ],
+    [
+      "Czy willa ma prywatny dostęp do morza?",
+      "Tak. Schody prowadzą do prywatnej przystani z prysznicem i leżakami. Dostęp obejmuje schody i naturalnie skaliste wybrzeże Amalfi."
+    ],
+    [
+      "Czy jest odpowiedni dla rodzin i grup?",
+      "Tak. Trzy sypialnie, dwie łazienki, wyposażona kuchnia, salon i taras zapewniają wygodne wspólne przestrzenie dla rodzin i grup."
+    ],
+    [
+      "Gdzie goście mogą zaparkować?",
+      "Willa nie posiada prywatnego parkingu. Goście mogą szukać bezpłatnych miejsc przydrożnych lub skorzystać z partnerskiego płatnego parkingu w miejscowości. Osoby, które nie będą korzystać z samochodu podczas pobytu, mogą poprosić o bezpłatny odbiór samochodu przy zameldowaniu i zwrot przy wymeldowaniu."
+    ],
+    [
+      "Jak daleko są plaże, przystanek autobusowy i terminal promowy?",
+      "Plaże znajdują się około 50 metrów, przystanek autobusowy około 84 metrów, a terminal promowy około 230 metrów."
+    ],
+    [
+      "Czy dostępne są kajaki, deski SUP i rower wodny?",
+      "Dwa kajaki, deski SUP i jeden rower wodny są bezpłatne, jeśli pozwalają na to warunki morskie i bezpieczeństwo."
+    ],
+    [
+      "Jak mogę sprawdzić dostępność i cenę?",
+      "Skorzystaj z oficjalnego systemu rezerwacji lub skontaktuj się bezpośrednio z Martiną, podając daty i liczbę gości."
+    ]
+  ],
+  "pages": {
+    "villa": {
+      "key": "villa",
+      "lang": "pl",
+      "slug": "villa-cetara",
+      "title": "Prywatna willa w Cetara | Willa Venere, Wybrzeże Amalfi",
+      "description": "Odkryj Villa Venere w Cetara: prywatną nadmorską willę z 3 sypialniami, 2 łazienkami, panoramicznym tarasem i miejscem dla maksymalnie 12 osób.",
+      "eyebrow": "Willa",
+      "h1": "Prywatna willa nad morzem w Cetara",
+      "intro": "Villa Venere to cały dom z widokiem na morze w Cetara, w autentycznym sercu wybrzeża Amalfi. Jest przeznaczony dla rodzin i grup poszukujących prywatności, dużych wspólnych przestrzeni i bliskiego połączenia z wybrzeżem.",
+      "image": "/assets/villa-view.jpg",
+      "alt": "Villa Venere z widokiem na morze w Cetara",
+      "sections": [
+        [
+          "Przestrzeń do bycia razem",
+          "Willa posiada trzy sypialnie, dwie nowoczesne łazienki, salon z widokiem na morze oraz w pełni wyposażoną kuchnię indukcyjną. Sercem domu jest panoramiczny taras, na którym można zjeść śniadanie, wypić drinka o zachodzie słońca i zjeść kolację na świeżym powietrzu z widokiem na wieżę i port Cetary."
+        ],
+        [
+          "Pojemność i warunki spania",
+          "Villa Venere może pomieścić do 12 osób. Trzy sypialnie wyposażone są w podwójne łóżka; w jednej sypialni znajduje się również rozkładana sofa, a w salonie znajdują się dwie dodatkowe rozkładane sofy. Każda sypialnia wyposażona jest w telewizor Smart TV i klimatyzację."
+        ],
+        [
+          "Rzadka lokalizacja na Wybrzeżu Amalfi",
+          "Willa znajduje się blisko plaż i centrum wioski Cetara, gdzie w odległości spaceru znajdują się restauracje, kawiarnie, sklepy spożywcze i przystanki promowe. Prywatny dostęp do morza uzupełnia pobyt, w którym dom, wieś i woda stanowią jedno doświadczenie."
+        ]
+      ],
+      "bullets": [
+        "3 sypialnie",
+        "2 łazienki",
+        "Do 12 gości",
+        "Wyposażona kuchnia indukcyjna",
+        "Panoramiczny taras",
+        "Prywatny dostęp do morza"
+      ]
+    },
+    "sea": {
+      "key": "sea",
+      "lang": "pl",
+      "slug": "prywatny-dostep-do-morza",
+      "title": "Willa z prywatnym dostępem do morza w Cetara | Willa Venere",
+      "description": "Villa Venere oferuje prywatny dostęp do morza w Cetara, przystań z prysznicem i leżakami, panoramiczny taras, deski SUP, rower wodny i dwa kajaki.",
+      "eyebrow": "Morze",
+      "h1": "Prywatny dostęp do morza na wybrzeżu Amalfi",
+      "intro": "Spacer bezpośrednio z willi do wody to jedna z najrzadszych cech Villa Venere. Schody prowadzą do prywatnej przystani na wybrzeżu pod domem, dając gościom swobodę cieszenia się morzem bez konieczności planowania codziennego spędzania czasu w klubie plażowym.",
+      "image": "/assets/villa-gallery/04-villa-terrazza.jpg",
+      "alt": "Panoramiczny taras Villa Venere nad morzem",
+      "sections": [
+        [
+          "Twoja prywatna stacja dokująca",
+          "Część nad brzegiem morza wyposażona jest w prysznic i leżaki i jest zarezerwowana dla gości willi. Jest to miejsce do pływania, opalania lub po prostu zobaczenia wybrzeża z poziomu wody. Dostęp obejmuje schody i naturalnie skalisty teren typowy dla wybrzeża Amalfi."
+        ],
+        [
+          "Kajaki, deski SUP i rower wodny",
+          "Dwa kajaki, deski SUP i rower wodny są dostępne bezpłatnie do zwiedzania pobliskich akwenów, jeśli pozwalają na to warunki na morzu. Przed wyjściem goście powinni zawsze wziąć pod uwagę pogodę, morze i swoje osobiste możliwości."
+        ],
+        [
+          "Taras zawieszony nad błękitem",
+          "Prywatny taras uzupełnia wrażenia z otwartym widokiem na morze, zabytkową wieżę Cetary i port. Jest stworzony z myślą o powolnych śniadaniach, kolacjach na świeżym powietrzu i wieczorach spędzonych na oglądaniu wybrzeża."
+        ]
+      ],
+      "bullets": [
+        "Prywatna przystań",
+        "Prysznic i leżaki",
+        "2 bezpłatne kajaki",
+        "Bezpłatne deski SUP",
+        "Bezpłatna rower wodny",
+        "Taras z widokiem na morze",
+        "Plaże około 50 metrów"
+      ]
+    },
+    "rooms": {
+      "key": "rooms",
+      "lang": "pl",
+      "slug": "pokoje-udogodnienia",
+      "title": "Pokoje i udogodnienia w Villa Venere Cetara | Do 12 Gości",
+      "description": "Trzy sypialnie z widokiem na morze, sześć łóżek, dwie łazienki, kuchnia, Wi-Fi, klimatyzacja, telewizory Smart TV, wanna z hydromasażem i panoramiczny taras.",
+      "eyebrow": "Pokoje i udogodnienia",
+      "h1": "Komfortowe przestrzenie dla rodzin i grup",
+      "intro": "Villa Venere wynajmowana jest jako cały dom, a nie pokój po pokoju. Goście dzielą nieruchomość tylko z własną grupą i mogą cieszyć się elastycznością i prywatnością w pełni niezależnego pobytu.",
+      "image": "/assets/villa-gallery/camera-principale-vista-mare.jpg",
+      "alt": "Pokój dwuosobowy z widokiem na morze w Villa Venere",
+      "sections": [
+        [
+          "Trzy sypialnie",
+          "Sypialnia pierwsza posiada podwójne łóżko. W drugiej sypialni znajduje się podwójne łóżko i rozkładana sofa, natomiast w trzeciej sypialni znajduje się podwójne łóżko. W salonie znajdują się dwie dodatkowe rozkładane sofy. Każda sypialnia wyposażona jest w telewizor Smart TV, klimatyzację i widok na morze."
+        ],
+        [
+          "Kuchnia, pokój dzienny i łazienki",
+          "W wyposażonej kuchni znajduje się płyta indukcyjna do przygotowywania posiłków. Salon to wygodne miejsce do spożywania posiłków i relaksu z widokiem na morze. W willi znajdują się dwie łazienki oraz pralka."
+        ],
+        [
+          "Udogodnienia na pobyt",
+          "Bezpłatny, szybki bezprzewodowy dostęp do Internetu, pościel, ręczniki, suszarki do włosów, prywatny taras i wanna z hydromasażem uzupełniają główne udogodnienia. Jeśli Twoja grupa ma szczególne wymagania, skontaktuj się z Martiną przed dokonaniem rezerwacji, aby można było to sprawdzić osobiście."
+        ]
+      ],
+      "bullets": [
+        "Łącznie 6 łóżek",
+        "Inteligentne telewizory w sypialniach",
+        "Szybkie Wi-Fi",
+        "Klimatyzacja",
+        "Pralka",
+        "Gorąca wanna"
+      ]
+    },
+    "location": {
+      "key": "location",
+      "lang": "pl",
+      "slug": "dojazd-cetara",
+      "title": "Dojazd do Villa Venere Cetara | Promy, autobusy i parking",
+      "description": "Wskazówki dojazdu do Villa Venere: pobliskie autobusy i promy, bezpłatne miejsca przydrożne, płatny parking dla partnerów i bezpłatny odbiór samochodu.",
+      "eyebrow": "Dotarcie tutaj",
+      "h1": "Jak dotrzeć do Villa Venere i zwiedzać z Cetary",
+      "intro": "Villa Venere znajduje się pod adresem Via Lannio 8, w pobliżu centrum miejscowości Cetara. Jego położenie umożliwia spacery po wiosce i korzystanie z promów lub autobusów w celu zwiedzania wybrzeża Amalfi bez konieczności korzystania z samochodu na co dzień.",
+      "image": "/assets/1661525798152.jpg",
+      "alt": "Via Lannio w Cetara niedaleko Villa Venere",
+      "sections": [
+        [
+          "Promy i autobusy",
+          "Terminal promowy znajduje się około 230 metrów, a przystanek autobusowy około 84 metry. W sezonie podróż morska jest często najbardziej malowniczym sposobem dotarcia do innych miast na wybrzeżu; rozkłady jazdy i usługi należy zawsze sprawdzać u operatorów."
+        ],
+        [
+          "Dojazd samochodem i parking",
+          "Willa nie dysponuje prywatnym parkingiem. Goście mogą szukać wolnych miejsc wzdłuż drogi publicznej (w zależności od dostępności) lub skorzystać z płatnego parkingu partnerskiego w centrum wioski Cetara. Goście, którzy nie planują korzystać z samochodu w trakcie pobytu, mogą również skorzystać z bezpłatnej usługi: odbiór samochodu przy zameldowaniu i zwrot przy wymeldowaniu. W lecie natężenie ruchu i dostępność miejsc parkingowych mogą szybko się zmieniać."
+        ],
+        [
+          "Transfery i zameldowanie",
+          "Martina może pomóc gościom w porównaniu taksówek, wahadłowców i transferów z Neapolu, Salerno, lotnisk i stacji kolejowych. Zameldowanie odbywa się zwykle od godziny 15:00 po sprzątaniu; Osoby, które przybędą wcześniej, mogą poprosić o pozostawienie bagażu na czas rozpoczęcia zwiedzania Cetary."
+        ]
+      ],
+      "bullets": [
+        "Via Lannio 8, Cetara",
+        "Przystanek autobusowy ok. 84 m",
+        "Terminal promowy ok. 230 m",
+        "Wolne miejsca przy drodze",
+        "Parking płatny dla partnerów",
+        "Bezpłatny odbiór samochodu"
+      ]
+    },
+    "experiences": {
+      "key": "experiences",
+      "lang": "pl",
+      "slug": "atrakcje-wybrzeze-amalfitanskie",
+      "title": "Doświadczenia Wybrzeża Amalfi z Cetary | Willa Venere",
+      "description": "Martina pomaga gościom Villa Venere w organizacji wycieczek łodzią, prywatnych wycieczek do Pompei, Ravello i szefów kuchni w willi z wybranymi lokalnymi partnerami.",
+      "eyebrow": "Concierge i doświadczenia",
+      "h1": "Odkryj wybrzeże Amalfi drogą morską i lądową",
+      "intro": "Pobyt w Villa Venere zapewnia gościom Cetarę jako punkt wyjścia, a Martinę jako osobisty lokalny kontakt. Na życzenie może pomóc w porównaniu doświadczeń i tras z wybranymi lokalnymi partnerami w zależności od pory roku, warunków i potrzeb każdej grupy.",
+      "image": "/assets/photo/concierge-sea.webp",
+      "alt": "Rejs statkiem wzdłuż wybrzeża Amalfi",
+      "sections": [
+        [
+          "Amalfi, Positano i Capri drogą morską",
+          "Wspólne i prywatne wycieczki łodzią oferują inny widok na wybrzeże, z możliwością dotarcia do Amalfi i Positano oraz, jeśli pozwala na to plan podróży i warunki, na Capri. Dostępność, miejsce wyjazdu, czas trwania i zawarte usługi są potwierdzane na zapytanie gości."
+        ],
+        [
+          "Pompeje, Herkulanum, Wezuwiusz i Ravello",
+          "Martina może pomóc w zorganizowaniu transferu i prywatnych dni do Pompei, Herkulanum i Wezuwiusza, a także panoramicznych wycieczek po Amalfi, Positano, Ravello, Villa Rufolo i Villa Cimbrone. Opcje dostosowywane są do wielkości grupy i dostępnego czasu."
+        ],
+        [
+          "Prywatne doświadczenia w Villa Venere",
+          "Goście, którzy wolą cieszyć się willą, mogą poprosić o prywatnych szefów kuchni i spersonalizowane dania kuchni śródziemnomorskiej. Atrakcje organizowane są na życzenie u niezależnych wybranych dostawców i podlegają ich dostępności oraz warunkom."
+        ]
+      ],
+      "bullets": [
+        "Rejsy łodzią po wybrzeżu Amalfi",
+        "Capri na zamówienie",
+        "Prywatne samochody dostawcze i transfery",
+        "Pompeje i Herkulanum",
+        "Ravello i jego wille",
+        "Prywatny szef kuchni w willi"
+      ]
+    }
+  }
+}

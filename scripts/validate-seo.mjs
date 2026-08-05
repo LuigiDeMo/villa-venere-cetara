@@ -1,21 +1,36 @@
 import { access, readFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { editorialLanguages, editorialRoutes } from './editorial-routes.mjs';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
-const paths = ['index.html', ...['en','it','fr','es','de','pt','ru','zh','ja','ko','ar','nl','pl'].map((lang) => `${lang}/index.html`),
-  'it/villa-cetara/index.html','en/villa-cetara/index.html','it/accesso-privato-mare/index.html','en/private-sea-access/index.html',
-  'it/camere-servizi/index.html','en/rooms-amenities/index.html','it/come-arrivare/index.html','en/getting-to-cetara/index.html',
-  'it/esperienze-costiera-amalfitana/index.html','en/amalfi-coast-experiences/index.html'];
+const paths = [
+  'index.html',
+  ...editorialLanguages.map((language) => `${language}/index.html`),
+  ...editorialLanguages.flatMap((language) => Object.values(editorialRoutes[language]).map((slug) => `${language}/${slug}/index.html`)),
+];
 const errors = [];
 const titles = new Map();
 const googleAmenityNames = new Set(['privateBeachAccess', 'patio', 'hotTub', 'wifi', 'ac', 'kitchen', 'tv', 'washerDryer', 'licenseNum']);
+const editorialFiles = new Map(editorialLanguages.flatMap((language) => Object.entries(editorialRoutes[language]).map(([key, slug]) => [`${language}/${slug}/index.html`, { language, key, slug }])));
 for (const path of paths) {
   const html = await readFile(join(root, path), 'utf8');
   const title = html.match(/<title>([^<]+)<\/title>/)?.[1];
   const canonical = html.match(/<link rel="canonical" href="([^"]+)"/i)?.[1];
   const description = html.match(/<meta name="description" content="([^"]+)"/i)?.[1];
   if (!title || !canonical || !description) errors.push(`${path}: missing title, canonical or description`);
+  const editorial = editorialFiles.get(path);
+  if (editorial) {
+    const expectedCanonical = `https://villavenerecetara.it/${editorial.language}/${editorial.slug}/`;
+    if (canonical !== expectedCanonical) errors.push(`${path}: canonical does not match its localized URL`);
+    if (!html.includes(`<html lang="${editorial.language}"`)) errors.push(`${path}: incorrect document language`);
+    if (editorial.language === 'ar' && !html.includes('dir="rtl"')) errors.push(`${path}: Arabic guide must use RTL direction`);
+    const alternateCount = [...html.matchAll(/<link rel="alternate" hreflang=/g)].length;
+    if (alternateCount !== 14) errors.push(`${path}: contains ${alternateCount} hreflang links instead of 14`);
+    for (const slug of Object.values(editorialRoutes[editorial.language])) {
+      if (!html.includes(`href="/${editorial.language}/${slug}/"`)) errors.push(`${path}: missing localized guide link to ${slug}`);
+    }
+  }
   for (const brokenText of ['pu?', 'dall?acqua', 'Disponibilit?', ', ? possibile', 'disponibilit?']) {
     if (html.includes(brokenText)) errors.push(`${path}: broken text encoding (${brokenText})`);
   }
@@ -57,7 +72,7 @@ for (const image of ['villa-logo-256.png','villa-view.jpg','1661525798152.jpg','
 }
 const sitemap = await readFile(join(root, 'sitemap.xml'), 'utf8');
 const locCount = [...sitemap.matchAll(/<loc>/g)].length;
-if (locCount !== 24) errors.push(`Sitemap contains ${locCount} URLs instead of 24`);
+if (locCount !== 79) errors.push(`Sitemap contains ${locCount} URLs instead of 79`);
 if (errors.length) {
   console.error(errors.join('\n'));
   process.exitCode = 1;

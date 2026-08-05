@@ -1,0 +1,224 @@
+{
+  "lang": "nl",
+  "ui": {
+    "home": "Thuis",
+    "rooms": "Kamers",
+    "amenities": "Voorzieningen",
+    "bookNow": "Boek nu",
+    "atGlance": "In één oogopslag",
+    "checkAvailability": "Controleer beschikbaarheid",
+    "relatedGuides": "Gerelateerde handleidingen",
+    "officialGuides": "Officiële gidsen",
+    "backToVilla": "Terug naar de villa",
+    "faqTitle": "Veelgestelde vragen over de villa",
+    "officialPortal": "Officieel toerismeportaal van Cetara",
+    "readInEnglish": "Lees in het Engels"
+  },
+  "faqs": [
+    [
+      "Wordt Villa Venere als geheel verhuurd?",
+      "Ja. Gasten hebben exclusief gebruik van de gehele villa; individuele kamers worden niet afzonderlijk verhuurd."
+    ],
+    [
+      "Hoeveel gasten kunnen in de villa verblijven?",
+      "De villa biedt plaats aan maximaal 12 gasten, met drie tweepersoonsslaapkamers en drie slaapbanken, verdeeld over een slaapkamer en de woonkamer."
+    ],
+    [
+      "Heeft de villa een eigen toegang tot de zee?",
+      "Ja. Een trap leidt naar een eigen aanlegsteiger met een douche en ligstoelen. De toegang omvat trappen en de natuurlijk rotsachtige omgeving van de Amalfikust."
+    ],
+    [
+      "Is het geschikt voor gezinnen en groepen?",
+      "Ja. Drie slaapkamers, twee badkamers, een uitgeruste keuken, woonkamer en terras bieden comfortabele gedeelde ruimtes voor gezinnen en groepen."
+    ],
+    [
+      "Waar kunnen gasten parkeren?",
+      "De villa heeft geen eigen parkeerplaats. Gasten kunnen gratis parkeerplaatsen langs de weg zoeken of gebruikmaken van de betaalde partnerparkeerplaats in het dorp. Degenen die hun auto tijdens het verblijf niet gebruiken, kunnen bij het inchecken een gratis ophaaldienst aanvragen en bij het uitchecken weer terugbrengen."
+    ],
+    [
+      "Hoe ver zijn de stranden, de bushalte en de veerhaven?",
+      "De stranden liggen op ongeveer 50 meter afstand, de bushalte op ongeveer 84 meter en de veerbootterminal op ongeveer 230 meter."
+    ],
+    [
+      "Zijn er kajaks, SUP-boards en een waterfiets beschikbaar?",
+      "Twee kajaks, SUP-boards en één waterfiets zijn gratis wanneer de zee- en veiligheidsomstandigheden dit toelaten."
+    ],
+    [
+      "Hoe kan ik de beschikbaarheid en prijs controleren?",
+      "Gebruik het officiële boekingssysteem of neem rechtstreeks contact op met Martina met uw data en aantal gasten."
+    ]
+  ],
+  "pages": {
+    "villa": {
+      "key": "villa",
+      "lang": "nl",
+      "slug": "villa-cetara",
+      "title": "Privévilla in Cetara | Villa Venere, Amalfikust",
+      "description": "Ontdek Villa Venere in Cetara: een privévilla aan zee met 3 slaapkamers, 2 badkamers, panoramisch terras en ruimte voor maximaal 12 gasten.",
+      "eyebrow": "De villa",
+      "h1": "Een privévilla aan de kust in Cetara",
+      "intro": "Villa Venere is een compleet huis met uitzicht op de zee in Cetara, in het authentieke hart van de Amalfikust. Het is ontworpen voor gezinnen en groepen die op zoek zijn naar privacy, royale gedeelde ruimtes en een nauwe verbinding met de kust.",
+      "image": "/assets/villa-view.jpg",
+      "alt": "Villa Venere met uitzicht op de zee in Cetara",
+      "sections": [
+        [
+          "Ruimte om samen te zijn",
+          "De villa beschikt over drie slaapkamers, twee moderne badkamers, een woonkamer met zeezicht en een volledig ingerichte inductiekeuken. Het panoramische terras vormt het hart van het huis: een privéomgeving voor ontbijt, drankjes bij zonsondergang en diners in de buitenlucht met uitzicht op de toren en de haven van Cetara."
+        ],
+        [
+          "Capaciteit en slaapplaatsen",
+          "Villa Venere biedt plaats aan maximaal 12 gasten. De drie slaapkamers zijn voorzien van tweepersoonsbedden; één slaapkamer heeft ook een slaapbank en de woonkamer heeft nog twee slaapbanken. Elke slaapkamer beschikt over een Smart TV en airconditioning."
+        ],
+        [
+          "Een zeldzame locatie aan de Amalfikust",
+          "De villa ligt dicht bij de stranden en het dorpscentrum van Cetara, waar restaurants, cafés, levensmiddelenwinkels en veerverbindingen op loopafstand liggen. Privétoegang tot de zee maakt een verblijf compleet waar huis, dorp en water tot één ervaring behoren."
+        ]
+      ],
+      "bullets": [
+        "3 slaapkamers",
+        "2 badkamers",
+        "Maximaal 12 gasten",
+        "Uitgeruste inductiekeuken",
+        "Panoramisch terras",
+        "Privétoegang tot de zee"
+      ]
+    },
+    "sea": {
+      "key": "sea",
+      "lang": "nl",
+      "slug": "prive-toegang-zee",
+      "title": "Villa met privétoegang tot de zee in Cetara | Villa Venere",
+      "description": "Villa Venere biedt privétoegang tot de zee in Cetara, een aanlegsteiger met douche en ligstoelen, panoramisch terras, SUP-planken, waterfietsen en twee kajaks.",
+      "eyebrow": "De zee",
+      "h1": "Privétoegang tot de zee aan de kust van Amalfi",
+      "intro": "Direct vanuit uw villa naar het water lopen is een van de zeldzaamste kenmerken van Villa Venere. Een trap leidt naar een eigen aanlegsteiger aan de kust onder het huis, waardoor gasten de vrijheid hebben om van de zee te genieten zonder elke dag rond een strandclub te plannen.",
+      "image": "/assets/villa-gallery/04-villa-terrazza.jpg",
+      "alt": "Villa Venere panoramisch terras boven de zee",
+      "sections": [
+        [
+          "Uw eigen aanlegsteiger",
+          "Het gebied aan de kust heeft een douche en ligstoelen en is gereserveerd voor gasten van de villa. Het is een plek om te zwemmen, zonnebaden of gewoon de kust vanaf de waterlijn te bekijken. De toegang omvat trappen en het natuurlijk rotsachtige terrein dat typisch is voor de kust van Amalfi."
+        ],
+        [
+          "Kajaks, SUP-boards en waterfietsen",
+          "Twee kajaks, SUP-planken en een waterfiets zijn gratis beschikbaar voor het verkennen van nabijgelegen wateren wanneer de zeeomstandigheden dit toelaten. Gasten moeten altijd rekening houden met het weer, de zee en hun persoonlijke vaardigheden voordat ze eropuit gaan."
+        ],
+        [
+          "Een terras dat boven het blauw hangt",
+          "Het privéterras maakt de ervaring compleet met vrij uitzicht op de zee, de historische toren en de haven van Cetara. Het is gemaakt voor een langzaam ontbijt, diners in de open lucht en avonden om naar de kustlijn te kijken."
+        ]
+      ],
+      "bullets": [
+        "Privé aanlegsteiger",
+        "Douche en ligstoelen",
+        "2 gratis kajaks",
+        "Gratis SUP-boards",
+        "Gratis waterfiets",
+        "Terras met zeezicht",
+        "Stranden op ongeveer 50 meter afstand"
+      ]
+    },
+    "rooms": {
+      "key": "rooms",
+      "lang": "nl",
+      "slug": "kamers-voorzieningen",
+      "title": "Kamers en voorzieningen in Villa Venere Cetara | Maximaal 12 gasten",
+      "description": "Drie slaapkamers met zeezicht, zes bedden, twee badkamers, keuken, wifi, airconditioning, smart-tv's, bubbelbad en panoramisch terras.",
+      "eyebrow": "Kamers en voorzieningen",
+      "h1": "Comfortabele ruimtes voor gezinnen en groepen",
+      "intro": "Villa Venere wordt als gehele woning verhuurd en niet per kamer. Gasten delen het pand alleen met hun eigen groep en kunnen genieten van de flexibiliteit en privacy van een volledig zelfstandig verblijf.",
+      "image": "/assets/villa-gallery/camera-principale-vista-mare.jpg",
+      "alt": "Tweepersoonsslaapkamer met zeezicht in Villa Venere",
+      "sections": [
+        [
+          "De drie slaapkamers",
+          "Slaapkamer één heeft een tweepersoonsbed. Slaapkamer twee heeft een tweepersoonsbed en een slaapbank, terwijl slaapkamer drie een tweepersoonsbed heeft. In de woonkamer bevinden zich twee extra slaapbanken. Elke slaapkamer beschikt over een Smart TV, airconditioning en uitzicht op zee."
+        ],
+        [
+          "Keuken, woonkamer en badkamers",
+          "De uitgeruste keuken is voorzien van een inductiekookplaat voor het bereiden van maaltijden. De woonkamer is een comfortabele plek om te eten en te ontspannen terwijl u uitkijkt op zee. Er zijn twee badkamers en er is een wasmachine aanwezig in de villa."
+        ],
+        [
+          "Voorzieningen voor uw verblijf",
+          "Gratis breedband-WiFi, beddengoed, handdoeken, haardrogers, een eigen terras en een bubbelbad maken de belangrijkste voorzieningen compleet. Als uw groep specifieke wensen heeft, neem dan vóór het boeken contact op met Martina, zodat dit persoonlijk kan worden gecontroleerd."
+        ]
+      ],
+      "bullets": [
+        "In totaal 6 bedden",
+        "Smart-tv's in slaapkamers",
+        "Supersnelle wifi",
+        "Airconditioning",
+        "Wasmachine",
+        "Bubbelbad"
+      ]
+    },
+    "location": {
+      "key": "location",
+      "lang": "nl",
+      "slug": "route-cetara",
+      "title": "Naar Villa Venere Cetara | Veerboten, bussen en parkeergelegenheid",
+      "description": "Routebeschrijving naar Villa Venere: nabijgelegen bussen en veerboten, gratis parkeerplaatsen langs de weg, betaald parkeren door partners en gratis auto-ophaalservice.",
+      "eyebrow": "Hier komen",
+      "h1": "Hoe Villa Venere te bereiken en te verkennen vanuit Cetara",
+      "intro": "Villa Venere ligt aan de Via Lannio 8, dicht bij het dorpscentrum van Cetara. De ligging maakt het mogelijk om door het dorp te lopen en veerboten of bussen te gebruiken om de kust van Amalfi te verkennen zonder elke dag afhankelijk te zijn van een auto.",
+      "image": "/assets/1661525798152.jpg",
+      "alt": "Via Lannio in Cetara vlakbij Villa Venere",
+      "sections": [
+        [
+          "Veerboten en bussen",
+          "De veerhaven ligt op ongeveer 230 meter afstand en de bushalte op ongeveer 84 meter afstand. In het seizoen is reizen over zee vaak de mooiste manier om andere steden aan de kust te bereiken; dienstregelingen en diensten moeten altijd bij de exploitanten worden gecontroleerd."
+        ],
+        [
+          "Aankomst met de auto en parkeren",
+          "De villa beschikt niet over een eigen parkeerplaats. Gasten kunnen vrije parkeerplaatsen langs de openbare weg zoeken, onder voorbehoud van beschikbaarheid, of gebruikmaken van de betaalde parkeerplaats van de partner in het dorpscentrum van Cetara. Gasten die tijdens hun verblijf niet van plan zijn hun auto te gebruiken, kunnen ook een gratis service aanvragen: de auto wordt opgehaald bij het inchecken en teruggebracht bij het uitchecken. Het zomerverkeer en de beschikbaarheid van parkeerplaatsen kunnen snel veranderen."
+        ],
+        [
+          "Transfers en inchecken",
+          "Martina kan gasten helpen met het vergelijken van taxi's, shuttles en transfers vanaf Napels, Salerno, luchthavens of treinstations. Inchecken kan normaal gesproken vanaf 15.00 uur, na de schoonmaak; Vroege aankomsten kunnen vragen om hun bagage achter te laten terwijl ze Cetara gaan verkennen."
+        ]
+      ],
+      "bullets": [
+        "Via Lannio 8, Cetara",
+        "Bushalte ongeveer 84 meter",
+        "Veerbootterminal ongeveer 230 meter",
+        "Gratis parkeerplaatsen langs de weg",
+        "Partner betaald parkeren",
+        "Gratis auto-ophaalservice"
+      ]
+    },
+    "experiences": {
+      "key": "experiences",
+      "lang": "nl",
+      "slug": "ervaringen-amalfikust",
+      "title": "Amalfikust-ervaringen vanuit Cetara | Villa Venere",
+      "description": "Martina helpt gasten van Villa Venere met het regelen van boottochten, privédagtochten, Pompeii, Ravello en chef-koks in de villa met geselecteerde lokale partners.",
+      "eyebrow": "Conciërge en ervaringen",
+      "h1": "Verken de kust van Amalfi over zee en over land",
+      "intro": "Een verblijf bij Villa Venere geeft gasten Cetara als uitgangspunt en Martina als persoonlijk lokaal aanspreekpunt. Op verzoek kan ze helpen bij het vergelijken van ervaringen en routes met geselecteerde lokale partners, afhankelijk van het seizoen, de omstandigheden en de behoeften van elke groep.",
+      "image": "/assets/photo/concierge-sea.webp",
+      "alt": "Boottochten langs de kust van Amalfi",
+      "sections": [
+        [
+          "Amalfi, Positano en Capri over zee",
+          "Gedeelde en privérondvaarten bieden een ander zicht op de kustlijn, met opties voor Amalfi en Positano en, wanneer de route en omstandigheden dit toelaten, Capri. Beschikbaarheid, vertrekpunt, duur en inbegrepen diensten worden bevestigd wanneer gasten ernaar informeren."
+        ],
+        [
+          "Pompeii, Herculaneum, Vesuvius en Ravello",
+          "Martina kan helpen bij het regelen van transfers en privédagen naar Pompeii, Herculaneum en de Vesuvius, of panoramische routes door Amalfi, Positano, Ravello, Villa Rufolo en Villa Cimbrone. De opties zijn afgestemd op de groepsgrootte en de beschikbare tijd."
+        ],
+        [
+          "Privé-ervaringen bij Villa Venere",
+          "Gasten die liever van de villa genieten, kunnen vragen stellen over privékoks en gepersonaliseerde mediterrane gerechten. Ervaringen worden op verzoek georganiseerd bij onafhankelijk geselecteerde aanbieders en blijven afhankelijk van hun beschikbaarheid en voorwaarden."
+        ]
+      ],
+      "bullets": [
+        "Boottochten langs de Amalfikust",
+        "Capri op aanvraag",
+        "Privébusjes en transfers",
+        "Pompeii en Herculaneum",
+        "Ravello en zijn villa's",
+        "Privékok in de villa"
+      ]
+    }
+  }
+}

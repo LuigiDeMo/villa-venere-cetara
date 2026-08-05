@@ -1,6 +1,7 @@
-import { mkdir, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { editorialHreflang, editorialLanguages, editorialPath } from './editorial-routes.mjs';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const booking = 'https://book.octorate.com/octobook/site/reservation/index.xhtml?codice=679766';
@@ -148,15 +149,27 @@ const pages = [
   },
 ];
 
+const translations = {};
+for (const language of editorialLanguages.filter((item) => !['en', 'it'].includes(item))) {
+  const content = JSON.parse(await readFile(join(root, 'locales', 'editorial', `${language}.json`), 'utf8'));
+  translations[language] = content;
+  pages.push(...Object.values(content.pages));
+}
+
 const esc = (value) => value.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;');
 
 function pageHtml(page) {
   const url = `https://villavenerecetara.it/${page.lang}/${page.slug}/`;
   const home = `/${page.lang}/`;
   const isIt = page.lang === 'it';
-  const guides = isIt
-    ? [['Villa privata a Cetara', '/it/villa-cetara/'], ['Accesso privato al mare', '/it/accesso-privato-mare/'], ['Camere e servizi', '/it/camere-servizi/'], ['Come arrivare', '/it/come-arrivare/'], ['Esperienze in Costiera', '/it/esperienze-costiera-amalfitana/']]
-    : [['Private villa in Cetara', '/en/villa-cetara/'], ['Private sea access', '/en/private-sea-access/'], ['Rooms and amenities', '/en/rooms-amenities/'], ['Getting to Cetara', '/en/getting-to-cetara/'], ['Amalfi Coast experiences', '/en/amalfi-coast-experiences/']];
+  const isEn = page.lang === 'en';
+  const translatedUi = translations[page.lang]?.ui;
+  const ui = isIt
+    ? { home: 'Pagina iniziale', rooms: 'Camere', amenities: 'Servizi', bookNow: 'Prenota ora', atGlance: 'In breve', checkAvailability: 'Verifica disponibilità', relatedGuides: 'Approfondimenti', officialGuides: 'Guide ufficiali', backToVilla: 'Torna alla villa', faqTitle: 'Domande frequenti sulla villa', officialPortal: 'Portale turistico ufficiale di Cetara', languageLink: 'Read in English' }
+    : isEn
+      ? { home: 'Home', rooms: 'Rooms', amenities: 'Amenities', bookNow: 'Book now', atGlance: 'At a glance', checkAvailability: 'Check availability', relatedGuides: 'Related guides', officialGuides: 'Official guides', backToVilla: 'Back to the villa', faqTitle: 'Frequently asked questions about the villa', officialPortal: 'Official Cetara tourism portal', languageLink: 'Leggi in italiano' }
+      : { ...translatedUi, languageLink: translatedUi.readInEnglish };
+  const guides = pages.filter((item) => item.lang === page.lang).map((item) => [item.title.split('|')[0].trim(), editorialPath(page.lang, item.key)]);
   const faqs = isIt
     ? [
       ['Villa Venere viene affittata interamente?', 'Sì. Gli ospiti hanno l’intera villa a uso esclusivo; le camere non vengono affittate separatamente.'],
@@ -168,7 +181,7 @@ function pageHtml(page) {
       ['Sono disponibili kayak, SUP e pedalò?', 'Due kayak, SUP e un pedalò sono disponibili gratuitamente quando le condizioni del mare e della sicurezza lo consentono.'],
       ['Come posso verificare disponibilità e prezzo?', 'Puoi usare il sistema di prenotazione ufficiale oppure scrivere direttamente a Martina indicando date e numero di ospiti.'],
     ]
-    : [
+    : isEn ? [
       ['Is Villa Venere rented as an entire property?', 'Yes. Guests have exclusive use of the entire villa; individual rooms are not rented separately.'],
       ['How many guests can the villa accommodate?', 'The villa accommodates up to 12 guests, with three double bedrooms and three sofa beds split between one bedroom and the living room.'],
       ['Does the villa have private access to the sea?', 'Yes. Steps lead to a private dock with a shower and loungers. Access includes stairs and the naturally rocky Amalfi Coast setting.'],
@@ -177,8 +190,10 @@ function pageHtml(page) {
       ['How far are the beaches, bus stop and ferry terminal?', 'The beaches are about 50 metres away, the bus stop about 84 metres and the ferry terminal about 230 metres.'],
       ['Are kayaks, SUP boards and a pedal boat available?', 'Two kayaks, SUP boards and one pedal boat are complimentary whenever sea and safety conditions allow.'],
       ['How can I check availability and price?', 'Use the official booking system or contact Martina directly with your dates and number of guests.'],
-    ];
-  const faqHtml = page.key === 'villa' ? `<section class="article-faq"><h2>${isIt ? 'Domande frequenti sulla villa' : 'Frequently asked questions about the villa'}</h2>${faqs.map(([question, answer]) => `<details><summary>${esc(question)}</summary><p>${esc(answer)}</p></details>`).join('')}</section>` : '';
+    ] : translations[page.lang].faqs;
+  const faqHtml = page.key === 'villa' ? `<section class="article-faq"><h2>${esc(ui.faqTitle)}</h2>${faqs.map(([question, answer]) => `<details><summary>${esc(question)}</summary><p>${esc(answer)}</p></details>`).join('')}</section>` : '';
+  const alternateLinks = [`<link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it${editorialPath('en', page.key)}">`, ...editorialLanguages.map((language) => `<link rel="alternate" hreflang="${editorialHreflang[language]}" href="https://villavenerecetara.it${editorialPath(language, page.key)}">`)].join('');
+  const switchLanguage = isEn ? 'it' : 'en';
   const schema = {
     '@context': 'https://schema.org', '@graph': [
       { '@type': 'WebPage', '@id': `${url}#webpage`, url, name: page.title, description: page.description, inLanguage: page.lang, about: { '@id': 'https://villavenerecetara.it/#villa' } },
@@ -189,17 +204,17 @@ function pageHtml(page) {
     ],
   };
   return `<!doctype html>
-<html lang="${page.lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<html lang="${page.lang}"${page.lang === 'ar' ? ' dir="rtl"' : ''}><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(page.title)}</title><meta name="description" content="${esc(page.description)}"><meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
-<link rel="canonical" href="${url}"><link rel="alternate" hreflang="${page.lang}" href="${url}"><link rel="alternate" hreflang="${page.lang === 'it' ? 'en' : 'it'}" href="https://villavenerecetara.it${page.alternate}"><link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/">
+<link rel="canonical" href="${url}">${alternateLinks}
 <meta property="og:type" content="article"><meta property="og:site_name" content="Villa Venere - Amalfi Coast"><meta property="og:title" content="${esc(page.title)}"><meta property="og:description" content="${esc(page.description)}"><meta property="og:url" content="${url}"><meta property="og:image" content="https://villavenerecetara.it${page.image}"><meta name="twitter:card" content="summary_large_image">
 <link rel="icon" type="image/png" sizes="256x256" href="/assets/villa-logo-256.png"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="/seo-pages.css?v=2">
 <script type="application/ld+json">${JSON.stringify(schema)}</script></head><body>
-<header class="article-header"><a class="article-brand" href="${home}"><img src="/assets/villa-logo-256.png" width="256" height="256" alt="Villa Venere"><span><strong>Villa Venere</strong><small>Cetara · Amalfi Coast</small></span></a><nav><a href="${home}">${isIt ? 'Pagina iniziale' : 'Home'}</a><a href="${home}#rooms">${isIt ? 'Camere' : 'Rooms'}</a><a href="${home}#services">${isIt ? 'Servizi' : 'Amenities'}</a><a class="book" href="${booking}&lang=${page.lang}" rel="nofollow">${isIt ? 'Prenota ora' : 'Book now'}</a></nav></header>
+<header class="article-header"><a class="article-brand" href="${home}"><img src="/assets/villa-logo-256.png" width="256" height="256" alt="Villa Venere"><span><strong>Villa Venere</strong><small>Cetara · Amalfi Coast</small></span></a><nav><a href="${home}">${esc(ui.home)}</a><a href="${home}#rooms">${esc(ui.rooms)}</a><a href="${home}#services">${esc(ui.amenities)}</a><a class="book" href="${booking}&lang=${page.lang}" rel="nofollow">${esc(ui.bookNow)}</a></nav></header>
 <main><article><div class="article-hero"><div><p class="eyebrow">${esc(page.eyebrow)}</p><h1>${esc(page.h1)}</h1><p class="lead">${esc(page.intro)}</p></div><img src="${page.image}" width="1600" height="900" fetchpriority="high" alt="${esc(page.alt)}"></div>
-<div class="article-body"><aside><h2>${isIt ? 'In breve' : 'At a glance'}</h2><ul>${page.bullets.map((item) => `<li>${esc(item)}</li>`).join('')}</ul><a href="${booking}&lang=${page.lang}" rel="nofollow">${isIt ? 'Verifica disponibilità' : 'Check availability'}</a></aside><div class="article-copy">${page.sections.map(([title, text]) => `<section><h2>${esc(title)}</h2><p>${esc(text)}</p></section>`).join('')}${faqHtml}</div></div>
-<nav class="article-related" aria-label="${isIt ? 'Approfondimenti' : 'Related guides'}"><div><strong>${isIt ? 'Guide ufficiali' : 'Official guides'}</strong>${guides.map(([label, href]) => `<a href="${href}">${esc(label)}</a>`).join('')}</div><div><a href="${home}">← ${isIt ? 'Torna alla villa' : 'Back to the villa'}</a><a href="${page.alternate}">${isIt ? 'Read in English' : 'Leggi in italiano'} →</a></div></nav></article></main>
-<footer><div><strong>Villa Venere</strong><span>Via Lannio 8 · 84010 Cetara (SA) · Italia</span><span>CIN IT065041B49WWIMPWN</span><a href="https://www.cetaraturistica.it/soggiornare/case-per-vacanze/villa-venere" target="_blank" rel="noreferrer">${isIt ? 'Portale turistico ufficiale di Cetara' : 'Official Cetara tourism portal'}</a></div><div><a href="tel:+393896840764">+39 389 684 0764</a><a href="mailto:info@villavenerecetara.com">info@villavenerecetara.com</a></div></footer></body></html>`;
+<div class="article-body"><aside><h2>${esc(ui.atGlance)}</h2><ul>${page.bullets.map((item) => `<li>${esc(item)}</li>`).join('')}</ul><a href="${booking}&lang=${page.lang}" rel="nofollow">${esc(ui.checkAvailability)}</a></aside><div class="article-copy">${page.sections.map(([title, text]) => `<section><h2>${esc(title)}</h2><p>${esc(text)}</p></section>`).join('')}${faqHtml}</div></div>
+<nav class="article-related" aria-label="${esc(ui.relatedGuides)}"><div><strong>${esc(ui.officialGuides)}</strong>${guides.map(([label, href]) => `<a href="${href}">${esc(label)}</a>`).join('')}</div><div><a href="${home}">← ${esc(ui.backToVilla)}</a><a href="${editorialPath(switchLanguage, page.key)}">${esc(ui.languageLink)} →</a></div></nav></article></main>
+<footer><div><strong>Villa Venere</strong><span>Via Lannio 8 · 84010 Cetara (SA) · Italia</span><span>CIN IT065041B49WWIMPWN</span><a href="https://www.cetaraturistica.it/soggiornare/case-per-vacanze/villa-venere" target="_blank" rel="noreferrer">${esc(ui.officialPortal)}</a></div><div><a href="tel:+393896840764">+39 389 684 0764</a><a href="mailto:info@villavenerecetara.com">info@villavenerecetara.com</a></div></footer></body></html>`;
 }
 
 for (const page of pages) {

@@ -1,6 +1,7 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { editorialPath } from './editorial-routes.mjs';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const languages = ['en', 'it', 'fr', 'es', 'de', 'pt', 'ru', 'zh', 'ja', 'ko', 'ar', 'nl', 'pl'];
@@ -145,12 +146,8 @@ function localize(template, language, dictionary) {
     .replaceAll('src="script.js', 'src="/script.js');
 
   html = html.replace(/<script id="structured-data" type="application\/ld\+json">[\s\S]*?<\/script>/, `<script id="structured-data" type="application/ld+json">\n  ${JSON.stringify(structuredData(language, canonical, meta))}\n  </script>`);
-  const seoPrefix = language === 'it' ? '/it/' : '/en/';
-  const seoPaths = language === 'it'
-    ? { villa: 'villa-cetara/', sea: 'accesso-privato-mare/', rooms: 'camere-servizi/', location: 'come-arrivare/' }
-    : { villa: 'villa-cetara/', sea: 'private-sea-access/', rooms: 'rooms-amenities/', location: 'getting-to-cetara/' };
-  html = html.replace(/href="[^"]+" data-seo-page="([^"]+)"/g, (match, page) => `href="${seoPrefix}${seoPaths[page] || ''}" data-seo-page="${page}"`);
-  const experiencePath = language === 'it' ? '/it/esperienze-costiera-amalfitana/' : '/en/amalfi-coast-experiences/';
+  html = html.replace(/href="[^"]+" data-seo-page="([^"]+)"/g, (match, page) => `href="${editorialPath(language, page)}" data-seo-page="${page}"`);
+  const experiencePath = editorialPath(language, 'experiences');
   html = html.replace(/href="[^"]+" data-experiences-page/g, `href="${experiencePath}" data-experiences-page`);
   if (language === 'it') {
     html = html

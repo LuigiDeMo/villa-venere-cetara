@@ -1,20 +1,15 @@
 import { writeFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { editorialHreflang, editorialLanguages, editorialPath } from './editorial-routes.mjs';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const origin = 'https://villavenerecetara.it';
-const languages = ['en', 'it', 'fr', 'es', 'de', 'pt', 'ru', 'zh', 'ja', 'ko', 'ar', 'nl', 'pl'];
+const languages = editorialLanguages;
 const lastmod = process.env.SEO_LASTMOD || new Date().toISOString().slice(0, 10);
-const hreflang = { en: 'en', it: 'it', fr: 'fr', es: 'es', de: 'de', pt: 'pt', ru: 'ru', zh: 'zh-Hans', ja: 'ja', ko: 'ko', ar: 'ar', nl: 'nl', pl: 'pl' };
+const hreflang = editorialHreflang;
 const imagePaths = ['villa-view.jpg', '1661525798152.jpg', 'villa-gallery/01-villa-esterno.jpg', 'villa-gallery/02-villa-cucina.jpg', 'villa-gallery/03-villa-camera.jpg', 'villa-gallery/04-villa-terrazza.jpg', 'villa-gallery/camera-principale-vista-mare.jpg', 'villa-gallery/camera-principale-smart-tv.jpg', 'photo/terrace-relax.webp', 'photo/living-sea.webp', 'photo/bedroom-sea.webp', 'photo/bathroom-main.webp', 'photo/kitchen.webp', 'photo/villa-cliff.webp'];
-const pairs = [
-  ['/it/villa-cetara/', '/en/villa-cetara/'],
-  ['/it/accesso-privato-mare/', '/en/private-sea-access/'],
-  ['/it/camere-servizi/', '/en/rooms-amenities/'],
-  ['/it/come-arrivare/', '/en/getting-to-cetara/'],
-  ['/it/esperienze-costiera-amalfitana/', '/en/amalfi-coast-experiences/'],
-];
+const editorialKeys = ['villa', 'sea', 'rooms', 'location', 'experiences'];
 const esc = (value) => value.replaceAll('&', '&amp;').replaceAll("'", '&apos;').replaceAll('"', '&quot;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
 const alternate = (lang, href) => `    <xhtml:link rel="alternate" hreflang="${lang}" href="${href}"/>`;
 
@@ -24,9 +19,12 @@ urls.push(`  <url>\n    <loc>${origin}/</loc>\n    <lastmod>${lastmod}</lastmod>
 for (const lang of languages) {
   urls.push(`  <url>\n    <loc>${origin}/${lang}/</loc>\n    <lastmod>${lastmod}</lastmod>\n${rootAlternates}\n  </url>`);
 }
-for (const [itPath, enPath] of pairs) {
-  const alternates = [alternate('x-default', `${origin}${enPath}`), alternate('it', `${origin}${itPath}`), alternate('en', `${origin}${enPath}`)].join('\n');
-  for (const path of [itPath, enPath]) urls.push(`  <url>\n    <loc>${origin}${path}</loc>\n    <lastmod>${lastmod}</lastmod>\n${alternates}\n  </url>`);
+for (const key of editorialKeys) {
+  const alternates = [alternate('x-default', `${origin}${editorialPath('en', key)}`), ...languages.map((language) => alternate(hreflang[language], `${origin}${editorialPath(language, key)}`))].join('\n');
+  for (const language of languages) {
+    const path = editorialPath(language, key);
+    urls.push(`  <url>\n    <loc>${origin}${path}</loc>\n    <lastmod>${lastmod}</lastmod>\n${alternates}\n  </url>`);
+  }
 }
 const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n${urls.join('\n')}\n</urlset>\n`;
 await writeFile(join(root, 'sitemap.xml'), xml, 'utf8');

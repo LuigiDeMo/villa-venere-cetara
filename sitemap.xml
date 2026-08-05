@@ -267,73 +267,1173 @@
     <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/"/>
   </url>
   <url>
-    <loc>https://villavenerecetara.it/it/villa-cetara/</loc>
-    <lastmod>2026-08-05</lastmod>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/villa-cetara/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/villa-cetara/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/villa-cetara/"/>
-  </url>
-  <url>
     <loc>https://villavenerecetara.it/en/villa-cetara/</loc>
     <lastmod>2026-08-05</lastmod>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/villa-cetara/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/villa-cetara/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/villa-cetara/"/>
   </url>
   <url>
-    <loc>https://villavenerecetara.it/it/accesso-privato-mare/</loc>
+    <loc>https://villavenerecetara.it/it/villa-cetara/</loc>
     <lastmod>2026-08-05</lastmod>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/private-sea-access/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/accesso-privato-mare/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/villa-cetara/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/fr/villa-cetara/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/villa-cetara/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/es/villa-cetara/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/villa-cetara/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/de/villa-cetara/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/villa-cetara/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/pt/villa-cetara/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/villa-cetara/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/ru/villa-cetara/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/villa-cetara/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/zh/villa-cetara/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/villa-cetara/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/ja/villa-cetara/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/villa-cetara/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/ko/villa-cetara/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/villa-cetara/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/ar/villa-cetara/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/villa-cetara/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/nl/villa-cetara/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/villa-cetara/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/pl/villa-cetara/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/villa-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/villa-cetara/"/>
   </url>
   <url>
     <loc>https://villavenerecetara.it/en/private-sea-access/</loc>
     <lastmod>2026-08-05</lastmod>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/private-sea-access/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/accesso-privato-mare/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/accesso-privato-mare/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/acces-prive-mer/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/acceso-privado-mar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/privater-meerzugang/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/acesso-privado-mar/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/chastnyy-vyhod-k-moryu/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/prive-toegang-zee/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/prywatny-dostep-do-morza/"/>
   </url>
   <url>
-    <loc>https://villavenerecetara.it/it/camere-servizi/</loc>
+    <loc>https://villavenerecetara.it/it/accesso-privato-mare/</loc>
     <lastmod>2026-08-05</lastmod>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/rooms-amenities/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/camere-servizi/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/accesso-privato-mare/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/acces-prive-mer/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/acceso-privado-mar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/privater-meerzugang/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/acesso-privado-mar/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/chastnyy-vyhod-k-moryu/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/prive-toegang-zee/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/prywatny-dostep-do-morza/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/fr/acces-prive-mer/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/accesso-privato-mare/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/acces-prive-mer/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/acceso-privado-mar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/privater-meerzugang/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/acesso-privado-mar/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/chastnyy-vyhod-k-moryu/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/prive-toegang-zee/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/prywatny-dostep-do-morza/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/es/acceso-privado-mar/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/accesso-privato-mare/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/acces-prive-mer/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/acceso-privado-mar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/privater-meerzugang/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/acesso-privado-mar/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/chastnyy-vyhod-k-moryu/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/prive-toegang-zee/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/prywatny-dostep-do-morza/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/de/privater-meerzugang/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/accesso-privato-mare/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/acces-prive-mer/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/acceso-privado-mar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/privater-meerzugang/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/acesso-privado-mar/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/chastnyy-vyhod-k-moryu/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/prive-toegang-zee/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/prywatny-dostep-do-morza/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/pt/acesso-privado-mar/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/accesso-privato-mare/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/acces-prive-mer/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/acceso-privado-mar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/privater-meerzugang/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/acesso-privado-mar/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/chastnyy-vyhod-k-moryu/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/prive-toegang-zee/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/prywatny-dostep-do-morza/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/ru/chastnyy-vyhod-k-moryu/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/accesso-privato-mare/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/acces-prive-mer/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/acceso-privado-mar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/privater-meerzugang/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/acesso-privado-mar/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/chastnyy-vyhod-k-moryu/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/prive-toegang-zee/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/prywatny-dostep-do-morza/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/zh/private-sea-access/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/accesso-privato-mare/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/acces-prive-mer/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/acceso-privado-mar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/privater-meerzugang/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/acesso-privado-mar/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/chastnyy-vyhod-k-moryu/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/prive-toegang-zee/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/prywatny-dostep-do-morza/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/ja/private-sea-access/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/accesso-privato-mare/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/acces-prive-mer/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/acceso-privado-mar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/privater-meerzugang/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/acesso-privado-mar/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/chastnyy-vyhod-k-moryu/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/prive-toegang-zee/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/prywatny-dostep-do-morza/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/ko/private-sea-access/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/accesso-privato-mare/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/acces-prive-mer/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/acceso-privado-mar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/privater-meerzugang/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/acesso-privado-mar/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/chastnyy-vyhod-k-moryu/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/prive-toegang-zee/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/prywatny-dostep-do-morza/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/ar/private-sea-access/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/accesso-privato-mare/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/acces-prive-mer/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/acceso-privado-mar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/privater-meerzugang/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/acesso-privado-mar/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/chastnyy-vyhod-k-moryu/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/prive-toegang-zee/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/prywatny-dostep-do-morza/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/nl/prive-toegang-zee/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/accesso-privato-mare/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/acces-prive-mer/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/acceso-privado-mar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/privater-meerzugang/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/acesso-privado-mar/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/chastnyy-vyhod-k-moryu/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/prive-toegang-zee/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/prywatny-dostep-do-morza/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/pl/prywatny-dostep-do-morza/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/accesso-privato-mare/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/acces-prive-mer/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/acceso-privado-mar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/privater-meerzugang/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/acesso-privado-mar/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/chastnyy-vyhod-k-moryu/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/private-sea-access/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/prive-toegang-zee/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/prywatny-dostep-do-morza/"/>
   </url>
   <url>
     <loc>https://villavenerecetara.it/en/rooms-amenities/</loc>
     <lastmod>2026-08-05</lastmod>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/rooms-amenities/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/camere-servizi/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/camere-servizi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/chambres-equipements/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/habitaciones-servicios/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/zimmer-ausstattung/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/quartos-comodidades/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/komnaty-udobstva/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/kamers-voorzieningen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/pokoje-udogodnienia/"/>
   </url>
   <url>
-    <loc>https://villavenerecetara.it/it/come-arrivare/</loc>
+    <loc>https://villavenerecetara.it/it/camere-servizi/</loc>
     <lastmod>2026-08-05</lastmod>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/getting-to-cetara/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/come-arrivare/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/camere-servizi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/chambres-equipements/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/habitaciones-servicios/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/zimmer-ausstattung/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/quartos-comodidades/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/komnaty-udobstva/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/kamers-voorzieningen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/pokoje-udogodnienia/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/fr/chambres-equipements/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/camere-servizi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/chambres-equipements/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/habitaciones-servicios/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/zimmer-ausstattung/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/quartos-comodidades/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/komnaty-udobstva/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/kamers-voorzieningen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/pokoje-udogodnienia/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/es/habitaciones-servicios/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/camere-servizi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/chambres-equipements/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/habitaciones-servicios/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/zimmer-ausstattung/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/quartos-comodidades/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/komnaty-udobstva/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/kamers-voorzieningen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/pokoje-udogodnienia/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/de/zimmer-ausstattung/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/camere-servizi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/chambres-equipements/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/habitaciones-servicios/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/zimmer-ausstattung/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/quartos-comodidades/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/komnaty-udobstva/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/kamers-voorzieningen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/pokoje-udogodnienia/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/pt/quartos-comodidades/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/camere-servizi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/chambres-equipements/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/habitaciones-servicios/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/zimmer-ausstattung/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/quartos-comodidades/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/komnaty-udobstva/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/kamers-voorzieningen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/pokoje-udogodnienia/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/ru/komnaty-udobstva/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/camere-servizi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/chambres-equipements/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/habitaciones-servicios/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/zimmer-ausstattung/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/quartos-comodidades/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/komnaty-udobstva/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/kamers-voorzieningen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/pokoje-udogodnienia/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/zh/rooms-amenities/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/camere-servizi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/chambres-equipements/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/habitaciones-servicios/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/zimmer-ausstattung/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/quartos-comodidades/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/komnaty-udobstva/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/kamers-voorzieningen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/pokoje-udogodnienia/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/ja/rooms-amenities/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/camere-servizi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/chambres-equipements/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/habitaciones-servicios/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/zimmer-ausstattung/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/quartos-comodidades/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/komnaty-udobstva/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/kamers-voorzieningen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/pokoje-udogodnienia/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/ko/rooms-amenities/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/camere-servizi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/chambres-equipements/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/habitaciones-servicios/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/zimmer-ausstattung/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/quartos-comodidades/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/komnaty-udobstva/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/kamers-voorzieningen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/pokoje-udogodnienia/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/ar/rooms-amenities/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/camere-servizi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/chambres-equipements/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/habitaciones-servicios/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/zimmer-ausstattung/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/quartos-comodidades/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/komnaty-udobstva/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/kamers-voorzieningen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/pokoje-udogodnienia/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/nl/kamers-voorzieningen/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/camere-servizi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/chambres-equipements/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/habitaciones-servicios/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/zimmer-ausstattung/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/quartos-comodidades/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/komnaty-udobstva/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/kamers-voorzieningen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/pokoje-udogodnienia/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/pl/pokoje-udogodnienia/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/camere-servizi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/chambres-equipements/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/habitaciones-servicios/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/zimmer-ausstattung/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/quartos-comodidades/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/komnaty-udobstva/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/rooms-amenities/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/kamers-voorzieningen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/pokoje-udogodnienia/"/>
   </url>
   <url>
     <loc>https://villavenerecetara.it/en/getting-to-cetara/</loc>
     <lastmod>2026-08-05</lastmod>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/getting-to-cetara/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/come-arrivare/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/come-arrivare/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/venir-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/como-llegar-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/anreise-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/como-chegar-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/kak-dobratsya-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/route-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/dojazd-cetara/"/>
   </url>
   <url>
-    <loc>https://villavenerecetara.it/it/esperienze-costiera-amalfitana/</loc>
+    <loc>https://villavenerecetara.it/it/come-arrivare/</loc>
     <lastmod>2026-08-05</lastmod>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/amalfi-coast-experiences/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/esperienze-costiera-amalfitana/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/come-arrivare/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/venir-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/como-llegar-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/anreise-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/como-chegar-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/kak-dobratsya-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/route-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/dojazd-cetara/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/fr/venir-cetara/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/come-arrivare/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/venir-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/como-llegar-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/anreise-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/como-chegar-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/kak-dobratsya-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/route-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/dojazd-cetara/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/es/como-llegar-cetara/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/come-arrivare/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/venir-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/como-llegar-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/anreise-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/como-chegar-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/kak-dobratsya-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/route-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/dojazd-cetara/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/de/anreise-cetara/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/come-arrivare/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/venir-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/como-llegar-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/anreise-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/como-chegar-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/kak-dobratsya-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/route-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/dojazd-cetara/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/pt/como-chegar-cetara/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/come-arrivare/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/venir-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/como-llegar-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/anreise-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/como-chegar-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/kak-dobratsya-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/route-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/dojazd-cetara/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/ru/kak-dobratsya-cetara/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/come-arrivare/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/venir-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/como-llegar-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/anreise-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/como-chegar-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/kak-dobratsya-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/route-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/dojazd-cetara/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/zh/getting-to-cetara/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/come-arrivare/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/venir-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/como-llegar-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/anreise-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/como-chegar-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/kak-dobratsya-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/route-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/dojazd-cetara/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/ja/getting-to-cetara/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/come-arrivare/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/venir-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/como-llegar-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/anreise-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/como-chegar-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/kak-dobratsya-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/route-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/dojazd-cetara/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/ko/getting-to-cetara/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/come-arrivare/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/venir-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/como-llegar-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/anreise-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/como-chegar-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/kak-dobratsya-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/route-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/dojazd-cetara/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/ar/getting-to-cetara/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/come-arrivare/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/venir-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/como-llegar-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/anreise-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/como-chegar-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/kak-dobratsya-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/route-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/dojazd-cetara/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/nl/route-cetara/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/come-arrivare/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/venir-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/como-llegar-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/anreise-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/como-chegar-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/kak-dobratsya-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/route-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/dojazd-cetara/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/pl/dojazd-cetara/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/come-arrivare/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/venir-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/como-llegar-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/anreise-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/como-chegar-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/kak-dobratsya-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/getting-to-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/route-cetara/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/dojazd-cetara/"/>
   </url>
   <url>
     <loc>https://villavenerecetara.it/en/amalfi-coast-experiences/</loc>
     <lastmod>2026-08-05</lastmod>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/amalfi-coast-experiences/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/esperienze-costiera-amalfitana/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/esperienze-costiera-amalfitana/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/experiences-cote-amalfitaine/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/experiencias-costa-amalfitana/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/erlebnisse-amalfikueste/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/experiencias-costa-amalfitana/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/vpechatleniya-amalfi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/ervaringen-amalfikust/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/atrakcje-wybrzeze-amalfitanskie/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/it/esperienze-costiera-amalfitana/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/esperienze-costiera-amalfitana/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/experiences-cote-amalfitaine/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/experiencias-costa-amalfitana/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/erlebnisse-amalfikueste/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/experiencias-costa-amalfitana/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/vpechatleniya-amalfi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/ervaringen-amalfikust/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/atrakcje-wybrzeze-amalfitanskie/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/fr/experiences-cote-amalfitaine/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/esperienze-costiera-amalfitana/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/experiences-cote-amalfitaine/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/experiencias-costa-amalfitana/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/erlebnisse-amalfikueste/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/experiencias-costa-amalfitana/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/vpechatleniya-amalfi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/ervaringen-amalfikust/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/atrakcje-wybrzeze-amalfitanskie/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/es/experiencias-costa-amalfitana/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/esperienze-costiera-amalfitana/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/experiences-cote-amalfitaine/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/experiencias-costa-amalfitana/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/erlebnisse-amalfikueste/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/experiencias-costa-amalfitana/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/vpechatleniya-amalfi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/ervaringen-amalfikust/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/atrakcje-wybrzeze-amalfitanskie/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/de/erlebnisse-amalfikueste/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/esperienze-costiera-amalfitana/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/experiences-cote-amalfitaine/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/experiencias-costa-amalfitana/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/erlebnisse-amalfikueste/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/experiencias-costa-amalfitana/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/vpechatleniya-amalfi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/ervaringen-amalfikust/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/atrakcje-wybrzeze-amalfitanskie/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/pt/experiencias-costa-amalfitana/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/esperienze-costiera-amalfitana/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/experiences-cote-amalfitaine/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/experiencias-costa-amalfitana/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/erlebnisse-amalfikueste/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/experiencias-costa-amalfitana/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/vpechatleniya-amalfi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/ervaringen-amalfikust/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/atrakcje-wybrzeze-amalfitanskie/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/ru/vpechatleniya-amalfi/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/esperienze-costiera-amalfitana/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/experiences-cote-amalfitaine/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/experiencias-costa-amalfitana/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/erlebnisse-amalfikueste/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/experiencias-costa-amalfitana/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/vpechatleniya-amalfi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/ervaringen-amalfikust/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/atrakcje-wybrzeze-amalfitanskie/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/zh/amalfi-coast-experiences/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/esperienze-costiera-amalfitana/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/experiences-cote-amalfitaine/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/experiencias-costa-amalfitana/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/erlebnisse-amalfikueste/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/experiencias-costa-amalfitana/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/vpechatleniya-amalfi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/ervaringen-amalfikust/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/atrakcje-wybrzeze-amalfitanskie/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/ja/amalfi-coast-experiences/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/esperienze-costiera-amalfitana/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/experiences-cote-amalfitaine/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/experiencias-costa-amalfitana/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/erlebnisse-amalfikueste/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/experiencias-costa-amalfitana/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/vpechatleniya-amalfi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/ervaringen-amalfikust/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/atrakcje-wybrzeze-amalfitanskie/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/ko/amalfi-coast-experiences/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/esperienze-costiera-amalfitana/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/experiences-cote-amalfitaine/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/experiencias-costa-amalfitana/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/erlebnisse-amalfikueste/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/experiencias-costa-amalfitana/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/vpechatleniya-amalfi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/ervaringen-amalfikust/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/atrakcje-wybrzeze-amalfitanskie/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/ar/amalfi-coast-experiences/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/esperienze-costiera-amalfitana/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/experiences-cote-amalfitaine/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/experiencias-costa-amalfitana/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/erlebnisse-amalfikueste/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/experiencias-costa-amalfitana/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/vpechatleniya-amalfi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/ervaringen-amalfikust/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/atrakcje-wybrzeze-amalfitanskie/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/nl/ervaringen-amalfikust/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/esperienze-costiera-amalfitana/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/experiences-cote-amalfitaine/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/experiencias-costa-amalfitana/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/erlebnisse-amalfikueste/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/experiencias-costa-amalfitana/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/vpechatleniya-amalfi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/ervaringen-amalfikust/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/atrakcje-wybrzeze-amalfitanskie/"/>
+  </url>
+  <url>
+    <loc>https://villavenerecetara.it/pl/atrakcje-wybrzeze-amalfitanskie/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://villavenerecetara.it/en/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villavenerecetara.it/en/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://villavenerecetara.it/it/esperienze-costiera-amalfitana/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villavenerecetara.it/fr/experiences-cote-amalfitaine/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://villavenerecetara.it/es/experiencias-costa-amalfitana/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://villavenerecetara.it/de/erlebnisse-amalfikueste/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://villavenerecetara.it/pt/experiencias-costa-amalfitana/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://villavenerecetara.it/ru/vpechatleniya-amalfi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://villavenerecetara.it/zh/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://villavenerecetara.it/ja/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://villavenerecetara.it/ko/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://villavenerecetara.it/ar/amalfi-coast-experiences/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://villavenerecetara.it/nl/ervaringen-amalfikust/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://villavenerecetara.it/pl/atrakcje-wybrzeze-amalfitanskie/"/>
   </url>
 </urlset>
