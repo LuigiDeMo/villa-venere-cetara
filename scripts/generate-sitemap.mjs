@@ -2,6 +2,7 @@ import { writeFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { editorialHreflang, editorialLanguages, editorialPath } from './editorial-routes.mjs';
+import { travelGuideHreflang, travelGuideHubPath, travelGuideKeys, travelGuideLanguages, travelGuidePath } from './travel-guide-routes.mjs';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const origin = 'https://villavenerecetara.it';
@@ -24,6 +25,16 @@ for (const key of editorialKeys) {
   for (const language of languages) {
     const path = editorialPath(language, key);
     urls.push(`  <url>\n    <loc>${origin}${path}</loc>\n    <lastmod>${lastmod}</lastmod>\n${alternates}\n  </url>`);
+  }
+}
+const journalHubAlternates = [alternate('x-default', `${origin}${travelGuideHubPath('en')}`), ...travelGuideLanguages.map((language) => alternate(travelGuideHreflang[language], `${origin}${travelGuideHubPath(language)}`))].join('\n');
+for (const language of travelGuideLanguages) {
+  urls.push(`  <url>\n    <loc>${origin}${travelGuideHubPath(language)}</loc>\n    <lastmod>${lastmod}</lastmod>\n${journalHubAlternates}\n  </url>`);
+}
+for (const key of travelGuideKeys) {
+  const alternates = [alternate('x-default', `${origin}${travelGuidePath('en', key)}`), ...travelGuideLanguages.map((language) => alternate(travelGuideHreflang[language], `${origin}${travelGuidePath(language, key)}`))].join('\n');
+  for (const language of travelGuideLanguages) {
+    urls.push(`  <url>\n    <loc>${origin}${travelGuidePath(language, key)}</loc>\n    <lastmod>${lastmod}</lastmod>\n${alternates}\n  </url>`);
   }
 }
 const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n${urls.join('\n')}\n</urlset>\n`;
