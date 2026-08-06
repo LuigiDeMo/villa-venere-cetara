@@ -1,0 +1,649 @@
+{
+  "site": {
+    "name": "Reisgidsen van Villa Venere",
+    "eyebrow": "Live Cetara · Verken de kust",
+    "title": "Woon in Cetara, bereik de kust van Amalfi",
+    "description": "Lokale gidsen en doordachte routes voor een verblijf in Cetara en het verkennen van Amalfi, Positano, Ravello, Pompeii, Herculaneum en de Vesuvius in een authentieker tempo.",
+    "intro": "Geen checklist met plekken om te verzamelen, maar een rustigere manier om de kust van Amalfi te bewonen. Villa Venere is uw startpunt aan de kust; Cetara is het dorp waar je naar terugkeert; de iconische bestemmingen worden met zorg gekozen dagen.",
+    "manifesto": "Het voorrecht is niet alles te zien. Het is tijd hebben om te kiezen.",
+    "categories": [
+      "Wonen Cetara",
+      "Over zee",
+      "Kunst en landschap",
+      "Langzame routes"
+    ],
+    "latest": "Gidsen voor het plannen van uw verblijf",
+    "home": "Villa Venere",
+    "villa": "De villa",
+    "experiences": "Ervaringen",
+    "guides": "Gidsen",
+    "book": "Controleer beschikbaarheid",
+    "read": "Lees de gids",
+    "minutes": "min gelezen",
+    "photo": "Foto",
+    "adaptedPhoto": "Aangepaste foto",
+    "languageMenu": "Talen",
+    "updated": "Laatst gecontroleerd",
+    "contents": "In deze handleiding",
+    "answer": "Het korte antwoord",
+    "fromVilla": "Van Villa Venere",
+    "faq": "Veelgestelde vragen",
+    "sources": "Bronnen om te controleren voordat u op reis gaat",
+    "related": "Ga verder met verkennen",
+    "editorialNote": "Rijschema's, transport, tarieven en zeeomstandigheden kunnen veranderen. Deze gidsen scheiden redactioneel advies van diensten die op verzoek worden geregeld en verwijzen lezers altijd naar officiële bronnen voor de laatste controle.",
+    "author": "By Villa Venere, with local guidance from Martina",
+    "languageSwitch": "Leggi in het Italiaans",
+    "ctaTitle": "De kust van Amalfi, met tijd om ervan te genieten",
+    "ctaText": "Verblijf aan zee in Cetara, maak een dagtocht naar keuze en keer elke avond terug naar het terras van Villa Venere.",
+    "ctaButton": "Bekijk beschikbaarheid",
+    "assistant": {
+      "bubble": "Bent u uw route aan het plannen? Bericht Martina: zij kan van deze gidsen een verblijf op maat maken.",
+      "panelLabel": "Vraag Martina om advies",
+      "closeLabel": "Contactvenster sluiten",
+      "hostName": "Martina · Uw gastheer bij Villa Venere",
+      "replyTime": "Reageert persoonlijk op uw berichten",
+      "greeting": "Hallo! Ik ben Martina 👋",
+      "help": "Vragen over veerboten, transfers of hoe u uw dagen kunt combineren? Stuur mij een bericht en ik help u bij het plannen van uw verblijf.",
+      "startWith": "Neem contact op met Martina via:",
+      "phoneLabel": "Telefoon",
+      "launcher": "Bericht Martina",
+      "whatsappMessage": "Hallo Martina, ik ben de gidsen van Villa Venere aan het lezen en wil graag wat advies voor het plannen van mijn verblijf."
+    }
+  },
+  "guides": [
+    {
+      "key": "slowBase",
+      "category": "Wonen Cetara",
+      "metaTitle": "Waar te verblijven in Cetara: een langzame basis aan de Amalfikust",
+      "title": "Verblijven in Cetara: een langzamere uitvalsbasis voor het verkennen van de kust van Amalfi",
+      "description": "Waarom Cetara kiezen als uitvalsbasis voor de kust van Amalfi: de zee, het lokale leven, seizoensgebonden veerboten en dagtochten naar Amalfi, Positano, Ravello en Pompeii.",
+      "intro": "Het kiezen van Cetara betekent niet dat je Amalfi, Positano of Ravello moet opgeven. Het betekent dat je ze overdag bezoekt en dan terugkeert naar een bewoond vissersdorp, de haven en het voedsel, en een privéwoning boven de zee.",
+      "quickAnswer": "Cetara is bijzonder geschikt voor reizigers die een minder hectisch verblijf willen, graag over zee reizen en liever dagtochten scheiden van echte vakantietijd. Seizoensgebonden veerboten verbinden het dorp met andere kustplaatsen, terwijl bussen het landalternatief bieden. Een privéchauffeur kan complexere dagen zoals Ravello of Pompeii vereenvoudigen.",
+      "image": "/assets/journal/cetara-slow-base.webp",
+      "alt": "Het vissersdorp Cetara gezien vanaf de zee met zijn Viceregal-toren",
+      "imageCredit": {
+        "author": "Bernard Gagnon",
+        "source": "https://commons.wikimedia.org/wiki/File:Cetara_(Italy).jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "modified": true
+      },
+      "readTime": 8,
+      "takeaways": [
+        "Cetara is een plek om te verblijven, niet alleen een tussenstop",
+        "Amalfi en Positano kunnen dagtochten over zee worden",
+        "Ravello en de Vesuviaanse locaties hebben een andere planning nodig",
+        "Het afwisselen van volle dagen met rustige dagen maakt de reis aangenamer"
+      ],
+      "sections": [
+        {
+          "title": "Waarom Cetara als basis werkt",
+          "paragraphs": [
+            "Cetara behoudt de schaal van een vissersdorp: de haven, stranden, restaurants en levensmiddelenwinkels behoren tot het dagelijks leven en zijn te voet bereikbaar. Je kunt de ochtend beginnen zonder meteen in de auto te stappen en na een excursie in het dorp dineren.",
+            "Het voordeel is dat je niet in het geometrische centrum van elke attractie zit. Het is een plek hebben die de moeite waard is om te verblijven. Een ongeplande ochtend, een duik of een lunch rond lokale ansjovis zijn geen gaten in de reisroute; ze maken deel uit van de beleving van de kust."
+          ]
+        },
+        {
+          "title": "Iconische plekken als dagtripjes",
+          "paragraphs": [
+            "Amalfi en Positano zijn geschikt voor dagen over zee wanneer de seizoensdiensten en -omstandigheden dit toelaten. Ravello heeft altijd een weggedeelte nodig, hetzij met de bus door het Amalfi-gebied, hetzij met een privéchauffeur. Pompeii, Herculaneum en de Vesuvius verdienen een vroege start en een toegewijde dag.",
+            "De handigste regel is om niet te veel bestemmingen op één dag te comprimeren. Eén hoofdbezoek, een ongehaaste lunch en een terugkeer met ademruimte zorgen meestal voor betere herinneringen dan vier gehaaste stops."
+          ],
+          "bullets": [
+            "Over zee: Amalfi, Positano en privécruises",
+            "Over de weg: Ravello, Villa Rufolo en Villa Cimbrone",
+            "Geschiedenis en landschap: Pompeii, Herculaneum en de Vesuvius",
+            "Een lokale dag: Cetara, eten, terras en zee"
+          ]
+        },
+        {
+          "title": "Een realistisch ritme voor uw verblijf",
+          "paragraphs": [
+            "Drie nachten lang is Cetara plus één klassieke kustdag verstandig. Vier of vijf nachten bieden ook tijd voor Ravello of Pompeii. Bij een langer verblijf kunt u elke substantiële excursie afwisselen met een lichtere dag tussen de villa, het dorp en de zee.",
+            "Gezinnen, oudere reizigers en grotere groepen moeten stappen, hitte, bagage en wachttijd beschouwen als onderdeel van de reisroute, in plaats van dat details op het laatste moment moeten worden opgelost."
+          ]
+        },
+        {
+          "title": "Kiezen tussen veerboot, bus en chauffeur",
+          "paragraphs": [
+            "De veerboot biedt uitzicht en neemt de stress van de kustweg weg, maar is seizoensgebonden en afhankelijk van de toestand van de zee. Bussen bedienen meer plaatsen en bieden een nuttig alternatief, ook al kan het druk zijn. Een privéchauffeur kost meer, maar maakt vroegtijdig vertrek, afgesproken stops en een flexibelere terugkeer mogelijk.",
+            "De beste keuze hangt af van de dag en niet van een universele regel. Controleer de officiële diensten voordat u vertrekt en zorg voor een werkbaar alternatief."
+          ]
+        }
+      ],
+      "villaBox": "Bij Villa Venere gaat het verblijf door nadat de excursie is afgelopen: een panoramisch terras, privétoegang tot de zee en het centrum van Cetara op loopafstand. Martina kan gasten helpen vervoer en ervaringen met onafhankelijke aanbieders te vergelijken, afhankelijk van beschikbaarheid en hun voorwaarden.",
+      "faqs": [
+        {
+          "q": "Is Cetara handig om de kust van Amalfi te verkennen?",
+          "a": "Ja, vooral voor reizigers die seizoensveerboten willen gebruiken en Ravello en de archeologische vindplaatsen als speciale dagen willen plannen."
+        },
+        {
+          "q": "Heb ik een auto nodig?",
+          "a": "Nee. Het dorp is beloopbaar en veerboten, bussen, treinen en transfers kunnen worden gecombineerd. Een auto kan handig zijn, maar verkeer en parkeren vereisen zorg."
+        },
+        {
+          "q": "Hoeveel nachten moet ik blijven?",
+          "a": "Drie avonden bieden een introductie; vier of vijf maken het gemakkelijker om excursies af te wisselen met een langzamere tijd in Cetara."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Reismar · zeeverbindingen",
+          "url": "https://www.travelmar.it/en/timetable"
+        },
+        {
+          "label": "SITA Sud · Dienstregelingen van Campanië",
+          "url": "https://sitasudtrasporti.it/campania/orari/"
+        },
+        {
+          "label": "Cetara toeristisch portaal",
+          "url": "https://www.cetaraturistica.it/"
+        }
+      ]
+    },
+    {
+      "key": "coastBySea",
+      "category": "Over zee",
+      "metaTitle": "Cetara naar Amalfi en Positano: veerboot of privéboot?",
+      "title": "Cetara naar Amalfi en Positano: veerboot of privéboot?",
+      "description": "Hoe Amalfi en Positano te bezoeken vanuit Cetara: veerboot versus privéboot, een uitgebalanceerde route, de terugreis en een alternatief bij slecht weer.",
+      "intro": "Vanuit de haven van Cetara verandert de kust van perspectief. Een veerboot maakt de reis een deel van de dag; een privéboot biedt meer vrijheid, zwemstops en een route opgebouwd rond uw groep.",
+      "quickAnswer": "Voor een eenvoudige dag in Amalfi is de seizoensveerboot meestal de duidelijkste optie als de zee rustig is. Positano heeft mogelijk een verbinding of een specifieke afvaart nodig, die moet worden gecontroleerd op de daadwerkelijke datum. Een privéboot is geschikt voor groepen, feesten en dagen waarop de cruise zelf de belangrijkste ervaring is.",
+      "image": "/assets/journal/amalfi-positano-by-sea.webp",
+      "alt": "Zeilen langs de kliffen van de Amalfikust tussen Amalfi en Positano",
+      "imageCredit": {
+        "author": "Nan Palmero",
+        "source": "https://commons.wikimedia.org/wiki/File:Ferry_Ride_Between_Amalfi_and_Positano_(42250218604).jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "modified": true
+      },
+      "readTime": 7,
+      "takeaways": [
+        "Controleer de afvaart- en zeecondities de dag ervoor en opnieuw in de ochtend",
+        "Plan uw terugreis niet rond de laatst mogelijke verbinding",
+        "Voor een privéboot: bevestig haven, brandstof, duur en inbegrepen diensten",
+        "Kies één hoofdbezoek aan wal om een aangenaam tempo te behouden"
+      ],
+      "sections": [
+        {
+          "title": "De veerboot: eenvoudig, schilderachtig en seizoensgebonden",
+          "paragraphs": [
+            "Een veerboot vermijdt het kustverkeer en onthult torens, baaien en dorpen als een aaneengesloten landschap. Het werkt vooral goed voor Amalfi en, wanneer de schema's en verbindingen het toelaten, Positano.",
+            "Tijdschema's veranderen tijdens het seizoen en afvaarten kunnen worden gewijzigd vanwege de zee. Boek vooruit tijdens drukke periodes, arriveer op tijd in de haven en ken het busalternatief."
+          ]
+        },
+        {
+          "title": "Een privéboot: vrijheid en tijd op het water",
+          "paragraphs": [
+            "De waarde van een privécharter is niet het verzamelen van meer steden. Het is het ritme kiezen: een afgesproken vertrek, zwemstops, één bezoek aan de wal en de terugkeer richting Cetara. Voor koppels en kleine groepen kan het de beslissende dag van het verblijf worden.",
+            "Vraag vóór bevestiging schriftelijk naar de vertrek- en aankomsthaven, het bootmodel en de capaciteit, de schipper, de brandstof, de duur, drankjes, handdoeken, het annuleringsbeleid en het alternatief als de weersomstandigheden niet geschikt zijn."
+          ]
+        },
+        {
+          "title": "Een evenwichtige dag",
+          "paragraphs": [
+            "Met de veerboot kan een dag Amalfi in de ochtend en Positano later alleen omvatten als er voldoende tijd is voor de daadwerkelijke verbindingen. In het hoogseizoen geeft het vaak meer voldoening om er een te kiezen en deze op de juiste manier te ervaren.",
+            "Per privéboot, afwisselend varen, één of twee zwemstops en een enkele aanlegplaats. De lunch kan aan wal zijn, aan boord indien inbegrepen, of terug in Cetara."
+          ]
+        },
+        {
+          "title": "Het plan B als de zee verandert",
+          "paragraphs": [
+            "De zee bepaalt werkelijk de dag. Als de afvaarten worden opgeschort, blijft Amalfi bereikbaar met de SITA-bus, terwijl een groep misschien de voorkeur geeft aan een overstap. Elk privécharter moet duidelijke annulerings- of herschikkingsvoorwaarden hebben.",
+            "Het vermijden van inflexibele reserveringen direct na uw verwachte aankomst vermindert stress als het transport vertraging oploopt.\nDe haven van"
+          ]
+        }
+      ],
+      "villaBox": "Cetara ligt op loopafstand van de villa. Bij terugkomst hoeft u geen tussenstop meer toe te voegen: het diner kan in het dorp plaatsvinden, of de dag kan gewoon eindigen op het terras boven de zee waar u zojuist bent gereisd.",
+      "faqs": [
+        {
+          "q": "Kan ik zonder auto van Cetara naar Positano reizen?",
+          "a": "Ja, in het seizoen gebruik makend van de zeeverbindingen die beschikbaar zijn op de door u gekozen datum, soms met een wijziging. Bekijk de actuele dienstregeling van de operator."
+        },
+        {
+          "q": "Is een veerboot of privéboot beter?",
+          "a": "Een veerboot kun je het beste zien als transportmiddel; een privéboot is een persoonlijke ervaring, vooral voor groepen of speciale gelegenheden."
+        },
+        {
+          "q": "Wat gebeurt er bij slecht weer?",
+          "a": "Afvaarten en privécruises kunnen wijzigen of geannuleerd worden. Controleer de servicemededelingen en zorg ervoor dat u de voorwaarden van de exploitant begrijpt voordat u boekt."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Reismar · tijdschema",
+          "url": "https://www.travelmar.it/en/timetable"
+        },
+        {
+          "label": "Reismar · volgende vertrekken",
+          "url": "https://www.travelmar.it/en/next-ferries-departures"
+        },
+        {
+          "label": "SITA Sud · kustbussen",
+          "url": "https://sitasudtrasporti.it/campania/orari/"
+        }
+      ]
+    },
+    {
+      "key": "ravello",
+      "category": "Kunst en landschap",
+      "metaTitle": "Cetara naar Ravello: bus of privéchauffeur | Gids",
+      "title": "Cetara naar Ravello: bus, veerboot en privéchauffeur",
+      "description": "Hoe bereik je Ravello vanaf Cetara en bezoek je Villa Rufolo en Villa Cimbrone: bus, veerboot plus bus, privétransfer en praktisch advies.",
+      "intro": "Ravello ligt niet aan het water: het bereiken van de tuinen en uitkijkpunten betekent klimmen boven de kust. Reis vanaf Cetara met de bus, combineer een veerboot met een bus door Amalfi of regel een privéchauffeur.",
+      "quickAnswer": "Als er diensten actief zijn, combineert de mooiste openbare optie een veerboot van Cetara naar Amalfi met een bus naar Ravello. Het allroad-alternatief volgt de relevante SITA-verbindingen. Een privéchauffeur is comfortabeler voor groepen, beperkte mobiliteit, vroege bezoeken of avondretouren.",
+      "image": "/assets/journal/villa-rufolo-ravello.webp",
+      "alt": "Villa Rufolo in Ravello, omgeven door tuinen en het Lattari-gebergte",
+      "imageCredit": {
+        "author": "Istvánka",
+        "source": "https://commons.wikimedia.org/wiki/File:Ravello_Villa_Rufolo.JPG",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "modified": true
+      },
+      "readTime": 7,
+      "takeaways": [
+        "Ravello heeft altijd een weggedeelte nodig",
+        "Veerboot naar Amalfi plus bus is de mooiste openbare optie",
+        "De villa's zijn voorzien van trappen en buitenpaden",
+        "Concerten en avondretouren vereisen een specifieke planning"
+      ],
+      "sections": [
+        {
+          "title": "Drie manieren om Ravello te bereiken",
+          "paragraphs": [
+            "Met het openbaar vervoer volgt u de verbindingen die worden weergegeven in de huidige SITA-schema's of bereikt u Amalfi over zee en gaat u verder met de bus. Dit laatste scheidt de kustreis van de klim en is leuk als de veerboten normaal varen.",
+            "Bij een privétransfer wordt de verbinding verwijderd en is een afgesproken vertrek- en wachttijd mogelijk. Bevestig of de offerte een enkele rit, de retour of de beschikbare uren omvat."
+          ]
+        },
+        {
+          "title": "Villa Rufolo en Villa Cimbrone",
+          "paragraphs": [
+            "Villa Rufolo en de tuinen van Villa Cimbrone zijn aparte ervaringen en verdienen allebei tijd. Combineren met het stadscentrum en lunchen is mogelijk op één dag, maar vereist comfortabele schoenen en een niet te krap reisschema.",
+            "Check openingstijden, tickets en sluitingen op de officiële websites. Routes omvatten oneffen oppervlakken, beklimmingen en trappen; Bezoekers met toegankelijkheidsbehoeften moeten rechtstreeks contact opnemen met de accommodaties."
+          ]
+        },
+        {
+          "title": "Wanneer je moet vertrekken en hoe je de dag kunt opbouwen",
+          "paragraphs": [
+            "Als u in de ochtend vertrekt, kunt u de tuinen vóór de heetste uren bezoeken. Het voorjaar en de herfst zijn bijzonder aangenaam om te wandelen; de zomer vereist water, bescherming tegen de zon en meer ruimte voor verkeer en wachtrijen.",
+            "Als uw dag een concert omvat, improviseer dan nooit de terugkeer. Controleer de laatste praktijkbeurt of spreek vooraf een chauffeur af."
+          ]
+        },
+        {
+          "title": "Een ongehaaste route",
+          "paragraphs": [
+            "Villa Rufolo in de ochtend, wandeling door het centrum, lunch en Villa Cimbrone later vormen een complete dag. Kies voor een langzamer ritme één villa en laat ruimte over voor een kopje koffie of een panoramisch aperitivo.",
+            "Terugkeren naar Cetara sluit het contrast tussen de hoogte van Ravello en de haven: twee landschappen van dezelfde kust zonder van accommodatie te veranderen."
+          ]
+        }
+      ],
+      "villaBox": "Martina kan gasten helpen openbaar vervoer en privétransfers te vergelijken op basis van groepsgrootte, planning en mobiliteitsbehoeften. Elke gevraagde dienst wordt onafhankelijk geleverd en afzonderlijk bevestigd.",
+      "faqs": [
+        {
+          "q": "Kan ik Ravello bereiken met de veerboot?",
+          "a": "Nee. Ravello ligt in de heuvels. Reis per veerboot naar Amalfi en ga verder met de bus of transfer."
+        },
+        {
+          "q": "Kan ik Villa Rufolo en Villa Cimbrone in één dag bezoeken?",
+          "a": "Ja, een volledige dag en voldoende wandeltijd tussen de twee eigendommen is toegestaan."
+        },
+        {
+          "q": "Wacht er een privéchauffeur tijdens het bezoek?",
+          "a": "Het hangt af van de afgesproken dienst. Controleer of wachttijd, parkeren en retour inbegrepen zijn."
+        }
+      ],
+      "sources": [
+        {
+          "label": "SITA Sud · Dienstregelingen van Campanië",
+          "url": "https://sitasudtrasporti.it/campania/orari/"
+        },
+        {
+          "label": "Villa Rufolo · uren en kaartjes",
+          "url": "https://villarufolo.com/orari/"
+        },
+        {
+          "label": "Villa Cimbrone · tuinbezoeken",
+          "url": "https://www.hotelvillacimbrone.com/villa-cimbrone-gardens/"
+        }
+      ]
+    },
+    {
+      "key": "pompeii",
+      "category": "Kunst en landschap",
+      "metaTitle": "Pompeii vanuit Cetara: een dagje uit zonder auto",
+      "title": "Pompeii vanuit Cetara: transport, bezoek en terugkeer",
+      "description": "Hoe Pompeii te bezoeken vanaf Cetara met het openbaar vervoer of een privéchauffeur, met officiële tickets, bezoekduur en seizoensadvies.",
+      "intro": "Pompeii vraagt ​​om een ​​ander soort Amalfikust-dag: een vroege start, comfortabele schoenen en voldoende tijd op de locatie. Terugkerend naar de zee bij Cetara maakt het contrast deel uit van de reis.",
+      "quickAnswer": "Zonder auto gaat de duidelijkste route doorgaans via Salerno en vervolgens met de trein richting Pompeii, waarbij gebruik wordt gemaakt van de verbindingen die op de daadwerkelijke datum beschikbaar zijn. Een privéchauffeur vermindert het aantal wijzigingen en kan praktisch zijn voor gezinnen en groepen. Boek toegang via het officiële kanaal en wacht minimaal enkele uren in de archeologische vindplaats.",
+      "image": "/assets/journal/pompeii-forum-vesuvius.webp",
+      "alt": "Het Forum van Pompeii met oude zuilen en daarachter de Vesuvius",
+      "imageCredit": {
+        "author": "Commonists",
+        "source": "https://commons.wikimedia.org/wiki/File:Forum_(Pompeii)_and_the_Vesuvio.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "modified": true
+      },
+      "readTime": 8,
+      "takeaways": [
+        "Vertrek vroeg en behandel Pompeii als een dagexcursie",
+        "Koop kaartjes via de door het Park aangegeven kanalen",
+        "Vertrouw niet op zeer strakke verbindingen",
+        "Een archeologische gids helpt een immense site te begrijpen"
+      ],
+      "sections": [
+        {
+          "title": "Om er te komen zonder auto",
+          "paragraphs": [
+            "Vanaf Cetara kun je Salerno bereiken met de bus of, indien beschikbaar, over zee. Ga verder met de trein richting Pompeii en controleer welk station en de uiteindelijke verbinding het beste bij de door u gekozen ingang passen.",
+            "Omdat de schema's veranderen, schrijft deze handleiding geen vaste verbinding voor. Bouw de route voor de daadwerkelijke dag en vertrektijd tussen aankomst, trein en ingangsslot."
+          ]
+        },
+        {
+          "title": "Wanneer kies je een privéchauffeur?",
+          "paragraphs": [
+            "Een transfer is handig voor een grotere groep, kinderen, bijzondere mobiliteitsbehoeften of een vertrek vóór het openbaar vervoer. Het kan gaan om een ​​enkele reis, maar ook om het wachten op de terugreis.",
+            "De offerte moet het voertuig, de capaciteit, het ontmoetingspunt, de tolgelden, parkeer-, wacht- en annuleringsbeleid vermelden. Een archeologische gids staat normaal gesproken los van het transport."
+          ]
+        },
+        {
+          "title": "Hoe lang kun je in Pompeii doorbrengen?",
+          "paragraphs": [
+            "Pompeii is een stad, geen enkel monument. Enkele uren maken een coherente eerste route mogelijk; een langere dag biedt meer diepgang, maar kan bij warm weer vermoeiend zijn.",
+            "Een gelicentieerde gids helpt bij het selecteren van huizen, openbare ruimtes en thema's zonder dat u tijdens uw bezoek hoeft te navigeren. Download anders vóór aankomst de officiële kaart."
+          ]
+        },
+        {
+          "title": "Warmte, bereikbaarheid en de reis naar huis",
+          "paragraphs": [
+            "In de zomer 's ochtends naar binnen gaan, water en zonbescherming meenemen en pauzes plannen. Het terrein is oneffen en de toegankelijkheid varieert, dus raadpleeg de speciale informatie van het park.",
+            "Controleer voor de terugkeer de laatste praktische verbinding met Cetara zonder afhankelijk te zijn van één enkele combinatie. Via Salerno moet een duidelijk alternatief blijven."
+          ]
+        }
+      ],
+      "villaBox": "Na steen, stof en geschiedenis biedt Villa Venere een heel ander einde: een douche, de zee en een diner in Cetara. Martina kan helpen bij het vergelijken van onafhankelijke chauffeurs en gidsen, afhankelijk van beschikbaarheid en hun voorwaarden.",
+      "faqs": [
+        {
+          "q": "Kan ik Pompeii bezoeken als dagtrip vanuit Cetara?",
+          "a": "Ja. Het vereist een ochtendvertrek en een goed geplande dag met het openbaar vervoer of een privétransfer."
+        },
+        {
+          "q": "Hoe lang heb ik nodig in Pompeii?",
+          "a": "Reken voor een eerste bezoek minimaal enkele uren binnen, naast transfers en pauzes."
+        },
+        {
+          "q": "Is er een gids aanwezig op het toegangsbewijs?",
+          "a": "Toegang, rondleiding en vervoer zijn normaal gesproken gescheiden. Controleer zorgvuldig wat elke aanbieding inhoudt."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Archeologisch park van Pompeii · uren en tickets",
+          "url": "https://pompeiisites.org/en/visiting-info/timetables-and-tickets/"
+        },
+        {
+          "label": "Trenitalia · regionale diensten",
+          "url": "https://www.trenitalia.com/en/connections/regionale-trains.html"
+        },
+        {
+          "label": "Pompei-link",
+          "url": "https://www.trenitalia.com/it/regionale/collegamenti-regionale/pompei-link.html"
+        }
+      ]
+    },
+    {
+      "key": "cetaraFood",
+      "category": "Wonen Cetara",
+      "metaTitle": "Cetara ansjoviscolatura en lokale gerechten | Gids",
+      "title": "Authentieke Cetara: ansjoviscolatura, de zee en lokale gerechten",
+      "description": "Een gids voor de eettradities van Cetara: Colatura di Alici DOP, vissen, levensmiddelenwinkels, restaurants en een langzame route door het dorp.",
+      "intro": "In Cetara is de zee niet alleen een uitzicht. Het is werken, conserveren en koken. Colatura di Alici DOP drukt deze identiteit duidelijker uit dan welke slogan dan ook en nodigt reizigers uit om het dorp te begrijpen door middel van smaak, mensen en seizoen.",
+      "quickAnswer": "Een op eten gerichte dag in Cetara kan beginnen bij de haven, doorgaan door het centrum en de plaatselijke winkels, en eindigen met een lunch rond de vangst en colatura. Ga er nooit van uit dat er proeverijen, workshops of bezoeken beschikbaar zijn: neem contact op met producenten en restaurants om openingen en afspraken te bevestigen.",
+      "image": "/assets/journal/cetara-colatura.webp",
+      "alt": "Spaghetti met Cetara ansjoviscolatura, knoflook en chili",
+      "imageCredit": {
+        "author": "Elga Cappellari",
+        "source": "https://commons.wikimedia.org/wiki/File:Spaghetti_di_Gragnano_e_colatura_di_alici.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "modified": true
+      },
+      "readTime": 6,
+      "takeaways": [
+        "Colatura di Alici di Cetara heeft een beschermde DOP-status en een gedefinieerde productiemethode",
+        "Proef het in een eenvoudig gerecht voordat je het als een generieke smaakmaker behandelt",
+        "Vraag welke vis er die dag verkrijgbaar is",
+        "Producentenbezoeken en proeverijen behoeven bevestiging"
+      ],
+      "sections": [
+        {
+          "title": "Colatura: tijd, zout en de herinnering aan de zee",
+          "paragraphs": [
+            "Colatura is afkomstig van ansjovis die is gerijpt onder zout en waarvan de kennis in handen is van de families en producenten van Cetara. DOP-status beschermt herkomst en werkwijze; begin met de informatie van het consortium en het etiket om te begrijpen wat u proeft.",
+            "Er wordt slechts een kleine hoeveelheid gebruikt bij het koken. Als je het proeft met pasta, groenten of brood, wordt de hartige diepte ervan onthuld zonder de andere ingrediënten te maskeren."
+          ]
+        },
+        {
+          "title": "Voedingswinkels, conserven en producenten",
+          "paragraphs": [
+            "Bedrijven in en rond het dorp werken met ansjovis, tonijn en conserven. Een gids kan dit vertellen als een levende ambachtstraditie zonder elke vermelding in een steunbetuiging te veranderen.",
+            "Openingstijden variëren en niet elke winkel biedt bezoek aan. Bevestig direct voordat u een workshop of proeverij plant."
+          ]
+        },
+        {
+          "title": "Kiezen waar te eten",
+          "paragraphs": [
+            "In plaats van één ranglijst te volgen, kies je voor de ervaring: een informele lunch, traditionele keuken, een vismenu of een uitgebreider diner. Vragen naar de vangst van de dag en de gerechten met colatura vormen vaak het begin van het nuttigste gesprek.",
+            "Reserveren in het weekend en tijdens het hoogseizoen. Geef allergieën en dieetwensen rechtstreeks aan het restaurant door."
+          ]
+        },
+        {
+          "title": "Een rustige dag in Cetara",
+          "paragraphs": [
+            "Een ochtend aan de haven, een wandeling door het centrum, een tussenstop bij een levensmiddelenwinkel en een ongehaaste lunch vullen een halve dag, waarna de middag naar de zee of het terras gaat.",
+            "Het is een van de belangrijkste dagen van het verblijf omdat het bewijst dat een verblijf in Cetara geen excursie mist. Het is wonen op de plek die jij als thuis hebt gekozen."
+          ]
+        }
+      ],
+      "villaBox": "Een selectie van lokale producten kan een aperitivo of een eenvoudig diner op het terras worden. Voor een meer gestructureerde eetervaring kan Martina onafhankelijke chef-koks en leveranciers raadplegen die beschikbaar zijn tijdens het verblijf.",
+      "faqs": [
+        {
+          "q": "Wat is Colatura di Alici di Cetara?",
+          "a": "Het is een smaakmaker die wordt verkregen door ansjovis onder zout te laten rijpen, beschermd door de DOP-status en nauw verbonden met de productietraditie van Cetara."
+        },
+        {
+          "q": "Kan ik lokale producenten bezoeken?",
+          "a": "Sommige bieden winkels, proeverijen of ervaringen aan, maar de beschikbaarheid en afspraken moeten rechtstreeks worden bevestigd."
+        },
+        {
+          "q": "Moet ik restaurants reserveren?",
+          "a": "Aan te raden in het weekend, tijdens het hoogseizoen en voor grotere groepen."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Alicitatie van Cetara DOP",
+          "url": "https://www.colaturadialici.it/"
+        },
+        {
+          "label": "Cetara Turismo · tradities",
+          "url": "https://www.cetaraturistica.it/cetara/tradizioni"
+        },
+        {
+          "label": "Michelingids · Cetara restaurants",
+          "url": "https://guide.michelin.com/en/campania/cetara/restaurants"
+        }
+      ]
+    },
+    {
+      "key": "threeDays",
+      "category": "Langzame routes",
+      "metaTitle": "Drie dagen aan de kust van Amalfi, gevestigd in Cetara",
+      "title": "Drie dagen aan de kust van Amalfi met Cetara als uitvalsbasis",
+      "description": "Een langzame driedaagse route vanuit Cetara: dorp en zee, Amalfi of Positano met de veerboot, Ravello of Pompeii, en tijd om te genieten van Villa Venere.",
+      "intro": "Drie dagen zijn niet genoeg om alles te zien, maar wel genoeg om een ​​samenhangende reis samen te stellen: begrijp Cetara, kies een dag op het water en wijd de laatste dag aan een ander landschap of een andere geschiedenis.",
+      "quickAnswer": "Het voorgestelde ritme is: dag één in Cetara en in Villa Venere; dag twee in Amalfi of Positano over zee; dag drie in Ravello of Pompeii, niet allebei. Actuele schema's, seizoen en weer bepalen de volgorde. Door een halve dag open te houden, wordt voorkomen dat het verblijf een aaneenschakeling van transfers wordt.",
+      "image": "/assets/journal/cetara-three-days.webp",
+      "alt": "Cetara haven, strand en historisch centrum gezien vanaf zee",
+      "imageCredit": {
+        "author": "Giovanni Mattiello",
+        "source": "https://commons.wikimedia.org/wiki/File:Cetara_-_Costa_d%27Amalfi.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "modified": true
+      },
+      "readTime": 7,
+      "takeaways": [
+        "Dag 1: Cetara, dorp, eten en zee",
+        "Dag 2: één hoofdbestemming over zee",
+        "Dag 3: Ravello of Pompeii",
+        "Houd een alternatief voor weers- en transportveranderingen"
+      ],
+      "sections": [
+        {
+          "title": "Dag 1 · Aankomst en live Cetara",
+          "paragraphs": [
+            "Houd het eerste daglicht na het inchecken. Een wandeling naar de haven geeft u de weg; een stop bij een levensmiddelenwinkel introduceert colatura; het diner laat je het dorpsritme voelen.",
+            "Als je vroeg aankomt, laat dan de bagage achter zoals afgesproken en start in het centrum. Als je laat arriveert, is het terras en het diner in Cetara al een compleet plan."
+          ]
+        },
+        {
+          "title": "Dag 2 · Amalfi of Positano over zee",
+          "paragraphs": [
+            "Nadat je de dienstregeling hebt gecontroleerd, vertrek je vanuit de haven naar Amalfi of Positano. Als u er één kiest, heeft u tijd om te bezoeken, te lunchen en te wandelen zonder dat u zich naar de volgende verbinding hoeft te haasten.",
+            "Om beide te zien, bevestigt u de reis van de werkelijke dag en keert u terug. Een privéboot geeft meer vrijheid, maar het varen moet centraal blijven en niet dienen als taxi voor het verzamelen van haltes."
+          ]
+        },
+        {
+          "title": "Dag 3 · Ravello of Pompeii",
+          "paragraphs": [
+            "Ravello maakt de kustreis compleet met tuinen, muziek en uitzicht van bovenaf. Pompeii verandert de schaal volledig en brengt de reis naar de oude geschiedenis. In slechts drie dagen zorgt het opnemen van beide voor een te dichte route.",
+            "Het weer kan de keuze bepalen: Ravello op een heldere, gematigde dag; Pompeii met een vroeg vertrek en een georganiseerde toegangstijd."
+          ]
+        },
+        {
+          "title": "Het reisschema aanpassen",
+          "paragraphs": [
+            "Bij jonge kinderen of tijdens het heetste deel van de zomer wordt het afwisselen van uitstapjes en rust nog belangrijker. Als de zee de veerboten tegenhoudt, breng dan meer tijd door in Cetara, gebruik de bus naar Amalfi of verplaats de culturele dag naar voren.",
+            "Met vier of vijf nachten kun je Ravello en Pompeii scheiden en een echt vrije dag in de villa toevoegen."
+          ]
+        }
+      ],
+      "villaBox": "Villa Venere is het vaste punt van de reisroute: er is niet elke dag opnieuw inpakken en elke excursie eindigt in dezelfde privéruimte boven de zee. Martina kan u helpen praktische opties en beschikbaarheid voor de echte data te vergelijken.",
+      "faqs": [
+        {
+          "q": "Zijn drie dagen genoeg voor de kust van Amalfi?",
+          "a": "Ze zijn voldoende om Cetara te kennen en twee zinvolle excursies te kiezen, maar niet om in een ontspannen tempo elke kustplaats en archeologische vindplaats te bezoeken."
+        },
+        {
+          "q": "Moet ik Ravello of Pompeii kiezen?",
+          "a": "Ravello voltooit een landschapsgerichte kustreis; Pompeii voegt een langere, veeleisendere historische dag toe."
+        },
+        {
+          "q": "Wat kan ik doen als de veerboten niet varen?",
+          "a": "Gebruik de bus, verander de volgorde van je dagen of breng meer tijd door in Cetara en bij de villa."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Reismar · tijdschema",
+          "url": "https://www.travelmar.it/en/timetable"
+        },
+        {
+          "label": "SITA Sud · Dienstregelingen van Campanië",
+          "url": "https://sitasudtrasporti.it/campania/orari/"
+        },
+        {
+          "label": "Archeologisch park van Pompeii",
+          "url": "https://pompeiisites.org/en/"
+        }
+      ]
+    },
+    {
+      "key": "herculaneumVesuvius",
+      "category": "Kunst en landschap",
+      "metaTitle": "Herculaneum en Vesuvius van Cetara | Reisplan",
+      "title": "Herculaneum en de Vesuvius vanaf Cetara",
+      "description": "Hoe Herculaneum en de Vesuvius bezoeken vanuit Cetara: treinen, shuttles, transfers, officiële tickets, veiligheid en een weeralternatief.",
+      "intro": "Herculaneum bewaart intieme ruimtes en opmerkelijke details; De Vesuvius onthult van bovenaf het landschap dat zijn geschiedenis heeft bepaald. Combineren kan, maar vergt energie, voorbehoud en een echt alternatief voor de vulkaan.",
+      "quickAnswer": "Met het openbaar vervoer loopt de route doorgaans door Salerno en Napels voordat deze verder gaat naar Herculaneum; De Vesuvius heeft dan speciaal vervoer en een gereserveerde toegang nodig. Een privétransfer of rondleiding vereenvoudigt de logistiek. Als wind-, regen- of parkregels de toegang tot de krater verhinderen, zou Herculaneum op zichzelf een complete en bevredigende dag moeten blijven.",
+      "image": "/assets/journal/herculaneum-vesuvius.webp",
+      "alt": "De archeologische ruïnes van Herculaneum met daarachter de Vesuvius",
+      "imageCredit": {
+        "author": "Sumit Surai",
+        "source": "https://commons.wikimedia.org/wiki/File:Herculaneum_-_The_Ruins,_The_Present_Town_And_Mount_Vesuvius.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "modified": true
+      },
+      "readTime": 8,
+      "takeaways": [
+        "Reserveer de archeologische vindplaats en de toegang tot de krater afzonderlijk",
+        "Controleer de weer- en parkberichten voordat u vertrekt",
+        "Draag geschikte schoenen voor zowel wandelpaden als archeologisch terrein",
+        "Bereid een alternatief voor waarin Herculaneum centraal staat"
+      ],
+      "sections": [
+        {
+          "title": "Waarom kiezen voor Herculaneum",
+          "paragraphs": [
+            "Herculaneum is compacter dan Pompeii en bevat gebouwen, decoratie en materialen die een intiem beeld geven van het oude leven. Het is geen minder Pompeii, maar een aparte ervaring.",
+            "De schaal is geschikt voor reizigers die de voorkeur geven aan een geconcentreerd bezoek, hoewel oneffen terrein en zomerhitte nog voorbereiding behoeven."
+          ]
+        },
+        {
+          "title": "Herculaneum bereiken vanaf Cetara",
+          "paragraphs": [
+            "Met het openbaar vervoer: bereik Salerno, ga verder richting Napels en gebruik de lokale spoorlijn naar Ercolano Scavi. Bouw de route opnieuw op volgens de actuele dienstregeling van de dag en controleer de servicemeldingen.",
+            "Voor groepen of dagen waarbij de Vesuvius is inbegrepen, kan een privétransfer de onzekerheid verminderen. Bevestig of de offerte het klimmen, wachten en terugbrengen omvat."
+          ]
+        },
+        {
+          "title": "Toegang en veiligheid van de Vesuvius",
+          "paragraphs": [
+            "De toegang tot de Gran Cono is gereguleerd, vereist een ticket voor een bepaald tijdstip en kan worden opgeschort vanwege weers- of veiligheidsbeslissingen. Aankoop via de verkoper geïdentificeerd door het Nationaal Park.",
+            "Dit is een route: draag geschikt schoeisel en neem water en kleding mee die geschikt is voor zon, wind en temperatuurschommelingen. Lees de huidige officiële mededelingen voordat u vertrekt."
+          ]
+        },
+        {
+          "title": "Het plannen van de dag en het alternatief ervan",
+          "paragraphs": [
+            "Een verstandige combinatie bezoekt 's ochtends Herculaneum en plant de Vesuvius in voor een compatibele inreis- en transferperiode. Maak de timing niet te krap: de toegang tot de krater bevindt zich niet naast de archeologische vindplaats.",
+            "Als de Gran Cono sluit, blijf dan langer in Herculaneum, lunch zonder te haasten en keer terug naar Cetara. Een goed alternatief voorkomt dat het weer de hele dag een teleurstelling wordt."
+          ]
+        }
+      ],
+      "villaBox": "De geschiedenis en de Middellandse Zee kunnen één verblijf delen: een dag in het Vesuviaanse gebied en de avond aan zee in Cetara. Martina kan helpen bij het controleren van onafhankelijke transfers en gidsen zonder de vereiste controles op officiële websites te vervangen.",
+      "faqs": [
+        {
+          "q": "Kan ik Herculaneum en de Vesuvius in één dag bezoeken?",
+          "a": "Ja, met een vroege start en zorgvuldig geregelde verbindingen. Reserveer toegang en laat tijd vrij voor transfers."
+        },
+        {
+          "q": "Is de Vesuvius altijd open?",
+          "a": "Nee. De toegang kan veranderen of worden opgeschort vanwege het weer en de veiligheid. Controleer de mededelingen over het Nationaal Park voordat u vertrekt."
+        },
+        {
+          "q": "Is Pompeii of Herculaneum beter?",
+          "a": "Pompeii biedt de schaal van een enorme stad; Herculaneum is compacter en behoudt verschillende details. De keuze hangt af van jouw interesses, tijd en energie."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Archeologisch park van Herculaneum",
+          "url": "https://ercolano.cultura.gov.it/"
+        },
+        {
+          "label": "Vesuvius Nationaal Park · Gran Cono",
+          "url": "https://www.parconazionaledelvesuvio.it/visita-il-parco/i-sentieri-del-vesuvio/il-gran-cono/"
+        },
+        {
+          "label": "EAV · dienstregelingen",
+          "url": "https://www.eavsrl.it/orari-linee-ferroviarie/"
+        }
+      ]
+    }
+  ]
+}

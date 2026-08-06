@@ -43,8 +43,11 @@ export function conciergeWidget({
     <p class="vv-assistant-start">${esc(startWith)}</p>
     <div class="vv-assistant-actions">
       <a class="vv-assistant-whatsapp" href="${whatsapp}" target="_blank" rel="noreferrer"><span aria-hidden="true">↗</span><strong>WhatsApp</strong></a>
-      <a href="mailto:info@villavenerecetara.com?subject=${encodeURIComponent(emailSubject)}"><span aria-hidden="true">@</span><strong>Email</strong></a>
-      <a href="tel:+393896840764"><span aria-hidden="true">☎</span><strong>${esc(phoneLabel)}</strong></a>
+      <a class="vv-assistant-secondary" href="mailto:info@villavenerecetara.com?subject=${encodeURIComponent(emailSubject)}"><span aria-hidden="true">@</span><strong>Email</strong></a>
+      <a class="vv-assistant-secondary" href="tel:+393896840764"><span aria-hidden="true">☎</span><strong>${esc(phoneLabel)}</strong></a>
+      <a class="vv-assistant-social" href="https://m.me/102737532080459" target="_blank" rel="noreferrer"><span aria-hidden="true">f</span><strong>Facebook</strong></a>
+      <a class="vv-assistant-social" href="https://t.me/VillaVenereAmalfiCoast" target="_blank" rel="noreferrer"><span aria-hidden="true">➤</span><strong>Telegram</strong></a>
+      <a class="vv-assistant-social" href="https://ig.me/m/villavenerecetara" target="_blank" rel="noreferrer"><span aria-hidden="true">◎</span><strong>Instagram</strong></a>
     </div>
   </section>
 </div>`;

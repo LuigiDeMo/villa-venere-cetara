@@ -2,6 +2,7 @@ import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { editorialPath } from './editorial-routes.mjs';
+import { travelGuideHubPath } from './travel-guide-routes.mjs';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const languages = ['en', 'it', 'fr', 'es', 'de', 'pt', 'ru', 'zh', 'ja', 'ko', 'ar', 'nl', 'pl'];
@@ -124,7 +125,32 @@ function structuredData(language, canonical, meta) {
   };
 }
 
-function localize(template, language, dictionary) {
+function addJournalLinks(html, language, journalDictionary) {
+  const path = travelGuideHubPath(language);
+  const ui = journalDictionary.site;
+  if (html.includes('data-journal-nav')) {
+    html = html.replace(/<a[^>]*data-journal-nav[^>]*>[\s\S]*?<\/a>/, `<a href="${path}" data-journal-nav>${escapeHtml(ui.guides)}</a>`);
+  } else {
+    html = html.replace('<div class="language-menu">', `<a href="${path}" data-journal-nav>${escapeHtml(ui.guides)}</a><div class="language-menu">`);
+  }
+  const guideGrid = html.match(/<nav class="guide-grid"[^>]*>[\s\S]*?<\/nav>/)?.[0];
+  const guideCard = `<a class="guide-journal-card" href="${path}" data-journal-link><span>05</span><strong>${escapeHtml(ui.name)}</strong><small>${escapeHtml(ui.description)}</small></a>`;
+  if (guideGrid?.includes('data-journal-link')) {
+    html = html.replace(/<a class="guide-journal-card"[^>]*>[\s\S]*?<\/a>/, guideCard);
+  } else if (guideGrid) {
+    html = html.replace(/(<nav class="guide-grid"[^>]*>[\s\S]*?)(\s*<\/nav>)/, `$1\n            ${guideCard}$2`);
+  }
+  const footerPattern = /(<nav class="footer-nav"[^>]*>[\s\S]*?)(<\/nav>)/;
+  const footerNav = html.match(/<nav class="footer-nav"[^>]*>[\s\S]*?<\/nav>/)?.[0];
+  if (footerNav?.includes('data-journal-link')) {
+    html = html.replace(/(<nav class="footer-nav"[^>]*>[\s\S]*?)<a[^>]*data-journal-link[^>]*>[\s\S]*?<\/a>/, `$1<a href="${path}" data-journal-link>${escapeHtml(ui.guides)}</a>`);
+  } else {
+    html = html.replace(footerPattern, `$1<a href="${path}" data-journal-link>${escapeHtml(ui.guides)}</a>$2`);
+  }
+  return html;
+}
+
+function localize(template, language, dictionary, journalDictionary) {
   const meta = seo[language];
   const canonical = `https://villavenerecetara.it/${language}/`;
   let html = template
@@ -170,19 +196,21 @@ function localize(template, language, dictionary) {
     const translated = valueAt(dictionary, key);
     return typeof translated === 'string' ? `${before}data-i18n-alt="${key}"${after}`.replace(/alt="[^"]*"/, `alt="${escapeHtml(translated)}"`) : match;
   });
-  return html;
+  return addJournalLinks(html, language, journalDictionary);
 }
 
 const template = await readFile(join(root, 'index.html'), 'utf8');
 for (const language of languages) {
   const dictionary = JSON.parse(await readFile(join(root, 'locales', `${language}.json`), 'utf8'));
+  const journalDictionary = JSON.parse(await readFile(join(root, 'locales', 'journal', `${language}.json`), 'utf8'));
   const outputDirectory = join(root, language);
   await mkdir(outputDirectory, { recursive: true });
-  await writeFile(join(outputDirectory, 'index.html'), localize(template, language, dictionary), 'utf8');
+  await writeFile(join(outputDirectory, 'index.html'), localize(template, language, dictionary, journalDictionary), 'utf8');
 }
 
 const rootMeta = seo.en;
-const rootHtml = template.replace(/<script id="structured-data" type="application\/ld\+json">[\s\S]*?<\/script>/, `<script id="structured-data" type="application/ld+json">\n  ${JSON.stringify(structuredData('en', 'https://villavenerecetara.it/', rootMeta))}\n  </script>`);
+const englishJournal = JSON.parse(await readFile(join(root, 'locales', 'journal', 'en.json'), 'utf8'));
+const rootHtml = addJournalLinks(template.replace(/<script id="structured-data" type="application\/ld\+json">[\s\S]*?<\/script>/, `<script id="structured-data" type="application/ld+json">\n  ${JSON.stringify(structuredData('en', 'https://villavenerecetara.it/', rootMeta))}\n  </script>`), 'en', englishJournal);
 await writeFile(join(root, 'index.html'), rootHtml, 'utf8');
 
 console.log(`Generated ${languages.length} localized SEO pages.`);

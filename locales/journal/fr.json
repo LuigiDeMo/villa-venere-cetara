@@ -1,0 +1,649 @@
+{
+  "site": {
+    "name": "Guides de Villa Venere",
+    "eyebrow": "Live Cetara · Explorez la côte",
+    "title": "Vivez à Cetara, rejoignez la côte amalfitaine",
+    "description": "Guides locaux et itinéraires réfléchis pour séjourner à Cetara et explorer Amalfi, Positano, Ravello, Pompéi, Herculanum et le Vésuve à un rythme plus authentique.",
+    "intro": "Pas une liste de lieux à collectionner, mais une façon plus calme d'habiter la côte amalfitaine. Villa Venere est votre point de départ en bord de mer ; Cetara est le village où vous retournez ; les destinations emblématiques deviennent des jours choisis avec soin.",
+    "manifesto": "Le privilège, c'est de ne pas tout voir. C'est avoir le temps de choisir.",
+    "categories": [
+      "Vivre Cetara",
+      "Par mer",
+      "Art et paysage",
+      "Itinéraires lents"
+    ],
+    "latest": "Guides pour planifier votre séjour",
+    "home": "Villa Venere",
+    "villa": "La villa",
+    "experiences": "Expériences",
+    "guides": "Guides",
+    "book": "Vérifier la disponibilité",
+    "read": "Lire le guide",
+    "minutes": "min de lecture",
+    "photo": "Photo",
+    "adaptedPhoto": "Photo adaptée",
+    "languageMenu": "Langues",
+    "updated": "Dernière vérification",
+    "contents": "Dans ce guide",
+    "answer": "La réponse courte",
+    "fromVilla": "De Villa Venere",
+    "faq": "Questions fréquemment posées",
+    "sources": "Sources à vérifier avant de voyager",
+    "related": "Continuer l'exploration",
+    "editorialNote": "Les horaires, les transports, les tarifs et les conditions de mer peuvent changer. Ces guides séparent les conseils éditoriaux des services organisés sur demande et orientent toujours les lecteurs vers les sources officielles pour le contrôle final.",
+    "author": "By Villa Venere, with local guidance from Martina",
+    "languageSwitch": "Leggi en italien",
+    "ctaTitle": "La côte amalfitaine, avec le temps de la vivre",
+    "ctaText": "Séjournez au bord de la mer à Cetara, partez pour les excursions d'une journée de votre choix et revenez chaque soir sur la terrasse de Villa Venere.",
+    "ctaButton": "Afficher la disponibilité",
+    "assistant": {
+      "bubble": "Vous planifiez votre itinéraire ? Message Martina : elle peut transformer ces guides en un séjour sur mesure pour vous.",
+      "panelLabel": "Demandez conseil à Martina",
+      "closeLabel": "Fermer la fenêtre de contact",
+      "hostName": "Martina · Votre hôte à Villa Venere",
+      "replyTime": "Répond personnellement à vos messages",
+      "greeting": "Salut ! Je m'appelle Martina 👋",
+      "help": "Des questions sur les ferries, les transferts ou comment combiner vos journées ? Envoyez-moi un message et je vous aiderai à planifier votre séjour.",
+      "startWith": "Contactez Martina via :",
+      "phoneLabel": "Téléphone",
+      "launcher": "Message Martina",
+      "whatsappMessage": "Bonjour Martina, je lis les guides de Villa Venere et j'aimerais avoir des conseils pour planifier mon séjour."
+    }
+  },
+  "guides": [
+    {
+      "key": "slowBase",
+      "category": "Vivre Cetara",
+      "metaTitle": "Où loger à Cetara : une base lente sur la côte amalfitaine",
+      "title": "Séjourner à Cetara : une base plus lente pour explorer la côte amalfitaine",
+      "description": "Pourquoi choisir Cetara comme base sur la côte amalfitaine : la mer, la vie locale, les ferries saisonniers et les excursions d'une journée à Amalfi, Positano, Ravello et Pompéi.",
+      "intro": "Choisir Cetara ne signifie pas abandonner Amalfi, Positano ou Ravello. Cela signifie les visiter de jour, puis retourner dans un village de pêcheurs habité, son port et sa nourriture, ainsi qu'une maison privée au-dessus de la mer.",
+      "quickAnswer": "Cetara est particulièrement adapté aux voyageurs qui souhaitent un séjour moins frénétique, aiment voyager par mer et préfèrent séparer les excursions d'une journée des véritables vacances. Des ferries saisonniers relient le village à d'autres villes côtières, tandis que les bus constituent l'alternative terrestre. Un chauffeur privé peut simplifier des journées plus complexes comme Ravello ou Pompéi.",
+      "image": "/assets/journal/cetara-slow-base.webp",
+      "alt": "Le village de pêcheurs de Cetara vu de la mer avec sa Tour Vice-royale",
+      "imageCredit": {
+        "author": "Bernard Gagnon",
+        "source": "https://commons.wikimedia.org/wiki/File:Cetara_(Italy).jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "modified": true
+      },
+      "readTime": 8,
+      "takeaways": [
+        "Cetara est un lieu de séjour, pas seulement une halte",
+        "Amalfi et Positano peuvent devenir des excursions d'une journée en mer",
+        "Ravello et les sites vésuviennes nécessitent une planification différente",
+        "Alterner des journées complètes avec des journées lentes rend le voyage plus agréable"
+      ],
+      "sections": [
+        {
+          "title": "Pourquoi Cetara fonctionne comme base",
+          "paragraphs": [
+            "Cetara conserve l'échelle d'un village de pêcheurs : le port, les plages, les restaurants et les commerces d'alimentation appartiennent à la vie quotidienne et sont accessibles à pied. Vous pouvez commencer la matinée sans monter immédiatement dans une voiture et dîner au village après une excursion.",
+            "L'avantage n'est pas d'être au centre géométrique de chaque attraction. C'est avoir un endroit qui vaut la peine d'être hébergé. Une matinée imprévue, une baignade ou un déjeuner construit autour des anchois locaux ne sont pas des lacunes dans l'itinéraire ; ils font partie de l'expérience de la côte."
+          ]
+        },
+        {
+          "title": "Des lieux emblématiques en guise d'excursions à la journée",
+          "paragraphs": [
+            "Amalfi et Positano conviennent aux journées en mer chaque fois que les services et les conditions saisonnières le permettent. Ravello nécessite toujours un tronçon routier, soit en bus à travers la région amalfitaine, soit avec un chauffeur privé. Pompéi, Herculanum et le Vésuve méritent de commencer tôt et de consacrer une journée dédiée.",
+            "La règle la plus utile est de ne pas compresser trop de destinations en une seule journée. Une visite principale, un déjeuner sans hâte et un retour avec répit créent généralement de meilleurs souvenirs que quatre arrêts précipités."
+          ],
+          "bullets": [
+            "Par mer : Amalfi, Positano et croisières privées",
+            "Par la route : Ravello, Villa Rufolo et Villa Cimbrone",
+            "Histoire et paysage : Pompéi, Herculanum et Vésuve",
+            "Une journée locale : Cetara, nourriture, terrasse et mer"
+          ]
+        },
+        {
+          "title": "Un rythme réaliste pour votre séjour",
+          "paragraphs": [
+            "Pour trois nuits, Cetara plus une journée côtière classique est raisonnable. Quatre ou cinq nuits laissent également du temps pour Ravello ou Pompéi. Pour les séjours plus longs, alternez chaque excursion substantielle avec une journée plus légère entre villa, village et mer.",
+            "Les familles, les voyageurs plus âgés et les grands groupes devraient considérer les étapes, le chauffage, les bagages et le temps d'attente comme faisant partie de l'itinéraire plutôt que des détails à résoudre à la dernière minute."
+          ]
+        },
+        {
+          "title": "Choisir entre ferry, bus et chauffeur",
+          "paragraphs": [
+            "Le ferry offre des vues et supprime le stress de la route côtière, mais il est saisonnier et dépend des conditions de la mer. Les bus desservent davantage de destinations et constituent une alternative utile, même s'ils peuvent être très fréquentés. Un chauffeur privé coûte plus cher mais permet des départs anticipés, des arrêts convenus et un retour plus flexible.",
+            "Le meilleur choix dépend du jour plutôt que d'une règle universelle. Vérifiez les services officiels avant de partir et conservez une alternative réalisable."
+          ]
+        }
+      ],
+      "villaBox": "Chez Villa Venere, le séjour se poursuit après la fin de l'excursion : une terrasse panoramique, un accès privé à la mer et le centre de Cetara accessibles à pied. Martina peut aider les clients à comparer les transports et les expériences avec des prestataires indépendants, sous réserve de disponibilité et de leurs conditions.",
+      "faqs": [
+        {
+          "q": "Est-ce que Cetara est pratique pour explorer la côte amalfitaine ?",
+          "a": "Oui, en particulier pour les voyageurs qui souhaitent utiliser des ferries saisonniers et planifier Ravello et les sites archéologiques comme des journées dédiées."
+        },
+        {
+          "q": "Ai-je besoin d'une voiture ?",
+          "a": "Non. Le village est accessible à pied et les ferries, bus, trains et transferts peuvent être combinés. Une voiture peut être utile, mais la circulation et le stationnement nécessitent de la prudence."
+        },
+        {
+          "q": "Combien de nuits dois-je rester ?",
+          "a": "Trois nuits proposent une introduction ; quatre ou cinq facilitent l'alternance des excursions avec un temps plus lent dans Cetara."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Travelmar · liaisons maritimes",
+          "url": "https://www.travelmar.it/en/timetable"
+        },
+        {
+          "label": "Horaires SITA Sud · Campanie",
+          "url": "https://sitasudtrasporti.it/campania/orari/"
+        },
+        {
+          "label": "Cetara portail touristique",
+          "url": "https://www.cetaraturistica.it/"
+        }
+      ]
+    },
+    {
+      "key": "coastBySea",
+      "category": "Par mer",
+      "metaTitle": "Cetara vers Amalfi et Positano : ferry ou bateau privé ?",
+      "title": "Cetara vers Amalfi et Positano : ferry ou bateau privé ?",
+      "description": "Comment visiter Amalfi et Positano depuis Cetara : ferry ou bateau privé, itinéraire équilibré, trajet retour et solution de repli en cas de mauvais temps.",
+      "intro": "Depuis le port de Cetara, la côte change de perspective. Un ferry fait le voyage une partie de la journée ; un bateau privé offre plus de liberté, des arrêts baignade et un itinéraire construit autour de votre groupe.",
+      "quickAnswer": "Pour une journée simple à Amalfi, le ferry saisonnier est généralement l'option la plus claire lorsque la mer est calme. Positano peut nécessiter une correspondance ou une traversée spécifique, dont il faudra vérifier la date réelle. Un bateau privé convient aux groupes, aux célébrations et aux jours où la croisière elle-même constitue l'expérience principale.",
+      "image": "/assets/journal/amalfi-positano-by-sea.webp",
+      "alt": "Navigation le long des falaises de la côte amalfitaine entre Amalfi et Positano",
+      "imageCredit": {
+        "author": "Nan Palmero",
+        "source": "https://commons.wikimedia.org/wiki/File:Ferry_Ride_Between_Amalfi_and_Positano_(42250218604).jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "modified": true
+      },
+      "readTime": 7,
+      "takeaways": [
+        "Vérifier les navigations et l'état de la mer la veille et à nouveau le matin",
+        "Ne prévoyez pas votre retour autour de la dernière correspondance possible",
+        "Pour un bateau privé, confirmer le port, le carburant, la durée et les services inclus",
+        "Choisissez une visite principale à terre pour conserver un rythme agréable"
+      ],
+      "sections": [
+        {
+          "title": "Le ferry : simple, pittoresque et saisonnier",
+          "paragraphs": [
+            "Un ferry évite le trafic côtier et dévoile tours, criques et villages comme un paysage continu. Cela fonctionne particulièrement bien pour Amalfi et, lorsque les horaires et les correspondances le permettent, pour Positano.",
+            "Les horaires changent au cours de la saison et les traversées peuvent être modifiées en raison de la mer. Réservez à l'avance pendant les périodes de pointe, arrivez au port avec du temps libre et découvrez l'alternative de bus."
+          ]
+        },
+        {
+          "title": "Un bateau privé : liberté et temps sur l'eau",
+          "paragraphs": [
+            "La valeur d'une charte privée n'est pas de rassembler plus de villes. C'est choisir le rythme : un départ convenu, des arrêts baignades, une visite à terre et le retour vers Cetara. Pour les couples et les petits groupes, cela peut devenir le jour déterminant du séjour.",
+            "Avant de confirmer, renseignez-vous par écrit sur le port de départ et d'arrivée, le modèle et la capacité du bateau, le skipper, le carburant, la durée, les boissons, les serviettes, les conditions d'annulation et l'alternative si les conditions météorologiques ne sont pas adaptées."
+          ]
+        },
+        {
+          "title": "Une journée équilibrée",
+          "paragraphs": [
+            "En ferry, une journée peut inclure Amalfi le matin et Positano plus tard seulement lorsque les liaisons réelles laissent suffisamment de temps. En haute saison, en choisir un et en profiter correctement est souvent plus satisfaisant.",
+            "En bateau privé, navigation alternée, un ou deux arrêts baignade et un seul débarquement. Le déjeuner peut être à terre, à bord lorsqu'il est inclus, ou de retour à Cetara."
+          ]
+        },
+        {
+          "title": "Le plan B quand la mer change",
+          "paragraphs": [
+            "La mer décide véritablement du jour. Si les traversées sont suspendues, Amalfi reste accessible en bus SITA, tandis qu'un groupe peut préférer un transfert. Chaque charter privé doit avoir des conditions d'annulation ou de reprogrammation claires.",
+            "Éviter les réservations rigides immédiatement après votre arrivée prévue réduit le stress lorsque le transport est retardé.\nLe port de"
+          ]
+        }
+      ],
+      "villaBox": "Cetara se trouve à quelques pas de la villa. Au retour, inutile d'ajouter une autre étape : le dîner peut se faire au village, ou la journée peut simplement se terminer sur la terrasse au dessus de la mer que vous venez de parcourir.",
+      "faqs": [
+        {
+          "q": "Puis-je voyager de Cetara à Positano sans voiture ?",
+          "a": "Oui, en saison en utilisant les liaisons maritimes disponibles à la date choisie, parfois avec changement. Vérifiez l'horaire actuel de l'opérateur."
+        },
+        {
+          "q": "Un ferry ou un bateau privé est-il préférable ?",
+          "a": "Un ferry est mieux considéré comme un moyen de transport ; un bateau privé est une expérience personnalisée, notamment pour les groupes ou les occasions spéciales."
+        },
+        {
+          "q": "Que se passe-t-il en cas de mauvais temps ?",
+          "a": "Les traversées et croisières privées peuvent être modifiées ou annulées. Vérifiez les avis de service et comprenez les conditions de l'opérateur avant de réserver."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Travelmar · horaire",
+          "url": "https://www.travelmar.it/en/timetable"
+        },
+        {
+          "label": "Travelmar · prochains départs",
+          "url": "https://www.travelmar.it/en/next-ferries-departures"
+        },
+        {
+          "label": "SITA Sud · bus côtiers",
+          "url": "https://sitasudtrasporti.it/campania/orari/"
+        }
+      ]
+    },
+    {
+      "key": "ravello",
+      "category": "Art et paysage",
+      "metaTitle": "Cetara à Ravello : bus ou chauffeur privé | Guider",
+      "title": "Cetara à Ravello : bus, ferry et chauffeur privé",
+      "description": "Comment rejoindre Ravello depuis Cetara et visiter la Villa Rufolo et la Villa Cimbrone : bus, ferry plus bus, transfert privé et conseils pratiques.",
+      "intro": "Ravello n'est pas sur l'eau : atteindre ses jardins et ses belvédères signifie grimper au-dessus de la côte. Depuis Cetara, voyagez en bus, combinez un ferry avec un bus via Amalfi ou réservez un chauffeur privé.",
+      "quickAnswer": "Lorsque les services fonctionnent, l'option publique la plus pittoresque combine un ferry de Cetara à Amalfi avec un bus pour Ravello. L'alternative tout chemin suit les liaisons SITA correspondantes. Un chauffeur privé est plus confortable pour les groupes, les mobilités réduites, les visites matinales ou les retours en soirée.",
+      "image": "/assets/journal/villa-rufolo-ravello.webp",
+      "alt": "Villa Rufolo à Ravello entourée de jardins et des montagnes Lattari",
+      "imageCredit": {
+        "author": "Istvánka",
+        "source": "https://commons.wikimedia.org/wiki/File:Ravello_Villa_Rufolo.JPG",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "modified": true
+      },
+      "readTime": 7,
+      "takeaways": [
+        "Ravello nécessite toujours un tronçon de route",
+        "Le ferry pour Amalfi et le bus sont l'option publique la plus pittoresque",
+        "Les villas comprennent des marches et des allées extérieures",
+        "Les concerts et les retours en soirée nécessitent une planification dédiée"
+      ],
+      "sections": [
+        {
+          "title": "Trois façons d'arriver à Ravello",
+          "paragraphs": [
+            "En transports en commun, suivez les correspondances indiquées dans les horaires actuels de SITA ou rejoignez Amalfi par la mer et continuez en bus. Ce dernier sépare le trajet côtier de la montée et est agréable lorsque les ferries fonctionnent normalement.",
+            "Un transfert privé supprime la correspondance et permet un départ et un temps d'attente convenus. Confirmez si le devis couvre l'aller simple, le retour ou les heures à disposition."
+          ]
+        },
+        {
+          "title": "Villa Rufolo et Villa Cimbrone",
+          "paragraphs": [
+            "La Villa Rufolo et les jardins de la Villa Cimbrone sont des expériences distinctes et toutes deux méritent du temps. Les combiner avec le centre-ville et le déjeuner est possible en une journée, mais nécessite des chaussures confortables et un itinéraire pas trop serré.",
+            "Vérifiez les horaires d'ouverture, les tickets et les fermetures sur les sites officiels. Les itinéraires comprennent des surfaces inégales, des montées et des marches ; les visiteurs ayant des besoins d'accessibilité doivent contacter directement les propriétés."
+          ]
+        },
+        {
+          "title": "Quand partir et comment construire la journée",
+          "paragraphs": [
+            "Un départ matinal permet de visiter les jardins avant les heures les plus chaudes. Le printemps et l'automne sont particulièrement agréables pour se promener ; l'été nécessite de l'eau, une protection solaire et une plus grande tolérance à la circulation et aux files d'attente.",
+            "Si votre journée comprend un concert, n'improvisez jamais le retour. Consultez le dernier service pratique ou convenez à l'avance d'un chauffeur."
+          ]
+        },
+        {
+          "title": "Un itinéraire sans hâte",
+          "paragraphs": [
+            "Villa Rufolo le matin, promenade dans le centre, déjeuner et Villa Cimbrone plus tard forment une journée complète. Pour un rythme plus lent, choisissez une villa et laissez de la place pour un café ou un apéritif panoramique.",
+            "Le retour à Cetara clôt le contraste entre l'élévation de Ravello et le port : deux paysages de la même côte sans changer d'hébergement."
+          ]
+        }
+      ],
+      "villaBox": "Martina peut aider les clients à comparer les transports publics et les transferts privés en fonction de la taille du groupe, des horaires et des besoins de mobilité. Tout service demandé est fourni de manière indépendante et confirmé séparément.",
+      "faqs": [
+        {
+          "q": "Puis-je rejoindre Ravello en ferry ?",
+          "a": "Non. Ravello est dans les collines. Voyagez en ferry jusqu'à Amalfi et continuez en bus ou en transfert."
+        },
+        {
+          "q": "Puis-je visiter la Villa Rufolo et la Villa Cimbrone en une journée ?",
+          "a": "Oui, permettant une journée complète et un temps de marche suffisant entre les deux propriétés."
+        },
+        {
+          "q": "Un chauffeur privé attendra-t-il lors de la visite ?",
+          "a": "Cela dépend du service convenu. Vérifiez si le temps d'attente, le stationnement et le retour sont inclus."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Horaires SITA Sud · Campanie",
+          "url": "https://sitasudtrasporti.it/campania/orari/"
+        },
+        {
+          "label": "Villa Rufolo · horaires et billets",
+          "url": "https://villarufolo.com/orari/"
+        },
+        {
+          "label": "Villa Cimbrone · visites de jardins",
+          "url": "https://www.hotelvillacimbrone.com/villa-cimbrone-gardens/"
+        }
+      ]
+    },
+    {
+      "key": "pompeii",
+      "category": "Art et paysage",
+      "metaTitle": "Pompéi depuis Cetara : une excursion d'une journée sans voiture",
+      "title": "Pompéi depuis Cetara : transport, visite et retour",
+      "description": "Comment visiter Pompéi depuis Cetara en transports en commun ou chauffeur privé, avec billets officiels, durée de la visite et conseils saisonniers.",
+      "intro": "Pompéi demande un autre type de journée sur la côte amalfitaine : un départ matinal, des chaussures confortables et suffisamment de temps à l'intérieur du site. Le retour à la mer à Cetara fait partie du contraste du voyage.",
+      "quickAnswer": "Sans voiture, l'itinéraire le plus clair passe généralement par Salerne et continue en train vers Pompéi, en utilisant les correspondances disponibles à la date réelle. Un chauffeur privé réduit les changements et peut être pratique pour les familles et les groupes. Réservez l'entrée via la voie officielle et prévoyez au moins plusieurs heures à l'intérieur du site archéologique.",
+      "image": "/assets/journal/pompeii-forum-vesuvius.webp",
+      "alt": "Le Forum de Pompéi avec ses colonnes antiques et le Vésuve au-delà",
+      "imageCredit": {
+        "author": "Commonists",
+        "source": "https://commons.wikimedia.org/wiki/File:Forum_(Pompeii)_and_the_Vesuvio.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "modified": true
+      },
+      "readTime": 8,
+      "takeaways": [
+        "Partez tôt et offrez à Pompéi une excursion d'une journée complète",
+        "Achetez vos billets via les canaux indiqués par le Parc",
+        "Ne comptez pas sur des connexions très serrées",
+        "Un guide archéologique aide à donner du sens à un site immense"
+      ],
+      "sections": [
+        {
+          "title": "S'y rendre sans voiture",
+          "paragraphs": [
+            "Depuis Cetara, rejoignez Salerne en bus ou, si disponible, par voie maritime. Continuez en train en direction de Pompéi, en vérifiant quelle gare et quelle correspondance finale conviennent le mieux à l'entrée choisie.",
+            "Les horaires changeant, ce guide ne prescrit pas de connexion fixe. Construisez l'itinéraire pour la journée réelle et laissez le temps entre l'arrivée, le train et le créneau d'entrée."
+          ]
+        },
+        {
+          "title": "Quand choisir un chauffeur privé",
+          "paragraphs": [
+            "Un transfert est utile pour un groupe plus important, des enfants, des besoins de mobilité particuliers ou un départ avant un transport en commun pratique. Il peut couvrir un aller simple ou inclure l'attente du retour.",
+            "Le devis doit indiquer le véhicule, la capacité, le point de rendez-vous, les péages, le stationnement, les conditions d'attente et d'annulation. Un guide archéologique est normalement séparé du transport."
+          ]
+        },
+        {
+          "title": "Combien de temps passer à Pompéi",
+          "paragraphs": [
+            "Pompéi est une ville, pas un seul monument. Plusieurs heures permettent un premier parcours cohérent ; une journée plus longue offre plus de profondeur mais peut être fatigante par temps chaud.",
+            "Un guide agréé vous aide à sélectionner les maisons, les espaces publics et les thèmes sans passer votre visite à naviguer. Sinon, téléchargez la carte officielle avant votre arrivée."
+          ]
+        },
+        {
+          "title": "Chaleur, accessibilité et retour à la maison",
+          "paragraphs": [
+            "En été, entrez le matin, munissez-vous d'eau et de protection solaire, et prévoyez des pauses. Le terrain est accidenté et l'accessibilité variable, consultez donc les informations dédiées du Parc.",
+            "Pour le retour, vérifier le dernier raccordement pratique à Cetara sans dépendre d'une seule combinaison. La Via Salerno doit rester une alternative évidente."
+          ]
+        }
+      ],
+      "villaBox": "Après la pierre, la poussière et l'histoire, Villa Venere offre une fin complètement différente : une douche, la mer et un dîner à Cetara. Martina peut vous aider à comparer les chauffeurs et guides indépendants, sous réserve de disponibilité et de leurs conditions.",
+      "faqs": [
+        {
+          "q": "Puis-je visiter Pompéi en excursion d'une journée à partir de Cetara ?",
+          "a": "Oui. Cela nécessite un départ matinal et une journée bien planifiée en transports en commun ou en transfert privé."
+        },
+        {
+          "q": "De combien de temps ai-je besoin à Pompéi ?",
+          "a": "Prévoyez au moins plusieurs heures à l'intérieur pour une première visite, en plus des transferts et des pauses."
+        },
+        {
+          "q": "Le billet d'entrée inclut-il un guide ?",
+          "a": "L'entrée, la visite guidée et le transport sont normalement séparés. Vérifiez attentivement ce que comprend chaque offre."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Parc archéologique de Pompéi · horaires et billets",
+          "url": "https://pompeiisites.org/en/visiting-info/timetables-and-tickets/"
+        },
+        {
+          "label": "Trenitalia · services régionaux",
+          "url": "https://www.trenitalia.com/en/connections/regionale-trains.html"
+        },
+        {
+          "label": "Lien Pompéi",
+          "url": "https://www.trenitalia.com/it/regionale/collegamenti-regionale/pompei-link.html"
+        }
+      ]
+    },
+    {
+      "key": "cetaraFood",
+      "category": "Vivre Cetara",
+      "metaTitle": "Cetara colatura d'anchois et cuisine locale | Guider",
+      "title": "Authentique Cetara : colatura d'anchois, mer et cuisine locale",
+      "description": "Un guide des traditions culinaires de Cetara : Colatura di Alici DOP, pêche, épiceries, restaurants et un itinéraire lent à travers le village.",
+      "intro": "Dans Cetara, la mer n'est pas seulement une vue. C'est du travail, de la conservation et de la cuisine. Colatura di Alici DOP exprime cette identité plus clairement que n'importe quel slogan et invite les voyageurs à comprendre le village à travers les saveurs, les gens et les saisons.",
+      "quickAnswer": "Une journée gastronomique à Cetara peut commencer au port, se poursuivre dans le centre et les commerces locaux, et se terminer par un déjeuner construit autour de la pêche et de la colatura. Ne présumez jamais que des dégustations, des ateliers ou des visites sont disponibles : contactez les producteurs et les restaurants pour confirmer les ouvertures et les modalités.",
+      "image": "/assets/journal/cetara-colatura.webp",
+      "alt": "Spaghetti à la colatura d'anchois Cetara, ail et piment",
+      "imageCredit": {
+        "author": "Elga Cappellari",
+        "source": "https://commons.wikimedia.org/wiki/File:Spaghetti_di_Gragnano_e_colatura_di_alici.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "modified": true
+      },
+      "readTime": 6,
+      "takeaways": [
+        "Colatura di Alici di Cetara a un statut DOP protégé et une méthode de production définie",
+        "Dégustez-le dans un plat simple avant de le traiter comme un assaisonnement générique",
+        "Demandez quel poisson est disponible ce jour-là",
+        "Visites de producteurs et dégustations à confirmer"
+      ],
+      "sections": [
+        {
+          "title": "Colatura : le temps, le sel et la mémoire de la mer",
+          "paragraphs": [
+            "La Colatura est issue d'anchois vieillis sous sel et du savoir-faire des familles et des producteurs de Cetara. Le statut DOP protège l'origine et la méthode ; commencez par les informations du consortium et l'étiquette pour comprendre ce que vous dégustez.",
+            "Seule une petite quantité est utilisée en cuisine. Le déguster avec des pâtes, des légumes ou du pain révèle sa profondeur savoureuse sans masquer les autres ingrédients."
+          ]
+        },
+        {
+          "title": "Commerces d'alimentation, conserves et producteurs",
+          "paragraphs": [
+            "Les commerces du village et des environs travaillent dans le secteur des anchois, du thon et des conserves. Un guide peut raconter cela comme une tradition artisanale vivante sans transformer chaque mention en approbation.",
+            "Les horaires d'ouverture varient et tous les magasins ne proposent pas de visites. Confirmez directement avant de planifier un atelier ou une dégustation."
+          ]
+        },
+        {
+          "title": "Choisir où manger",
+          "paragraphs": [
+            "Plutôt que de suivre un classement, choisissez l'expérience : un déjeuner informel, une cuisine traditionnelle, un menu de fruits de mer ou un dîner plus élaboré. Poser des questions sur les prises du jour et les plats à base de colatura démarre souvent la conversation la plus utile.",
+            "Réservez le week-end et en haute saison. Communiquez les allergies et les besoins alimentaires directement au restaurant."
+          ]
+        },
+        {
+          "title": "Une journée tranquille à Cetara",
+          "paragraphs": [
+            "Une matinée au port, une promenade dans le centre, une halte alimentaire et un déjeuner sans hâte remplissent une demi-journée, laissant l'après-midi à la mer ou en terrasse.",
+            "C'est l'un des jours les plus importants du séjour car il prouve que rester à Cetara ne manque pas une excursion. C'est vivre dans l'endroit que vous avez choisi comme maison."
+          ]
+        }
+      ],
+      "villaBox": "Une sélection de produits locaux peut devenir un apéritif ou un simple dîner en terrasse. Pour une expérience culinaire plus structurée, Martina peut consulter les chefs indépendants et les prestataires disponibles pendant le séjour.",
+      "faqs": [
+        {
+          "q": "Qu'est-ce que la Colature d'Alici di Cetara ?",
+          "a": "C'est un condiment obtenu par maturation des anchois sous sel, protégé par le statut DOP et étroitement lié à la tradition de production de Cetara."
+        },
+        {
+          "q": "Puis-je rendre visite à des producteurs locaux ?",
+          "a": "Certains peuvent proposer des boutiques, des dégustations ou des expériences, mais la disponibilité et les modalités doivent être confirmées directement."
+        },
+        {
+          "q": "Dois-je réserver des restaurants ?",
+          "a": "Il est conseillé le week-end, en haute saison et pour les grands groupes."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Colature d'Alici de Cetara DOP",
+          "url": "https://www.colaturadialici.it/"
+        },
+        {
+          "label": "Cetara Tourisme · traditions",
+          "url": "https://www.cetaraturistica.it/cetara/tradizioni"
+        },
+        {
+          "label": "Guide Michelin · Restaurants Cetara",
+          "url": "https://guide.michelin.com/en/campania/cetara/restaurants"
+        }
+      ]
+    },
+    {
+      "key": "threeDays",
+      "category": "Itinéraires lents",
+      "metaTitle": "Trois jours sur la côte amalfitaine basé à Cetara",
+      "title": "Trois jours sur la côte amalfitaine avec Cetara comme base",
+      "description": "Un itinéraire lent de trois jours au départ de Cetara : village et mer, Amalfi ou Positano en ferry, Ravello ou Pompéi, et le temps de profiter de Villa Venere.",
+      "intro": "Trois jours ne suffisent pas pour tout voir, mais ils suffisent pour créer un voyage cohérent : comprendre Cetara, choisir une journée sur l'eau et consacrer la dernière journée à un paysage ou une histoire différente.",
+      "quickAnswer": "Le rythme suggéré est : premier jour à Cetara et à Villa Venere ; deuxième jour à Amalfi ou Positano par la mer ; troisième jour à Ravello ou Pompéi, pas les deux. Les horaires réels, la saison et la météo déterminent l'ordre. Garder une demi-journée ouverte évite que le séjour ne devienne une séquence de transferts.",
+      "image": "/assets/journal/cetara-three-days.webp",
+      "alt": "Cetara port, plage et centre historique vus de la mer",
+      "imageCredit": {
+        "author": "Giovanni Mattiello",
+        "source": "https://commons.wikimedia.org/wiki/File:Cetara_-_Costa_d%27Amalfi.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "modified": true
+      },
+      "readTime": 7,
+      "takeaways": [
+        "Jour 1 : Cetara, village, nourriture et mer",
+        "Jour 2 : une destination principale par la mer",
+        "Jour 3 : Ravello ou Pompéi",
+        "Gardez une alternative aux changements de météo et de transport"
+      ],
+      "sections": [
+        {
+          "title": "Jour 1 · Arriver et vivre Cetara",
+          "paragraphs": [
+            "Gardez la première lumière du jour après l'enregistrement. Une promenade jusqu'au port vous permettra de vous repérer ; un arrêt d'alimentation introduit la colatura ; le dîner vous permet de ressentir le rythme du village.",
+            "Si vous arrivez tôt, déposez vos bagages comme convenu et partez du centre. Si vous arrivez tard, la terrasse et le dîner au Cetara sont déjà un plan complet."
+          ]
+        },
+        {
+          "title": "Jour 2 · Amalfi ou Positano par la mer",
+          "paragraphs": [
+            "Après avoir vérifié les horaires, partez du port pour Amalfi ou Positano. En choisir un vous donne le temps de visiter, de déjeuner et de marcher sans vous précipiter vers la prochaine correspondance.",
+            "Pour voir les deux, confirmez le trajet du jour réel et revenez. Un bateau privé donne plus de liberté, mais la voile doit rester centrale plutôt que servir de taxi pour récupérer les escales."
+          ]
+        },
+        {
+          "title": "Jour 3 · Ravello ou Pompéi",
+          "paragraphs": [
+            "Ravello complète le voyage côtier avec des jardins, de la musique et des vues d'en haut. Pompéi change complètement d'échelle et fait entrer le voyage dans l'histoire ancienne. En seulement trois jours, inclure les deux crée un itinéraire trop dense.",
+            "La météo peut guider le choix : Ravello par temps clair et tempéré ; Pompéi avec un départ anticipé et une heure d'entrée organisée."
+          ]
+        },
+        {
+          "title": "Adaptation de l'itinéraire",
+          "paragraphs": [
+            "Avec de jeunes enfants ou pendant la période la plus chaude de l'été, alterner sorties et repos devient encore plus important. Si la mer arrête les ferries, passez plus de temps à Cetara, utilisez le bus pour Amalfi ou avancez la journée culturelle.",
+            "Quatre ou cinq nuits vous permettent de séparer Ravello et Pompéi et incluent une journée véritablement libre à la villa."
+          ]
+        }
+      ],
+      "villaBox": "Villa Venere est le point fixe de l'itinéraire : il n'y a pas de remballage tous les jours et chaque excursion se termine dans le même espace privé au-dessus de la mer. Martina peut vous aider à comparer les options pratiques et la disponibilité pour les dates réelles.",
+      "faqs": [
+        {
+          "q": "Trois jours suffisent-ils pour la côte amalfitaine ?",
+          "a": "Il suffit de connaître Cetara et de choisir deux excursions significatives, mais pas de visiter chaque ville côtière et site archéologique à un rythme détendu."
+        },
+        {
+          "q": "Dois-je choisir Ravello ou Pompéi ?",
+          "a": "Ravello termine un voyage côtier axé sur le paysage ; Pompéi ajoute une journée historique plus longue et plus exigeante."
+        },
+        {
+          "q": "Que puis-je faire si les ferries ne fonctionnent pas ?",
+          "a": "Utilisez le bus, modifiez l'ordre de vos journées ou passez plus de temps à Cetara et à la villa."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Travelmar · horaire",
+          "url": "https://www.travelmar.it/en/timetable"
+        },
+        {
+          "label": "Horaires SITA Sud · Campanie",
+          "url": "https://sitasudtrasporti.it/campania/orari/"
+        },
+        {
+          "label": "Parc archéologique de Pompéi",
+          "url": "https://pompeiisites.org/en/"
+        }
+      ]
+    },
+    {
+      "key": "herculaneumVesuvius",
+      "category": "Art et paysage",
+      "metaTitle": "Herculanum et Vésuve depuis Cetara | Itinéraire",
+      "title": "Herculanum et le Vésuve depuis Cetara",
+      "description": "Comment visiter Herculanum et le Vésuve depuis Cetara : trains, navettes, transferts, billets officiels, sécurité et alternative météo.",
+      "intro": "Herculanum préserve des espaces intimes et des détails remarquables ; Le Vésuve révèle d'en haut le paysage qui a déterminé son histoire. Les combiner est possible, mais nécessite de l'énergie, des réserves et une véritable alternative au volcan.",
+      "quickAnswer": "En transports en commun, l'itinéraire passe généralement par Salerne et Naples avant de continuer jusqu'à Herculanum ; Le Vésuve nécessite alors un transport dédié et une entrée réservée. Un transfert ou une visite privée simplifie la logistique. Si le vent, la pluie ou les règles du parc empêchent l'accès au cratère, Herculanum devrait rester une journée complète et satisfaisante à elle seule.",
+      "image": "/assets/journal/herculaneum-vesuvius.webp",
+      "alt": "Les ruines archéologiques d'Herculanum avec le Vésuve au-delà",
+      "imageCredit": {
+        "author": "Sumit Surai",
+        "source": "https://commons.wikimedia.org/wiki/File:Herculaneum_-_The_Ruins,_The_Present_Town_And_Mount_Vesuvius.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "modified": true
+      },
+      "readTime": 8,
+      "takeaways": [
+        "Réserver séparément le site archéologique et l'accès au cratère",
+        "Vérifiez la météo et les avis de stationnement avant de partir",
+        "Portez des chaussures adaptées aux sentiers et aux terrains archéologiques.",
+        "Préparer une alternative centrée sur Herculanum"
+      ],
+      "sections": [
+        {
+          "title": "Pourquoi choisir Herculanum",
+          "paragraphs": [
+            "Herculanum est plus compacte que Pompéi et conserve des bâtiments, des décorations et des matériaux qui offrent une vision intime de la vie antique. Ce n'est pas une petite Pompéi, mais une expérience distincte.",
+            "Son ampleur peut convenir aux voyageurs qui préfèrent une visite concentrée, même si les inégalités du sol et la chaleur estivale nécessitent encore une préparation."
+          ]
+        },
+        {
+          "title": "Atteindre Herculanum depuis Cetara",
+          "paragraphs": [
+            "En transports en commun, rejoindre Salerne, continuer en direction de Naples et utiliser le chemin de fer local jusqu'à Ercolano Scavi. Reconstruisez l'itinéraire en fonction de l'horaire du jour réel et vérifiez les avis de service.",
+            "Pour les groupes ou les jours incluant le Vésuve, un transfert privé peut réduire l'incertitude. Confirmez si le devis comprend la montée, l'attente et le retour."
+          ]
+        },
+        {
+          "title": "Accès et sécurité au Vésuve",
+          "paragraphs": [
+            "L'accès au Gran Cono est réglementé, nécessite un billet pour un créneau défini et peut être suspendu en raison de décisions météorologiques ou de sécurité. Achat auprès du vendeur identifié par le Parc National.",
+            "Il s'agit d'un sentier : porter des chaussures appropriées et emporter de l'eau et des vêtements adaptés au soleil, au vent et aux changements de température. Lisez les avis officiels en vigueur avant de partir."
+          ]
+        },
+        {
+          "title": "Planifier la journée et son alternative",
+          "paragraphs": [
+            "Une combinaison judicieuse visite Herculanum le matin et planifie le Vésuve pour une période d'entrée et de transfert compatible. Ne faites pas de timing trop serré : l'accès au cratère n'est pas à côté du site archéologique.",
+            "Si le Gran Cono ferme, restez plus longtemps à Herculanum, déjeunez sans vous presser et retournez à Cetara. Une bonne alternative évite que la météo ne transforme la journée entière en déception."
+          ]
+        }
+      ],
+      "villaBox": "L'histoire et la Méditerranée peuvent partager un séjour : une journée dans la région vésuvienne et la soirée au bord de la mer au Cetara. Martina peut aider à vérifier les transferts et les guides indépendants sans remplacer les vérifications requises sur les sites officiels.",
+      "faqs": [
+        {
+          "q": "Puis-je visiter Herculanum et le Vésuve en une journée ?",
+          "a": "Oui, avec un démarrage précoce et des connexions soigneusement organisées. Réservez les entrées et laissez du temps pour les transferts."
+        },
+        {
+          "q": "Le Vésuve est-il toujours ouvert ?",
+          "a": "Non. L'accès peut changer ou être suspendu en raison des conditions météorologiques et de la sécurité. Vérifiez les avis du parc national avant de partir."
+        },
+        {
+          "q": "Pompéi ou Herculanum sont-ils meilleurs ?",
+          "a": "Pompéi offre l'échelle d'une vaste ville ; Herculanum est plus compact et préserve différents détails. Le choix dépend de vos intérêts, de votre temps et de votre énergie."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Parc archéologique d'Herculanum",
+          "url": "https://ercolano.cultura.gov.it/"
+        },
+        {
+          "label": "Parc national du Vésuve · Gran Cono",
+          "url": "https://www.parconazionaledelvesuvio.it/visita-il-parco/i-sentieri-del-vesuvio/il-gran-cono/"
+        },
+        {
+          "label": "EAV · horaires ferroviaires",
+          "url": "https://www.eavsrl.it/orari-linee-ferroviarie/"
+        }
+      ]
+    }
+  ]
+}

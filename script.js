@@ -22,9 +22,13 @@ languageButton?.addEventListener('click', (event) => {
   setLanguageMenuOpen(!languageMenu.classList.contains('open'));
 });
 languageMenu?.querySelectorAll('.language-list a').forEach((link) => link.addEventListener('click', () => {
+  try { localStorage.setItem('villaVenereLanguage', link.dataset.lang); } catch (_) {}
   setLanguageMenuOpen(false);
   nav?.classList.remove('open');
   toggle?.setAttribute('aria-expanded', 'false');
+}));
+document.querySelectorAll('.language-flags a[data-lang]').forEach((link) => link.addEventListener('click', () => {
+  try { localStorage.setItem('villaVenereLanguage', link.dataset.lang); } catch (_) {}
 }));
 document.addEventListener('click', (event) => {
   if (!languageMenu?.contains(event.target)) setLanguageMenuOpen(false);
@@ -89,11 +93,24 @@ function updateBookingLinks(language) {
 const SEO_PAGE_PATHS = {
   en: { villa: '/en/villa-cetara/', sea: '/en/private-sea-access/', rooms: '/en/rooms-amenities/', location: '/en/getting-to-cetara/', experiences: '/en/amalfi-coast-experiences/' },
   it: { villa: '/it/villa-cetara/', sea: '/it/accesso-privato-mare/', rooms: '/it/camere-servizi/', location: '/it/come-arrivare/', experiences: '/it/esperienze-costiera-amalfitana/' },
+  fr: { villa: '/fr/villa-cetara/', sea: '/fr/acces-prive-mer/', rooms: '/fr/chambres-equipements/', location: '/fr/venir-cetara/', experiences: '/fr/experiences-cote-amalfitaine/' },
+  es: { villa: '/es/villa-cetara/', sea: '/es/acceso-privado-mar/', rooms: '/es/habitaciones-servicios/', location: '/es/como-llegar-cetara/', experiences: '/es/experiencias-costa-amalfitana/' },
+  de: { villa: '/de/villa-cetara/', sea: '/de/privater-meerzugang/', rooms: '/de/zimmer-ausstattung/', location: '/de/anreise-cetara/', experiences: '/de/erlebnisse-amalfikueste/' },
+  pt: { villa: '/pt/villa-cetara/', sea: '/pt/acesso-privado-mar/', rooms: '/pt/quartos-comodidades/', location: '/pt/como-chegar-cetara/', experiences: '/pt/experiencias-costa-amalfitana/' },
+  ru: { villa: '/ru/villa-cetara/', sea: '/ru/chastnyy-vyhod-k-moryu/', rooms: '/ru/komnaty-udobstva/', location: '/ru/kak-dobratsya-cetara/', experiences: '/ru/vpechatleniya-amalfi/' },
+  zh: { villa: '/zh/villa-cetara/', sea: '/zh/private-sea-access/', rooms: '/zh/rooms-amenities/', location: '/zh/getting-to-cetara/', experiences: '/zh/amalfi-coast-experiences/' },
+  ja: { villa: '/ja/villa-cetara/', sea: '/ja/private-sea-access/', rooms: '/ja/rooms-amenities/', location: '/ja/getting-to-cetara/', experiences: '/ja/amalfi-coast-experiences/' },
+  ko: { villa: '/ko/villa-cetara/', sea: '/ko/private-sea-access/', rooms: '/ko/rooms-amenities/', location: '/ko/getting-to-cetara/', experiences: '/ko/amalfi-coast-experiences/' },
+  ar: { villa: '/ar/villa-cetara/', sea: '/ar/private-sea-access/', rooms: '/ar/rooms-amenities/', location: '/ar/getting-to-cetara/', experiences: '/ar/amalfi-coast-experiences/' },
+  nl: { villa: '/nl/villa-cetara/', sea: '/nl/prive-toegang-zee/', rooms: '/nl/kamers-voorzieningen/', location: '/nl/route-cetara/', experiences: '/nl/ervaringen-amalfikust/' },
+  pl: { villa: '/pl/villa-cetara/', sea: '/pl/prywatny-dostep-do-morza/', rooms: '/pl/pokoje-udogodnienia/', location: '/pl/dojazd-cetara/', experiences: '/pl/atrakcje-wybrzeze-amalfitanskie/' },
 };
+
+const JOURNAL_PATHS = { en: '/en/guides/', it: '/it/guide/', fr: '/fr/guides/', es: '/es/guias/', de: '/de/reisefuehrer/', pt: '/pt/guias/', ru: '/ru/putevoditeli/', zh: '/zh/travel-guides/', ja: '/ja/travel-guides/', ko: '/ko/travel-guides/', ar: '/ar/travel-guides/', nl: '/nl/reisgidsen/', pl: '/pl/przewodniki/' };
 
 function updateJournalLinks(language) {
   const isItalian = language === 'it';
-  const path = isItalian ? '/it/guide/' : '/en/guides/';
+  const path = JOURNAL_PATHS[language] || JOURNAL_PATHS.en;
   const label = isItalian ? 'Guide' : 'Guides';
   const cardTitle = isItalian ? 'Vivere Cetara e la Costiera' : 'Live Cetara and the Amalfi Coast';
   const cardNote = isItalian ? 'Guide locali, itinerari via mare e giornate tra Ravello, Pompei e il Vesuvio' : 'Local guides, journeys by sea and days in Ravello, Pompeii and on Mount Vesuvius';
@@ -110,7 +127,7 @@ function updateJournalLinks(language) {
   }
   if (navLink) {
     navLink.href = path;
-    navLink.textContent = label;
+    if (!navLink.textContent.trim()) navLink.textContent = label;
   }
 
   const guideGrid = document.querySelector('.guide-grid');
@@ -125,8 +142,8 @@ function updateJournalLinks(language) {
     guideLink.dataset.journalLink = '';
     guideLink.classList.add('guide-journal-card');
     guideLink.href = path;
-    guideLink.querySelector('strong').textContent = cardTitle;
-    guideLink.querySelector('small').textContent = cardNote;
+    if (!guideLink.querySelector('strong').textContent.trim()) guideLink.querySelector('strong').textContent = cardTitle;
+    if (!guideLink.querySelector('small').textContent.trim()) guideLink.querySelector('small').textContent = cardNote;
   }
 
   const footerNav = document.querySelector('.footer-nav');
@@ -139,7 +156,7 @@ function updateJournalLinks(language) {
   if (footerLink) {
     footerLink.dataset.journalLink = '';
     footerLink.href = path;
-    footerLink.textContent = label;
+    if (!footerLink.textContent.trim()) footerLink.textContent = label;
   }
 }
 

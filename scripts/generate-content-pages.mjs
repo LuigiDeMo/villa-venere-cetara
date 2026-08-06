@@ -159,8 +159,10 @@ for (const language of editorialLanguages.filter((item) => !['en', 'it'].include
 }
 
 const mainLocales = {};
+const journalLocales = {};
 for (const language of editorialLanguages) {
   mainLocales[language] = JSON.parse(await readFile(join(root, 'locales', `${language}.json`), 'utf8'));
+  journalLocales[language] = JSON.parse(await readFile(join(root, 'locales', 'journal', `${language}.json`), 'utf8'));
 }
 
 const esc = (value) => value.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;');
@@ -211,6 +213,11 @@ function pageHtml(page) {
     ],
   };
   const locale = mainLocales[page.lang];
+  const journalUi = journalLocales[page.lang].site;
+  const languageLabels = { en: 'English', it: 'Italiano', fr: 'Français', es: 'Español', de: 'Deutsch', pt: 'Português', ru: 'Русский', zh: '简体中文', ja: '日本語', ko: '한국어', ar: 'العربية', nl: 'Nederlands', pl: 'Polski' };
+  const localizedExperienceLinks = page.key === 'experiences' ? editorialLanguages.map((language) => `<a${language === page.lang ? ' aria-current="page"' : ''} href="${editorialPath(language, page.key)}" lang="${editorialHreflang[language]}" data-language-choice="${language}">${languageLabels[language]}</a>`).join('') : '';
+  const experienceLanguages = page.key === 'experiences' ? `<div class="article-languages"><strong>${esc(journalUi.languageMenu)}</strong>${localizedExperienceLinks}</div>` : '';
+  const experienceLanguageMenu = page.key === 'experiences' ? `<details class="article-language-menu"><summary>${esc(journalUi.languageMenu)}</summary><div>${localizedExperienceLinks}</div></details>` : '';
   const experienceAssistant = page.key === 'experiences' ? conciergeWidget({
     language: page.lang,
     context: 'experiences',
@@ -226,8 +233,8 @@ function pageHtml(page) {
     launcher: locale.contact.launcher,
     whatsappMessage: `${locale.concierge.whatsappIntro} ${page.h1}`,
   }) : '';
-  const assistantHead = page.key === 'experiences' ? '<link rel="stylesheet" href="/concierge-widget.css?v=2">' : '';
-  const assistantScript = page.key === 'experiences' ? '<script src="/concierge-widget.js?v=2" defer></script>' : '';
+  const assistantHead = page.key === 'experiences' ? '<link rel="stylesheet" href="/concierge-widget.css?v=4">' : '';
+  const assistantScript = page.key === 'experiences' ? '<script src="/concierge-widget.js?v=3" defer></script><script src="/language-suggestion.js?v=1" defer></script>' : '';
   return `<!doctype html>
 <html lang="${page.lang}"${page.lang === 'ar' ? ' dir="rtl"' : ''}><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(page.title)}</title><meta name="description" content="${esc(page.description)}"><meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
@@ -235,10 +242,10 @@ function pageHtml(page) {
 <meta property="og:type" content="article"><meta property="og:site_name" content="Villa Venere - Amalfi Coast"><meta property="og:title" content="${esc(page.title)}"><meta property="og:description" content="${esc(page.description)}"><meta property="og:url" content="${url}"><meta property="og:image" content="https://villavenerecetara.it${page.image}"><meta name="twitter:card" content="summary_large_image">
 <link rel="icon" type="image/png" sizes="256x256" href="/assets/villa-logo-256.png"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="/seo-pages.css?v=2">${assistantHead}
 <script type="application/ld+json">${JSON.stringify(schema)}</script></head><body>
-<header class="article-header"><a class="article-brand" href="${home}"><img src="/assets/villa-logo-256.png" width="256" height="256" alt="Villa Venere"><span><strong>Villa Venere</strong><small>Cetara · Amalfi Coast</small></span></a><nav><a href="${home}">${esc(ui.home)}</a><a href="${home}#rooms">${esc(ui.rooms)}</a><a href="${home}#services">${esc(ui.amenities)}</a>${isIt || isEn ? `<a href="${travelGuideHubPath(page.lang)}">${isIt ? 'Guide' : 'Guides'}</a>` : ''}<a class="book" href="${booking}&lang=${page.lang}" rel="nofollow">${esc(ui.bookNow)}</a></nav></header>
+<header class="article-header"><a class="article-brand" href="${home}"><img src="/assets/villa-logo-256.png" width="256" height="256" alt="Villa Venere"><span><strong>Villa Venere</strong><small>Cetara · Amalfi Coast</small></span></a><nav><a href="${home}">${esc(ui.home)}</a><a href="${home}#rooms">${esc(ui.rooms)}</a><a href="${home}#services">${esc(ui.amenities)}</a><a href="${travelGuideHubPath(page.lang)}">${esc(journalUi.guides)}</a><a class="book" href="${booking}&lang=${page.lang}" rel="nofollow">${esc(ui.bookNow)}</a></nav>${experienceLanguageMenu}</header>
 <main><article><div class="article-hero"><div><p class="eyebrow">${esc(page.eyebrow)}</p><h1>${esc(page.h1)}</h1><p class="lead">${esc(page.intro)}</p></div><img src="${page.image}" width="1600" height="900" fetchpriority="high" alt="${esc(page.alt)}"></div>
 <div class="article-body"><aside><h2>${esc(ui.atGlance)}</h2><ul>${page.bullets.map((item) => `<li>${esc(item)}</li>`).join('')}</ul><a href="${booking}&lang=${page.lang}" rel="nofollow">${esc(ui.checkAvailability)}</a></aside><div class="article-copy">${page.sections.map(([title, text]) => `<section><h2>${esc(title)}</h2><p>${esc(text)}</p></section>`).join('')}${faqHtml}</div></div>
-<nav class="article-related" aria-label="${esc(ui.relatedGuides)}"><div><strong>${esc(ui.officialGuides)}</strong>${guides.map(([label, href]) => `<a href="${href}">${esc(label)}</a>`).join('')}${isIt || isEn ? `<a href="${travelGuideHubPath(page.lang)}">${isIt ? 'Guide di viaggio' : 'Travel guides'}</a>` : ''}</div><div><a href="${home}">← ${esc(ui.backToVilla)}</a><a href="${editorialPath(switchLanguage, page.key)}">${esc(ui.languageLink)} →</a></div></nav></article></main>
+<nav class="article-related" aria-label="${esc(ui.relatedGuides)}"><div><strong>${esc(ui.officialGuides)}</strong>${guides.map(([label, href]) => `<a href="${href}">${esc(label)}</a>`).join('')}<a href="${travelGuideHubPath(page.lang)}">${esc(journalUi.name)}</a></div><div><a href="${home}">← ${esc(ui.backToVilla)}</a><a href="${editorialPath(switchLanguage, page.key)}">${esc(ui.languageLink)} →</a></div>${experienceLanguages}</nav></article></main>
 <footer><div><strong>Villa Venere</strong><span>Via Lannio 8 · 84010 Cetara (SA) · Italia</span><span>CIN IT065041B49WWIMPWN</span><a href="https://www.cetaraturistica.it/soggiornare/case-per-vacanze/villa-venere" target="_blank" rel="noreferrer">${esc(ui.officialPortal)}</a></div><div><a href="tel:+393896840764">+39 389 684 0764</a><a href="mailto:info@villavenerecetara.com">info@villavenerecetara.com</a></div></footer>${experienceAssistant}${assistantScript}</body></html>`;
 }
 

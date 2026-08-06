@@ -1,0 +1,649 @@
+{
+  "site": {
+    "name": "Villa Venere 旅行指南",
+    "eyebrow": "现场 Cetara · 探索海岸",
+    "title": "住在Cetara，到达阿马尔菲海岸",
+    "description": "当地导游和深思熟虑的行程，让您在 Cetara 停留，以更真实的节奏探索阿马尔菲、波西塔诺、拉维罗、庞贝、赫库兰尼姆和维苏威火山。",
+    "intro": "不是收集地点清单，而是一种更平静的居住阿马尔菲海岸的方式。 Villa Venere 是您的海滨起点； Cetara 是你返回的村庄；标志性的目的地成为精心选择的日子。",
+    "manifesto": "特权是看不到一切。是有时间去选择了。",
+    "categories": [
+      "居住Cetara",
+      "海运",
+      "艺术与景观",
+      "行程缓慢"
+    ],
+    "latest": "住宿计划指南",
+    "home": "Villa Venere",
+    "villa": "别墅",
+    "experiences": "经历",
+    "guides": "指南",
+    "book": "检查可用性",
+    "read": "阅读指南",
+    "minutes": "最小读取时间",
+    "photo": "照片",
+    "adaptedPhoto": "改编照片",
+    "languageMenu": "语言",
+    "updated": "最后检查",
+    "contents": "在本指南中",
+    "answer": "简短的回答",
+    "fromVilla": "来自 Villa Venere",
+    "faq": "常见问题解答",
+    "sources": "旅行前要检查的来源",
+    "related": "继续探索",
+    "editorialNote": "时刻表、交通、票价和海况可能会发生变化。这些指南将编辑建议与根据要求安排的服务分开，并始终引导读者到官方来源进行最终检查。",
+    "author": "By Villa Venere, with local guidance from Martina",
+    "languageSwitch": "意大利语 Leggi",
+    "ctaTitle": "阿马尔菲海岸，有时间去生活吧",
+    "ctaText": "住在 Cetara 的海边，出发您选择的一日游，每天晚上返回 Villa Venere 的露台。",
+    "ctaButton": "查看空房情况",
+    "assistant": {
+      "bubble": "规划您的行程吗？消息Martina：她可以将这些指南变成为您量身定制的住宿。",
+      "panelLabel": "向 Martina 寻求建议",
+      "closeLabel": "关闭联系窗口",
+      "hostName": "Martina · 您在 Villa Venere 的房东",
+      "replyTime": "亲自回复您的消息",
+      "greeting": "嗨！我是 Martina 👋",
+      "help": "有关渡轮、转乘或如何组合您的日子的问题？给我留言，我会帮助您计划您的住宿。",
+      "startWith": "通过以下方式联系 Martina：",
+      "phoneLabel": "电话",
+      "launcher": "消息Martina",
+      "whatsappMessage": "您好 Martina，我正在阅读 Villa Venere 的指南，希望获得一些有关计划住宿的建议。"
+    }
+  },
+  "guides": [
+    {
+      "key": "slowBase",
+      "category": "居住Cetara",
+      "metaTitle": "Cetara的住宿地点：缓慢的阿马尔菲海岸基地",
+      "title": "住在Cetara：探索阿马尔菲海岸的较慢的基地",
+      "description": "为什么选择 Cetara 作为您的阿马尔菲海岸基地：大海、当地生活、季节性渡轮以及前往阿马尔菲、波西塔诺、拉维罗和庞贝的一日游。",
+      "intro": "选择Cetara并不意味着放弃阿马尔菲、波西塔诺或拉维罗。这意味着白天拜访他们，然后返回有人居住的渔村、港口和食物，以及海上的私人住宅。",
+      "quickAnswer": "Cetara 特别适合那些想要不那么疯狂的住宿、喜欢海上旅行以及喜欢将一日游与真正的假期时间分开的旅行者。季节性渡轮将村庄与其他沿海城镇连接起来，而巴士则提供陆路交通选择。私人司机可以简化拉维罗或庞贝等更复杂的日子。",
+      "image": "/assets/journal/cetara-slow-base.webp",
+      "alt": "从海上看到的Cetara渔村及其总督塔",
+      "imageCredit": {
+        "author": "Bernard Gagnon",
+        "source": "https://commons.wikimedia.org/wiki/File:Cetara_(Italy).jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "modified": true
+      },
+      "readTime": 8,
+      "takeaways": [
+        "Cetara 是一个住宿的地方，而不仅仅是一个停留的地方",
+        "阿马尔菲和波西塔诺可以成为海上一日游",
+        "拉维罗和维苏威遗址需要不同的规划",
+        "充实的日子和悠闲的日子交替让旅行更愉快"
+      ],
+      "sections": [
+        {
+          "title": "为什么 Cetara 作为基地",
+          "paragraphs": [
+            "Cetara保留了渔村的规模：港口、海滩、餐馆和食品店属于日常生活，步行即可到达。您无需立即开车即可开始新的一天，并在游览后在村里享用晚餐。",
+            "优点是不在每个景点的几何中心。就是有一个值得停留的地方。计划外的早晨、游泳或以当地凤尾鱼为中心的午餐并不是行程中的间隙；他们是体验海岸的一部分。"
+          ]
+        },
+        {
+          "title": "一日游的标志性地点",
+          "paragraphs": [
+            "只要季节性服务和条件允许，阿马尔菲和波西塔诺就适合海上出行。拉维罗总是需要一段路段，可以乘坐巴士穿过阿马尔菲地区，也可以配备私人司机。庞贝古城、赫库兰尼姆古城和维苏威火山值得早起出发，度过专属的一天。",
+            "最有用的规则是不要在一天内压缩太多目的地。一次主要访问、一顿悠闲的午餐以及有喘息空间的返回通常会比四次匆忙停留创造更好的回忆。"
+          ],
+          "bullets": [
+            "海上：阿马尔菲、波西塔诺和私人游轮",
+            "陆路：拉维罗、鲁菲洛别墅和辛布隆别墅",
+            "历史和景观：庞贝、赫库兰尼姆和维苏威火山",
+            "当地一天：Cetara、美食、露台和大海"
+          ]
+        },
+        {
+          "title": "为您的住宿提供真实的节奏",
+          "paragraphs": [
+            "在 Cetara 住三个晚上，再加上一个经典的海岸日是明智的选择。四到五个晚上也有时间游览拉维罗或庞贝。如果住宿时间较长，则可以在每次充实的旅行中与别墅、村庄和大海之间的轻松一日游交替进行。",
+            "家庭、老年旅行者和大型团体应将步数、热量、行李和等待时间视为行程的一部分，而不是在最后一刻解决的细节。"
+          ]
+        },
+        {
+          "title": "渡轮、巴士和司机之间的选择",
+          "paragraphs": [
+            "渡轮可以欣赏风景并消除沿海道路的压力，但它是季节性的，取决于海况。公共汽车服务更多的地方，并提供有用的替代方案，尽管公共汽车可能很繁忙。私人司机的费用更高，但可以提前出发、约定停靠点和更灵活的返回。",
+            "最佳选择取决于当天而不是普遍规则。出发前检查官方服务并保留可行的替代方案。"
+          ]
+        }
+      ],
+      "villaBox": "在Villa Venere，游览结束后继续住宿：全景露台、私人出海通道和Cetara 中心都在步行范围内。 Martina 可以帮助客人将交通和体验与独立提供商进行比较，具体取决于供应情况及其条款。",
+      "faqs": [
+        {
+          "q": "Cetara 方便探索阿马尔菲海岸吗？",
+          "a": "是的，特别是对于想要使用季节性渡轮并计划将拉维罗和考古遗址作为专门游览日的旅行者。"
+        },
+        {
+          "q": "我需要一辆车吗？",
+          "a": "没有。该村庄适合步行，并且可以结合渡轮、公共汽车、火车和换乘服务。汽车固然有用，但交通和停车需要小心。"
+        },
+        {
+          "q": "我应该住几晚？",
+          "a": "三晚优惠介绍；四到五个可以更轻松地在 Cetara 中以较慢的时间交替游览。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Travelmar·海上联系",
+          "url": "https://www.travelmar.it/en/timetable"
+        },
+        {
+          "label": "SITA Sud · 坎帕尼亚 时刻表",
+          "url": "https://sitasudtrasporti.it/campania/orari/"
+        },
+        {
+          "label": "Cetara旅游门户网站",
+          "url": "https://www.cetaraturistica.it/"
+        }
+      ]
+    },
+    {
+      "key": "coastBySea",
+      "category": "海运",
+      "metaTitle": "Cetara 前往阿马尔菲和波西塔诺：渡轮还是私人船？",
+      "title": "Cetara 前往阿马尔菲和波西塔诺：渡轮还是私人船？",
+      "description": "如何从 Cetara 游览阿马尔菲和波西塔诺：渡轮与私人船只、平衡的行程、回程和恶劣天气的替代方案。",
+      "intro": "从 Cetara 的港口看去，海岸的视角发生了变化。渡轮使旅程成为一天的一部分；私人船只提供更多的自由、游泳停留以及围绕您的团体制定的行程。",
+      "quickAnswer": "想要在阿马尔菲度过简单的一天，当大海平静下来时，季节性渡轮通常是最明确的选择。波西塔诺可能需要转机或特定航行，必须检查实际日期。私人游船适合团体、庆祝活动以及以巡游本身为主要体验的日子。",
+      "image": "/assets/journal/amalfi-positano-by-sea.webp",
+      "alt": "沿着阿马尔菲和波西塔诺之间的阿马尔菲海岸悬崖航行",
+      "imageCredit": {
+        "author": "Nan Palmero",
+        "source": "https://commons.wikimedia.org/wiki/File:Ferry_Ride_Between_Amalfi_and_Positano_(42250218604).jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "modified": true
+      },
+      "readTime": 7,
+      "takeaways": [
+        "前一天和早上再次检查航行和海况",
+        "不要在最后一次可能的转机前后计划返程",
+        "对于私人船只，请确认港口、燃油、持续时间和包含的服务",
+        "选择一次主要的上岸游览，以保持愉快的节奏"
+      ],
+      "sections": [
+        {
+          "title": "渡轮：简单、风景优美、季节性",
+          "paragraphs": [
+            "渡轮避开了沿海交通，将塔楼、海湾和村庄展现为连续的景观。它特别适用于阿马尔菲，并且在时间表和连接允许的情况下，前往波西塔诺。",
+            "时间表随季节变化，并且航行可能因大海原因而改变。在繁忙时段提前预订，以便有空闲时间到达港口并了解其他巴士选择。"
+          ]
+        },
+        {
+          "title": "私人船：水上的自由和时间",
+          "paragraphs": [
+            "私人包机的价值不在于收集更多城镇。它正在选择节奏：约定的出发、游泳停留、一次上岸以及返回Cetara。对于情侣和小团体来说，这一天可能成为住宿的决定性日子。",
+            "在确认之前，请以书面形式询问出发和到达港口、船只型号和载客量、船长、燃油、持续时间、饮料、毛巾、取消政策以及天气条件不适合的替代方案。"
+          ]
+        },
+        {
+          "title": "平衡的一天",
+          "paragraphs": [
+            "乘坐渡轮，一天可以包括早上的阿马尔菲和稍后的波西塔诺，前提是实际连接留有足够的时间。旺季的时候，选择一款并好好体验一下，往往会更让人满足。",
+            "乘坐私人船只，交替航行，一到两次游泳停留和一次登陆。午餐可以在岸上、船上（含午餐）或返回Cetara。"
+          ]
+        },
+        {
+          "title": "风云变幻时的B计划",
+          "paragraphs": [
+            "大海确实决定了日子。如果航班暂停，仍可乘坐 SITA 巴士前往阿马尔菲，而团体游客可能更喜欢转乘巴士。每个私人包机都应该有明确的取消或重新安排条款。",
+            "避免在预计抵达后立即进行不灵活的预订，可以减轻交通延误时的压力。"
+          ]
+        }
+      ],
+      "villaBox": "Cetara 的海港距离别墅仅有几步之遥。返回时，无需添加另一站：可以在村庄享用晚餐，或者简单地在您刚刚旅行过的海上露台上结束一天的行程。",
+      "faqs": [
+        {
+          "q": "我可以不开车从 Cetara 前往波西塔诺吗？",
+          "a": "是的，在旺季，使用您选择的日期可用的海上交通，有时会有变化。检查运营商当前的时间表。"
+        },
+        {
+          "q": "渡轮好还是私人船好？",
+          "a": "渡轮是最好的交通工具；私人船只是一种个性化的体验，特别是对于团体或特殊场合。"
+        },
+        {
+          "q": "恶劣天气会发生什么？",
+          "a": "航行和私人游轮可能会改变或取消。预订前请查看服务通知并了解运营商的条款。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Travelmar·时刻表",
+          "url": "https://www.travelmar.it/en/timetable"
+        },
+        {
+          "label": "Travelmar·下次出发",
+          "url": "https://www.travelmar.it/en/next-ferries-departures"
+        },
+        {
+          "label": "SITA Sud·沿海巴士",
+          "url": "https://sitasudtrasporti.it/campania/orari/"
+        }
+      ]
+    },
+    {
+      "key": "ravello",
+      "category": "艺术与景观",
+      "metaTitle": "Cetara 前往拉维罗：巴士或私人司机 |指南",
+      "title": "Cetara 到拉维罗：巴士、渡轮和私人司机",
+      "description": "如何从 Cetara 到达拉维罗并参观鲁菲洛别墅 (Villa Rufolo) 和辛布隆别墅 (Villa Cimbrone)：巴士、渡轮加巴士、私人接送和实用建议。",
+      "intro": "拉维罗不在水面上：到达其花园和观景点意味着要爬到海岸上方。从 Cetara 出发，乘坐巴士、结合渡轮和巴士前往阿马尔菲，或安排私人司机。",
+      "quickAnswer": "当服务运营时，风景最优美的公共选择包括从 Cetara 到阿马尔菲的渡轮和到拉维罗的巴士。全公路替代方案遵循相关的 SITA 连接。私人司机更适合团体出行、行动不便、提早到访或晚上返回。",
+      "image": "/assets/journal/villa-rufolo-ravello.webp",
+      "alt": "拉维罗的鲁菲洛别墅，周围环绕着花园和拉塔里山脉",
+      "imageCredit": {
+        "author": "Istvánka",
+        "source": "https://commons.wikimedia.org/wiki/File:Ravello_Villa_Rufolo.JPG",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "modified": true
+      },
+      "readTime": 7,
+      "takeaways": [
+        "拉维罗总是需要路段",
+        "前往阿马尔菲的渡轮加巴士是风景最优美的公共选择",
+        "别墅设有台阶和室外小径",
+        "音乐会和晚间回归需要专门规划"
+      ],
+      "sections": [
+        {
+          "title": "到达拉维罗的三种方式",
+          "paragraphs": [
+            "乘坐公共交通工具，请遵循当前 SITA 时刻表中显示的连接路线，或乘船到达阿马尔菲，然后继续乘坐巴士。后者将沿海旅程与攀登分开，在渡轮正常运营时是令人愉快的。",
+            "私人接送服务取消连接并允许约定的出发和等待时间。确认报价是否涵盖单程、返程或可使用的时间。"
+          ]
+        },
+        {
+          "title": "鲁菲洛别墅和辛布隆别墅",
+          "paragraphs": [
+            "鲁菲洛别墅 (Villa Rufolo) 和辛布隆别墅 (Villa Cimbrone) 的花园都是独特的体验，都值得花时间游览。一天之内可以将它们与市中心结合起来并享用午餐，但需要舒适的鞋子和不太紧张的行程。",
+            "在官方网站上查看开放时间、门票和关闭情况。路线包括不平坦的表面、攀爬和台阶；有无障碍需求的访客应直接联系酒店。"
+          ]
+        },
+        {
+          "title": "何时离开以及如何度过这一天",
+          "paragraphs": [
+            "早上出发可以帮助您在最热的时间之前参观花园。春季和秋季特别适合散步；夏季需要水、防晒以及更多的交通和排队空间。",
+            "如果您的一天包括音乐会，切勿即兴返回。检查最后一次实际服务或提前约定司机。"
+          ]
+        },
+        {
+          "title": "不紧不慢的行程",
+          "paragraphs": [
+            "早上前往鲁菲洛别墅 (Villa Rufolo)，步行穿过中心，享用午餐，然后前往辛布隆别墅 (Villa Cimbrone)，这就是完整的一天。如果想要慢节奏，可以选择一栋别墅，并留出空间来享用咖啡或全景开胃酒。",
+            "返回Cetara可以缩小拉维罗海拔和海港之间的对比：同一海岸的两种景观，无需改变住宿。"
+          ]
+        }
+      ],
+      "villaBox": "Martina 可以帮助客人根据团体人数、时间表和出行需求比较公共交通和私人交通。任何请求的服务均独立提供并单独确认。",
+      "faqs": [
+        {
+          "q": "我可以乘坐渡轮到达拉维罗吗？",
+          "a": "没有。拉维罗位于山上。乘坐渡轮前往阿马尔菲，然后继续乘坐巴士或转乘。"
+        },
+        {
+          "q": "我可以在一日内参观鲁菲洛别墅和辛布隆别墅吗？",
+          "a": "是的，在两个酒店之间留出一整天的时间和足够的步行时间。"
+        },
+        {
+          "q": "参观期间会有私人司机等候吗？",
+          "a": "这取决于约定的服务。检查是否包含等待时间、停车时间和还车时间。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "SITA Sud · 坎帕尼亚 时刻表",
+          "url": "https://sitasudtrasporti.it/campania/orari/"
+        },
+        {
+          "label": "鲁菲洛别墅 · 营业时间和门票",
+          "url": "https://villarufolo.com/orari/"
+        },
+        {
+          "label": "辛布隆别墅·花园参观",
+          "url": "https://www.hotelvillacimbrone.com/villa-cimbrone-gardens/"
+        }
+      ]
+    },
+    {
+      "key": "pompeii",
+      "category": "艺术与景观",
+      "metaTitle": "来自Cetara的庞贝古城：无车一日游",
+      "title": "来自 Cetara 的庞贝古城：交通、参观和返回",
+      "description": "如何乘坐公共交通工具或私人司机从 Cetara 参观庞贝古城，提供官方门票、参观时长和季节建议。",
+      "intro": "庞贝古城要求一种不同的阿马尔菲海岸日：早起、舒适的鞋子和足够的时间在景点内。返回 Cetara 的大海成为旅程的对比部分。",
+      "quickAnswer": "如果没有汽车，最清晰的路线通常是经过萨莱诺，然后继续乘坐火车前往庞贝，使用实际日期可用的连接。私人司机可以减少变化，对于家庭和团体来说很实用。通过官方渠道预订门票，并在考古遗址内留出至少几个小时的时间。",
+      "image": "/assets/journal/pompeii-forum-vesuvius.webp",
+      "alt": "庞贝古城论坛与古老的柱子和远处的维苏威火山",
+      "imageCredit": {
+        "author": "Commonists",
+        "source": "https://commons.wikimedia.org/wiki/File:Forum_(Pompeii)_and_the_Vesuvio.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "modified": true
+      },
+      "readTime": 8,
+      "takeaways": [
+        "提早出发，将庞贝视为全日游",
+        "通过园区指定渠道购票",
+        "不要依赖非常紧密的连接",
+        "考古指南有助于了解这个巨大的遗址"
+      ],
+      "sections": [
+        {
+          "title": "不开车前往",
+          "paragraphs": [
+            "从 Cetara 出发，乘坐巴士或海上（如果有）到达萨勒诺。继续乘坐火车前往庞贝，检查哪个车站和最终转乘路线最适合您选择的入口。",
+            "由于时刻表发生变化，本指南不规定固定转乘。构建实际当天的路线以及到达、火车和入境时段之间的离开时间。"
+          ]
+        },
+        {
+          "title": "何时选择私人司机",
+          "paragraphs": [
+            "接送服务对于较大的团体、儿童、特殊的行动需求或在方便的公共交通之前出发非常有用。它可能涵盖单程行程或包括等待返程。",
+            "报价应注明车辆、容量、集合地点、通行费、停车、等待和取消政策。考古导游通常与交通分开。"
+          ]
+        },
+        {
+          "title": "庞贝城内要花多长时间",
+          "paragraphs": [
+            "庞贝是一座城市，而不是一座纪念碑。几个小时才能形成连贯的第一条路线；更长的一天可以提供更多的深度，但在炎热的天气里可能会很累。",
+            "持证导游可帮助您选择房屋、公共空间和主题，而无需在参观时花费导航时间。否则，请在抵达前下载官方地图。"
+          ]
+        },
+        {
+          "title": "炎热、可达性和回家之路",
+          "paragraphs": [
+            "夏天，早上进，带水防晒，计划暂停。地形不平坦，可达性也各不相同，因此请查阅公园的专用信息。",
+            "对于返回，请检查与 Cetara 的最后实际连接，而不依赖于单一组合。经由萨勒诺 (Via Salerno) 应该仍然是一个明确的选择。"
+          ]
+        }
+      ],
+      "villaBox": "在石头、灰尘和历史之后，Villa Venere 提供了完全不同的结局：淋浴、大海和在 Cetara 享用晚餐。 Martina 可以帮助比较独立的司机和导游，具体取决于可用性及其条款。",
+      "faqs": [
+        {
+          "q": "我可以从 Cetara 出发游览庞贝一日游吗？",
+          "a": "是的。需要早上出发，并利用公共交通工具或私人接送来精心计划一天的行程。"
+        },
+        {
+          "q": "在庞贝古城需要多长时间？",
+          "a": "除了换乘和休息之外，首次访问至少要在室内留出几个小时。"
+        },
+        {
+          "q": "门票包含导游吗？",
+          "a": "入场、导游参观和交通通常是分开的。仔细检查每项优惠都包含哪些内容。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "庞贝考古公园 · 开放时间和门票",
+          "url": "https://pompeiisites.org/en/visiting-info/timetables-and-tickets/"
+        },
+        {
+          "label": "Trenitalia·区域服务",
+          "url": "https://www.trenitalia.com/en/connections/regionale-trains.html"
+        },
+        {
+          "label": "庞贝链接",
+          "url": "https://www.trenitalia.com/it/regionale/collegamenti-regionale/pompei-link.html"
+        }
+      ]
+    },
+    {
+      "key": "cetaraFood",
+      "category": "生活Cetara",
+      "metaTitle": "Cetara 凤尾鱼 colatura 和当地美食 |指南",
+      "title": "正宗Cetara：凤尾鱼colatura、大海和当地美食",
+      "description": "Cetara 的饮食传统指南：Colatura di Alici DOP、钓鱼、食品店、餐馆和穿过村庄的缓慢行程。",
+      "intro": "在Cetara，大海不仅仅是风景。这是工作、保存和烹饪。 Colatura di Alici DOP 比任何口号都更清楚地表达了这一身份，并邀请旅行者通过风味、人民和季节来了解这个村庄。",
+      "quickAnswer": "在 Cetara 以美食为中心的一天可以从港口开始，继续穿过中心和当地商店，最后以围绕捕获物和 colatura 制作的午餐结束。切勿假设可以进行品尝、研讨会或参观：联系生产商和餐厅以确认开放和安排。",
+      "image": "/assets/journal/cetara-colatura.webp",
+      "alt": "意大利面配 Cetara 凤尾鱼、大蒜和辣椒",
+      "imageCredit": {
+        "author": "Elga Cappellari",
+        "source": "https://commons.wikimedia.org/wiki/File:Spaghetti_di_Gragnano_e_colatura_di_alici.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "modified": true
+      },
+      "readTime": 6,
+      "takeaways": [
+        "Colatura di Alici di Cetara 具有受保护的 DOP 状态和明确的生产方法",
+        "先在简单的菜肴中品尝一下，然后再将其视为通用调味料",
+        "询问当天有什么鱼",
+        "生产者参观和品尝需要确认"
+      ],
+      "sections": [
+        {
+          "title": "Colatura：时间、盐和海洋的记忆",
+          "paragraphs": [
+            "Colatura 来自 Cetara 家族和生产者在盐和知识下成熟的凤尾鱼。 DOP 地位保护原产地和方法；从联盟的信息和标签开始，了解您所品尝的是什么。",
+            "仅少量用于烹饪。与面食、蔬菜或面包一起品尝，可以展现出其美味的深度，而不会掩盖其他成分。"
+          ]
+        },
+        {
+          "title": "食品店、蜜饯和生产商",
+          "paragraphs": [
+            "村里及周边的企业经营凤尾鱼、金枪鱼和蜜饯。导游可以将其视为一种活生生的手工艺传统，而无需将每一次提到都变成认可。",
+            "营业时间各不相同，并非每家商店都提供参观服务。在计划研讨会或品尝之前直接确认。"
+          ]
+        },
+        {
+          "title": "选择吃饭的地方",
+          "paragraphs": [
+            "不要遵循某个排名，而是选择体验：非正式午餐、传统烹饪、海鲜菜单或更精致的晚餐。使用 colatura 询问当天的捕获物和菜肴通常会引发最有用的对话。",
+            "周末和旺季期间预订。直接向餐厅传达过敏和饮食需求。"
+          ]
+        },
+        {
+          "title": "Cetara 缓慢的一天",
+          "paragraphs": [
+            "早上在港口，在市中心散步，在食品店停下来，吃一顿悠闲的午餐，就这样度过了半天的时间，下午则去海边或露台。",
+            "这是住宿期间最重要的日子之一，因为它证明留在 Cetara 并没有错过一次游览。它是住在你选择作为家的地方。"
+          ]
+        }
+      ],
+      "villaBox": "精选的当地产品可以成为露台上的开胃酒或简单的晚餐。为了获得更有条理的用餐体验，Martina 可以查看住宿期间是否有独立厨师和供应商。",
+      "faqs": [
+        {
+          "q": "什么是 Cetara 的 Colatura di Alici？",
+          "a": "这是一种通过盐下成熟凤尾鱼获得的调味品，受 DOP 状态保护，与 Cetara 的生产传统密切相关。"
+        },
+        {
+          "q": "我可以拜访当地生产商吗？",
+          "a": "有些可能提供商店、品尝或体验，但必须直接确认供应情况和安排。"
+        },
+        {
+          "q": "我应该预订餐厅吗？",
+          "a": "建议在周末、旺季和人数较多的团体前往。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Alici 的 Colatura di Cetara DOP",
+          "url": "https://www.colaturadialici.it/"
+        },
+        {
+          "label": "Cetara Turismo·传统",
+          "url": "https://www.cetaraturistica.it/cetara/tradizioni"
+        },
+        {
+          "label": "米其林指南 · Cetara 餐厅",
+          "url": "https://guide.michelin.com/en/campania/cetara/restaurants"
+        }
+      ]
+    },
+    {
+      "key": "threeDays",
+      "category": "行程缓慢",
+      "metaTitle": "阿马尔菲海岸三天，基地位于 Cetara",
+      "title": "以 Cetara 作为基地的阿马尔菲海岸三天",
+      "description": "从 Cetara 出发的三天慢行程：村庄和大海，乘渡轮前往阿马尔菲或波西塔诺，拉维罗或庞贝，然后享受 Villa Venere。",
+      "intro": "三天不足以游览所有景点，但足以打造一次连贯的旅行：了解Cetara，选择一天在水上，最后一天致力于不同的景观或历史。",
+      "quickAnswer": "建议的节奏是：第一天在 Cetara 和 Villa Venere；第二天乘船前往阿马尔菲或波西塔诺；第三天在拉维罗或庞贝，但不能两者兼而有之。实际时间表、季节和天气决定顺序。保持半天开放可以防止住宿变成一系列的交通。",
+      "image": "/assets/journal/cetara-three-days.webp",
+      "alt": "Cetara 从海上看到的港口、海滩和历史中心",
+      "imageCredit": {
+        "author": "Giovanni Mattiello",
+        "source": "https://commons.wikimedia.org/wiki/File:Cetara_-_Costa_d%27Amalfi.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "modified": true
+      },
+      "readTime": 7,
+      "takeaways": [
+        "第一天：Cetara、村庄、美食和大海",
+        "第 2 天：海上主要目的地之一",
+        "第 3 天：拉维罗或庞贝",
+        "为天气和交通变化保留替代方案"
+      ],
+      "sections": [
+        {
+          "title": "第 1 天 · 抵达并居住 Cetara",
+          "paragraphs": [
+            "入住后保持第一天的光照。步行到港口即可了解方位；一家食品店推出了 colatura；晚餐让你感受乡村节奏。",
+            "如果您提前到达，请按照约定寄存行李并从市中心出发。如果你迟到了，Cetara的露台和晚餐已经是完整的计划了。"
+          ]
+        },
+        {
+          "title": "第 2 天 · 海上阿马尔菲或波西塔诺",
+          "paragraphs": [
+            "查看时间表后，从港口出发前往阿马尔菲或波西塔诺。选择其中之一可以让您有时间参观、享用午餐和步行，而不必急于前往下一个转乘点。",
+            "要查看两者，请确认实际行程并返回。私人船只提供了更多的自由，但航行应保持在中心位置，而不是充当停靠站的出租车。"
+          ]
+        },
+        {
+          "title": "第 3 天 · 拉维罗或庞贝",
+          "paragraphs": [
+            "拉维罗以花园、音乐和空中美景结束了海岸之旅。庞贝古城完全改变了规模，并将这次旅行带入了古代历史。短短三天时间，两者都包含在内，行程就太密集了。",
+            "天气可以指导选择： 拉维罗 晴朗、温和的一天；庞贝古城出发较早，入场时间有组织。"
+          ]
+        },
+        {
+          "title": "调整行程",
+          "paragraphs": [
+            "对于年幼的孩子或在夏季最热的时候，交替外出和休息变得更加重要。如果海上停止渡轮，请在 Cetara 停留更多时间，乘坐巴士前往阿马尔菲或将文化日提前。",
+            "四到五个晚上，您可以将拉维罗和庞贝分开，并在别墅度过真正自由的一天。"
+          ]
+        }
+      ],
+      "villaBox": "Villa Venere 是行程的固定点：每天不重新打包，每次游览都在海上同一个私人空间结束。 Martina 可以帮助比较实际日期的实用选项和可用性。",
+      "faqs": [
+        {
+          "q": "阿马尔菲海岸三天够吗？",
+          "a": "他们足以了解Cetara并选择两次有意义的游览，但不能以轻松的节奏参观每一个沿海城镇和考古遗址。"
+        },
+        {
+          "q": "我应该选择拉维罗还是庞贝？",
+          "a": "拉维罗完成了一次以风景为中心的沿海旅行；庞贝古城增添了一个更长、更苛刻的历史日子。"
+        },
+        {
+          "q": "如果渡轮不运营怎么办？",
+          "a": "乘坐巴士、更改行程顺序或在 Cetara 和别墅度过更多时间。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Travelmar·时刻表",
+          "url": "https://www.travelmar.it/en/timetable"
+        },
+        {
+          "label": "SITA Sud · 坎帕尼亚 时刻表",
+          "url": "https://sitasudtrasporti.it/campania/orari/"
+        },
+        {
+          "label": "庞贝考古公园",
+          "url": "https://pompeiisites.org/en/"
+        }
+      ]
+    },
+    {
+      "key": "herculaneumVesuvius",
+      "category": "艺术与景观",
+      "metaTitle": "来自 Cetara 的赫库兰尼姆和维苏威火山 |行程",
+      "title": "来自 Cetara 的赫库兰尼姆和维苏威火山",
+      "description": "如何从 Cetara 参观赫库兰尼姆和维苏威火山：火车、班车、换乘、官方门票、安全和天气选择。",
+      "intro": "赫库兰尼姆保留了私密的空间和非凡的细节；维苏威火山从上方揭示了决定其历史的景观。将它们结合起来是可能的，但需要能量、保留和真正的火山替代品。",
+      "quickAnswer": "乘坐公共交通，路线一般经过萨莱诺和那不勒斯，然后继续前往赫库兰尼姆；维苏威火山需要专门的交通工具和预留的入口。私人接送或旅游简化了后勤工作。如果风、雨或公园规则阻止进入火山口，赫库兰尼姆本身应该仍然是一个完整而令人满意的一天。",
+      "image": "/assets/journal/herculaneum-vesuvius.webp",
+      "alt": "赫库兰尼姆考古遗址和远处的维苏威火山",
+      "imageCredit": {
+        "author": "Sumit Surai",
+        "source": "https://commons.wikimedia.org/wiki/File:Herculaneum_-_The_Ruins,_The_Present_Town_And_Mount_Vesuvius.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "modified": true
+      },
+      "readTime": 8,
+      "takeaways": [
+        "单独保留考古遗址和火山口通道",
+        "出发前查看天气和公园通知",
+        "穿适合步道和考古地形的鞋子",
+        "准备以赫库兰尼姆为中心的替代方案"
+      ],
+      "sections": [
+        {
+          "title": "为什么选择赫库兰尼姆",
+          "paragraphs": [
+            "赫库兰尼姆比庞贝古城更紧凑，保留了可以近距离观察古代生活的建筑、装饰和材料。这不是一个较小的庞贝古城，而是一次独特的体验。",
+            "其规模可以满足喜欢集中游览的游客，但地面不平坦和夏季炎热仍需做好准备。"
+          ]
+        },
+        {
+          "title": "从 Cetara 到达赫库兰尼姆",
+          "paragraphs": [
+            "乘坐公共交通工具到达萨莱诺，继续前往那不勒斯，然后乘坐当地铁路前往埃尔科拉诺斯卡维。根据当天的实际时间表重建路线并检查服务通知。",
+            "对于包含维苏威火山的团体或日子，私人接送可以减少不确定性。确认报价是否包含爬升、等待、返回。"
+          ]
+        },
+        {
+          "title": "维苏威火山通道和安全",
+          "paragraphs": [
+            "进入 Gran Cono 受到管制，需要购买特定时段的门票，并且可能会因天气或安全决定而暂停。通过国家公园指定的卖家购买。",
+            "这是一条步道：穿着合适的鞋子，携带适合阳光、风和温度变化的水和衣服。出发前请阅读最新的官方通知。"
+          ]
+        },
+        {
+          "title": "计划这一天及其替代方案",
+          "paragraphs": [
+            "明智的组合早上访问赫库兰尼姆并安排维苏威火山兼容的进入和转机时间。不要把时间安排得太紧：火山口通道并不在考古遗址旁边。",
+            "如果 Gran Cono 关闭，请在赫库兰尼姆停留更长的时间，不着急地吃午餐，然后返回 Cetara。一个好的选择可以防止天气使一整天变得令人失望。"
+          ]
+        }
+      ],
+      "villaBox": "历史和地中海可以共享一次住宿：在维苏威地区度过一天，晚上在 Cetara 的海边度过。 Martina可以帮助检查独立的传输和指南，而无需取代官网所需的检查。",
+      "faqs": [
+        {
+          "q": "赫库兰尼姆和维苏威火山可以一日游览吗？",
+          "a": "是的，尽早开始并精心安排连接。预约入场并留出转乘时间。"
+        },
+        {
+          "q": "维苏威火山一直开放吗？",
+          "a": "没有。由于天气和安全原因，访问可能会发生变化或暂停。出发前查看国家公园的通知。"
+        },
+        {
+          "q": "庞贝城和赫库兰尼姆哪个更好？",
+          "a": "庞贝城具有大城市的规模；赫库兰尼姆古城更加紧凑，保留了不同的细节。选择取决于您的兴趣、时间和精力。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "赫库兰尼姆考古公园",
+          "url": "https://ercolano.cultura.gov.it/"
+        },
+        {
+          "label": "维苏威火山国家公园·格兰科诺",
+          "url": "https://www.parconazionaledelvesuvio.it/visita-il-parco/i-sentieri-del-vesuvio/il-gran-cono/"
+        },
+        {
+          "label": "EAV·铁路时刻表",
+          "url": "https://www.eavsrl.it/orari-linee-ferroviarie/"
+        }
+      ]
+    }
+  ]
+}
