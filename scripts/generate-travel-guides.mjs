@@ -101,7 +101,7 @@ function baseHead({ language, title, description, canonical, alternates, image, 
 <title>${esc(title)}</title><meta name="description" content="${esc(description)}"><meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 <link rel="canonical" href="${canonical}">${alternates}
 <meta property="og:type" content="${type}"><meta property="og:site_name" content="Villa Venere - Amalfi Coast"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}"><meta property="og:url" content="${canonical}"><meta property="og:image" content="${origin}${image}"><meta name="twitter:card" content="summary_large_image">
-<link rel="icon" type="image/png" sizes="256x256" href="/assets/villa-logo-256.png"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="/travel-guides.css?v=2"><link rel="stylesheet" href="/concierge-widget.css?v=4">
+<link rel="icon" type="image/png" sizes="256x256" href="/assets/villa-logo-256.png"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="/travel-guides.css?v=3"><link rel="stylesheet" href="/concierge-widget.css?v=5">
 <script type="application/ld+json">${jsonLd(schema)}</script></head>`;
 }
 

@@ -44,7 +44,7 @@ img { display: block; max-width: 100%; }
 .journal-language-menu summary::-webkit-details-marker { display: none; }
 .journal-language-menu summary::after { margin-left: 6px; content: "▾"; }
 .journal-language-menu[open] summary::after { content: "▴"; }
-.journal-language-menu > div { position: absolute; top: calc(100% + 10px); right: 0; display: grid; grid-template-columns: repeat(2, minmax(105px, 1fr)); width: 250px; padding: 10px; border: 1px solid var(--line); border-radius: 14px; background: var(--cream); box-shadow: 0 16px 42px rgba(25,38,39,.16); }
+.journal-language-menu > div { position: absolute; z-index: 50; top: calc(100% + 10px); right: 0; display: grid; grid-template-columns: repeat(2, minmax(105px, 1fr)); width: 250px; padding: 10px; border: 1px solid var(--line); border-radius: 14px; background: var(--cream); box-shadow: 0 16px 42px rgba(25,38,39,.16); }
 .journal-language-menu a { padding: 8px 9px; border-radius: 8px; color: var(--muted); font-size: .7rem; text-decoration: none; }
 .journal-language-menu a:hover,.journal-language-menu a[aria-current="page"] { color: var(--teal); background: var(--paper); }
 html[dir="rtl"] .journal-language-menu > div { right: auto; left: 0; }

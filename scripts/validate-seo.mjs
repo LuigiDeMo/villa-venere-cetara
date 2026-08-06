@@ -66,6 +66,8 @@ for (const path of paths) {
       for (const contactMethod of ['WhatsApp', 'Facebook', 'Telegram', 'Instagram', 'mailto:', 'tel:']) {
         if (!html.includes(contactMethod)) errors.push(`${path}: missing contact method ${contactMethod}`);
       }
+      const experienceWidget = html.match(/data-vv-context="experiences"[\s\S]*?<\/section>/)?.[0] || '';
+      if ([...experienceWidget.matchAll(/<svg /g)].length !== 6) errors.push(`${path}: experience concierge must use the six branded SVG icons`);
     } else if (html.includes('data-vv-assistant')) {
       errors.push(`${path}: concierge widget must only appear on experience editorial pages`);
     }
@@ -86,6 +88,8 @@ for (const path of paths) {
     if (!html.includes('/concierge-widget.js?v=3')) errors.push(`${path}: guide concierge script is required`);
     if (!html.includes('/language-suggestion.js?v=1')) errors.push(`${path}: direct-entry language detection is required`);
     if (!html.includes(`href="${editorialPath(journal.language, 'experiences')}"`)) errors.push(`${path}: missing same-language experience link`);
+    const guideWidget = html.match(/data-vv-context="guides"[\s\S]*?<\/section>/)?.[0] || '';
+    if ([...guideWidget.matchAll(/<svg /g)].length !== 6) errors.push(`${path}: guide concierge must use the six branded SVG icons`);
     if (!journal.hub && !html.includes('class="travel-faq"')) errors.push(`${path}: visible FAQ section is required`);
     if (!journal.hub && !html.includes('class="travel-sources"')) errors.push(`${path}: source section is required`);
   }
