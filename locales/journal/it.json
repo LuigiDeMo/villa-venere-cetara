@@ -27,7 +27,20 @@
     "languageSwitch": "Read in English",
     "ctaTitle": "La Costiera, con il tempo di viverla",
     "ctaText": "Soggiorna sul mare a Cetara, parti per le tue escursioni e torna ogni sera alla terrazza di Villa Venere.",
-    "ctaButton": "Scopri la disponibilità"
+    "ctaButton": "Scopri la disponibilità",
+    "assistant": {
+      "bubble": "Stai organizzando il tuo itinerario? Scrivi a Martina: ti aiuta a trasformare queste guide in un soggiorno su misura.",
+      "panelLabel": "Chiedi consiglio a Martina",
+      "closeLabel": "Chiudi la finestra dei contatti",
+      "hostName": "Martina · Host di Villa Venere",
+      "replyTime": "Risponde personalmente ai messaggi",
+      "greeting": "Ciao! Sono Martina 👋",
+      "help": "Hai dubbi su traghetti, spostamenti o giornate da combinare? Scrivimi e ti aiuterò a organizzare il soggiorno.",
+      "startWith": "Contatta Martina con:",
+      "phoneLabel": "Telefono",
+      "launcher": "Scrivi a Martina",
+      "whatsappMessage": "Ciao Martina, sto leggendo le guide di Villa Venere e vorrei un consiglio per organizzare il soggiorno."
+    }
   },
   "guides": [
     {
@@ -38,8 +51,9 @@
       "description": "Perché scegliere Cetara come base in Costiera Amalfitana: mare, autenticità, traghetti e itinerari verso Amalfi, Positano, Ravello e Pompei.",
       "intro": "Scegliere Cetara non significa rinunciare ad Amalfi, Positano o Ravello. Significa visitarli durante il giorno e ritrovare, al ritorno, un borgo abitato, il porto, la cucina locale e una casa privata sul mare.",
       "quickAnswer": "Cetara è una base particolarmente adatta a chi cerca un soggiorno meno frenetico, ama muoversi via mare e preferisce separare il tempo delle escursioni dal tempo della vacanza. In stagione i traghetti collegano il borgo con altre località della costa; gli autobus restano l’alternativa terrestre. Per le giornate più complesse, come Ravello o Pompei, un autista privato può ridurre coincidenze e attese.",
-      "image": "/assets/photo/hero-terrace.webp",
-      "alt": "Terrazza panoramica di Villa Venere affacciata sul mare di Cetara",
+      "image": "/assets/journal/cetara-slow-base.webp",
+      "alt": "Il borgo marinaro di Cetara visto dal mare con la Torre Vicereale",
+      "imageCredit": {"author": "Bernard Gagnon", "source": "https://commons.wikimedia.org/wiki/File:Cetara_(Italy).jpg", "license": "CC BY 4.0", "licenseUrl": "https://creativecommons.org/licenses/by/4.0/", "modified": true},
       "readTime": 8,
       "takeaways": [
         "Cetara è una scelta di soggiorno, non soltanto una tappa",
@@ -103,8 +117,9 @@
       "description": "Come visitare Amalfi e Positano partendo da Cetara: differenze tra traghetto e barca privata, itinerario, rientro e piano in caso di maltempo.",
       "intro": "Dal porto di Cetara la Costiera cambia prospettiva. Il traghetto trasforma lo spostamento in parte della giornata; una barca privata offre più libertà, soste bagno e un itinerario costruito intorno al gruppo.",
       "quickAnswer": "Per una giornata semplice ad Amalfi, il traghetto stagionale è normalmente la soluzione più lineare quando il mare è regolare. Positano può richiedere una coincidenza o un servizio specifico, da controllare sulla data reale. La barca privata è più adatta a gruppi, ricorrenze e giornate in cui la navigazione stessa è l’esperienza principale.",
-      "image": "/assets/photo/concierge-sea.webp",
-      "alt": "Navigazione in barca lungo la Costiera Amalfitana",
+      "image": "/assets/journal/amalfi-positano-by-sea.webp",
+      "alt": "Navigazione lungo le scogliere della Costiera Amalfitana tra Amalfi e Positano",
+      "imageCredit": {"author": "Nan Palmero", "source": "https://commons.wikimedia.org/wiki/File:Ferry_Ride_Between_Amalfi_and_Positano_(42250218604).jpg", "license": "CC BY 2.0", "licenseUrl": "https://creativecommons.org/licenses/by/2.0/", "modified": true},
       "readTime": 7,
       "takeaways": [
         "Controlla corse e condizioni del mare il giorno prima e la mattina stessa",
@@ -162,8 +177,9 @@
       "description": "Come raggiungere Ravello da Cetara e visitare Villa Rufolo e Villa Cimbrone: autobus, traghetto più bus, transfer privato e consigli pratici.",
       "intro": "Ravello non è sul mare: per arrivare ai suoi giardini e belvedere bisogna salire. Da Cetara si può viaggiare con gli autobus, combinare traghetto e bus passando da Amalfi oppure scegliere un autista privato.",
       "quickAnswer": "La soluzione pubblica più panoramica, quando attiva, combina il traghetto da Cetara ad Amalfi con l’autobus verso Ravello. L’alternativa interamente su strada usa i servizi SITA con i cambi previsti dall’orario. Un autista privato è più comodo per gruppi, mobilità ridotta, visite al mattino presto o rientri serali.",
-      "image": "/assets/photo/cetara-path.webp",
-      "alt": "Sentiero mediterraneo tra bougainvillea e mare in Costiera Amalfitana",
+      "image": "/assets/journal/villa-rufolo-ravello.webp",
+      "alt": "Villa Rufolo a Ravello incorniciata dai giardini e dai Monti Lattari",
+      "imageCredit": {"author": "Istvánka", "source": "https://commons.wikimedia.org/wiki/File:Ravello_Villa_Rufolo.JPG", "license": "CC BY-SA 3.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/", "modified": true},
       "readTime": 7,
       "takeaways": [
         "Ravello richiede sempre un tratto su strada",
@@ -221,8 +237,9 @@
       "description": "Come visitare Pompei partendo da Cetara: itinerario con mezzi pubblici o autista privato, biglietti ufficiali, durata e consigli stagionali.",
       "intro": "Pompei richiede una giornata diversa da quella della Costiera: partenza presto, scarpe comode e tempo sufficiente dentro gli scavi. Tornare al mare di Cetara alla sera rende il contrasto parte del viaggio.",
       "quickAnswer": "Senza auto, il percorso più leggibile passa normalmente da Salerno e prosegue in treno verso Pompei, verificando le coincidenze della data reale. Un autista privato riduce i cambi ed è spesso più pratico per famiglie e gruppi. Conviene prenotare l’ingresso sul canale ufficiale e dedicare agli scavi almeno alcune ore.",
-      "image": "/assets/photo/concierge-history.webp",
-      "alt": "Visita guidata a un sito archeologico della Campania",
+      "image": "/assets/journal/pompeii-forum-vesuvius.webp",
+      "alt": "Il Foro di Pompei con le colonne antiche e il Vesuvio sullo sfondo",
+      "imageCredit": {"author": "Commonists", "source": "https://commons.wikimedia.org/wiki/File:Forum_(Pompeii)_and_the_Vesuvio.jpg", "license": "CC BY-SA 4.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/", "modified": true},
       "readTime": 8,
       "takeaways": [
         "Parti presto e considera Pompei una giornata intera",
@@ -280,8 +297,9 @@
       "description": "Guida alla tradizione gastronomica di Cetara: colatura di alici DOP, pesca, botteghe, ristoranti e un itinerario lento nel borgo.",
       "intro": "A Cetara il mare non è soltanto panorama. È lavoro, conservazione e cucina. La colatura di alici DOP racconta questa identità meglio di qualsiasi slogan e invita a conoscere il borgo attraverso sapori, persone e stagioni.",
       "quickAnswer": "Una giornata gastronomica a Cetara può iniziare dal porto, proseguire tra centro e botteghe e concludersi con un pranzo dedicato al pescato e alla colatura. Degustazioni, laboratori e visite non vanno presunti: è sempre meglio contattare produttori e ristoranti per verificare aperture e disponibilità.",
-      "image": "/assets/photo/concierge-private.webp",
-      "alt": "Chef prepara un’esperienza gastronomica mediterranea",
+      "image": "/assets/journal/cetara-colatura.webp",
+      "alt": "Spaghetti con colatura di alici di Cetara, aglio e peperoncino",
+      "imageCredit": {"author": "Elga Cappellari", "source": "https://commons.wikimedia.org/wiki/File:Spaghetti_di_Gragnano_e_colatura_di_alici.jpg", "license": "CC BY-SA 2.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/", "modified": true},
       "readTime": 6,
       "takeaways": [
         "La colatura di alici di Cetara è una DOP con disciplinare specifico",
@@ -339,8 +357,9 @@
       "description": "Itinerario slow di tre giorni da Cetara: borgo e mare, Amalfi o Positano in traghetto, Ravello o Pompei e tempo per vivere Villa Venere.",
       "intro": "Tre giorni non bastano per vedere tutto, ma sono sufficienti per costruire un viaggio coerente: conoscere Cetara, scegliere una giornata sul mare e dedicare l’ultima a un paesaggio o a una storia diversa.",
       "quickAnswer": "Il ritmo consigliato è: primo giorno Cetara e Villa Venere; secondo giorno Amalfi o Positano via mare; terzo giorno Ravello oppure Pompei, non entrambe. Gli orari reali, la stagione e il meteo decidono l’ordine. Conservare una mezza giornata libera evita che il soggiorno diventi una sequenza di trasferimenti.",
-      "image": "/assets/photo/terrace-relax.webp",
-      "alt": "Ospite si rilassa sulla terrazza sul mare di Villa Venere",
+      "image": "/assets/journal/cetara-three-days.webp",
+      "alt": "Il porto, la spiaggia e il centro storico di Cetara visti dal mare",
+      "imageCredit": {"author": "Giovanni Mattiello", "source": "https://commons.wikimedia.org/wiki/File:Cetara_-_Costa_d%27Amalfi.jpg", "license": "CC BY 4.0", "licenseUrl": "https://creativecommons.org/licenses/by/4.0/", "modified": true},
       "readTime": 7,
       "takeaways": [
         "Giorno 1: Cetara, borgo, cucina e mare",
@@ -398,8 +417,9 @@
       "description": "Come visitare Ercolano e il Vesuvio partendo da Cetara: treni, navette, transfer, biglietti ufficiali, sicurezza e piano alternativo.",
       "intro": "Ercolano conserva ambienti raccolti e dettagli straordinari; il Vesuvio mostra dall’alto il paesaggio che ne ha determinato la storia. Unirli è possibile, ma richiede energia, prenotazioni e un piano alternativo per il vulcano.",
       "quickAnswer": "Con i mezzi pubblici il viaggio passa normalmente da Salerno e Napoli, proseguendo verso Ercolano; per il Vesuvio serve poi un collegamento dedicato e un ingresso prenotato. Un transfer o tour privato semplifica la logistica. Se vento, pioggia o disposizioni del Parco impediscono l’accesso al Gran Cono, Ercolano deve restare una giornata completa e soddisfacente anche da solo.",
-      "image": "/assets/photo/villa-cliff.webp",
-      "alt": "Villa Venere e il paesaggio roccioso della Costiera Amalfitana",
+      "image": "/assets/journal/herculaneum-vesuvius.webp",
+      "alt": "Gli scavi archeologici di Ercolano con il Vesuvio sullo sfondo",
+      "imageCredit": {"author": "Sumit Surai", "source": "https://commons.wikimedia.org/wiki/File:Herculaneum_-_The_Ruins,_The_Present_Town_And_Mount_Vesuvius.jpg", "license": "CC BY-SA 4.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/", "modified": true},
       "readTime": 8,
       "takeaways": [
         "Prenota separatamente sito archeologico e accesso al Gran Cono",

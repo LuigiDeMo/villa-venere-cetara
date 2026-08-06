@@ -37,6 +37,12 @@ for (const path of paths) {
     for (const slug of Object.values(editorialRoutes[editorial.language])) {
       if (!html.includes(`href="/${editorial.language}/${slug}/"`)) errors.push(`${path}: missing localized guide link to ${slug}`);
     }
+    if (editorial.key === 'experiences') {
+      if (!html.includes('data-vv-context="experiences"')) errors.push(`${path}: experience concierge widget is required`);
+      if (!html.includes('/concierge-widget.js?v=2')) errors.push(`${path}: experience concierge script is required`);
+    } else if (html.includes('data-vv-assistant')) {
+      errors.push(`${path}: concierge widget must only appear on experience editorial pages`);
+    }
   }
   const journal = journalFiles.get(path);
   if (journal) {
@@ -46,6 +52,9 @@ for (const path of paths) {
     if (!html.includes(`<html lang="${journal.language}"`)) errors.push(`${path}: incorrect journal document language`);
     const alternateCount = [...html.matchAll(/<link rel="alternate" hreflang=/g)].length;
     if (alternateCount !== 3) errors.push(`${path}: contains ${alternateCount} journal hreflang links instead of 3`);
+    if (!html.includes('class="photo-credit"')) errors.push(`${path}: visible photo attribution is required`);
+    if (!html.includes('data-vv-context="guides"')) errors.push(`${path}: guide concierge widget is required`);
+    if (!html.includes('/concierge-widget.js?v=2')) errors.push(`${path}: guide concierge script is required`);
     if (!journal.hub && !html.includes('class="travel-faq"')) errors.push(`${path}: visible FAQ section is required`);
     if (!journal.hub && !html.includes('class="travel-sources"')) errors.push(`${path}: source section is required`);
   }
@@ -91,8 +100,11 @@ for (const path of paths) {
     }
   }
 }
-for (const image of ['villa-logo-256.png','villa-view.jpg','1661525798152.jpg','villa-gallery/01-villa-esterno.jpg','villa-gallery/02-villa-cucina.jpg','villa-gallery/03-villa-camera.jpg','villa-gallery/04-villa-terrazza.jpg','villa-gallery/camera-principale-vista-mare.jpg','villa-gallery/camera-principale-smart-tv.jpg','photo/hero-terrace.webp','photo/concierge-sea.webp','photo/cetara-path.webp','photo/concierge-history.webp','photo/concierge-private.webp','photo/terrace-relax.webp','photo/villa-cliff.webp']) {
+for (const image of ['villa-logo-256.png','villa-view.jpg','1661525798152.jpg','villa-gallery/01-villa-esterno.jpg','villa-gallery/02-villa-cucina.jpg','villa-gallery/03-villa-camera.jpg','villa-gallery/04-villa-terrazza.jpg','villa-gallery/camera-principale-vista-mare.jpg','villa-gallery/camera-principale-smart-tv.jpg','photo/hero-terrace.webp','photo/concierge-sea.webp','photo/cetara-path.webp','photo/concierge-history.webp','photo/concierge-private.webp','photo/terrace-relax.webp','photo/villa-cliff.webp','journal/cetara-slow-base.webp','journal/amalfi-positano-by-sea.webp','journal/villa-rufolo-ravello.webp','journal/pompeii-forum-vesuvius.webp','journal/cetara-colatura.webp','journal/cetara-three-days.webp','journal/herculaneum-vesuvius.webp']) {
   try { await access(join(root, 'assets', image)); } catch { errors.push(`Missing image: assets/${image}`); }
+}
+for (const file of ['concierge-widget.css', 'concierge-widget.js']) {
+  try { await access(join(root, file)); } catch { errors.push(`Missing assistant asset: ${file}`); }
 }
 const sitemap = await readFile(join(root, 'sitemap.xml'), 'utf8');
 const locCount = [...sitemap.matchAll(/<loc>/g)].length;

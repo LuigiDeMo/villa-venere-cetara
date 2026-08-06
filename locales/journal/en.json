@@ -27,7 +27,20 @@
     "languageSwitch": "Leggi in italiano",
     "ctaTitle": "The Amalfi Coast, with time to live it",
     "ctaText": "Stay by the sea in Cetara, set out on your chosen day trips and return each evening to Villa Venere's terrace.",
-    "ctaButton": "View availability"
+    "ctaButton": "View availability",
+    "assistant": {
+      "bubble": "Planning your itinerary? Message Martina: she can turn these guides into a stay tailored to you.",
+      "panelLabel": "Ask Martina for advice",
+      "closeLabel": "Close contact window",
+      "hostName": "Martina · Your host at Villa Venere",
+      "replyTime": "Personally replies to your messages",
+      "greeting": "Hi! I'm Martina 👋",
+      "help": "Questions about ferries, transfers or how to combine your days? Message me and I will help you plan your stay.",
+      "startWith": "Contact Martina via:",
+      "phoneLabel": "Phone",
+      "launcher": "Message Martina",
+      "whatsappMessage": "Hello Martina, I am reading Villa Venere's guides and would like some advice for planning my stay."
+    }
   },
   "guides": [
     {
@@ -38,8 +51,9 @@
       "description": "Why choose Cetara as your Amalfi Coast base: the sea, local life, seasonal ferries and day trips to Amalfi, Positano, Ravello and Pompeii.",
       "intro": "Choosing Cetara does not mean giving up Amalfi, Positano or Ravello. It means visiting them by day, then returning to a lived-in fishing village, its harbour and food, and a private home above the sea.",
       "quickAnswer": "Cetara is particularly well suited to travellers who want a less frantic stay, enjoy travelling by sea and prefer to separate day trips from genuine holiday time. Seasonal ferries connect the village with other coastal towns, while buses provide the land alternative. A private driver can simplify more complex days such as Ravello or Pompeii.",
-      "image": "/assets/photo/hero-terrace.webp",
-      "alt": "Villa Venere's panoramic terrace overlooking the sea at Cetara",
+      "image": "/assets/journal/cetara-slow-base.webp",
+      "alt": "The fishing village of Cetara seen from the sea with its Viceregal Tower",
+      "imageCredit": {"author": "Bernard Gagnon", "source": "https://commons.wikimedia.org/wiki/File:Cetara_(Italy).jpg", "license": "CC BY 4.0", "licenseUrl": "https://creativecommons.org/licenses/by/4.0/", "modified": true},
       "readTime": 8,
       "takeaways": [
         "Cetara is a place to stay, not merely a stop",
@@ -103,8 +117,9 @@
       "description": "How to visit Amalfi and Positano from Cetara: ferry versus private boat, a balanced itinerary, the return journey and a bad-weather alternative.",
       "intro": "From Cetara's harbour, the coast changes perspective. A ferry makes the journey part of the day; a private boat offers more freedom, swimming stops and an itinerary built around your group.",
       "quickAnswer": "For a straightforward day in Amalfi, the seasonal ferry is usually the clearest option when the sea is settled. Positano may require a connection or a specific sailing, which must be checked for the actual date. A private boat suits groups, celebrations and days when the cruise itself is the main experience.",
-      "image": "/assets/photo/concierge-sea.webp",
-      "alt": "Boat cruising along the Amalfi Coast",
+      "image": "/assets/journal/amalfi-positano-by-sea.webp",
+      "alt": "Sailing along the Amalfi Coast cliffs between Amalfi and Positano",
+      "imageCredit": {"author": "Nan Palmero", "source": "https://commons.wikimedia.org/wiki/File:Ferry_Ride_Between_Amalfi_and_Positano_(42250218604).jpg", "license": "CC BY 2.0", "licenseUrl": "https://creativecommons.org/licenses/by/2.0/", "modified": true},
       "readTime": 7,
       "takeaways": [
         "Check sailings and sea conditions the day before and again in the morning",
@@ -162,8 +177,9 @@
       "description": "How to reach Ravello from Cetara and visit Villa Rufolo and Villa Cimbrone: bus, ferry plus bus, private transfer and practical advice.",
       "intro": "Ravello is not on the water: reaching its gardens and viewpoints means climbing above the coast. From Cetara, travel by bus, combine a ferry with a bus through Amalfi, or arrange a private driver.",
       "quickAnswer": "When services are operating, the most scenic public option combines a ferry from Cetara to Amalfi with a bus to Ravello. The all-road alternative follows the relevant SITA connections. A private driver is more comfortable for groups, limited mobility, early visits or evening returns.",
-      "image": "/assets/photo/cetara-path.webp",
-      "alt": "Mediterranean path with bougainvillea and sea views on the Amalfi Coast",
+      "image": "/assets/journal/villa-rufolo-ravello.webp",
+      "alt": "Villa Rufolo in Ravello framed by gardens and the Lattari Mountains",
+      "imageCredit": {"author": "Istvánka", "source": "https://commons.wikimedia.org/wiki/File:Ravello_Villa_Rufolo.JPG", "license": "CC BY-SA 3.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/", "modified": true},
       "readTime": 7,
       "takeaways": [
         "Ravello always requires a road section",
@@ -221,8 +237,9 @@
       "description": "How to visit Pompeii from Cetara by public transport or private driver, with official tickets, visit length and seasonal advice.",
       "intro": "Pompeii asks for a different kind of Amalfi Coast day: an early start, comfortable shoes and enough time inside the site. Returning to the sea at Cetara makes the contrast part of the journey.",
       "quickAnswer": "Without a car, the clearest route generally goes through Salerno and continues by train towards Pompeii, using the connections available on the actual date. A private driver reduces changes and can be practical for families and groups. Book admission through the official channel and allow at least several hours inside the archaeological site.",
-      "image": "/assets/photo/concierge-history.webp",
-      "alt": "A guided visit to an archaeological site in Campania",
+      "image": "/assets/journal/pompeii-forum-vesuvius.webp",
+      "alt": "The Forum of Pompeii with ancient columns and Mount Vesuvius beyond",
+      "imageCredit": {"author": "Commonists", "source": "https://commons.wikimedia.org/wiki/File:Forum_(Pompeii)_and_the_Vesuvio.jpg", "license": "CC BY-SA 4.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/", "modified": true},
       "readTime": 8,
       "takeaways": [
         "Leave early and treat Pompeii as a full-day excursion",
@@ -280,8 +297,9 @@
       "description": "A guide to Cetara's food traditions: Colatura di Alici DOP, fishing, food shops, restaurants and a slow itinerary through the village.",
       "intro": "In Cetara, the sea is not only a view. It is work, preservation and cooking. Colatura di Alici DOP expresses this identity more clearly than any slogan and invites travellers to understand the village through flavour, people and season.",
       "quickAnswer": "A food-focused day in Cetara can begin at the harbour, continue through the centre and local shops, and end with lunch built around the catch and colatura. Never assume that tastings, workshops or visits are available: contact producers and restaurants to confirm openings and arrangements.",
-      "image": "/assets/photo/concierge-private.webp",
-      "alt": "A chef prepares a private Mediterranean dining experience",
+      "image": "/assets/journal/cetara-colatura.webp",
+      "alt": "Spaghetti with Cetara anchovy colatura, garlic and chilli",
+      "imageCredit": {"author": "Elga Cappellari", "source": "https://commons.wikimedia.org/wiki/File:Spaghetti_di_Gragnano_e_colatura_di_alici.jpg", "license": "CC BY-SA 2.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/", "modified": true},
       "readTime": 6,
       "takeaways": [
         "Colatura di Alici di Cetara has protected DOP status and a defined production method",
@@ -339,8 +357,9 @@
       "description": "A slow three-day itinerary from Cetara: village and sea, Amalfi or Positano by ferry, Ravello or Pompeii, and time to enjoy Villa Venere.",
       "intro": "Three days are not enough to see everything, but they are enough to create a coherent trip: understand Cetara, choose one day on the water and devote the final day to a different landscape or history.",
       "quickAnswer": "The suggested rhythm is: day one in Cetara and at Villa Venere; day two in Amalfi or Positano by sea; day three in Ravello or Pompeii, not both. Actual schedules, season and weather determine the order. Keeping half a day open prevents the stay becoming a sequence of transfers.",
-      "image": "/assets/photo/terrace-relax.webp",
-      "alt": "A guest relaxing on Villa Venere's seafront terrace",
+      "image": "/assets/journal/cetara-three-days.webp",
+      "alt": "Cetara harbour, beach and historic centre seen from the sea",
+      "imageCredit": {"author": "Giovanni Mattiello", "source": "https://commons.wikimedia.org/wiki/File:Cetara_-_Costa_d%27Amalfi.jpg", "license": "CC BY 4.0", "licenseUrl": "https://creativecommons.org/licenses/by/4.0/", "modified": true},
       "readTime": 7,
       "takeaways": [
         "Day 1: Cetara, village, food and sea",
@@ -398,8 +417,9 @@
       "description": "How to visit Herculaneum and Mount Vesuvius from Cetara: trains, shuttles, transfers, official tickets, safety and a weather alternative.",
       "intro": "Herculaneum preserves intimate spaces and remarkable details; Vesuvius reveals from above the landscape that determined its history. Combining them is possible, but requires energy, reservations and a genuine alternative for the volcano.",
       "quickAnswer": "By public transport, the route generally passes through Salerno and Naples before continuing to Herculaneum; Vesuvius then requires dedicated transport and a reserved entry. A private transfer or tour simplifies logistics. If wind, rain or Park rules prevent access to the crater, Herculaneum should remain a complete and satisfying day on its own.",
-      "image": "/assets/photo/villa-cliff.webp",
-      "alt": "Villa Venere and the rocky landscape of the Amalfi Coast",
+      "image": "/assets/journal/herculaneum-vesuvius.webp",
+      "alt": "The archaeological ruins of Herculaneum with Mount Vesuvius beyond",
+      "imageCredit": {"author": "Sumit Surai", "source": "https://commons.wikimedia.org/wiki/File:Herculaneum_-_The_Ruins,_The_Present_Town_And_Mount_Vesuvius.jpg", "license": "CC BY-SA 4.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/", "modified": true},
       "readTime": 8,
       "takeaways": [
         "Reserve the archaeological site and crater access separately",
