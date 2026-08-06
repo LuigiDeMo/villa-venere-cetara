@@ -87,9 +87,60 @@ function updateBookingLinks(language) {
 }
 
 const SEO_PAGE_PATHS = {
-  en: { villa: '/en/villa-cetara/', sea: '/en/private-sea-access/', rooms: '/en/rooms-amenities/', location: '/en/getting-to-cetara/' },
-  it: { villa: '/it/villa-cetara/', sea: '/it/accesso-privato-mare/', rooms: '/it/camere-servizi/', location: '/it/come-arrivare/' },
+  en: { villa: '/en/villa-cetara/', sea: '/en/private-sea-access/', rooms: '/en/rooms-amenities/', location: '/en/getting-to-cetara/', experiences: '/en/amalfi-coast-experiences/' },
+  it: { villa: '/it/villa-cetara/', sea: '/it/accesso-privato-mare/', rooms: '/it/camere-servizi/', location: '/it/come-arrivare/', experiences: '/it/esperienze-costiera-amalfitana/' },
 };
+
+function updateJournalLinks(language) {
+  const isItalian = language === 'it';
+  const path = isItalian ? '/it/guide/' : '/en/guides/';
+  const label = isItalian ? 'Guide' : 'Guides';
+  const cardTitle = isItalian ? 'Guide di viaggio' : 'Travel guides';
+  const cardNote = isItalian ? 'Cetara, Costiera e itinerari slow' : 'Cetara, the Coast and slow itineraries';
+
+  let navLink = document.querySelector('[data-journal-nav]');
+  if (!navLink && nav) {
+    navLink = document.createElement('a');
+    navLink.dataset.journalNav = '';
+    nav.insertBefore(navLink, languageMenu || nav.querySelector('.nav-book'));
+    navLink.addEventListener('click', () => {
+      nav.classList.remove('open');
+      toggle?.setAttribute('aria-expanded', 'false');
+    });
+  }
+  if (navLink) {
+    navLink.href = path;
+    navLink.textContent = label;
+  }
+
+  const guideGrid = document.querySelector('.guide-grid');
+  let guideLink = guideGrid?.querySelector('[data-journal-link], a[href="/it/guide/"], a[href="/en/guides/"]');
+  if (!guideLink && guideGrid) {
+    guideLink = document.createElement('a');
+    guideLink.dataset.journalLink = '';
+    guideLink.innerHTML = '<span>05</span><strong></strong><small></small>';
+    guideGrid.appendChild(guideLink);
+  }
+  if (guideLink) {
+    guideLink.dataset.journalLink = '';
+    guideLink.href = path;
+    guideLink.querySelector('strong').textContent = cardTitle;
+    guideLink.querySelector('small').textContent = cardNote;
+  }
+
+  const footerNav = document.querySelector('.footer-nav');
+  let footerLink = footerNav?.querySelector('[data-journal-link], a[href="/it/guide/"], a[href="/en/guides/"]');
+  if (!footerLink && footerNav) {
+    footerLink = document.createElement('a');
+    footerLink.dataset.journalLink = '';
+    footerNav.appendChild(footerLink);
+  }
+  if (footerLink) {
+    footerLink.dataset.journalLink = '';
+    footerLink.href = path;
+    footerLink.textContent = label;
+  }
+}
 
 function updateSeoLinks(language) {
   const paths = SEO_PAGE_PATHS[language] || SEO_PAGE_PATHS.en;
@@ -97,6 +148,10 @@ function updateSeoLinks(language) {
     const path = paths[link.dataset.seoPage];
     if (path) link.href = path;
   });
+  document.querySelectorAll('[data-experiences-page]').forEach((link) => {
+    link.href = paths.experiences;
+  });
+  updateJournalLinks(language);
   if (language === 'it') {
     const notes = document.querySelectorAll('.guide-grid small');
     ['Villa, camere e ambienti', 'Terrazza, banchina e mare', 'Capienza e dotazioni', 'Traghetti, autobus e parcheggio'].forEach((text, index) => {
@@ -1020,6 +1075,18 @@ const conciergeExperiences = [
   { id: 'chef', icon: '<svg viewBox="0 0 64 64" aria-hidden="true"><path d="M20 28c-6 0-10-4-10-9s4-9 9-9c3 0 6 2 7 4 2-5 11-6 15-1 7-2 13 3 13 9 0 4-3 7-7 7v22H18V28"/><path d="M24 39h16M24 45h16"/></svg>' }
 ];
 
+document.addEventListener('click', (event) => {
+  const experienceToggle = event.target.closest('.concierge-actions .concierge-toggle');
+  if (!experienceToggle) return;
+  const concierge = experienceToggle.closest('.concierge-section');
+  const catalog = concierge?.querySelector('.concierge-catalog');
+  if (!catalog) return;
+  const expanded = experienceToggle.getAttribute('aria-expanded') !== 'true';
+  experienceToggle.setAttribute('aria-expanded', String(expanded));
+  catalog.hidden = !expanded;
+  if (expanded) window.setTimeout(() => catalog.scrollIntoView({ behavior: 'smooth', block: 'nearest' }), 80);
+});
+
 function installConciergeExperience() {
   if (document.querySelector('.concierge-section')) return;
   const finalCta = document.querySelector('.final-contact-cta');
@@ -1041,14 +1108,6 @@ function installConciergeExperience() {
     return '<article class="concierge-card"><div class="concierge-icon">' + icon + '</div><div class="concierge-card-copy"><h4>' + title + '</h4><p>' + t('concierge.' + id + 'Body') + '</p></div><a href="https://wa.me/393896840764?text=' + message + '" target="_blank" rel="noreferrer"><span>' + t('concierge.cta') + '</span><span aria-hidden="true">→</span></a></article>';
   }).join('');
   section.innerHTML = '<div class="container"><header class="concierge-intro"><p class="concierge-eyebrow">' + t('concierge.eyebrow') + '</p><h3 id="concierge-title">' + t('concierge.title') + '</h3><p>' + t('concierge.intro') + '</p></header><div class="concierge-overview">' + categories + '</div><div class="concierge-actions"><button class="concierge-contact" type="button" data-contact-open>' + t('concierge.contactNow') + '</button><button class="concierge-toggle" type="button" aria-expanded="false"><span class="concierge-show">' + t('concierge.showAll') + '</span><span class="concierge-hide">' + t('concierge.showLess') + '</span></button></div><div class="concierge-catalog" hidden><div class="concierge-grid">' + experiences + '</div><p class="concierge-note">' + t('concierge.partnerNote') + '</p></div></div>';
-  const toggle = section.querySelector('.concierge-toggle');
-  const catalog = section.querySelector('.concierge-catalog');
-  toggle?.addEventListener('click', () => {
-    const expanded = toggle.getAttribute('aria-expanded') !== 'true';
-    toggle.setAttribute('aria-expanded', String(expanded));
-    catalog.hidden = !expanded;
-    if (expanded) window.setTimeout(() => catalog.scrollIntoView({ behavior: 'smooth', block: 'nearest' }), 80);
-  });
   section.querySelector('[data-contact-open]')?.addEventListener('click', () => setContactOpen(true));
   if (finalCta) finalCta.insertAdjacentElement('beforebegin', section);
   else reviews.insertAdjacentElement('afterend', section);
@@ -1091,13 +1150,6 @@ function initializeStaticSeoSections() {
     catalog.hidden = true;
     catalog.innerHTML = '<div class="concierge-grid">' + experiences + '</div>';
     concierge.querySelector('.concierge-actions')?.insertAdjacentElement('afterend', catalog);
-    const toggle = concierge.querySelector('.concierge-toggle');
-    toggle?.addEventListener('click', () => {
-      const expanded = toggle.getAttribute('aria-expanded') !== 'true';
-      toggle.setAttribute('aria-expanded', String(expanded));
-      catalog.hidden = !expanded;
-      if (expanded) window.setTimeout(() => catalog.scrollIntoView({ behavior: 'smooth', block: 'nearest' }), 80);
-    });
   }
 
   const launcherIcon = contactLauncher?.querySelector('.contact-launcher-icon');
