@@ -95,8 +95,8 @@ function updateJournalLinks(language) {
   const isItalian = language === 'it';
   const path = isItalian ? '/it/guide/' : '/en/guides/';
   const label = isItalian ? 'Guide' : 'Guides';
-  const cardTitle = isItalian ? 'Guide di viaggio' : 'Travel guides';
-  const cardNote = isItalian ? 'Cetara, Costiera e itinerari slow' : 'Cetara, the Coast and slow itineraries';
+  const cardTitle = isItalian ? 'Vivere Cetara e la Costiera' : 'Live Cetara and the Amalfi Coast';
+  const cardNote = isItalian ? 'Guide locali, itinerari via mare e giornate tra Ravello, Pompei e il Vesuvio' : 'Local guides, journeys by sea and days in Ravello, Pompeii and on Mount Vesuvius';
 
   let navLink = document.querySelector('[data-journal-nav]');
   if (!navLink && nav) {
@@ -123,6 +123,7 @@ function updateJournalLinks(language) {
   }
   if (guideLink) {
     guideLink.dataset.journalLink = '';
+    guideLink.classList.add('guide-journal-card');
     guideLink.href = path;
     guideLink.querySelector('strong').textContent = cardTitle;
     guideLink.querySelector('small').textContent = cardNote;

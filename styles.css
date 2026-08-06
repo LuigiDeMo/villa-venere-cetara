@@ -275,6 +275,15 @@ a.footer-contact-line:hover{color:#fff4e5}
 .well2 h3,.villa-guide h3,.martina-host h3{color:var(--gold)}
 .well1,.photo-story,.slow-moments,.well2,.well3,.villa-guide,.martina-host,.well5,.final-contact-cta{border-top:1px solid rgba(141,109,77,.1)}
 
+/* The travel journal is a distinct editorial destination, not a fifth villa card. */
+.guide-grid .guide-journal-card{grid-column:1/-1;display:grid;grid-template-columns:52px minmax(0,1fr) 42px;grid-template-rows:auto auto;align-items:center;column-gap:20px;min-height:124px;padding:1.35rem 1.65rem;border-color:rgba(131,91,59,.24);background:linear-gradient(105deg,rgba(255,253,248,.94),rgba(244,229,211,.88));box-shadow:0 16px 38px rgba(70,48,38,.08)}
+.guide-grid .guide-journal-card span{grid-column:1;grid-row:1/3;align-self:start;margin:.2rem 0 0}
+.guide-grid .guide-journal-card strong{grid-column:2;grid-row:1;font-size:1.58rem;color:#5e4637}
+.guide-grid .guide-journal-card small{grid-column:2;grid-row:2;max-width:760px;margin-top:.35rem}
+.guide-grid .guide-journal-card:after{grid-column:3;grid-row:1/3;content:'→';display:grid;width:42px;height:42px;place-items:center;border:1px solid rgba(166,126,85,.45);border-radius:50%;color:#8f6845;font:500 1.15rem/1 Montserrat,sans-serif;transition:transform .25s ease,background .25s ease,color .25s ease}
+.guide-grid .guide-journal-card:hover:after{transform:translateX(4px);background:#a67e55;color:#fff}
+@media(max-width:520px){.guide-grid .guide-journal-card{grid-template-columns:minmax(0,1fr) 42px;grid-template-rows:auto auto auto;min-height:158px;padding:1.3rem 1.25rem;column-gap:14px}.guide-grid .guide-journal-card span{grid-column:1;grid-row:1;margin:0 0 1rem}.guide-grid .guide-journal-card strong{grid-column:1;grid-row:2;font-size:1.4rem}.guide-grid .guide-journal-card small{grid-column:1;grid-row:3;margin-top:.5rem;padding-right:.25rem}.guide-grid .guide-journal-card:after{grid-column:2;grid-row:1/4;align-self:center}}
+
 /* TEMPORARILY HIDDEN: reactivate when professional photos are available */
 .slow-moments{display:none}
 
