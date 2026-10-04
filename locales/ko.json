@@ -88,7 +88,15 @@
     "launcher": "문의하기"
   },
   "villaGuide": {
-    "title": "빌라 둘러보기"
+    "title": "빌라 둘러보기",
+    "notes": {
+      "about": "빌라, 객실 및 공간",
+      "sea": "테라스, 선착장, 바다",
+      "rooms": "수용 인원 및 편의시설",
+      "location": "페리, 버스, 주차"
+    },
+    "journalTitle": "Villa Venere 여행 가이드",
+    "journalText": "Cetara에 머물면서 보다 실제적인 속도로 아말피, 포지타노, 라벨로, 폼페이, 헤르쿨라네움 및 베수비오 산을 탐험하기 위한 현지 가이드와 일정을 고려했습니다."
   },
   "photoExperience": {
     "eyebrow": "바다 위의 프라이빗 하우스",

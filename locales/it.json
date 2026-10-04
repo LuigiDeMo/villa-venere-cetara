@@ -88,7 +88,15 @@
     "launcher": "Contattaci"
   },
   "villaGuide": {
-    "title": "Esplora la villa"
+    "title": "Esplora la villa",
+    "notes": {
+      "about": "Villa, camere e ambienti",
+      "sea": "Terrazza, banchina e mare",
+      "rooms": "Capienza e dotazioni",
+      "location": "Traghetti, autobus e parcheggio"
+    },
+    "journalTitle": "Guide di Villa Venere",
+    "journalText": "Guide locali e itinerari ragionati per soggiornare a Cetara e scoprire Amalfi, Positano, Ravello, Pompei, Ercolano e il Vesuvio con un ritmo più autentico."
   },
   "photoExperience": {
     "eyebrow": "Una casa privata sul mare",

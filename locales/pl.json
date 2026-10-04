@@ -88,7 +88,15 @@
     "launcher": "Kontakt"
   },
   "villaGuide": {
-    "title": "Odkryj willę"
+    "title": "Odkryj willę",
+    "notes": {
+      "about": "Willa, pokoje i przestrzenie",
+      "sea": "Taras, pomost i morze",
+      "rooms": "Pojemność i udogodnienia",
+      "location": "Promy, autobusy i parking"
+    },
+    "journalTitle": "Przewodniki Villa Venere",
+    "journalText": "Lokalni przewodnicy i przemyślane plany podróży dotyczące pobytu w Cetara i zwiedzania Amalfi, Positano, Ravello, Pompejów, Herkulanum i Wezuwiusza w bardziej autentycznym tempie."
   },
   "photoExperience": {
     "eyebrow": "Prywatny dom nad morzem",

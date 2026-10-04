@@ -88,7 +88,15 @@
     "launcher": "联系我们"
   },
   "villaGuide": {
-    "title": "探索别墅"
+    "title": "探索别墅",
+    "notes": {
+      "about": "别墅、客房与空间",
+      "sea": "露台、码头与大海",
+      "rooms": "容量与设施",
+      "location": "渡轮、巴士与停车"
+    },
+    "journalTitle": "Villa Venere 旅行指南",
+    "journalText": "当地导游和深思熟虑的行程，让您在 Cetara 停留，以更真实的节奏探索阿马尔菲、波西塔诺、拉维罗、庞贝、赫库兰尼姆和维苏威火山。"
   },
   "photoExperience": {
     "eyebrow": "海上的私人之家",

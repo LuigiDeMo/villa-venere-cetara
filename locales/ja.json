@@ -88,7 +88,15 @@
     "launcher": "お問い合わせ"
   },
   "villaGuide": {
-    "title": "ヴィラを探索"
+    "title": "ヴィラを探索",
+    "notes": {
+      "about": "ヴィラ、客室、スペース",
+      "sea": "テラス、桟橋、海",
+      "rooms": "定員と設備",
+      "location": "フェリー、バス、駐車場"
+    },
+    "journalTitle": "Villa Venere 旅行ガイド",
+    "journalText": "Cetara に滞在し、アマルフィ、ポジターノ、ラヴェッロ、ポンペイ、ヘルクラネウム、ヴェスヴィオ山をより本格的なペースで探索するための地元ガイドと検討された旅程。"
   },
   "photoExperience": {
     "eyebrow": "海の上のプライベートハウス",

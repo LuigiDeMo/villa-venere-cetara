@@ -88,7 +88,15 @@
     "launcher": "Contact"
   },
   "villaGuide": {
-    "title": "Ontdek de villa"
+    "title": "Ontdek de villa",
+    "notes": {
+      "about": "Villa, kamers en ruimtes",
+      "sea": "Terras, steiger en zee",
+      "rooms": "Capaciteit en voorzieningen",
+      "location": "Veerboten, bussen en parkeren"
+    },
+    "journalTitle": "Reisgidsen van Villa Venere",
+    "journalText": "Lokale gidsen en doordachte routes voor een verblijf in Cetara en het verkennen van Amalfi, Positano, Ravello, Pompeii, Herculaneum en de Vesuvius in een authentieker tempo."
   },
   "photoExperience": {
     "eyebrow": "Een privéhuis boven de zee",

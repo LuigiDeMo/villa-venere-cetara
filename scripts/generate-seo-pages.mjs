@@ -134,7 +134,7 @@ function addJournalLinks(html, language, journalDictionary) {
     html = html.replace('<div class="language-menu">', `<a href="${path}" data-journal-nav>${escapeHtml(ui.guides)}</a><div class="language-menu">`);
   }
   const guideGrid = html.match(/<nav class="guide-grid"[^>]*>[\s\S]*?<\/nav>/)?.[0];
-  const guideCard = `<a class="guide-journal-card" href="${path}" data-journal-link><span>05</span><strong>${escapeHtml(ui.name)}</strong><small>${escapeHtml(ui.description)}</small></a>`;
+  const guideCard = `<a class="guide-journal-card" href="${path}" data-journal-link><span>05</span><strong data-i18n="villaGuide.journalTitle">${escapeHtml(ui.name)}</strong><small data-i18n="villaGuide.journalText">${escapeHtml(ui.description)}</small></a>`;
   if (guideGrid?.includes('data-journal-link')) {
     html = html.replace(/<a class="guide-journal-card"[^>]*>[\s\S]*?<\/a>/, guideCard);
   } else if (guideGrid) {
