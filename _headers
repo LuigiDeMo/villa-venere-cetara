@@ -3,6 +3,7 @@
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), microphone=(), geolocation=()
   Strict-Transport-Security: max-age=31536000; includeSubDomains
+  Content-Security-Policy-Report-Only: default-src 'self'; script-src 'self' 'sha256-xkbmlhWlI9HZ3sDJ/YhOvXwuFckR9M/8X+fClkphQG8=' https://widgetreview.villavenerecetara.it https://*.elfsight.com https://elfsightcdn.com https://*.elfsightcdn.com; script-src-attr 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://widgetreview.villavenerecetara.it https://*.elfsight.com https://*.elfsightcdn.com; media-src 'self'; frame-src https://*.elfsight.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'
 
 /assets/*
   Cache-Control: public, max-age=604800, stale-while-revalidate=86400
